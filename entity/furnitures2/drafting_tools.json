@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:drafting_tools",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default": "textures/hp/more_paintings/furnitures/drafting_tools",
+                "default2": "textures/hp/more_paintings/furnitures/drafting_tools2",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.drafting_tools",
+                "outline": "geometry.hp4_paint.drafting_tools.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_drafting_tools": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.drafting_tools"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:drafting_tools"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,409 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.hp4_paint.sketchbook",
+                "texture_width": 64,
+                "texture_height": 64,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 1.5,
+                "visible_bounds_offset": [
+                    0,
+                    0.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6,
+                                0,
+                                -7
+                            ],
+                            "size": [
+                                9,
+                                1,
+                                13
+                            ],
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                4,
+                                0,
+                                -2
+                            ],
+                            "size": [
+                                3,
+                                0,
+                                5
+                            ],
+                            "pivot": [
+                                5.5,
+                                0,
+                                -2
+                            ],
+                            "rotation": [
+                                1.00863,
+                                7.49885,
+                                0.13165
+                            ],
+                            "uv": [
+                                0,
+                                32
+                            ]
+                        },
+                        {
+                            "origin": [
+                                4,
+                                0,
+                                1
+                            ],
+                            "size": [
+                                3,
+                                0,
+                                5
+                            ],
+                            "pivot": [
+                                5.5,
+                                0,
+                                3.5
+                            ],
+                            "rotation": [
+                                0,
+                                15,
+                                0
+                            ],
+                            "uv": [
+                                36,
+                                29
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                0,
+                                5.5
+                            ],
+                            "size": [
+                                9,
+                                1,
+                                1
+                            ],
+                            "inflate": 0.125,
+                            "pivot": [
+                                -2,
+                                0.5,
+                                6
+                            ],
+                            "rotation": [
+                                42.5,
+                                0,
+                                0
+                            ],
+                            "uv": [
+                                0,
+                                29
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                1,
+                                -7
+                            ],
+                            "size": [
+                                9,
+                                0,
+                                13
+                            ],
+                            "pivot": [
+                                -2,
+                                1,
+                                5.5
+                            ],
+                            "rotation": [
+                                -0.1,
+                                -15,
+                                0
+                            ],
+                            "uv": [
+                                0,
+                                15
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "pensil",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -5.75,
+                                0.75,
+                                -6
+                            ],
+                            "size": [
+                                1,
+                                1,
+                                6
+                            ],
+                            "inflate": -0.25,
+                            "uv": [
+                                21,
+                                29
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -4.75,
+                                0.75,
+                                -6
+                            ],
+                            "size": [
+                                1,
+                                1,
+                                5
+                            ],
+                            "inflate": -0.25,
+                            "pivot": [
+                                -4.25,
+                                1.25,
+                                -3.5
+                            ],
+                            "rotation": [
+                                0,
+                                10,
+                                0
+                            ],
+                            "uv": [
+                                36,
+                                35
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.hp4_paint.sketchbook.outline",
+                "texture_width": 64,
+                "texture_height": 64,
+                "visible_bounds_width": 2.3,
+                "visible_bounds_height": 1.5,
+                "visible_bounds_offset": [
+                    0,
+                    0.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6.3,
+                                -0.3,
+                                -7.3
+                            ],
+                            "size": [
+                                9.6,
+                                1.6,
+                                13.6
+                            ],
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.7,
+                                -0.3,
+                                -2.3
+                            ],
+                            "size": [
+                                3.6,
+                                0.6,
+                                5.6
+                            ],
+                            "pivot": [
+                                5.5,
+                                0,
+                                -2
+                            ],
+                            "rotation": [
+                                1.00863,
+                                7.49885,
+                                0.13165
+                            ],
+                            "uv": [
+                                0,
+                                32
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.7,
+                                -0.3,
+                                0.7
+                            ],
+                            "size": [
+                                3.6,
+                                0.6,
+                                5.6
+                            ],
+                            "pivot": [
+                                5.5,
+                                0,
+                                3.5
+                            ],
+                            "rotation": [
+                                0,
+                                15,
+                                0
+                            ],
+                            "uv": [
+                                36,
+                                29
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6.3,
+                                -0.3,
+                                5.2
+                            ],
+                            "size": [
+                                9.6,
+                                1.6,
+                                1.6
+                            ],
+                            "inflate": 0.125,
+                            "pivot": [
+                                -2,
+                                0.5,
+                                6
+                            ],
+                            "rotation": [
+                                42.5,
+                                0,
+                                0
+                            ],
+                            "uv": [
+                                0,
+                                29
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6.3,
+                                0.7,
+                                -7.3
+                            ],
+                            "size": [
+                                9.6,
+                                0.6,
+                                13.6
+                            ],
+                            "pivot": [
+                                -2,
+                                1,
+                                5.5
+                            ],
+                            "rotation": [
+                                -0.1,
+                                -15,
+                                0
+                            ],
+                            "uv": [
+                                0,
+                                15
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "pensil",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6.05,
+                                0.45,
+                                -6.3
+                            ],
+                            "size": [
+                                1.6,
+                                1.6,
+                                6.6
+                            ],
+                            "inflate": -0.25,
+                            "uv": [
+                                21,
+                                29
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -5.05,
+                                0.45,
+                                -6.3
+                            ],
+                            "size": [
+                                1.6,
+                                1.6,
+                                5.6
+                            ],
+                            "inflate": -0.25,
+                            "pivot": [
+                                -4.25,
+                                1.25,
+                                -3.5
+                            ],
+                            "rotation": [
+                                0,
+                                10,
+                                0
+                            ],
+                            "uv": [
+                                36,
+                                35
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

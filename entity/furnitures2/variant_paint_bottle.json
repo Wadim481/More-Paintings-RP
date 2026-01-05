@@ -1,0 +1,40 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:variant_paint_bottle",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default1": "textures/hp/more_paintings/furnitures/vpb/vpb",
+                "default2": "textures/hp/more_paintings/furnitures/vpb/vpb_pink",
+                "default3": "textures/hp/more_paintings/furnitures/vpb/vpb_white",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.variant_paint_bottle",
+                "outline": "geometry.hp4_paint.variant_paint_bottle.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_vpb": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.vpb"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:variant_paint_bottle"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

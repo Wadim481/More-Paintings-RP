@@ -1,0 +1,123 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.hp4_paint.tablet": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flip_f": "query.is_sheared&&v.page!=33"
+						},
+						{
+							"flip_b": "query.is_stunned&&v.page!=0"
+						},
+						{
+							"flip_f_5pages": "query.is_chested"
+						},
+						{
+							"flip_b_5pages": "query.is_saddled"
+						},
+						{
+							"reset": "query.is_sheared&&v.page==33"
+						},
+						{
+							"reback": "query.is_stunned&&v.page==0"
+						}
+					]
+				},
+				"flip_f": {
+					"on_exit": [
+						"v.page=v.page+1;"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_sheared"
+						}
+					]
+				},
+				"flip_b": {
+					"on_exit": [
+						"v.page=v.page-1;"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_stunned"
+						}
+					]
+				},
+				"flip_f_5pages": {
+					"on_exit": [
+						"v.page=math.mod(v.page+5,33);"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_chested"
+						}
+					]
+				},
+				"flip_b_5pages": {
+					"on_exit": [
+						"v.page=math.mod((v.page+33)-5,33);"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_saddled"
+						}
+					]
+				},
+				"reset": {
+					"on_exit": [
+						"v.page=0;"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_stunned"
+						}
+					]
+				},
+				"reback": {
+					"on_exit": [
+						"v.page=11;"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_stunned"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.hp4_paint.tablet_spawn": {
+			"initial_state": "spawn",
+			"states": {
+				"spawn": {
+					"animations": [
+						"start"
+					],
+					"transitions": [
+						{
+							"idle": "query.all_animations_finished"
+						}
+					]
+				},
+				"idle": {
+					"transitions": [
+						{
+							"death": "query.property('heropixel:close')==true"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"close"
+					],
+					"transitions": [
+						{
+							"spawn": "0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

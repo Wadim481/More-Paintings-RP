@@ -1,0 +1,156 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hp4_paint.animated_death": {
+			"materials": [
+				{
+					"*": "material.animated"
+				}
+			],
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.animated_2x1",
+						"geometry.animated_2x2",
+						"geometry.animated_4x2",
+						"geometry.animated_2x4",
+						"geometry.animated_3x4",
+						"geometry.animated_4x4"
+					]
+				},
+				"textures": {
+					//NEw ver
+					"array.animated_textures": [
+						"texture.animated0_2x1",
+						"texture.animated0_2x2",
+						"texture.animated0_2x4",
+						"texture.animated1_2x4",
+						"texture.animated0_4x2",
+						"texture.animated1_4x2",
+						"texture.animated2_4x2",
+						"texture.animated0_4x3",
+						"texture.animated1_4x3",
+						"texture.animated0_4x4",
+						"texture.animated1_4x4"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.property('hp4_paint:paint_models')]",
+			"textures": [
+				"array.animated_textures[q.property('hp4_paint:paint_colors')]"
+			],
+			"uv_anim": {
+			    "offset": [0, "math.mod(math.floor(q.life_time * 15), v.frame_count) / v.frame_count"],
+			    "scale": [1, "1 / v.frame_count"]
+			},
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"part_visibility": [
+				{"16x32": false},
+				{"32x32": false},
+				{"64x32": false},
+				{"32x64": false},
+				{"48x64": false},
+				{"64x64": false}
+			]
+		},
+		"controller.render.hp4_paint.animated_death_light": {
+			"materials": [
+				{
+					"*": "material.animated"
+				}
+			],
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.animated_2x1",
+						"geometry.animated_2x2",
+						"geometry.animated_4x2",
+						"geometry.animated_2x4",
+						"geometry.animated_3x4",
+						"geometry.animated_4x4"
+					]
+				},
+				"textures": {
+					//NEw ver
+					"array.animated_textures": [
+						"texture.lgt_animated0_2x1",
+						"texture.lgt_animated0_2x2",
+						"texture.lgt_animated0_2x4",
+						"texture.lgt_animated1_2x4",
+						"texture.lgt_animated0_4x2",
+						"texture.lgt_animated1_4x2",
+						"texture.lgt_animated2_4x2",
+						"texture.lgt_animated0_4x3",
+						"texture.lgt_animated1_4x3",
+						"texture.lgt_animated0_4x4",
+						"texture.lgt_animated1_4x4"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.property('hp4_paint:paint_models')]",
+			"textures": [
+				"array.animated_textures[q.property('hp4_paint:paint_colors')]"
+			],
+			"uv_anim": {
+			    "offset": [0, "math.mod(math.floor(q.life_time * 15), v.frame_count) / v.frame_count"],
+			    "scale": [1, "1 / v.frame_count"]
+			},
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"part_visibility": [
+				{"16x32": false},
+				{"32x32": false},
+				{"64x32": false},
+				{"32x64": false},
+				{"48x64": false},
+				{"64x64": false}
+			],
+			"ignore_lighting": true
+		},
+		"controller.render.hp4_paint.animated_canvas": {
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.animated_2x1",
+						"geometry.animated_2x2",
+						"geometry.animated_4x2",
+						"geometry.animated_2x4",
+						"geometry.animated_3x4",
+						"geometry.animated_4x4"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.canvas_2x1",
+						"texture.canvas_2x2",
+						"texture.canvas_2x4",
+						"texture.canvas_4x2",
+						"texture.canvas_4x3",
+						"texture.canvas_4x4"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.property('hp4_paint:paint_models')]",
+			"textures": [
+				"array.textures[query.property('hp4_paint:paint_models')]"
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"part_visibility": [
+				{"16x32": "query.property('hp4_paint:paint_models') == 0"},
+				{"32x32": "query.property('hp4_paint:paint_models') == 1"},
+				{"64x32": "query.property('hp4_paint:paint_models') == 2"},
+				{"32x64": "query.property('hp4_paint:paint_models') == 3"},
+				{"48x64": "query.property('hp4_paint:paint_models') == 4"},
+				{"64x64": "query.property('hp4_paint:paint_models') == 5"},
+				{"image": false}
+			]
+		}
+	}
+}

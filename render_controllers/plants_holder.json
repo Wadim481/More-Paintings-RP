@@ -1,0 +1,157 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hp4_paint.plants_holder.flower": {
+			"geometry": "geometry.plants_holder",
+			"arrays": {
+				"textures": {
+					"array.flower_textures": [
+						"texture.flower_crimson_roots",
+						"texture.flower_warped_roots",
+						"texture.flower_dandelion",
+						"texture.flower_poppy",
+						"texture.flower_blue_orchid",
+						"texture.flower_allium",
+						"texture.flower_azure_bluet",
+						"texture.flower_red_tulip",
+						"texture.flower_orange_tulip",
+						"texture.flower_white_tulip",
+						"texture.flower_pink_tulip",
+						"texture.flower_oxeye_daisy",
+						"texture.flower_cornflower",
+						"texture.flower_lily_of_the_valley",
+						"texture.flower_wither_rose",
+						"texture.flower_torchflower",
+						"texture.flower_cactus_flower",
+						"texture.flower_closed_eyeblossom",
+						"texture.flower_open_eyeblossom"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.flower_textures[q.property('hp4_paint:flower')]"
+			],
+			"part_visibility": [
+				{"dp_bottom": false},
+				{"dp_top": false}
+			]
+		},
+		"controller.render.hp4_paint.plants_holder.double_plant_bottom": {
+			"geometry": "geometry.plants_holder",
+			"arrays": {
+				"textures": {
+					"array.double_plant_bottom_textures": [
+						"texture.double_plant_lilac_bottom",
+						"texture.double_plant_rose_bush_bottom",
+						"texture.double_plant_peony_bottom",
+						"texture.double_plant_pitcher_plant_bottom"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.double_plant_bottom_textures[q.property('hp4_paint:double_plant')]"
+			],
+			"part_visibility": [
+				{"dp_top": false},
+				{"flower": false}
+			]
+		},
+		"controller.render.hp4_paint.plants_holder.double_plant_top": {
+			"geometry": "geometry.plants_holder",
+			"arrays": {
+				"textures": {
+					"array.double_plant_top_textures": [
+						"texture.double_plant_lilac_top",
+						"texture.double_plant_rose_bush_top",
+						"texture.double_plant_peony_top",
+						"texture.double_plant_pitcher_plant_top"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.double_plant_top_textures[q.property('hp4_paint:double_plant')]"
+			],
+			"part_visibility": [
+				{"dp_bottom": false},
+				{"flower": false}
+			]
+		},
+		"controller.render.hp4_paint.plants_holder.custom_plant": {
+			"geometry": "array.custom_plant_geometries[q.property('hp4_paint:custom_plant')]",
+			"arrays": {
+				"textures": {
+					"array.flower_textures": [
+						"texture.custom_plant_sunflower",
+						"texture.custom_plant_wildflowers",
+						"texture.custom_plant_pink_petals"
+					]
+				},
+				"geometries": {
+					"array.custom_plant_geometries": [
+						"geometry.custom_plant_sunflower",
+						"geometry.custom_plant_wildflowers",
+						"geometry.custom_plant_wildflowers"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.flower_textures[q.property('hp4_paint:custom_plant')]"
+			],
+			"part_visibility": [
+				{"stem": false},
+				{"plants": true}
+			]
+		},
+		"controller.render.hp4_paint.plants_holder.custom_plant_stem": {
+			"geometry": "array.custom_plant_geometries[q.property('hp4_paint:custom_plant')]",
+			"arrays": {
+				"textures": {
+					"array.flower_textures": [
+						"texture.custom_plant_sunflower",
+						"texture.custom_plant_wildflowers",
+						"texture.custom_plant_pink_petals"
+					]
+				},
+				"geometries": {
+					"array.custom_plant_geometries": [
+						"geometry.custom_plant_sunflower",
+						"geometry.custom_plant_wildflowers",
+						"geometry.custom_plant_wildflowers"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.custom_plant_wildflowers_stem"
+			],
+			"part_visibility": [
+				{"stem": true},
+				{"plants": false}
+			]
+		}
+	}
+}

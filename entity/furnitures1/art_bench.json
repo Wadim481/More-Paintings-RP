@@ -1,0 +1,53 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:art_bench",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "model1.brown": "textures/hp/more_paintings/furnitures/artbench/art_bench",
+                "model1.pink": "textures/hp/more_paintings/furnitures/artbench/art_bench_pink",
+                "model1.white": "textures/hp/more_paintings/furnitures/artbench/art_bench_white",
+                "model2.brown": "textures/hp/more_paintings/furnitures/artbench/art_bench2",
+                "model2.pink": "textures/hp/more_paintings/furnitures/artbench/art_bench2_pink",
+                "model2.white": "textures/hp/more_paintings/furnitures/artbench/art_bench2_white",
+                "model3.brown": "textures/hp/more_paintings/furnitures/artbench/art_bench3",
+                "model3.pink": "textures/hp/more_paintings/furnitures/artbench/art_bench3_pink",
+                "model3.white": "textures/hp/more_paintings/furnitures/artbench/art_bench3_white",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.art_bench",
+                "default2": "geometry.hp4_paint.art_bench2",
+                "default3": "geometry.hp4_paint.art_bench3",
+                "outline": "geometry.hp4_paint.art_bench.outline",
+                "outline2": "geometry.hp4_paint.art_bench2.outline",
+                "outline3": "geometry.hp4_paint.art_bench3.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_art_bench": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.art_bench"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:art_bench"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ],
+                "pre_animation": [
+                    "v.model = q.property('hp4_paint:furniture_model');"
+                ]
+            }
+        }
+    }
+}

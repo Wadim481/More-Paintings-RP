@@ -1,0 +1,58 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:color_bucket",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "iron_bucket": "textures/hp/more_paintings/furnitures/iron_bucket",
+                "gold_bucket": "textures/hp/more_paintings/furnitures/gold_bucket",
+                "brown_bucket": "textures/hp/more_paintings/furnitures/brown_bucket",
+                "pink_bucket": "textures/hp/more_paintings/furnitures/pink_bucket",
+                "default1": "textures/hp/more_paintings/furnitures/color_bucket/cb1",
+                "default2": "textures/hp/more_paintings/furnitures/color_bucket/cb2",
+                "default3": "textures/hp/more_paintings/furnitures/color_bucket/cb3",
+                "default4": "textures/hp/more_paintings/furnitures/color_bucket/cb4",
+                "default5": "textures/hp/more_paintings/furnitures/color_bucket/cb5",
+                "default6": "textures/hp/more_paintings/furnitures/color_bucket/cb6",
+                "default7": "textures/hp/more_paintings/furnitures/color_bucket/cb7",
+                "default8": "textures/hp/more_paintings/furnitures/color_bucket/cb8",
+                "default9": "textures/hp/more_paintings/furnitures/color_bucket/cb9",
+                "default10": "textures/hp/more_paintings/furnitures/color_bucket/cb10",
+                "default11": "textures/hp/more_paintings/furnitures/color_bucket/cb11",
+                "default12": "textures/hp/more_paintings/furnitures/color_bucket/cb12",
+                "default13": "textures/hp/more_paintings/furnitures/color_bucket/cb13",
+                "default14": "textures/hp/more_paintings/furnitures/color_bucket/cb14",
+                "default15": "textures/hp/more_paintings/furnitures/color_bucket/cb15",
+                "default16": "textures/hp/more_paintings/furnitures/color_bucket/cb16",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.color_bucket",
+                "outline": "geometry.hp4_paint.color_bucket.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.color_bucket",
+                "controller.render.hp4_paint.bucket"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:color_bucket_spawn_egg"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

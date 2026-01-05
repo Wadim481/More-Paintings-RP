@@ -1,0 +1,63 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.tab_page": {
+			"arrays": {
+				"textures": {
+					"Array.pages": [
+						"Texture.page0",
+						"Texture.page1",
+						"Texture.page2",
+						"Texture.page3",
+						"Texture.page4",
+						"Texture.page5",
+						"Texture.page6",
+						"Texture.page7",
+						"Texture.page8",
+						"Texture.page9",
+						"Texture.page10",
+						"Texture.page11",
+						"Texture.page12",
+						"Texture.page13",
+						"Texture.page14",
+						"Texture.page15",
+						"Texture.page16",
+						"Texture.page17",
+						"Texture.page18",
+						"Texture.page19",
+						"Texture.page20",
+						"Texture.page21",
+						"Texture.page22",
+						"Texture.page23",
+						"Texture.page24",
+						"Texture.page25",
+						"Texture.page26",
+						"Texture.page27",
+						//"Texture.page28",
+						"Texture.page29",
+						"Texture.page30",
+						"Texture.page31",
+						"Texture.page32",
+						"Texture.page33"
+					]
+				}
+			},
+			"geometry": "geometry.page",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.pages[v.page]"
+			],
+			"is_hurt_color": {
+				"a": 0.5,
+				"r": 0,
+				"g": 1,
+				"b": 0
+			},
+			"ignore_lighting": true
+		}
+	}
+}

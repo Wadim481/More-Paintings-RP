@@ -1,0 +1,58 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "test:h_fx",
+			"basic_render_parameters": {
+				"material": "particles_add",
+				"texture": "textures/hp/more_paintings/particle/ring"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 3,
+				"max_particles": 4
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1.2
+			},
+			"minecraft:emitter_shape_disc": {
+				"offset": [0, "math.random(1, 1.2)", 0],
+				"radius": 1.5,
+				"direction": "inwards"
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 1
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "math.random(-180, 180)"
+			},
+			"minecraft:particle_initial_speed": 0.5,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.8, 0.8],
+				"facing_camera_mode": "direction_z",
+				"uv": {
+					"texture_width": 640,
+					"texture_height": 8960,
+					"flipbook": {
+						"base_UV": [0, -2],
+						"size_UV": [640, 640],
+						"step_UV": [0, 640],
+						"frames_per_second": 30,
+						"max_frame": 14
+					}
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.0": "#FFFFFFFF",
+						"0.36": "#00003CFF"
+					}
+				}
+			}
+		}
+	}
+}

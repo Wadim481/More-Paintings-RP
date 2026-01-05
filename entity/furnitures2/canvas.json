@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:canvas",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default": "textures/hp/more_paintings/furnitures/canvas",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.canvas",
+                "outline": "geometry.hp4_paint.canvas.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_canvas": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.canvas"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:canvas"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

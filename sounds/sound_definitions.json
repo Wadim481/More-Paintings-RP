@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.20",
+	"sound_definitions": {
+		"hp4_paint:tablet_start": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/tablet/tablet_start",
+					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:tablet_close": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/tablet/tablet_close",
+					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:display.painting_install": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/painting_install",
+					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:display.furniture_remove": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/furniture_remove",
+					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:display.tool_use": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/tool_use",
+					"volume": 0.5
+				}
+			]
+		}
+	}
+}

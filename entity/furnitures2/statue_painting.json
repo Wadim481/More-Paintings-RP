@@ -1,0 +1,78 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:statue_painting",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "animated": "hp4_paint.outline_base_animated",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default1": "textures/hp/more_paintings/furnitures/statue/statue",
+                "default2": "textures/hp/more_paintings/furnitures/statue/statue2",
+                "default3": "textures/hp/more_paintings/furnitures/statue/statue3",
+                
+                "water1": "textures/hp/more_paintings/furnitures/statue/1",
+                "water2": "textures/hp/more_paintings/furnitures/statue/2",
+                "water3": "textures/hp/more_paintings/furnitures/statue/3",
+                "water4": "textures/hp/more_paintings/furnitures/statue/4",
+                "water5": "textures/hp/more_paintings/furnitures/statue/5",
+                "water6": "textures/hp/more_paintings/furnitures/statue/6",
+                "water7": "textures/hp/more_paintings/furnitures/statue/7",
+                "water8": "textures/hp/more_paintings/furnitures/statue/8",
+                "water9": "textures/hp/more_paintings/furnitures/statue/9",
+                "water10": "textures/hp/more_paintings/furnitures/statue/10",
+                "water11": "textures/hp/more_paintings/furnitures/statue/11",
+                "water12": "textures/hp/more_paintings/furnitures/statue/12",
+                "water13": "textures/hp/more_paintings/furnitures/statue/13",
+                "water14": "textures/hp/more_paintings/furnitures/statue/14",
+                "water15": "textures/hp/more_paintings/furnitures/statue/15",
+                "water16": "textures/hp/more_paintings/furnitures/statue/16",
+                "water17": "textures/hp/more_paintings/furnitures/statue/17",
+                "water18": "textures/hp/more_paintings/furnitures/statue/18",
+                "water19": "textures/hp/more_paintings/furnitures/statue/19",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.statue_painting",
+                "outline": "geometry.hp4_paint.statue_painting.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_statue_corak": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.statue_corak",
+                "controller.render.hp4_paint.statue_water"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:statue_painting"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation",
+                "pose1": "animation.hp4_paint.statue_paint.pose1",
+                "pose2": "animation.hp4_paint.statue_paint.pose2",
+                "pose3": "animation.hp4_paint.statue_paint.pose3",
+                "pose4": "animation.hp4_paint.statue_paint.pose4",
+                "pose1_no": "animation.hp4_paint.statue_paint.pose1_no",
+                "pose2_no": "animation.hp4_paint.statue_paint.pose2_no",
+                "pose3_no": "animation.hp4_paint.statue_paint.pose3_no",
+                "pose4_no": "animation.hp4_paint.statue_paint.pose4_no"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation",
+                    {"pose1": "q.property('hp4_paint:statue_pose') == 1"},
+                    {"pose2": "q.property('hp4_paint:statue_pose') == 2"},
+                    {"pose3": "q.property('hp4_paint:statue_pose') == 3"},
+                    {"pose4": "q.property('hp4_paint:statue_pose') == 4"},
+                    {"pose1_no": "q.property('hp4_paint:statue_pose') == 5"},
+                    {"pose2_no": "q.property('hp4_paint:statue_pose') == 6"},
+                    {"pose3_no": "q.property('hp4_paint:statue_pose') == 7"},
+                    {"pose4_no": "q.property('hp4_paint:statue_pose') == 8"}
+                ]
+            }
+        }
+    }
+}

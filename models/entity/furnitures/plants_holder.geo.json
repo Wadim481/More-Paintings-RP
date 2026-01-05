@@ -1,0 +1,563 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.hp4_paint.plants_holder",
+                "texture_width": 128,
+                "texture_height": 128,
+                "visible_bounds_width": 3,
+                "visible_bounds_height": 6.5,
+                "visible_bounds_offset": [
+                    0,
+                    2.75,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "plants",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "double_plant",
+                    "parent": "plants",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "dp_bottom",
+                    "parent": "double_plant",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                0
+                            ],
+                            "pivot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                0
+                            ],
+                            "pivot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "dp_top",
+                    "parent": "double_plant",
+                    "pivot": [
+                        0,
+                        16,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                16,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                0
+                            ],
+                            "pivot": [
+                                0,
+                                16,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                16,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                0
+                            ],
+                            "pivot": [
+                                0,
+                                16,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "flower",
+                    "parent": "plants",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                0
+                            ],
+                            "pivot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                0
+                            ],
+                            "pivot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.hp4_paint.plants_holder.outline",
+                "texture_width": 128,
+                "texture_height": 128,
+                "visible_bounds_width": 3.3,
+                "visible_bounds_height": 6.5,
+                "visible_bounds_offset": [
+                    0,
+                    2.75,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "plants",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "double_plant",
+                    "parent": "plants",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "name": "dp_bottom",
+                    "parent": "double_plant",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8.3,
+                                -0.3,
+                                -0.3
+                            ],
+                            "size": [
+                                16.6,
+                                16.6,
+                                0.6
+                            ],
+                            "pivot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8.3,
+                                -0.3,
+                                -0.3
+                            ],
+                            "size": [
+                                16.6,
+                                16.6,
+                                0.6
+                            ],
+                            "pivot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "dp_top",
+                    "parent": "double_plant",
+                    "pivot": [
+                        0,
+                        16,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8.3,
+                                15.7,
+                                -0.3
+                            ],
+                            "size": [
+                                16.6,
+                                16.6,
+                                0.6
+                            ],
+                            "pivot": [
+                                0,
+                                16,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8.3,
+                                15.7,
+                                -0.3
+                            ],
+                            "size": [
+                                16.6,
+                                16.6,
+                                0.6
+                            ],
+                            "pivot": [
+                                0,
+                                16,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "flower",
+                    "parent": "plants",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8.3,
+                                -0.3,
+                                -0.3
+                            ],
+                            "size": [
+                                16.6,
+                                16.6,
+                                0.6
+                            ],
+                            "pivot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "origin": [
+                                -8.3,
+                                -0.3,
+                                -0.3
+                            ],
+                            "size": [
+                                16.6,
+                                16.6,
+                                0.6
+                            ],
+                            "pivot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rotation": [
+                                0,
+                                -45,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        128,
+                                        128
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

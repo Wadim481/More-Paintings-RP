@@ -1,0 +1,265 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hp4_paint.display.easel_stand": {
+			"loop": true,
+			"bones": {
+				"16x16": {
+					"rotation": [-7.5, 0, 0],
+					"position": [0, 14, -10]
+				},
+				"16x32": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-8, 14, -10]
+				},
+				"32x16": {
+					"rotation": [-7.5, 0, 0],
+					"position": [0, 14, -10]
+				},
+				"32x32": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-8, 14, -10]
+				},
+				"32x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 14, -10]
+				},
+				"48x48": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-16, 14, -10]
+				},
+				"48x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 14, -10]
+				},
+				"64x32": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-8, 14, -10]
+				},
+				"64x48": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-16, 14, -10]
+				},
+				"64x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 14, -10]
+				}
+			}
+		},
+		"animation.hp4_paint.display.easel_stand2": {
+			"loop": true,
+			"bones": {
+				"16x32": {
+					"rotation": [-25, 0, 0],
+					"position": [-8, 17, -11]
+				},
+				"32x16": {
+					"rotation": [-25, 0, 0],
+					"position": [0, 17, -11]
+				},
+				"32x32": {
+					"rotation": [-25, 0, 0],
+					"position": [-8, 17, -11]
+				},
+				"32x64": {
+					"rotation": [-25, 0, 0],
+					"position": [-24, 17, -11]
+				},
+				"48x48": {
+					"rotation": [-25, 0, 0],
+					"position": [-16, 17, -11]
+				},
+				"48x64": {
+					"rotation": [-25, 0, 0],
+					"position": [-24, 17, -11]
+				},
+				"64x32": {
+					"rotation": [-25, 0, 0],
+					"position": [-8, 17, -11]
+				},
+				"64x48": {
+					"rotation": [-25, 0, 0],
+					"position": [-16, 17, -11]
+				},
+				"64x64": {
+					"rotation": [-25, 0, 0],
+					"position": [-24, 17, -11]
+				},
+				"16x16": {
+					"rotation": [-25, 0, 0],
+					"position": [0, 17, -11]
+				}
+			}
+		},
+		"animation.hp4_paint.display.easel_stand3": {
+			"loop": true,
+			"bones": {
+				"16x16": {
+					"rotation": [-12.5, 0, 0],
+					"position": [0, 16, -8]
+				},
+				"16x32": {
+					"rotation": [-12.5, 0, 0],
+					"position": [-8, 16, -8]
+				},
+				"32x16": {
+					"rotation": [-12.5, 0, 0],
+					"position": [0, 16, -8]
+				},
+				"32x32": {
+					"rotation": [-12.5, 0, 0],
+					"position": [-8, 16, -8]
+				},
+				"32x64": {
+					"rotation": [-12.5, 0, 0],
+					"position": [-24, 16, -8]
+				},
+				"48x48": {
+					"rotation": [-12.5, 0, 0],
+					"position": [-16, 16, -8]
+				},
+				"48x64": {
+					"rotation": [-12.5, 0, 0],
+					"position": [-24, 16, -8]
+				},
+				"64x32": {
+					"rotation": [-12.5, 0, 0],
+					"position": [-8, 16, -8]
+				},
+				"64x48": {
+					"rotation": [-12.5, 0, 0],
+					"position": [-16, 16, -8]
+				},
+				"64x64": {
+					"rotation": [-12.5, 0, 0],
+					"position": [-24, 16, -8]
+				}
+			}
+		},
+		"animation.hp4_paint.display.display_case": {
+			"loop": true,
+			"bones": {
+				"16x16": {
+					"rotation": [-7.5, 0, 0],
+					"position": [0, 20, -8]
+				},
+				"16x32": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-8, 9, -8]
+				},
+				"32x16": {
+					"rotation": [-7.5, 0, 0],
+					"position": [0, 9, -8]
+				},
+				"32x32": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-8, 9, -8]
+				},
+				"32x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 9, -8]
+				},
+				"48x48": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-16, 9, -8]
+				},
+				"48x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 9, -8]
+				},
+				"64x32": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-8, 9, -8]
+				},
+				"64x48": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-16, 9, -8]
+				},
+				"64x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 9, -8]
+				}
+			}
+		},
+		"animation.hp4_paint.display.display_case_wide": {
+			"loop": true,
+			"bones": {
+				"32x16": {
+					"rotation": [-7.5, 0, 0],
+					"position": [0, 9, -8]
+				},
+				"32x32": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-8, 9, -8]
+				},
+				"32x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 9, -8]
+				},
+				"48x48": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-16, 9, -8]
+				},
+				"48x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 9, -8]
+				},
+				"64x32": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-8, 9, -8]
+				},
+				"64x48": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-16, 9, -8]
+				},
+				"64x64": {
+					"rotation": [-7.5, 0, 0],
+					"position": [-24, 9, -8]
+				},
+				"16x16": {
+					"rotation": [-67.5, 0, 0],
+					"position": [0, 22, -10]
+				},
+				"16x32": {
+					"rotation": [-67.5, 0, 0],
+					"position": [-8, 23, -10]
+				}
+			}
+		},
+		"animation.hp4_paint.display.big_display_case": {
+			"loop": true,
+			"bones": {
+				"48x48": {
+					"position": [-16, 18, -7]
+				},
+				"48x64": {
+					"position": [-24, 18, -7]
+				},
+				"64x32": {
+					"position": [-8, 18, -7]
+				},
+				"64x48": {
+					"position": [-16, 18, -7]
+				},
+				"64x64": {
+					"position": [-24, 18, -7]
+				},
+				"16x16": {
+					"position": [0, 18, -7]
+				},
+				"16x32": {
+					"position": [-8, 18, -7]
+				},
+				"32x16": {
+					"position": [0, 18, -7]
+				},
+				"32x32": {
+					"position": [-8, 18, -7]
+				},
+				"32x64": {
+					"position": [-24, 18, -7]
+				}
+			}
+		}
+	}
+}

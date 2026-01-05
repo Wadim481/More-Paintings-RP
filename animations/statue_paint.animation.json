@@ -1,0 +1,267 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hp4_paint.statue_paint.pose1": {
+			"loop": true,
+			"bones": {
+				"buckets": {
+					"position": [-2, 37, -12]
+				},
+				"waist": {
+					"rotation": [10, 0, 0]
+				},
+				"body": {
+					"rotation": [0, -30, 0]
+				},
+				"head": {
+					"rotation": [-17.5, 20, 0]
+				},
+				"leftArm": {
+					"rotation": [30, 0, -60]
+				},
+				"rightArm": {
+					"rotation": [-89.96148, 9.99038, 0.44067]
+				},
+				"rightLeg": {
+					"rotation": [43.64293, -12.27659, 12.56853]
+				},
+				"leftLeg": {
+					"rotation": [-15, 0, 0]
+				}
+			}
+		},
+		"animation.hp4_paint.statue_paint.pose2": {
+			"loop": true,
+			"bones": {
+				"buckets": {
+					"position": [0, 28, -9]
+				},
+				"buck_holder1": {
+					"rotation": [0, 0, 87.5]
+				},
+				"leftArm": {
+					"rotation": [-57.18821, 9.23186, 3.86032],
+					"position": [0, 0, -1]
+				},
+				"rightArm": {
+					"rotation": [-90, 0, 0]
+				},
+				"rightLeg": {
+					"rotation": [0, 0, 5]
+				},
+				"leftLeg": {
+					"rotation": [0, 0, -5]
+				}
+			}
+		},
+		"animation.hp4_paint.statue_paint.pose3": {
+			"loop": true,
+			"bones": {
+				"buckets": {
+					"position": [0, 43.5, -6]
+				},
+				"statue": {
+					"position": [0, -3, 0]
+				},
+				"waist": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, -3.15432, 0.22417]
+				},
+				"leftArm": {
+					"rotation": [8.88172, 6.71771, -183.88172],
+					"position": [0.97284, 3.63069, 1.36808]
+				},
+				"rightArm": {
+					"rotation": [8.88172, -6.71771, 183.88172],
+					"position": [-0.97284, 3.63069, 1.36808]
+				},
+				"rightLeg": {
+					"rotation": [0, 0, 5],
+					"position": [0.26147, 2.98858, -4]
+				},
+				"leftLeg": {
+					"rotation": [52.5, 0, 0],
+					"position": [0, -0.35231, -2.20814]
+				}
+			}
+		},
+		"animation.hp4_paint.statue_paint.pose4": {
+			"loop": true,
+			"bones": {
+				"buckets": {
+					"position": [15, 38, 1]
+				},
+				"statue": {
+					"rotation": [0, 0, 12.5],
+					"position": [-2.92889, 0.64932, 0]
+				},
+				"waist": {
+					"rotation": [0, -35, 0]
+				},
+				"head": {
+					"rotation": [-11.0212, -38.14235, -8.41354]
+				},
+				"leftArm": {
+					"rotation": [-37.5, 0, -107.5],
+					"position": [0.17605, 0.05551, -1.40211]
+				},
+				"rightArm": {
+					"rotation": [2.5, 0, 85],
+					"position": [-0.3888, -0.03402, 0.83697]
+				},
+				"rightLeg": {
+					"rotation": [0.91359, -5.03104, 37.12206]
+				},
+				"leftLeg": {
+					"rotation": [0, 0, -12.5]
+				},
+				"bucket2": {
+					"position": [-25, 3, -8]
+				}
+			}
+		},
+		"animation.hp4_paint.statue_paint.pose2_no": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [0, -16, 0]
+				},
+				"buckets": {
+					"position": [0, 28, -9]
+				},
+				"buck_holder1": {
+					"rotation": [0, 0, 87.5]
+				},
+				"leftArm": {
+					"rotation": [-57.18821, 9.23186, 3.86032],
+					"position": [0, 0, -1]
+				},
+				"rightArm": {
+					"rotation": [-90, 0, 0]
+				},
+				"rightLeg": {
+					"rotation": [0, 0, 5]
+				},
+				"leftLeg": {
+					"rotation": [0, 0, -5]
+				},
+				"stand": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.hp4_paint.statue_paint.pose1_no": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [0, -16, 0]
+				},
+				"buckets": {
+					"position": [-2, 37, -12]
+				},
+				"waist": {
+					"rotation": [10, 0, 0]
+				},
+				"body": {
+					"rotation": [0, -30, 0]
+				},
+				"head": {
+					"rotation": [-17.5, 20, 0]
+				},
+				"leftArm": {
+					"rotation": [30, 0, -60]
+				},
+				"rightArm": {
+					"rotation": [-89.96148, 9.99038, 0.44067]
+				},
+				"rightLeg": {
+					"rotation": [43.64293, -12.27659, 12.56853]
+				},
+				"leftLeg": {
+					"rotation": [-15, 0, 0]
+				},
+				"stand": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.hp4_paint.statue_paint.pose3_no": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [0, -16, 0]
+				},
+				"buckets": {
+					"position": [0, 43.5, -6]
+				},
+				"stand": {
+					"scale": 0
+				},
+				"statue": {
+					"position": [0, -3, 0]
+				},
+				"waist": {
+					"rotation": [22.5, 0, 0],
+					"position": [0, -3.15432, 0.22417]
+				},
+				"leftArm": {
+					"rotation": [8.88172, 6.71771, -183.88172],
+					"position": [0.97284, 3.63069, 1.36808]
+				},
+				"rightArm": {
+					"rotation": [8.88172, -6.71771, 183.88172],
+					"position": [-0.97284, 3.63069, 1.36808]
+				},
+				"rightLeg": {
+					"rotation": [0, 0, 5],
+					"position": [0.26147, 2.98858, -4]
+				},
+				"leftLeg": {
+					"rotation": [52.5, 0, 0],
+					"position": [0, -0.35231, -2.20814]
+				}
+			}
+		},
+		"animation.hp4_paint.statue_paint.pose4_no": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [0, -16, 0]
+				},
+				"buckets": {
+					"position": [15, 38, 1]
+				},
+				"stand": {
+					"scale": 0
+				},
+				"statue": {
+					"rotation": [0, 0, 12.5],
+					"position": [-2.92889, 0.64932, 0]
+				},
+				"waist": {
+					"rotation": [0, -35, 0]
+				},
+				"head": {
+					"rotation": [-11.0212, -38.14235, -8.41354]
+				},
+				"leftArm": {
+					"rotation": [-37.5, 0, -107.5],
+					"position": [0.17605, 0.05551, -1.40211]
+				},
+				"rightArm": {
+					"rotation": [2.5, 0, 85],
+					"position": [-0.3888, -0.03402, 0.83697]
+				},
+				"rightLeg": {
+					"rotation": [0.91359, -5.03104, 37.12206]
+				},
+				"leftLeg": {
+					"rotation": [0, 0, -12.5]
+				},
+				"bucket2": {
+					"position": [-25, 3, -8]
+				}
+			}
+		}
+	}
+}

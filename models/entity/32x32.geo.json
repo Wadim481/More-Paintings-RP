@@ -1,0 +1,40 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hp4_paint.painting_32x32",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "32x32",
+					"parent": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, 7],
+							"size": [32, 32, 1],
+							"uv": {
+								"north": {"uv": [16, 32], "uv_size": [32, 32]},
+								"east": {"uv": [79, 32], "uv_size": [1, 32]},
+								"south": {"uv": [48, 32], "uv_size": [32, 32]},
+								"west": {"uv": [48, 32], "uv_size": [1, 32]},
+								"up": {"uv": [80, 33], "uv_size": [-32, -1]},
+								"down": {"uv": [80, 64], "uv_size": [-32, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

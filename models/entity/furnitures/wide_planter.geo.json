@@ -1,0 +1,281 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.hp4_paint.wide_planter",
+                "texture_width": 256,
+                "texture_height": 256,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -22,
+                                1,
+                                -7
+                            ],
+                            "size": [
+                                44,
+                                12,
+                                14
+                            ],
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                21,
+                                12,
+                                -8
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                16
+                            ],
+                            "uv": [
+                                28,
+                                90
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -21,
+                                12,
+                                -8
+                            ],
+                            "size": [
+                                42,
+                                2,
+                                2
+                            ],
+                            "uv": [
+                                0,
+                                67
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -21,
+                                12,
+                                6
+                            ],
+                            "size": [
+                                42,
+                                2,
+                                2
+                            ],
+                            "uv": [
+                                0,
+                                71
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -23,
+                                12,
+                                -8
+                            ],
+                            "size": [
+                                2,
+                                2,
+                                16
+                            ],
+                            "uv": [
+                                64,
+                                90
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -18,
+                                0,
+                                -6
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                12
+                            ],
+                            "uv": [
+                                104,
+                                26
+                            ]
+                        },
+                        {
+                            "origin": [
+                                15,
+                                0,
+                                -6
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                12
+                            ],
+                            "uv": [
+                                104,
+                                39
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.hp4_paint.wide_planter.outline",
+                "texture_width": 256,
+                "texture_height": 256,
+                "visible_bounds_width": 4.3,
+                "visible_bounds_height": 3.5,
+                "visible_bounds_offset": [
+                    0,
+                    1.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -22.3,
+                                0.7,
+                                -7.3
+                            ],
+                            "size": [
+                                44.6,
+                                12.6,
+                                14.6
+                            ],
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                20.7,
+                                11.7,
+                                -8.3
+                            ],
+                            "size": [
+                                2.6,
+                                2.6,
+                                16.6
+                            ],
+                            "uv": [
+                                28,
+                                90
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -21.3,
+                                11.7,
+                                -8.3
+                            ],
+                            "size": [
+                                42.6,
+                                2.6,
+                                2.6
+                            ],
+                            "uv": [
+                                0,
+                                67
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -21.3,
+                                11.7,
+                                5.7
+                            ],
+                            "size": [
+                                42.6,
+                                2.6,
+                                2.6
+                            ],
+                            "uv": [
+                                0,
+                                71
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -23.3,
+                                11.7,
+                                -8.3
+                            ],
+                            "size": [
+                                2.6,
+                                2.6,
+                                16.6
+                            ],
+                            "uv": [
+                                64,
+                                90
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -18.3,
+                                -0.3,
+                                -6.3
+                            ],
+                            "size": [
+                                3.6,
+                                1.6,
+                                12.6
+                            ],
+                            "uv": [
+                                104,
+                                26
+                            ]
+                        },
+                        {
+                            "origin": [
+                                14.7,
+                                -0.3,
+                                -6.3
+                            ],
+                            "size": [
+                                3.6,
+                                1.6,
+                                12.6
+                            ],
+                            "uv": [
+                                104,
+                                39
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

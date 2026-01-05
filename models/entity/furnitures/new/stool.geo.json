@@ -1,0 +1,323 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.hp4_paint.stool",
+                "texture_width": 64,
+                "texture_height": 64,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 2.5,
+                "visible_bounds_offset": [
+                    0,
+                    0.75,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        -0.5,
+                        3,
+                        -0.5
+                    ]
+                },
+                {
+                    "name": "pillow",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        5.25,
+                        1
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6,
+                                4.8,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                4,
+                                12
+                            ],
+                            "inflate": -0.1,
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6,
+                                5,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                1,
+                                12
+                            ],
+                            "uv": [
+                                0,
+                                32
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "chair",
+                    "parent": "root",
+                    "pivot": [
+                        -0.5,
+                        3,
+                        -0.5
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6,
+                                3,
+                                -6
+                            ],
+                            "size": [
+                                12,
+                                2,
+                                12
+                            ],
+                            "uv": [
+                                0,
+                                17
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -5.5,
+                                0,
+                                -5.5
+                            ],
+                            "size": [
+                                2,
+                                3,
+                                2
+                            ],
+                            "uv": [
+                                0,
+                                46
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.5,
+                                0,
+                                -5.5
+                            ],
+                            "size": [
+                                2,
+                                3,
+                                2
+                            ],
+                            "uv": [
+                                9,
+                                46
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -5.5,
+                                0,
+                                3.5
+                            ],
+                            "size": [
+                                2,
+                                3,
+                                2
+                            ],
+                            "uv": [
+                                27,
+                                46
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.5,
+                                0,
+                                3.5
+                            ],
+                            "size": [
+                                2,
+                                3,
+                                2
+                            ],
+                            "uv": [
+                                18,
+                                46
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.hp4_paint.stool.outline",
+                "texture_width": 64,
+                "texture_height": 64,
+                "visible_bounds_width": 2.3,
+                "visible_bounds_height": 2.5,
+                "visible_bounds_offset": [
+                    0,
+                    0.75,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "root",
+                    "pivot": [
+                        -0.5,
+                        3,
+                        -0.5
+                    ]
+                },
+                {
+                    "name": "pillow",
+                    "parent": "root",
+                    "pivot": [
+                        0,
+                        5.25,
+                        1
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6.3,
+                                4.5,
+                                -6.3
+                            ],
+                            "size": [
+                                12.6,
+                                4.6,
+                                12.6
+                            ],
+                            "inflate": -0.1,
+                            "uv": [
+                                0,
+                                0
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -6.3,
+                                4.7,
+                                -6.3
+                            ],
+                            "size": [
+                                12.6,
+                                1.6,
+                                12.6
+                            ],
+                            "uv": [
+                                0,
+                                32
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "chair",
+                    "parent": "root",
+                    "pivot": [
+                        -0.5,
+                        3,
+                        -0.5
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -6.3,
+                                2.7,
+                                -6.3
+                            ],
+                            "size": [
+                                12.6,
+                                2.6,
+                                12.6
+                            ],
+                            "uv": [
+                                0,
+                                17
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -5.8,
+                                -0.3,
+                                -5.8
+                            ],
+                            "size": [
+                                2.6,
+                                3.6,
+                                2.6
+                            ],
+                            "uv": [
+                                0,
+                                46
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.2,
+                                -0.3,
+                                -5.8
+                            ],
+                            "size": [
+                                2.6,
+                                3.6,
+                                2.6
+                            ],
+                            "uv": [
+                                9,
+                                46
+                            ]
+                        },
+                        {
+                            "origin": [
+                                -5.8,
+                                -0.3,
+                                3.2
+                            ],
+                            "size": [
+                                2.6,
+                                3.6,
+                                2.6
+                            ],
+                            "uv": [
+                                27,
+                                46
+                            ]
+                        },
+                        {
+                            "origin": [
+                                3.2,
+                                -0.3,
+                                3.2
+                            ],
+                            "size": [
+                                2.6,
+                                3.6,
+                                2.6
+                            ],
+                            "uv": [
+                                18,
+                                46
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

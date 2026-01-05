@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:easel_stand",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "glass": "hp4_paint.outline_base_blend",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "easel_stand1": "textures/hp/more_paintings/furnitures/easel_stand/1",
+                "easel_stand2": "textures/hp/more_paintings/furnitures/easel_stand/2",
+                "easel_stand3": "textures/hp/more_paintings/furnitures/easel_stand/3",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "easel_stand": "geometry.hp4_paint.easel_stand",
+                "default": "geometry.hp4_paint.easel_stand",
+                "outline": "geometry.hp4_paint.easel_stand.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_easel_stand": "q.property('hp4_paint:outline')"
+                },
+                {
+                    "controller.render.hp4_paint.easel_stand": "!q.property('hp4_paint:paint_installed')"
+                }
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:easel_stand"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

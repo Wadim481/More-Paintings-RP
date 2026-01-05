@@ -1,0 +1,102 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hp4_paint.cyberpunk_costum_death": {
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.default1",
+						"geometry.default2",
+						"geometry.default3",
+						"geometry.default4",
+						"geometry.default5",
+						"geometry.default6",
+						"geometry.default7"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.default1",
+						"texture.default2",
+						"texture.default3",
+						"texture.default4",
+						"texture.default5",
+						"texture.default6",
+						"texture.default7",
+						"texture.default8",
+						"texture.default9",
+						"texture.default10",
+						"texture.default11",
+						"texture.default12",
+						"texture.default13",
+						"texture.default14",
+						"texture.default15",
+						"texture.default16",
+						"texture.default17",
+						"texture.default18"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.property('hp4_paint:paint_models')]",
+			"textures": [
+				"array.textures[query.property('hp4_paint:paint_colors')]"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		},
+		"controller.render.hp4_paint.cyberpunk_costum_death_light": {
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.default1",
+						"geometry.default2",
+						"geometry.default3",
+						"geometry.default4",
+						"geometry.default5",
+						"geometry.default6",
+						"geometry.default7"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.glow1",
+						"texture.glow2",
+						"texture.glow3",
+						"texture.glow4",
+						"texture.glow5",
+						"texture.glow6",
+						"texture.glow7",
+						"texture.glow8",
+						"texture.glow9",
+						"texture.glow10",
+						"texture.glow11",
+						"texture.glow12",
+						"texture.glow13",
+						"texture.glow14",
+						"texture.glow15",
+						"texture.glow16",
+						"texture.glow17",
+						"texture.glow18"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.property('hp4_paint:paint_models')]",
+			"textures": [
+				"array.textures[query.property('hp4_paint:paint_colors')]"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"ignore_lighting": true
+		}
+	}
+}

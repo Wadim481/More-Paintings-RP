@@ -1,0 +1,99 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:tablet",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "glow": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default": "textures/hp/more_paintings/tablet/paintings_tablet",
+                "page0": "textures/hp/more_paintings/tablet/pages/tutorial",
+                "page1": "textures/hp/more_paintings/tablet/pages/paint1",
+                "page2": "textures/hp/more_paintings/tablet/pages/paint2",
+                "page3": "textures/hp/more_paintings/tablet/pages/paint3",
+                "page4": "textures/hp/more_paintings/tablet/pages/paint4",
+                "page5": "textures/hp/more_paintings/tablet/pages/paint5",
+                "page6": "textures/hp/more_paintings/tablet/pages/paint6",
+                "page7": "textures/hp/more_paintings/tablet/pages/paint7",
+                "page8": "textures/hp/more_paintings/tablet/pages/paint8",
+                "page9": "textures/hp/more_paintings/tablet/pages/paint9",
+                "page10": "textures/hp/more_paintings/tablet/pages/paint10",
+                "page11": "textures/hp/more_paintings/tablet/pages/paint11",
+                "page12": "textures/hp/more_paintings/tablet/pages/paint12",
+                "page13": "textures/hp/more_paintings/tablet/pages/paint13",
+                "page14": "textures/hp/more_paintings/tablet/pages/paint14",
+                "page15": "textures/hp/more_paintings/tablet/pages/paint15",
+                "page16": "textures/hp/more_paintings/tablet/pages/paint16",
+                "page17": "textures/hp/more_paintings/tablet/pages/paint17",
+                "page18": "textures/hp/more_paintings/tablet/pages/paint18",
+                "page19": "textures/hp/more_paintings/tablet/pages/paint19",
+                "page20": "textures/hp/more_paintings/tablet/pages/paint20",
+                "page21": "textures/hp/more_paintings/tablet/pages/paint21",
+                "page22": "textures/hp/more_paintings/tablet/pages/paint22",
+                "page23": "textures/hp/more_paintings/tablet/pages/paint23",
+                "page24": "textures/hp/more_paintings/tablet/pages/paint24",
+                "page25": "textures/hp/more_paintings/tablet/pages/paint25",
+                "page26": "textures/hp/more_paintings/tablet/pages/paint26",
+                "page27": "textures/hp/more_paintings/tablet/pages/paint27",
+                "page28": "textures/hp/more_paintings/tablet/pages/paint28",
+                "page29": "textures/hp/more_paintings/tablet/pages/paint29",
+                "page30": "textures/hp/more_paintings/tablet/pages/paint30",
+                "page31": "textures/hp/more_paintings/tablet/pages/paint31",
+                "page32": "textures/hp/more_paintings/tablet/pages/paint32",
+                "page33": "textures/hp/more_paintings/tablet/pages/paint33",
+                "click_cat_f": "textures/hp/more_paintings/tablet/click/click_cat_f",
+                "click_cat_b": "textures/hp/more_paintings/tablet/click/click_cat_b",
+                "click_f": "textures/hp/more_paintings/tablet/click/click_f",
+                "click_b": "textures/hp/more_paintings/tablet/click/click_b",
+                "logo": "textures/hp/more_paintings/tablet/logo",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.tablet",
+                "page": "geometry.tablet_screen_paintings",
+                "outline": "geometry.hp4_paint.tablet.outline"
+            },
+            "scripts": {
+                "initialize": [
+                    "v.page = 0;"
+                ],
+                "animate": [
+                    "page_controller",
+                    "spawn_death_controller"
+                ]
+            },
+            "animations": {
+                "page_controller": "controller.animation.hp4_paint.tablet",
+                "spawn_death_controller": "controller.animation.hp4_paint.tablet_spawn",
+                "start": "animation.tablet_spawn",
+                "close": "animation.tablet_death"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.tablet",
+                "controller.render.tablet_logo",
+                {
+                    "controller.render.click_tab_f": "query.is_sheared"
+                },
+                {
+                    "controller.render.click_tab_b": "query.is_stunned"
+                },
+                {
+                    "controller.render.click_cat_f": "query.is_chested"
+                },
+                {
+                    "controller.render.click_cat_b": "query.is_saddled"
+                },
+                "controller.render.tab_page"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:tablet"
+            }
+        }
+    }
+}

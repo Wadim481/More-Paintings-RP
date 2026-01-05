@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:display_case_tall",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "glass": "hp4_paint.outline_base_blend",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "display_case_tall1": "textures/hp/more_paintings/furnitures/display/display_case_tall",
+                "display_case_tall2": "textures/hp/more_paintings/furnitures/display/display_case_tall_pink",
+                "display_case_tall3": "textures/hp/more_paintings/furnitures/display/display_case_tall_white",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "display_case_tall": "geometry.hp4_paint.display_case_tall",
+                "default": "geometry.hp4_paint.display_case_tall",
+                "outline": "geometry.hp4_paint.display_case_tall.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_display_case_tall": "q.property('hp4_paint:outline')"
+                },
+                {
+                    "controller.render.hp4_paint.display_case_tall": "!q.property('hp4_paint:paint_installed')"
+                }
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:display_case_tall"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

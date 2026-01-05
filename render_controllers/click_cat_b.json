@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.click_cat_b": {
+			"geometry": "geometry.page",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.click_cat_b"
+			],
+			"ignore_lighting": true
+		}
+	}
+}

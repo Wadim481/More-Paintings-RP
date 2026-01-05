@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:drawing_tube",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default": "textures/hp/more_paintings/furnitures/drawing_tube",
+                "default2": "textures/hp/more_paintings/furnitures/drawing_tube2",
+                "default3": "textures/hp/more_paintings/furnitures/drawing_tube3",
+                "default4": "textures/hp/more_paintings/furnitures/drawing_tube4",
+                "default5": "textures/hp/more_paintings/furnitures/drawing_tube5",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.drawing_tube",
+                "outline": "geometry.hp4_paint.drawing_tube.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:drawing_tube"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

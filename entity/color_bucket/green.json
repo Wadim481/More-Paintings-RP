@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hp4_paint:color_bucket_green",
+      "materials": {
+        "default": "hp4_paint.outline_base",
+        "painting": "spider"
+      },
+      "textures": {
+        "iron_bucket": "textures/hp/more_paintings/furnitures/iron_bucket",
+        "gold_bucket": "textures/hp/more_paintings/furnitures/gold_bucket",
+        "brown_bucket": "textures/hp/more_paintings/furnitures/brown_bucket",
+        "pink_bucket": "textures/hp/more_paintings/furnitures/pink_bucket",
+        "default": "textures/hp/more_paintings/furnitures/color_bucket_green"
+      },
+      "geometry": {
+        "default": "geometry.hp4_paint.color_bucket"
+      },
+      "render_controllers": [
+        "controller.render.default",
+        "controller.render.hp4_paint.bucket"
+      ],
+      "spawn_egg": {
+        "texture": "hp4_paint:color_bucket_spawn_egg"
+      },
+      "animations": {
+        "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+      },
+      "scripts": {
+        "animate": [
+          "cardinal_rotation"
+        ]
+      }
+    }
+  }
+}

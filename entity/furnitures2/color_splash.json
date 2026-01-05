@@ -1,0 +1,53 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:color_splash",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default1": "textures/hp/more_paintings/furnitures/color_splash/1",
+                "default2": "textures/hp/more_paintings/furnitures/color_splash/2",
+                "default3": "textures/hp/more_paintings/furnitures/color_splash/3",
+                "default4": "textures/hp/more_paintings/furnitures/color_splash/4",
+                "default5": "textures/hp/more_paintings/furnitures/color_splash/5",
+                "default6": "textures/hp/more_paintings/furnitures/color_splash/6",
+                "default7": "textures/hp/more_paintings/furnitures/color_splash/7",
+                "default8": "textures/hp/more_paintings/furnitures/color_splash/8",
+                "default9": "textures/hp/more_paintings/furnitures/color_splash/9",
+                "default10": "textures/hp/more_paintings/furnitures/color_splash/10",
+                "default11": "textures/hp/more_paintings/furnitures/color_splash/11",
+                "default12": "textures/hp/more_paintings/furnitures/color_splash/12",
+                "default13": "textures/hp/more_paintings/furnitures/color_splash/13",
+                "default14": "textures/hp/more_paintings/furnitures/color_splash/14",
+                "default15": "textures/hp/more_paintings/furnitures/color_splash/15",
+                "default16": "textures/hp/more_paintings/furnitures/color_splash/16",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.color_splash",
+                "outline": "geometry.hp4_paint.color_splash.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_color_splash": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.color_splash"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:color_splash"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

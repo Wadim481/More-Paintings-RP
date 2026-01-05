@@ -1,0 +1,60 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:art_chair",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "model1.brown": "textures/hp/more_paintings/furnitures/art_chair/frame",
+                "model1.pink": "textures/hp/more_paintings/furnitures/art_chair/frame_pink",
+                "model1.white": "textures/hp/more_paintings/furnitures/art_chair/frame_white",
+                "pillow1": "textures/hp/more_paintings/furnitures/art_chair/ac1",
+                "pillow2": "textures/hp/more_paintings/furnitures/art_chair/ac2",
+                "pillow3": "textures/hp/more_paintings/furnitures/art_chair/ac3",
+                "pillow4": "textures/hp/more_paintings/furnitures/art_chair/ac4",
+                "pillow5": "textures/hp/more_paintings/furnitures/art_chair/ac5",
+                "pillow6": "textures/hp/more_paintings/furnitures/art_chair/ac6",
+                "pillow7": "textures/hp/more_paintings/furnitures/art_chair/ac7",
+                "pillow8": "textures/hp/more_paintings/furnitures/art_chair/ac8",
+                "pillow9": "textures/hp/more_paintings/furnitures/art_chair/ac9",
+                "pillow10": "textures/hp/more_paintings/furnitures/art_chair/ac10",
+                "pillow11": "textures/hp/more_paintings/furnitures/art_chair/ac11",
+                "pillow12": "textures/hp/more_paintings/furnitures/art_chair/ac12",
+                "pillow13": "textures/hp/more_paintings/furnitures/art_chair/ac13",
+                "pillow14": "textures/hp/more_paintings/furnitures/art_chair/ac14",
+                "pillow15": "textures/hp/more_paintings/furnitures/art_chair/ac15",
+                "pillow16": "textures/hp/more_paintings/furnitures/art_chair/ac16",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.art_chair",
+                "outline": "geometry.hp4_paint.art_chair.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_art_chair_frame": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.art_chair_frame",
+                "controller.render.hp4_paint.art_chair_pillow"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:art_chair"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ],
+                "pre_animation": [
+                    "v.model = q.property('hp4_paint:furniture_model');"
+                ]
+            }
+        }
+    }
+}

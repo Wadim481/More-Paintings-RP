@@ -1,0 +1,620 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hp4_paint.art_bench": {
+            "arrays": {
+                "geometries": {
+                    "array.models": [
+                        "geometry.default",
+                        "geometry.default2",
+                        "geometry.default3"
+                    ]
+                },
+                "textures": {
+                    "array.model1_texture": [
+                        "texture.model1.brown",
+                        "texture.model1.pink",
+                        "texture.model1.white"
+                    ],
+                    "array.model2_texture": [
+                        "texture.model2.brown",
+                        "texture.model2.pink",
+                        "texture.model2.white"
+                    ],
+                    "array.model3_texture": [
+                        "texture.model3.brown",
+                        "texture.model3.pink",
+                        "texture.model3.white"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "array.models[q.property('hp4_paint:furniture_model')]",
+            "textures": [
+                "(q.property('hp4_paint:furniture_model') == 0 ? array.model1_texture[q.property('hp4_paint:furniture_color')] : q.property('hp4_paint:furniture_model') == 1 ? array.model2_texture[q.property('hp4_paint:furniture_color')] : q.property('hp4_paint:furniture_model') == 2 ? array.model3_texture[q.property('hp4_paint:furniture_color')] : texture.model1.brown)"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.spatula": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.brush_cleaner_jar": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.brushes_set": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.tube_paint": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.drafting_tools": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.drawing_tube": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4",
+                        "texture.default5"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.paint_tubes": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.spray_can": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4",
+                        "texture.default5",
+                        "texture.default6",
+                        "texture.default7",
+                        "texture.default8",
+                        "texture.default9",
+                        "texture.default10",
+                        "texture.default11",
+                        "texture.default12",
+                        "texture.default13",
+                        "texture.default14",
+                        "texture.default15",
+                        "texture.default16"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.stencil": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.art_chair_frame": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.model1.brown",
+                        "texture.model1.pink",
+                        "texture.model1.white"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.art_chair_pillow": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.pillow1",
+                        "texture.pillow2",
+                        "texture.pillow3",
+                        "texture.pillow4",
+                        "texture.pillow5",
+                        "texture.pillow6",
+                        "texture.pillow7",
+                        "texture.pillow8",
+                        "texture.pillow9",
+                        "texture.pillow10",
+                        "texture.pillow11",
+                        "texture.pillow12",
+                        "texture.pillow13",
+                        "texture.pillow14",
+                        "texture.pillow15",
+                        "texture.pillow16"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.brush_on_shelf": {
+            "arrays": {
+                "textures": {
+                    "array.textures": [
+                        "texture.bos",
+                        "texture.bos_pink",
+                        "texture.bos_white",
+                        "texture.dirty_bos",
+                        "texture.dirty_bos_pink",
+                        "texture.dirty_bos_white"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.textures[q.property('hp4_paint:furniture_color')]"
+            ],
+            "part_visibility": [
+                {"shelf": "q.property('hp4_paint:furniture_model') == 0"},
+                {"shelf_3": "q.property('hp4_paint:furniture_model') == 1"}
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.canvas": {
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "1x1": "q.property('hp4_paint:furniture_model') == 0"
+                },
+                {
+                    "1x2": "q.property('hp4_paint:furniture_model') == 1"
+                },
+                {
+                    "2x1": "q.property('hp4_paint:furniture_model') == 2"
+                }
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.color_splash": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4",
+                        "texture.default5",
+                        "texture.default6",
+                        "texture.default7",
+                        "texture.default8",
+                        "texture.default9",
+                        "texture.default10",
+                        "texture.default11",
+                        "texture.default12",
+                        "texture.default13",
+                        "texture.default14",
+                        "texture.default15",
+                        "texture.default16"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "part_visibility": [
+                {
+                    "splatter1": "q.property('hp4_paint:furniture_model') == 0"
+                },
+                {
+                    "splatter2": "q.property('hp4_paint:furniture_model') == 1"
+                },
+                {
+                    "splatter3": "q.property('hp4_paint:furniture_model') == 2"
+                },
+                {
+                    "splatter4": "q.property('hp4_paint:furniture_model') == 3"
+                },
+                {
+                    "splatter5": "q.property('hp4_paint:furniture_model') == 4"
+                }
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.vpb": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "part_visibility": [
+                {"onshelf": "q.property('hp4_paint:furniture_model') == 0"},
+                {"hanging": "q.property('hp4_paint:furniture_model') == 1"}
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.3color": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.sack_of_beton": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4",
+                        "texture.default5",
+                        "texture.default6",
+                        "texture.default7",
+                        "texture.default8",
+                        "texture.default9",
+                        "texture.default10",
+                        "texture.default11",
+                        "texture.default12",
+                        "texture.default13",
+                        "texture.default14",
+                        "texture.default15",
+                        "texture.default16"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "part_visibility": [
+                {"sack1": "q.property('hp4_paint:furniture_model') == 0"},
+                {"sack2": "q.property('hp4_paint:furniture_model') == 1"}
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.stool_frame": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.model1.brown",
+                        "texture.model1.pink",
+                        "texture.model1.white"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.stool_pillow": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.pillow1",
+                        "texture.pillow2",
+                        "texture.pillow3",
+                        "texture.pillow4",
+                        "texture.pillow5",
+                        "texture.pillow6",
+                        "texture.pillow7",
+                        "texture.pillow8",
+                        "texture.pillow9",
+                        "texture.pillow10",
+                        "texture.pillow11",
+                        "texture.pillow12",
+                        "texture.pillow13",
+                        "texture.pillow14",
+                        "texture.pillow15",
+                        "texture.pillow16"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.statue_corak": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.statue_water": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.water1",
+                        "texture.water2",
+                        "texture.water3",
+                        "texture.water4",
+                        "texture.water5",
+                        "texture.water6",
+                        "texture.water7",
+                        "texture.water8",
+                        "texture.water9",
+                        "texture.water10",
+                        "texture.water11",
+                        "texture.water12",
+                        "texture.water13",
+                        "texture.water14",
+                        "texture.water15",
+                        "texture.water16",
+                        "texture.water17",
+                        "texture.water18",
+                        "texture.water19"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.animated"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "uv_anim": {
+                "offset": [0, "math.mod(math.floor(q.life_time * 7), 13) / 13"],
+                "scale": [1, "1 / 13"]
+            }
+        }
+    }
+}

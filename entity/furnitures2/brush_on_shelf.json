@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:brush_on_shelf",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "bos": "textures/hp/more_paintings/furnitures/brush_on_shelf/bos",
+                "bos_pink": "textures/hp/more_paintings/furnitures/brush_on_shelf/bos_pink",
+                "bos_white": "textures/hp/more_paintings/furnitures/brush_on_shelf/bos_white",
+                "dirty_bos": "textures/hp/more_paintings/furnitures/brush_on_shelf/dirty_bos",
+                "dirty_bos_pink": "textures/hp/more_paintings/furnitures/brush_on_shelf/dirty_bos_pink",
+                "dirty_bos_white": "textures/hp/more_paintings/furnitures/brush_on_shelf/dirty_bos_white",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.brush_on_shelf",
+                "outline": "geometry.hp4_paint.brush_on_shelf.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_brush_on_shelf": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.brush_on_shelf"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:brush_on_shelf"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

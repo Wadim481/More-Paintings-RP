@@ -1,0 +1,110 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hp4_paint.painting_alien_32x64",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [
+					0,
+					1.25,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "32x64",
+					"parent": "bb_main",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-8,
+								0,
+								7
+							],
+							"size": [
+								64,
+								32,
+								1
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										14.22222,
+										49.77778
+									],
+									"uv_size": [
+										56.88889,
+										28.44444
+									]
+								},
+								"east": {
+									"uv": [
+										127,
+										50.22222
+									],
+									"uv_size": [
+										1,
+										28
+									]
+								},
+								"south": {
+									"uv": [
+										71.11111,
+										49.77778
+									],
+									"uv_size": [
+										56.88889,
+										28.44444
+									]
+								},
+								"west": {
+									"uv": [
+										71.33333,
+										49.77778
+									],
+									"uv_size": [
+										0.55556,
+										28.44444
+									]
+								},
+								"up": {
+									"uv": [
+										128,
+										49.77778
+									],
+									"uv_size": [
+										-56,
+										1
+									]
+								},
+								"down": {
+									"uv": [
+										71.55556,
+										77.83333
+									],
+									"uv_size": [
+										56.44444,
+										-0.55556
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

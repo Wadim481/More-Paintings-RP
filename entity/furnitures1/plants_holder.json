@@ -1,0 +1,86 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:plants_holder",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "flower_crimson_roots": "textures/blocks/crimson_roots",
+                "flower_warped_roots": "textures/blocks/warped_roots",
+                "flower_dandelion": "textures/blocks/flower_dandelion",
+                "flower_poppy": "textures/blocks/flower_rose",
+                "flower_blue_orchid": "textures/blocks/flower_blue_orchid",
+                "flower_allium": "textures/blocks/flower_allium",
+                "flower_azure_bluet": "textures/blocks/flower_houstonia",
+                "flower_red_tulip": "textures/blocks/flower_tulip_red",
+                "flower_orange_tulip": "textures/blocks/flower_tulip_orange",
+                "flower_white_tulip": "textures/blocks/flower_tulip_white",
+                "flower_pink_tulip": "textures/blocks/flower_tulip_pink",
+                "flower_oxeye_daisy": "textures/blocks/flower_oxeye_daisy",
+                "flower_cornflower": "textures/blocks/flower_cornflower",
+                "flower_lily_of_the_valley": "textures/blocks/flower_lily_of_the_valley",
+                "flower_wither_rose": "textures/blocks/flower_wither_rose",
+                "flower_torchflower": "textures/blocks/torchflower",
+                "flower_cactus_flower": "textures/blocks/cactus_flower",
+                "flower_closed_eyeblossom": "textures/blocks/eyeblossom_dormant",
+                "flower_open_eyeblossom": "textures/blocks/eyeblossom_blooming",
+                "double_plant_lilac_bottom": "textures/blocks/double_plant_syringa_bottom",
+                "double_plant_lilac_top": "textures/blocks/double_plant_syringa_top",
+                "double_plant_rose_bush_bottom": "textures/blocks/double_plant_rose_bottom",
+                "double_plant_rose_bush_top": "textures/blocks/double_plant_rose_top",
+                "double_plant_peony_bottom": "textures/blocks/double_plant_paeonia_bottom",
+                "double_plant_peony_top": "textures/blocks/double_plant_paeonia_top",
+                "double_plant_pitcher_plant_bottom": "textures/blocks/pitcher_crop_bottom_stage_4",
+                "double_plant_pitcher_plant_top": "textures/blocks/pitcher_crop_top_stage_4",
+                "custom_plant_sunflower": "textures/hp/more_paintings/furnitures/custom_plants/sunflower",
+                "custom_plant_wildflowers": "textures/blocks/wildflowers",
+                "custom_plant_pink_petals": "textures/blocks/pink_petals",
+                "custom_plant_wildflowers_stem": "textures/hp/more_paintings/furnitures/wildflowers_stem",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "plants_holder": "geometry.hp4_paint.plants_holder",
+                "custom_plant_sunflower": "geometry.hp4_paint.plants_holder.sunflower",
+                "custom_plant_wildflowers": "geometry.hp4_paint.plants_holder.wildflowers",
+                "default": "geometry.hp4_paint.plants_holder",
+                "outline": "geometry.hp4_paint.plants_holder.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.plants_holder.flower": "q.property('hp4_paint:flower') >= 0"
+                },
+                {
+                    "controller.render.hp4_paint.plants_holder.double_plant_bottom": "q.property('hp4_paint:double_plant') >= 0"
+                },
+                {
+                    "controller.render.hp4_paint.plants_holder.double_plant_top": "q.property('hp4_paint:double_plant') >= 0"
+                },
+                {
+                    "controller.render.hp4_paint.plants_holder.custom_plant": "q.property('hp4_paint:custom_plant') >= 0"
+                },
+                {
+                    "controller.render.hp4_paint.plants_holder.custom_plant_stem": "q.property('hp4_paint:custom_plant') > 0"
+                }
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:round_planter"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation",
+                "plants_holder": "animation.hp4_paint.plants_holder"
+            },
+            "scripts": {
+                "animate": [
+                    "plants_holder"
+                ],
+                "pre_animation": [
+                    "v.height = q.property('hp4_paint:height');"
+                ]
+            }
+        }
+    }
+}

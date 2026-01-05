@@ -1,0 +1,53 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:spray_can",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default1": "textures/hp/more_paintings/furnitures/spray1",
+                "default2": "textures/hp/more_paintings/furnitures/spray2",
+                "default3": "textures/hp/more_paintings/furnitures/spray3",
+                "default4": "textures/hp/more_paintings/furnitures/spray4",
+                "default5": "textures/hp/more_paintings/furnitures/spray5",
+                "default6": "textures/hp/more_paintings/furnitures/spray6",
+                "default7": "textures/hp/more_paintings/furnitures/spray7",
+                "default8": "textures/hp/more_paintings/furnitures/spray8",
+                "default9": "textures/hp/more_paintings/furnitures/spray9",
+                "default10": "textures/hp/more_paintings/furnitures/spray10",
+                "default11": "textures/hp/more_paintings/furnitures/spray11",
+                "default12": "textures/hp/more_paintings/furnitures/spray12",
+                "default13": "textures/hp/more_paintings/furnitures/spray13",
+                "default14": "textures/hp/more_paintings/furnitures/spray14",
+                "default15": "textures/hp/more_paintings/furnitures/spray15",
+                "default16": "textures/hp/more_paintings/furnitures/spray16",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.spray_can",
+                "outline": "geometry.hp4_paint.spray_can.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline_spray_can": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.spray_can"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:spray_can"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

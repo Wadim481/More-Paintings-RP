@@ -1,0 +1,171 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hp4_paint.outline_easel_stand": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+            "part_visibility": [
+                {"es1": "q.property('hp4_paint:furniture_model') == 0"},
+                {"es2": "q.property('hp4_paint:furniture_model') == 1"},
+                {"es3": "q.property('hp4_paint:furniture_model') == 2"}
+            ]
+        },
+        "controller.render.hp4_paint.outline_display_case": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+            "part_visibility": [
+                {"1x1": false},
+                {"2x1": false}
+            ]
+        },
+        "controller.render.hp4_paint.outline_display_case_wide": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+            "part_visibility": [
+                {"1x1": false},
+                {"1x2": false}
+            ]
+        },
+        "controller.render.hp4_paint.outline_display_case_big": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+            "part_visibility": [
+                {"2x2": false}
+            ]
+        },
+        "controller.render.hp4_paint.outline_display_case_wide2": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+            "part_visibility": [
+                {"4x2": false}
+            ]
+        },
+        "controller.render.hp4_paint.outline_display_case_tall": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+            "part_visibility": [
+                {"3x4": false},
+                {"3x3": false}
+            ]
+        },
+        "controller.render.hp4_paint.outline_display_case_huge": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+            "part_visibility": [
+                {"4x4": false}
+            ]
+        }
+    }
+}

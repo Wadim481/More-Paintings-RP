@@ -1,0 +1,270 @@
+{
+	"texture_data": {
+		"brush": {
+			"textures": "textures/items/brush.png"
+		},
+		"hp4_paint:tube_paint": {
+			"textures": "textures/hp/more_paintings/items/tube_paint"
+		},
+		"hp4_paint:stencil": {
+			"textures": "textures/hp/more_paintings/items/stencil"
+		},
+		"hp4_paint:spray_can": {
+			"textures": "textures/hp/more_paintings/items/spray_can"
+		},
+		"hp4_paint:spatula": {
+			"textures": "textures/hp/more_paintings/items/spatula"
+		},
+		"hp4_paint:soft_pastel_box": {
+			"textures": "textures/hp/more_paintings/items/soft_pastel_box"
+		},
+		"hp4_paint:sketch_book": {
+			"textures": "textures/hp/more_paintings/items/sketch_book"
+		},
+		"hp4_paint:sewing_kit": {
+			"textures": "textures/hp/more_paintings/items/sewing_kit"
+		},
+		"hp4_paint:sculpture_stand": {
+			"textures": "textures/hp/more_paintings/items/sculpture_stand"
+		},
+		"hp4_paint:powder_jar": {
+			"textures": "textures/hp/more_paintings/items/powder_jar"
+		},
+		"hp4_paint:pencil_set": {
+			"textures": "textures/hp/more_paintings/items/pencil_set"
+		},
+		"hp4_paint:painting_brush": {
+			"textures": "textures/hp/more_paintings/items/painting_brush"
+		},
+		"hp4_paint:paint_tubes": {
+			"textures": "textures/hp/more_paintings/items/paint_tubes"
+		},
+		"hp4_paint:marker_set": {
+			"textures": "textures/hp/more_paintings/items/marker_set"
+		},
+		"hp4_paint:jewellery_components": {
+			"textures": "textures/hp/more_paintings/items/jewellery_components"
+		},
+		"hp4_paint:eraser_sharpener": {
+			"textures": "textures/hp/more_paintings/items/eraser_sharpener"
+		},
+		"hp4_paint:drawing_tube": {
+			"textures": "textures/hp/more_paintings/items/drawing_tube"
+		},
+		"hp4_paint:drafting_tools": {
+			"textures": "textures/hp/more_paintings/items/drafting_tools"
+		},
+		"hp4_paint:color_swatch": {
+			"textures": "textures/hp/more_paintings/items/color_swatch"
+		},
+		"hp4_paint:chalk_and_charcoal": {
+			"textures": "textures/hp/more_paintings/items/chalk_and_charcoal"
+		},
+		"hp4_paint:brushes_set": {
+			"textures": "textures/hp/more_paintings/items/brushes_set"
+		},
+		"hp4_paint:brush_holder_cup": {
+			"textures": "textures/hp/more_paintings/items/brush_holder_cup"
+		},
+		"hp4_paint:brush_cleaner_jar": {
+			"textures": "textures/hp/more_paintings/items/brush_cleaner_jar"
+		},
+		"hp4_paint:brush_cleaner_cup": {
+			"textures": "textures/hp/more_paintings/items/brush_cleaner_cup"
+		},
+		"hp4_paint:artist_box": {
+			"textures": "textures/hp/more_paintings/items/artist_box"
+		},
+		"hp4_paint:art_knives": {
+			"textures": "textures/hp/more_paintings/items/art_knives"
+		},
+		"hp4_paint:special_tool": {
+			"textures": "textures/hp/more_paintings/items/special_tool"
+		},
+		"hp4_paint:animated_painting": {
+			"textures": "textures/hp/more_paintings/items/animated"
+		},
+		"hp4_paint:scifi_painting": {
+			"textures": "textures/hp/more_paintings/items/scifi_painting"
+		},
+		"hp4_paint:forest_painting": {
+			"textures": "textures/hp/more_paintings/items/forest_painting"
+		},
+		"hp4_paint:dino_dragons_painting": {
+			"textures": "textures/hp/more_paintings/items/dino_dragon_painting"
+		},
+		"hp4_paint:dragon_painting": {
+			"textures": "textures/hp/more_paintings/items/dragon_painting"
+		},
+		"hp4_paint:candy1_painting": {
+			"textures": "textures/hp/more_paintings/items/candy_painting"
+		},
+		"hp4_paint:candy2_painting": {
+			"textures": "textures/hp/more_paintings/items/valentine_painting"
+		},
+		"hp4_paint:alien_painting": {
+			"textures": "textures/hp/more_paintings/items/alien_painting"
+		},
+		"hp4_paint:biomes_painting": {
+			"textures": "textures/hp/more_paintings/items/biome_painting"
+		},
+		"hp4_paint:kawaii_painting": {
+			"textures": "textures/hp/more_paintings/items/kawaii_painting"
+		},
+		"hp4_paint:medieval_painting": {
+			"textures": "textures/hp/more_paintings/items/medieval_painting"
+		},
+		"hp4_paint:ninja_painting": {
+			"textures": "textures/hp/more_paintings/items/ninja_painting"
+		},
+		"hp4_paint:superheroes_painting": {
+			"textures": "textures/hp/more_paintings/items/superheroes_painting"
+		},
+		"hp4_paint:8bit_painting": {
+			"textures": "textures/hp/more_paintings/items/8bit_painting"
+		},
+		"hp4_paint:circus_painting": {
+			"textures": "textures/hp/more_paintings/items/circus_painting"
+		},
+		"hp4_paint:cyberpunk_painting": {
+			"textures": "textures/hp/more_paintings/items/cyberpunk_painting"
+		},
+		"hp4_paint:egypt_painting": {
+			"textures": "textures/hp/more_paintings/items/egypt_painting"
+		},
+		"hp4_paint:fantasy_painting": {
+			"textures": "textures/hp/more_paintings/items/fantasy_painting"
+		},
+		"hp4_paint:fog_painting": {
+			"textures": "textures/hp/more_paintings/items/fog_painting"
+		},
+		"hp4_paint:halloween_painting": {
+			"textures": "textures/hp/more_paintings/items/halloween_painting"
+		},
+		"hp4_paint:horror_painting": {
+			"textures": "textures/hp/more_paintings/items/horror_painting"
+		},
+		"hp4_paint:magic_painting": {
+			"textures": "textures/hp/more_paintings/items/magic_painting"
+		},
+		"hp4_paint:modern_painting": {
+			"textures": "textures/hp/more_paintings/items/modern_painting"
+		},
+		"hp4_paint:music_painting": {
+			"textures": "textures/hp/more_paintings/items/music_painting"
+		},
+		"hp4_paint:nature_painting": {
+			"textures": "textures/hp/more_paintings/items/nature_painting"
+		},
+		"hp4_paint:ocean_painting": {
+			"textures": "textures/hp/more_paintings/items/ocean_painting"
+		},
+		"hp4_paint:pirates_painting": {
+			"textures": "textures/hp/more_paintings/items/pirate_painting"
+		},
+		"hp4_paint:robot_painting": {
+			"textures": "textures/hp/more_paintings/items/robot_painting"
+		},
+		"hp4_paint:snow_painting": {
+			"textures": "textures/hp/more_paintings/items/snow_painting"
+		},
+		"hp4_paint:steampunk_painting": {
+			"textures": "textures/hp/more_paintings/items/steampunk_painting"
+		},
+		"hp4_paint:tiny_painting": {
+			"textures": "textures/hp/more_paintings/items/tiny_painting"
+		},
+		"hp4_paint:zombies_painting": {
+			"textures": "textures/hp/more_paintings/items/zombie_painting"
+		},
+		"hp4_paint:tablet": {
+			"textures": "textures/hp/more_paintings/items/more_painting_tablet_icon"
+		},
+		"hp4_paint:easel_stand_item": {
+			"textures": "textures/hp/more_paintings/items/easel_stand"
+		},
+		"hp4_paint:easel_stand": {
+			"textures": "textures/hp/more_paintings/items/easel_stand"
+		},
+		"hp4_paint:display_case": {
+			"textures": "textures/hp/more_paintings/items/display_case"
+		},
+		"hp4_paint:display_case_wide": {
+			"textures": "textures/hp/more_paintings/items/display_case_wide"
+		},
+		"hp4_paint:display_case_huge": {
+			"textures": "textures/hp/more_paintings/items/display_case_huge"
+		},
+		"hp4_paint:display_case_tall": {
+			"textures": "textures/hp/more_paintings/items/display_case_tall"
+		},
+		"hp4_paint:display_case_wide2": {
+			"textures": "textures/hp/more_paintings/items/display_case_wide2"
+		},
+		"hp4_paint:display_case_big": {
+			"textures": "textures/hp/more_paintings/items/display_case_big"
+		},
+		"hp4_paint:art_bench": {
+			"textures": "textures/hp/more_paintings/items/art_bench"
+		},
+		"hp4_paint:color_bucket": {
+			"textures": "textures/hp/more_paintings/items/color_bucket"
+		},
+		"hp4_paint:large_planter": {
+			"textures": "textures/hp/more_paintings/items/large_planter"
+		},
+		"hp4_paint:round_planter": {
+			"textures": "textures/hp/more_paintings/items/round_planter"
+		},
+		"hp4_paint:thin_planter": {
+			"textures": "textures/hp/more_paintings/items/thin_planter"
+		},
+		"hp4_paint:vase": {
+			"textures": "textures/hp/more_paintings/items/vase"
+		},
+		"hp4_paint:wide_planter": {
+			"textures": "textures/hp/more_paintings/items/wide_planter"
+		},
+		"hp4_paint:black_modern.frame": {
+			"textures": "textures/hp/more_paintings/items/black_modern_frame"
+		},
+		"hp4_paint:burning.frame": {
+			"textures": "textures/hp/more_paintings/items/burning_frame"
+		},
+		"hp4_paint:decgold.frame": {
+			"textures": "textures/hp/more_paintings/items/decgold_frame"
+		},
+		"hp4_paint:deciron.frame": {
+			"textures": "textures/hp/more_paintings/items/deciron_frame"
+		},
+		"hp4_paint:diamond.frame": {
+			"textures": "textures/hp/more_paintings/items/diamond_frame"
+		},
+		"hp4_paint:enchanted.frame": {
+			"textures": "textures/hp/more_paintings/items/enchanted_frame"
+		},
+		"hp4_paint:foliage.frame": {
+			"textures": "textures/hp/more_paintings/items/foliage_frame"
+		},
+		"hp4_paint:glass.frame": {
+			"textures": "textures/hp/more_paintings/items/glass_frame"
+		},
+		"hp4_paint:glitter.frame": {
+			"textures": "textures/hp/more_paintings/items/glitter_frame"
+		},
+		"hp4_paint:medieval.frame": {
+			"textures": "textures/hp/more_paintings/items/medieval_frame"
+		},
+		"hp4_paint:pink.frame": {
+			"textures": "textures/hp/more_paintings/items/pink_frame"
+		},
+		"hp4_paint:white_modern.frame": {
+			"textures": "textures/hp/more_paintings/items/white_modern_frame"
+		},
+		"hp4_paint:wooden.frame": {
+			"textures": "textures/hp/more_paintings/items/wooden_frame"
+		}
+	},
+	"resource_pack_name": "More Paintings",
+	"texture_name": "atlas.items"
+}

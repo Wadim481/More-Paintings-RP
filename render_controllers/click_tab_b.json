@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.click_tab_b": {
+			"geometry": "geometry.page",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.click_b"
+			],
+			"ignore_lighting": true
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hp4_paint.particle_objects": {
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.hammer",
+						"geometry.chisel"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.hammer",
+						"texture.chisel"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.property('hp4_paint:model')]",
+			"textures": [
+				"array.textures[query.property('hp4_paint:model')]"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}

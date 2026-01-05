@@ -1,0 +1,170 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "hp4_paint:animated_painting",
+			"materials": {
+				"animated": "conduit_wind",
+				"default": "hp4_paint.outline_base",
+				"glass": "hp4_paint.outline_base_blend"
+			},
+			"textures": {
+				"frame.black_modern": "textures/hp/more_paintings/frames/black_modern",
+				"frame.burning": "textures/hp/more_paintings/frames/burning",
+				"frame.decgold": "textures/hp/more_paintings/frames/decgold",
+				"frame.deciron": "textures/hp/more_paintings/frames/deciron",
+				"frame.diamond": "textures/hp/more_paintings/frames/diamond",
+				"frame.enchanted": "textures/hp/more_paintings/frames/enchanted",
+				"frame.foliage": "textures/hp/more_paintings/frames/foliage",
+				"frame.glass": "textures/hp/more_paintings/frames/glass",
+				"frame.glitter": "textures/hp/more_paintings/frames/glitter",
+				"frame.medieval": "textures/hp/more_paintings/frames/medieval",
+				"frame.pink": "textures/hp/more_paintings/frames/pink",
+				"frame.white_modern": "textures/hp/more_paintings/frames/white_modern",
+				"frame.wooden": "textures/hp/more_paintings/frames/wooden",
+
+				"easel_stand1": "textures/hp/more_paintings/furnitures/easel_stand/1",
+				"easel_stand2": "textures/hp/more_paintings/furnitures/easel_stand/2",
+				"easel_stand3": "textures/hp/more_paintings/furnitures/easel_stand/3",
+				"display_case1": "textures/hp/more_paintings/furnitures/display/display_case",
+				"display_case2": "textures/hp/more_paintings/furnitures/display/display_case_pink",
+				"display_case3": "textures/hp/more_paintings/furnitures/display/display_case_white",
+				"display_case_wide1": "textures/hp/more_paintings/furnitures/display/display_case_wide",
+				"display_case_wide2": "textures/hp/more_paintings/furnitures/display/display_case_wide_pink",
+				"display_case_wide3": "textures/hp/more_paintings/furnitures/display/display_case_wide_white",
+				"display_case_huge1": "textures/hp/more_paintings/furnitures/display/display_case_huge",
+				"display_case_huge2": "textures/hp/more_paintings/furnitures/display/display_case_huge_pink",
+				"display_case_huge3": "textures/hp/more_paintings/furnitures/display/display_case_huge_white",
+				"display_case_tall1": "textures/hp/more_paintings/furnitures/display/display_case_tall",
+				"display_case_tall2": "textures/hp/more_paintings/furnitures/display/display_case_tall_pink",
+				"display_case_tall3": "textures/hp/more_paintings/furnitures/display/display_case_tall_white",
+				"display_case_wide21": "textures/hp/more_paintings/furnitures/display_case_wide2",
+				"display_case_wide22": "textures/hp/more_paintings/furnitures/display_case_wide2_pink",
+				"display_case_wide23": "textures/hp/more_paintings/furnitures/display_case_wide2_white",
+				"display_case_big1": "textures/hp/more_paintings/furnitures/display/display_case_big",
+				"display_case_big2": "textures/hp/more_paintings/furnitures/display/display_case_big_pink",
+				"display_case_big3": "textures/hp/more_paintings/furnitures/display/display_case_big_white",
+
+				"canvas_2x1": "textures/hp/more_paintings/animated/bg/32x16",
+				"canvas_2x2": "textures/hp/more_paintings/animated/bg/32x32",
+				"canvas_2x4": "textures/hp/more_paintings/animated/bg/16x32",
+				"canvas_4x2": "textures/hp/more_paintings/animated/bg/32x64",
+				"canvas_4x3": "textures/hp/more_paintings/animated/bg/48x64",
+				"canvas_4x4": "textures/hp/more_paintings/animated/bg/64x64",
+
+				//Images
+
+				"animated0_2x1": "textures/hp/more_paintings/animated/2x1/swimming_koi_animated",
+				"animated0_2x2": "textures/hp/more_paintings/animated/2x2/flying_guy_animated",
+				"animated0_2x4": "textures/hp/more_paintings/animated/2x4/catwalk_animated",
+				"animated1_2x4": "textures/hp/more_paintings/animated/2x4/roofguy_animated",
+				"animated0_4x2": "textures/hp/more_paintings/animated/4x2/housewood_animated",
+				"animated1_4x2": "textures/hp/more_paintings/animated/4x2/Cyberpunkcityview_animated",
+				"animated2_4x2": "textures/hp/more_paintings/animated/4x2/Moteltv_animated",
+				"animated0_4x3": "textures/hp/more_paintings/animated/4x3/Autumn_animated",
+				"animated1_4x3": "textures/hp/more_paintings/animated/4x3/Cybercar_animated",
+				"animated0_4x4": "textures/hp/more_paintings/animated/4x4/pumpkinheads_animated",
+				"animated1_4x4": "textures/hp/more_paintings/animated/4x4/Girldolphin_animated",
+
+				"lgt_animated0_2x1": "textures/hp/more_paintings/animated/2x1/mer_swimming_koi_animated",
+				"lgt_animated0_2x2": "textures/hp/more_paintings/animated/2x2/mer_flying_guy_animated",
+				"lgt_animated0_2x4": "textures/hp/more_paintings/animated/2x4/mer_catwalk_animated",
+				"lgt_animated1_2x4": "textures/hp/more_paintings/animated/2x4/mer_roofguy_animated",
+				"lgt_animated0_4x2": "textures/hp/more_paintings/animated/4x2/mer_housewood_animated",
+				"lgt_animated1_4x2": "textures/hp/more_paintings/animated/4x2/mer_Cyberpunkcityview_animated",
+				"lgt_animated2_4x2": "textures/hp/more_paintings/animated/4x2/mer_Moteltv_animated",
+				"lgt_animated0_4x3": "textures/hp/more_paintings/animated/4x3/mer_Autumn_animated",
+				"lgt_animated1_4x3": "textures/hp/more_paintings/animated/4x3/mer_Cybercar_animated",
+				"lgt_animated0_4x4": "textures/hp/more_paintings/animated/4x4/mer_pumpkinheads_animated",
+				"lgt_animated1_4x4": "textures/hp/more_paintings/animated/4x4/mer_Girldolphin_animated"
+			},
+			"geometry": {
+				"frame.black_modern": "geometry.hp4_paint.frame.black_modern",
+				"frame.burning": "geometry.hp4_paint.frame.burning",
+				"frame.decgold": "geometry.hp4_paint.frame.decgold",
+				"frame.deciron": "geometry.hp4_paint.frame.deciron",
+				"frame.diamond": "geometry.hp4_paint.frame.diamond",
+				"frame.enchanted": "geometry.hp4_paint.frame.enchanted",
+				"frame.foliage": "geometry.hp4_paint.frame.foliage",
+				"frame.glass": "geometry.hp4_paint.frame.glass",
+				"frame.glitter": "geometry.hp4_paint.frame.glitter",
+				"frame.medieval": "geometry.hp4_paint.frame.medieval",
+				"frame.pink": "geometry.hp4_paint.frame.pink",
+				"frame.white_modern": "geometry.hp4_paint.frame.white_modern",
+				"frame.wooden": "geometry.hp4_paint.frame.wooden",
+
+				"easel_stand": "geometry.hp4_paint.easel_stand",
+				"display_case": "geometry.hp4_paint.display_case",
+				"display_case_wide": "geometry.hp4_paint.display_case_wide",
+				"display_case_huge": "geometry.hp4_paint.display_case_huge",
+				"display_case_tall": "geometry.hp4_paint.display_case_tall",
+				"display_case_wide2": "geometry.hp4_paint.display_case_wide2",
+				"display_case_big": "geometry.hp4_paint.display_case_big",
+				
+				"animated_2x1": "geometry.hp4_paint.animated_painting_32x16",
+				"animated_2x2": "geometry.hp4_paint.animated_painting_32x32",
+				"animated_4x2": "geometry.hp4_paint.animated_painting_64x32",
+				"animated_2x4": "geometry.hp4_paint.animated_painting_32x64",
+				"animated_3x4": "geometry.hp4_paint.animated_painting_48x64",
+				"animated_4x4": "geometry.hp4_paint.animated_painting_64x64"
+			},
+			"render_controllers": [
+				"controller.render.hp4_paint.animated_canvas",
+				{"controller.render.hp4_paint.new_frames": "q.property('hp4_paint:frame_type') != 'none'"},
+				{"controller.render.hp4_paint.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand'"},
+				{"controller.render.hp4_paint.display_case": "q.property('hp4_paint:displayer')=='display_case'"},
+				{"controller.render.hp4_paint.display_case_wide": "q.property('hp4_paint:displayer')=='display_case_wide'"},
+				{"controller.render.hp4_paint.display_case_huge": "q.property('hp4_paint:displayer')=='display_case_huge'"},
+				{"controller.render.hp4_paint.display_case_tall": "q.property('hp4_paint:displayer')=='display_case_tall'"},
+				{"controller.render.hp4_paint.display_case_wide2": "q.property('hp4_paint:displayer')=='display_case_wide2'"},
+				{"controller.render.hp4_paint.display_case_big": "q.property('hp4_paint:displayer')=='display_case_big'"},
+				{
+					"controller.render.hp4_paint.animated_death": "q.property('hp4_paint:paint_materials')==false"
+				},
+				{
+					"controller.render.hp4_paint.animated_death_light": "q.property('hp4_paint:paint_materials')==true"
+				}
+			],
+			"spawn_egg": {
+				"texture": "hp4_paint:8bit_painting"
+			},
+			"animations": {
+				"display.easel_stand": "animation.hp4_paint.display.easel_stand",
+				"display.easel_stand2": "animation.hp4_paint.display.easel_stand2",
+				"display.easel_stand3": "animation.hp4_paint.display.easel_stand3",
+				"display.display_case": "animation.hp4_paint.display.display_case",
+				"display.display_case_wide": "animation.hp4_paint.display.display_case_wide",
+				"display.big_display_case": "animation.hp4_paint.display.big_display_case",
+				"cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+			},
+			"scripts": {
+				"scale": "q.property('hp4_paint:visible') ? 1 : 0",
+				"pre_animation": [
+					"v.frame_size = q.property('hp4_paint:paint_models') == 0 ? 0:q.property('hp4_paint:paint_models') == 1 ? 1:q.property('hp4_paint:paint_models') == 2 ? 2:q.property('hp4_paint:paint_models') == 3 ? 3:q.property('hp4_paint:paint_models') == 4 ? 4:q.property('hp4_paint:paint_models') == 5 ? 6:q.property('hp4_paint:paint_models') == 6 ? 9: 0;",
+					"v.frame_type = q.property('hp4_paint:frame_type') == 'none' ? -1 : q.property('hp4_paint:frame_type') == 'black_modern' ? 0 : q.property('hp4_paint:frame_type') == 'burning' ? 1 : q.property('hp4_paint:frame_type') == 'decgold' ? 2 : q.property('hp4_paint:frame_type') == 'deciron' ? 3 : q.property('hp4_paint:frame_type') == 'diamond' ? 4 : q.property('hp4_paint:frame_type') == 'enchanted' ? 5 : q.property('hp4_paint:frame_type') == 'foliage' ? 6 : q.property('hp4_paint:frame_type') == 'glass' ? 7 : q.property('hp4_paint:frame_type') == 'glitter' ? 8 : q.property('hp4_paint:frame_type') == 'medieval' ? 9 : q.property('hp4_paint:frame_type') == 'pink' ? 10 : q.property('hp4_paint:frame_type') == 'white_modern' ? 11 : q.property('hp4_paint:frame_type') == 'wooden' ? 12 : -1;",
+					"v.frame_16x16 = false;",
+					"v.frame_16x32 = q.property('hp4_paint:paint_models') == 0;",
+					"v.frame_32x16 = false;",
+					"v.frame_32x32 = q.property('hp4_paint:paint_models') == 1;",
+					"v.frame_32x64 = q.property('hp4_paint:paint_models') == 3;",
+					"v.frame_48x48 = false;",
+					"v.frame_48x64 = q.property('hp4_paint:paint_models') == 4;",
+					"v.frame_64x32 = q.property('hp4_paint:paint_models') == 2;",
+					"v.frame_64x48 = false;",
+					"v.frame_64x64 = q.property('hp4_paint:paint_models') == 5;",
+
+					"v.frame_count = q.property('hp4_paint:paint_colors') == 0 ? 12 : q.property('hp4_paint:paint_colors') == 1 ? 12 : q.property('hp4_paint:paint_colors') == 2 ? 16 : q.property('hp4_paint:paint_colors') == 3 ? 16 : q.property('hp4_paint:paint_colors') == 4 ? 14 : q.property('hp4_paint:paint_colors') == 5 ? 16 : q.property('hp4_paint:paint_colors') == 6 ? 12 : q.property('hp4_paint:paint_colors') == 7 ? 16 : q.property('hp4_paint:paint_colors') == 8 ? 16 : q.property('hp4_paint:paint_colors') == 9 ? 16 : q.property('hp4_paint:paint_colors') == 10 ? 24 : 1;"
+				],
+				"animate": [
+					{"display.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 0"},
+					{"display.easel_stand2": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 1"},
+					{"display.easel_stand3": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 2"},
+					{"display.display_case": "q.property('hp4_paint:displayer')=='display_case'"},
+					{"display.display_case_wide": "q.property('hp4_paint:displayer')=='display_case_wide'"},
+					{"display.big_display_case": "q.property('hp4_paint:displayer')=='display_case_huge'||q.property('hp4_paint:displayer')=='display_case_tall'||q.property('hp4_paint:displayer')=='display_case_wide2'||q.property('hp4_paint:displayer')=='display_case_big'"},
+					"cardinal_rotation"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,349 @@
+pack.name=More Paintings
+pack.description=More Paintings resource packs
+
+entity.hp4_paint:forest_painting.name=Forest Painting
+entity.hp4_paint:scifi_painting.name=Cyberpunk Painting
+entity.hp4_paint:candy1_painting.name=Candy Painting
+entity.hp4_paint:candy2_painting.name=Valentine Painting
+entity.hp4_paint:alien_painting.name=Alien Painting
+entity.hp4_paint:cyberpunk_painting.name=Cyberpunk Painting
+
+item.spawn_egg.entity.hp4_paint:cyberpunk_painting.name=Cyberpunk Painting
+item.spawn_egg.entity.hp4_paint:forest_painting.name=Forest Painting
+item.spawn_egg.entity.hp4_paint:scifi_painting.name=Cyberpunk Painting
+item.spawn_egg.entity.hp4_paint:candy1_painting.name=Candy Painting
+item.spawn_egg.entity.hp4_paint:candy2_painting.name=Valentine Painting
+item.spawn_egg.entity.hp4_paint:alien_painting.name=Alien Painting
+entity.hp4_paint:biomes_painting.name=Biomes Painting
+item.spawn_egg.entity.hp4_paint:biomes_painting.name=Biomes Painting
+entity.hp4_paint:kawaii_painting.name=Kawaii Painting
+item.spawn_egg.entity.hp4_paint:kawaii_painting.name=Kawaii Painting
+entity.hp4_paint:magic_painting.name=Magic Painting
+entity.hp4_paint:nature_painting.name=Nature Painting
+entity.hp4_paint:ninja_painting.name=Ninja Painting
+item.spawn_egg.entity.hp4_paint:magic_painting.name=Magic Painting
+item.spawn_egg.entity.hp4_paint:nature_painting.name=Nature Painting
+item.spawn_egg.entity.hp4_paint:ninja_painting.name=Ninja Painting
+entity.hp4_paint:music_painting.name=Music Painting
+item.spawn_egg.entity.hp4_paint:music_painting.name=Music Painting
+
+entity.hp4_paint:animated_painting.name=Animated Painting
+entity.hp4_paint:8bit_painting.name=8 Bit Painting
+entity.hp4_paint:ocean_painting.name=Ocean Painting
+entity.hp4_paint:pirates_painting.name=Pirates Painting
+entity.hp4_paint:snow_painting.name=Snow Painting
+entity.hp4_paint:superheroes_painting.name=Superheroes Painting
+item.spawn_egg.entity.hp4_paint:animated_painting.name=Animated Painting
+item.spawn_egg.entity.hp4_paint:8bit_painting.name=8 Bit Painting
+item.spawn_egg.entity.hp4_paint:ocean_painting.name=Ocean Painting
+item.spawn_egg.entity.hp4_paint:pirates_painting.name=Pirates Painting
+item.spawn_egg.entity.hp4_paint:snow_painting.name=Snow Painting
+item.spawn_egg.entity.hp4_paint:superheroes_painting.name=Superheroes Painting
+entity.hp4_paint:circus_painting.name=Circus Painting
+entity.hp4_paint:dino_painting.name=Dino Painting
+entity.hp4_paint:dragon_painting.name=Dragon Painting
+entity.hp4_paint:dino_dragons_painting.name=Dino & Dragons Painting
+entity.hp4_paint:egypt_painting.name=Egypt Painting
+entity.hp4_paint:fantasy_painting.name=Fantasy Painting
+entity.hp4_paint:fog_painting.name=Fog Painting
+entity.hp4_paint:halloween_painting.name=Halloween Painting
+entity.hp4_paint:horror_painting.name=Horror Painting
+entity.hp4_paint:medieval_painting.name=Medieval Painting
+entity.hp4_paint:robot_painting.name=Robot Painting
+entity.hp4_paint:steampunk_painting.name=Steampunk Painting
+entity.hp4_paint:tiny_painting.name=Tiny Painting
+entity.hp4_paint:zombies_painting.name=Zombies Painting
+item.spawn_egg.entity.hp4_paint:circus_painting.name=Circus Painting
+item.spawn_egg.entity.hp4_paint:dino_painting.name=Dino Painting
+item.spawn_egg.entity.hp4_paint:dino_dragons_painting.name=Dino & Dragons Painting
+item.spawn_egg.entity.hp4_paint:dragon_painting.name=Dragon Painting
+item.spawn_egg.entity.hp4_paint:egypt_painting.name=Egypt Painting
+item.spawn_egg.entity.hp4_paint:fantasy_painting.name=Fantasy Painting
+item.spawn_egg.entity.hp4_paint:fog_painting.name=Fog Painting
+item.spawn_egg.entity.hp4_paint:halloween_painting.name=Halloween Painting
+item.spawn_egg.entity.hp4_paint:zombies_painting.name=Zombies Painting
+item.spawn_egg.entity.hp4_paint:tiny_painting.name=Tiny Painting
+item.spawn_egg.entity.hp4_paint:steampunk_painting.name=Steampunk Painting
+item.spawn_egg.entity.hp4_paint:horror_painting.name=Horror Painting
+item.spawn_egg.entity.hp4_paint:medieval_painting.name=Medieval Painting
+item.spawn_egg.entity.hp4_paint:robot_painting.name=Robot Painting
+item.spawn_egg.entity.hp4_paint:modern_painting.name=Modern Painting
+
+
+
+
+
+
+entity.hp4_paint:flip_tab_b.name=Flip Tab B
+entity.hp4_paint:flip_tab_cat_b.name=Flip Tab Cat B
+entity.hp4_paint:flip_tab_cat_f.name=Flip Tab Cat F
+entity.hp4_paint:flip_tab_f.name=Flip Tab F
+entity.hp4_paint:tablet.name=Tablet
+item.spawn_egg.entity.hp4_paint:flip_tab_b.name=Flip Tab B
+item.spawn_egg.entity.hp4_paint:flip_tab_cat_b.name=Flip Tab Cat B
+item.spawn_egg.entity.hp4_paint:flip_tab_cat_f.name=Flip Tab Cat F
+item.spawn_egg.entity.hp4_paint:flip_tab_f.name=Flip Tab F
+item.spawn_egg.entity.hp4_paint:tablet.name=Tablet
+
+
+
+entity.hp4_paint:easel_stand.name=Easel Stand
+item.spawn_egg.entity.hp4_paint:easel_stand.name=Easel Stand
+entity.hp4_paint:display_case.name=Display Case
+item.spawn_egg.entity.hp4_paint:display_case.name=Display Case
+entity.hp4_paint:display_case_wide.name=Display Case Wide
+item.spawn_egg.entity.hp4_paint:display_case_wide.name=Display Case Wide
+entity.hp4_paint:display_case_huge.name=Display Case Huge
+item.spawn_egg.entity.hp4_paint:display_case_huge.name=Display Case Huge
+entity.hp4_paint:display_case_tall.name=Display Case Tall
+item.spawn_egg.entity.hp4_paint:display_case_tall.name=Display Case Tall
+entity.hp4_paint:display_case_wide2.name=Display Case Wide 2
+item.spawn_egg.entity.hp4_paint:display_case_wide2.name=Display Case Wide 2
+entity.hp4_paint:display_case_big.name=Display Case Big
+item.spawn_egg.entity.hp4_paint:display_case_big.name=Display Case Big
+entity.hp4_paint:art_bench.name=Art Bench
+item.spawn_egg.entity.hp4_paint:art_bench.name=Art Bench
+entity.hp4_paint:color_bucket_black.name=Color Bucket Black
+item.spawn_egg.entity.hp4_paint:color_bucket_black.name=Color Bucket Black
+entity.hp4_paint:color_bucket_blue.name=Color Bucket Blue
+item.spawn_egg.entity.hp4_paint:color_bucket_blue.name=Color Bucket Blue
+entity.hp4_paint:color_bucket_brown.name=Color Bucket Brown
+item.spawn_egg.entity.hp4_paint:color_bucket_brown.name=Color Bucket Brown
+entity.hp4_paint:color_bucket_cyan.name=Color Bucket Cyan
+item.spawn_egg.entity.hp4_paint:color_bucket_cyan.name=Color Bucket Cyan
+entity.hp4_paint:color_bucket_gray.name=Color Bucket Gray
+item.spawn_egg.entity.hp4_paint:color_bucket_gray.name=Color Bucket Gray
+entity.hp4_paint:color_bucket_green.name=Color Bucket Green
+item.spawn_egg.entity.hp4_paint:color_bucket_green.name=Color Bucket Green
+entity.hp4_paint:color_bucket_light_blue.name=Color Bucket Light Blue
+item.spawn_egg.entity.hp4_paint:color_bucket_light_blue.name=Color Bucket Light Blue
+entity.hp4_paint:color_bucket_light_gray.name=Color Bucket Light Gray
+item.spawn_egg.entity.hp4_paint:color_bucket_light_gray.name=Color Bucket Light Gray
+entity.hp4_paint:color_bucket_lime.name=Color Bucket Lime
+item.spawn_egg.entity.hp4_paint:color_bucket_lime.name=Color Bucket Lime
+entity.hp4_paint:color_bucket_magenta.name=Color Bucket Magenta
+item.spawn_egg.entity.hp4_paint:color_bucket_magenta.name=Color Bucket Magenta
+entity.hp4_paint:color_bucket_orange.name=Color Bucket Orange
+item.spawn_egg.entity.hp4_paint:color_bucket_orange.name=Color Bucket Orange
+entity.hp4_paint:color_bucket_pink.name=Color Bucket Pink
+item.spawn_egg.entity.hp4_paint:color_bucket_pink.name=Color Bucket Pink
+entity.hp4_paint:color_bucket_purple.name=Color Bucket Purple
+item.spawn_egg.entity.hp4_paint:color_bucket_purple.name=Color Bucket Purple
+entity.hp4_paint:color_bucket_red.name=Color Bucket Red
+item.spawn_egg.entity.hp4_paint:color_bucket_red.name=Color Bucket Red
+entity.hp4_paint:color_bucket_white.name=Color Bucket White
+item.spawn_egg.entity.hp4_paint:color_bucket_white.name=Color Bucket White
+entity.hp4_paint:color_bucket_yellow.name=Color Bucket Yellow
+item.spawn_egg.entity.hp4_paint:color_bucket_yellow.name=Color Bucket Yellow
+entity.hp4_paint:large_planter.name=Large Planter
+item.spawn_egg.entity.hp4_paint:large_planter.name=Large Planter
+entity.hp4_paint:round_planter.name=Round Planter
+item.spawn_egg.entity.hp4_paint:round_planter.name=Round Planter
+entity.hp4_paint:thin_planter.name=Thin Planter
+item.spawn_egg.entity.hp4_paint:thin_planter.name=Thin Planter
+entity.hp4_paint:vase.name=Vase
+item.spawn_egg.entity.hp4_paint:vase.name=Vase
+entity.hp4_paint:wide_planter.name=Wide Planter
+item.spawn_egg.entity.hp4_paint:wide_planter.name=Wide Planter
+
+item.hp4_paint:special_tool=Furniture Wand
+
+item.hp4_paint:black_modern.frame=Black Modern Frame
+item.hp4_paint:burning.frame=Burning Frame
+item.hp4_paint:decgold.frame=Gold Decorative Frame
+item.hp4_paint:deciron.frame=Iron Decorative Frame
+item.hp4_paint:diamond.frame=Diamond Frame
+item.hp4_paint:enchanted.frame=Enchanted Frame
+item.hp4_paint:foliage.frame=Foliage Frame
+item.hp4_paint:glass.frame=Glass Frame
+item.hp4_paint:glitter.frame=Glitter Frame
+item.hp4_paint:medieval.frame=Medieval Frame
+item.hp4_paint:pink.frame=Pink Frame
+item.hp4_paint:white_modern.frame=White Modern Frame
+item.hp4_paint:wooden.frame=Wooden Frame
+
+
+item.hp4_paint:vanilla_pack=Vanilla Painting
+item.hp4_paint:animated_painting=Animated Painting
+item.hp4_paint:cyberpunk_painting=Cyberpunk Painting
+item.hp4_paint:forest_painting=Forest Painting
+item.hp4_paint:scifi_painting=Cyberpunk Painting
+item.hp4_paint:candy1_painting=Candy Painting
+item.hp4_paint:candy2_painting=Valentine Painting
+item.hp4_paint:alien_painting=Alien Painting
+item.hp4_paint:biomes_painting=Biomes Painting
+item.hp4_paint:kawaii_painting=Kawaii Painting
+item.hp4_paint:magic_painting=Magic Painting
+item.hp4_paint:nature_painting=Nature Painting
+item.hp4_paint:ninja_painting=Ninja Painting
+item.hp4_paint:music_painting=Music Painting
+item.hp4_paint:8bit_painting=8 Bit Painting
+item.hp4_paint:ocean_painting=Ocean Painting
+item.hp4_paint:pirates_painting=Pirates Painting
+item.hp4_paint:snow_painting=Snow Painting
+item.hp4_paint:superheroes_painting=Superheroes Painting
+item.hp4_paint:circus_painting=Circus Painting
+item.hp4_paint:dino_painting=Dino Painting
+item.hp4_paint:dino_dragons_painting=Dino & Dragons Painting
+item.hp4_paint:dragon_painting=Dragon Painting
+item.hp4_paint:egypt_painting=Egypt Painting
+item.hp4_paint:fantasy_painting=Fantasy Painting
+item.hp4_paint:fog_painting=Fog Painting
+item.hp4_paint:halloween_painting=Halloween Painting
+item.hp4_paint:zombies_painting=Zombies Painting
+item.hp4_paint:tiny_painting=Tiny Painting
+item.hp4_paint:steampunk_painting=Steampunk Painting
+item.hp4_paint:horror_painting=Horror Painting
+item.hp4_paint:medieval_painting=Medieval Painting
+item.hp4_paint:robot_painting=Robot Painting
+item.hp4_paint:modern_painting=Modern Painting
+
+
+item.hp4_paint:settings_gear=Settings Gear
+
+item.hp4_paint:chisel=Chisel
+
+item.hp4_paint:cabinet=Cabinet
+
+item.hp4_paint:sack_of_beton=Sack of Concrete
+
+item.hp4_paint:statue_painting=Artist Statue
+
+item.hp4_paint:stool=Stool
+
+item.hp4_paint:canvas=Canvas
+
+item.hp4_paint:cabinet=Cabinet
+
+item.hp4_paint:lying_bottle_color=Lying Bottle Color
+
+item.hp4_paint:variant_paint_bottle=Variant Paint Bottle
+
+item.hp4_paint:color_splash=Color Splash
+
+item.hp4_paint:brush_on_shelf=Brush on Shelf
+
+item.hp4_paint:color_bucket=Color Bucket
+
+item.hp4_paint:art_chair=Art Chair
+
+item.hp4_paint:canvas=Canvas
+
+item.hp4_paint:canvas=Canvas
+
+item.hp4_paint:jewellery_components=Jewellery Components
+
+item.hp4_paint:powderjar=Powder Jar
+
+item.hp4_paint:sewing_kit=Sewing Kit
+
+item.hp4_paint:unfinished_wooden_block=Unfinished Wooden Block
+
+item.hp4_paint:stencil=Stencil
+
+item.hp4_paint:spray_can=Spray Can
+
+item.hp4_paint:soft_pastel_box=Soft Pastel Box
+
+item.hp4_paint:sculpture_stand=Sculpture Stand
+
+item.hp4_paint:pencil_set=Pencil Set
+
+item.hp4_paint:painting_brush=Painting Brush
+
+item.hp4_paint:paint_tubes=Paint Tubes
+
+item.hp4_paint:marker_set=Marker Set
+
+item.hp4_paint:eraser_sharpener=Eraser Sharpener
+
+item.hp4_paint:drawing_tube=Drawing Tube
+
+item.hp4_paint:drafting_tools=Drafting Tools
+
+item.hp4_paint:color_swatch=Color Swatch
+
+item.hp4_paint:brush_holder_cup=Brush Holder Cup
+
+item.hp4_paint:brush_cleaner_cup=Brush Cleaner Cup
+
+item.hp4_paint:artist_box=Artist Box
+
+item.hp4_paint:art_knives=Art Knives
+
+item.hp4_paint:brush_cleaner_jar=Brush Cleaner Jar
+
+item.hp4_paint:chalk_and_charcoal=Chalk and Charcoal
+
+item.hp4_paint:spatula=Spatula
+
+item.hp4_paint:tube_paint=Tube Paint
+
+item.hp4_paint:sketchbook=Sketch Book
+
+item.hp4_paint:brushes_set=Brushes Set
+
+item.hp4_paint:easel_stand=Easel Stand
+
+item.hp4_paint:display_case=Display Case
+
+item.hp4_paint:display_case_wide=Display Case Wide
+
+item.hp4_paint:display_case_huge=Display Case Huge
+
+item.hp4_paint:display_case_tall=Display Case Tall
+
+item.hp4_paint:display_case_wide2=Display Case Wide 2
+
+item.hp4_paint:display_case_big=Display Case Big
+
+item.hp4_paint:art_bench=Art Bench
+
+item.hp4_paint:color_bucket.black=Color Bucket Black
+
+item.hp4_paint:color_bucket.blue=Color Bucket Blue
+
+item.hp4_paint:color_bucket.brown=Color Bucket Brown
+
+item.hp4_paint:color_bucket.cyan=Color Bucket Cyan
+
+item.hp4_paint:color_bucket.gray=Color Bucket Gray
+
+item.hp4_paint:color_bucket.green=Color Bucket Green
+
+item.hp4_paint:color_bucket.light_blue=Color Bucket Light Blue
+
+item.hp4_paint:color_bucket.light_gray=Color Bucket Light Gray
+
+item.hp4_paint:color_bucket.lime=Color Bucket Lime
+
+item.hp4_paint:color_bucket.magenta=Color Bucket Magenta
+
+item.hp4_paint:color_bucket.orange=Color Bucket Orange
+
+item.hp4_paint:color_bucket.pink=Color Bucket Pink
+
+item.hp4_paint:color_bucket.purple=Color Bucket Purple
+
+item.hp4_paint:color_bucket.red=Color Bucket Red
+
+item.hp4_paint:color_bucket.white=Color Bucket White
+
+item.hp4_paint:color_bucket.yellow=Color Bucket Yellow
+
+item.hp4_paint:large_planter=Large Planter
+
+item.hp4_paint:round_planter=Round Planter
+
+item.hp4_paint:thin_planter=Thin Planter
+
+item.hp4_paint:vase=Vase
+
+item.hp4_paint:wide_planter=Wide Planter
+
+
+hp4_paint:paintings=More Paintings - Paintings
+hp4_paint:color_bucket=More Paintings - Color Buckets
+hp4_paint:painting_frames=More Paintings - Frames
+hp4_paint:painting_furnitures=More Paintings - Furnitures
+item.hp4_paint:brush=brush

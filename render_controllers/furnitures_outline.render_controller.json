@@ -1,0 +1,516 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hp4_paint.outline_art_bench": {
+            "arrays": {
+                "geometries": {
+                    "array.models": [
+                        "geometry.outline",
+                        "geometry.outline2",
+                        "geometry.outline3"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "array.models[q.property('hp4_paint:furniture_model')]",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_spatula": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_brush_cleaner_jar": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_brushes_set": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_tube_paint": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_drafting_tools": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_drawing_tube": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_paint_tubes": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_spray_can": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_stencil": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_art_chair_frame": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_art_chair_pillow": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_brush_on_shelf": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "part_visibility": [
+                {"shelf": "q.property('hp4_paint:furniture_model') == 0"},
+                {"shelf_3": "q.property('hp4_paint:furniture_model') == 1"}
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_canvas": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "part_visibility": [
+                {
+                    "1x1": "q.property('hp4_paint:furniture_model') == 0"
+                },
+                {
+                    "1x2": "q.property('hp4_paint:furniture_model') == 1"
+                },
+                {
+                    "2x1": "q.property('hp4_paint:furniture_model') == 2"
+                }
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_color_splash": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "part_visibility": [
+                {
+                    "splatter1": "q.property('hp4_paint:furniture_model') == 0"
+                },
+                {
+                    "splatter2": "q.property('hp4_paint:furniture_model') == 1"
+                },
+                {
+                    "splatter3": "q.property('hp4_paint:furniture_model') == 2"
+                },
+                {
+                    "splatter4": "q.property('hp4_paint:furniture_model') == 3"
+                },
+                {
+                    "splatter5": "q.property('hp4_paint:furniture_model') == 4"
+                }
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_vpb": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+            "part_visibility": [
+                {"onshelf": "q.property('hp4_paint:furniture_model') == 0"},
+                {"hanging": "q.property('hp4_paint:furniture_model') == 1"}
+            ],
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_3color": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_sack_of_beton": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "part_visibility": [
+                {"sack1": "q.property('hp4_paint:furniture_model') == 0"},
+                {"sack2": "q.property('hp4_paint:furniture_model') == 1"}
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_stool_frame": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_stool_pillow": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        },
+        "controller.render.hp4_paint.outline_statue_corak": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            
+            "is_hurt_color": {},
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
+        }
+    }
+}

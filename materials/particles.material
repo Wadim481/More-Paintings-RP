@@ -1,0 +1,15 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "hp4_paint.particle:particles_base": {
+        "+states": [ "EnableStencilTest", "DisableDepthWrite", "Blending" ],
+        "+defines": [ "USE_OVERLAY" ],
+        "-defines": [ "FANCY" ],
+        "depthFunc": "Always",
+        "frontFace": { "stencilFunc": "NotEqual" },
+        "backFace": { "stencilFunc": "Equal" },
+        "stencilRef": 2,
+        "stencilReadMark": 2
+    }
+  }
+}

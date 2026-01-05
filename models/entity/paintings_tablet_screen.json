@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tablet_screen_paintings",
+				"texture_width": 1280,
+				"texture_height": 873,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Structure",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{
+							"origin": [-11, 4, -0.25],
+							"size": [22, 15, 0],
+							"inflate": 0.01,
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1280, 873]},
+								"east": {"uv": [80, 54.5625], "uv_size": [0, 204.60938]},
+								"south": {"uv": [0, 0], "uv_size": [0, 0]},
+								"west": {"uv": [520, 54.5625], "uv_size": [0, 204.60938]},
+								"up": {"uv": [80, 54.5625], "uv_size": [440, 0]},
+								"down": {"uv": [520, 54.5625], "uv_size": [440, 0]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

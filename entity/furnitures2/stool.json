@@ -1,0 +1,60 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:stool",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "model1.brown": "textures/hp/more_paintings/furnitures/stool/stool_chair_wood",
+                "model1.pink": "textures/hp/more_paintings/furnitures/stool/stool_chair_pink",
+                "model1.white": "textures/hp/more_paintings/furnitures/stool/stool_chair_white",
+                "pillow1": "textures/hp/more_paintings/furnitures/stool/1",
+                "pillow2": "textures/hp/more_paintings/furnitures/stool/2",
+                "pillow3": "textures/hp/more_paintings/furnitures/stool/3",
+                "pillow4": "textures/hp/more_paintings/furnitures/stool/4",
+                "pillow5": "textures/hp/more_paintings/furnitures/stool/5",
+                "pillow6": "textures/hp/more_paintings/furnitures/stool/6",
+                "pillow7": "textures/hp/more_paintings/furnitures/stool/7",
+                "pillow8": "textures/hp/more_paintings/furnitures/stool/8",
+                "pillow9": "textures/hp/more_paintings/furnitures/stool/9",
+                "pillow10": "textures/hp/more_paintings/furnitures/stool/10",
+                "pillow11": "textures/hp/more_paintings/furnitures/stool/11",
+                "pillow12": "textures/hp/more_paintings/furnitures/stool/12",
+                "pillow13": "textures/hp/more_paintings/furnitures/stool/13",
+                "pillow14": "textures/hp/more_paintings/furnitures/stool/14",
+                "pillow15": "textures/hp/more_paintings/furnitures/stool/15",
+                "pillow16": "textures/hp/more_paintings/furnitures/stool/16",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.stool",
+                "outline": "geometry.hp4_paint.stool.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.outline": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.stool_frame",
+                "controller.render.hp4_paint.stool_pillow"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:stool"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ],
+                "pre_animation": [
+                    "v.model = q.property('hp4_paint:furniture_model');"
+                ]
+            }
+        }
+    }
+}

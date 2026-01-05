@@ -1,0 +1,405 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hp4_paint.frames": {
+            "arrays": {
+                "geometries": {
+                    "array.geometry_black_modern": [
+                        "geometry.frame.black_modern.1x1",
+                        "geometry.frame.black_modern.1x2",
+                        "geometry.frame.black_modern.2x1",
+                        "geometry.frame.black_modern.2x2",
+                        "geometry.frame.black_modern.2x4",
+                        "geometry.frame.black_modern.3x3",
+                        "geometry.frame.black_modern.3x4",
+                        "geometry.frame.black_modern.4x2",
+                        "geometry.frame.black_modern.4x3",
+                        "geometry.frame.black_modern.4x4"
+                    ],
+                    "array.geometry_burning": [
+                        "geometry.frame.burning.1x1",
+                        "geometry.frame.burning.1x2",
+                        "geometry.frame.burning.2x1",
+                        "geometry.frame.burning.2x2",
+                        "geometry.frame.burning.2x4",
+                        "geometry.frame.burning.3x3",
+                        "geometry.frame.burning.3x4",
+                        "geometry.frame.burning.4x2",
+                        "geometry.frame.burning.4x3",
+                        "geometry.frame.burning.4x4"
+                    ],
+                    "array.geometry_decgold": [
+                        "geometry.frame.decgold.1x1",
+                        "geometry.frame.decgold.1x2",
+                        "geometry.frame.decgold.2x1",
+                        "geometry.frame.decgold.2x2",
+                        "geometry.frame.decgold.2x4",
+                        "geometry.frame.decgold.3x3",
+                        "geometry.frame.decgold.3x4",
+                        "geometry.frame.decgold.4x2",
+                        "geometry.frame.decgold.4x3",
+                        "geometry.frame.decgold.4x4"
+                    ],
+                    "array.geometry_deciron": [
+                        "geometry.frame.deciron.1x1",
+                        "geometry.frame.deciron.1x2",
+                        "geometry.frame.deciron.2x1",
+                        "geometry.frame.deciron.2x2",
+                        "geometry.frame.deciron.2x4",
+                        "geometry.frame.deciron.3x3",
+                        "geometry.frame.deciron.3x4",
+                        "geometry.frame.deciron.4x2",
+                        "geometry.frame.deciron.4x3",
+                        "geometry.frame.deciron.4x4"
+                    ],
+                    "array.geometry_diamond": [
+                        "geometry.frame.diamond.1x1",
+                        "geometry.frame.diamond.1x2",
+                        "geometry.frame.diamond.2x1",
+                        "geometry.frame.diamond.2x2",
+                        "geometry.frame.diamond.2x4",
+                        "geometry.frame.diamond.3x3",
+                        "geometry.frame.diamond.3x4",
+                        "geometry.frame.diamond.4x2",
+                        "geometry.frame.diamond.4x3",
+                        "geometry.frame.diamond.4x4"
+                    ],
+                    "array.geometry_enchanted": [
+                        "geometry.frame.enchanted.1x1",
+                        "geometry.frame.enchanted.1x2",
+                        "geometry.frame.enchanted.2x1",
+                        "geometry.frame.enchanted.2x2",
+                        "geometry.frame.enchanted.2x4",
+                        "geometry.frame.enchanted.3x3",
+                        "geometry.frame.enchanted.3x4",
+                        "geometry.frame.enchanted.4x2",
+                        "geometry.frame.enchanted.4x3",
+                        "geometry.frame.enchanted.4x4"
+                    ],
+                    "array.geometry_foliage": [
+                        "geometry.frame.foliage.1x1",
+                        "geometry.frame.foliage.1x2",
+                        "geometry.frame.foliage.2x1",
+                        "geometry.frame.foliage.2x2",
+                        "geometry.frame.foliage.2x4",
+                        "geometry.frame.foliage.3x3",
+                        "geometry.frame.foliage.3x4",
+                        "geometry.frame.foliage.4x2",
+                        "geometry.frame.foliage.4x3",
+                        "geometry.frame.foliage.4x4"
+                    ],
+                    "array.geometry_glass": [
+                        "geometry.frame.glass.1x1",
+                        "geometry.frame.glass.1x2",
+                        "geometry.frame.glass.2x1",
+                        "geometry.frame.glass.2x2",
+                        "geometry.frame.glass.2x4",
+                        "geometry.frame.glass.3x3",
+                        "geometry.frame.glass.3x4",
+                        "geometry.frame.glass.4x2",
+                        "geometry.frame.glass.4x3",
+                        "geometry.frame.glass.4x4"
+                    ],
+                    "array.geometry_glitter": [
+                        "geometry.frame.glitter.1x1",
+                        "geometry.frame.glitter.1x2",
+                        "geometry.frame.glitter.2x1",
+                        "geometry.frame.glitter.2x2",
+                        "geometry.frame.glitter.2x4",
+                        "geometry.frame.glitter.3x3",
+                        "geometry.frame.glitter.3x4",
+                        "geometry.frame.glitter.4x2",
+                        "geometry.frame.glitter.4x3",
+                        "geometry.frame.glitter.4x4"
+                    ],
+                    "array.geometry_medieval": [
+                        "geometry.frame.medieval.1x1",
+                        "geometry.frame.medieval.1x2",
+                        "geometry.frame.medieval.2x1",
+                        "geometry.frame.medieval.2x2",
+                        "geometry.frame.medieval.2x4",
+                        "geometry.frame.medieval.3x3",
+                        "geometry.frame.medieval.3x4",
+                        "geometry.frame.medieval.4x2",
+                        "geometry.frame.medieval.4x3",
+                        "geometry.frame.medieval.4x4"
+                    ],
+                    "array.geometry_pink": [
+                        "geometry.frame.pink.1x1",
+                        "geometry.frame.pink.1x2",
+                        "geometry.frame.pink.2x1",
+                        "geometry.frame.pink.2x2",
+                        "geometry.frame.pink.2x4",
+                        "geometry.frame.pink.3x3",
+                        "geometry.frame.pink.3x4",
+                        "geometry.frame.pink.4x2",
+                        "geometry.frame.pink.4x3",
+                        "geometry.frame.pink.4x4"
+                    ],
+                    "array.geometry_white_modern": [
+                        "geometry.frame.white_modern.1x1",
+                        "geometry.frame.white_modern.1x2",
+                        "geometry.frame.white_modern.2x1",
+                        "geometry.frame.white_modern.2x2",
+                        "geometry.frame.white_modern.2x4",
+                        "geometry.frame.white_modern.3x3",
+                        "geometry.frame.white_modern.3x4",
+                        "geometry.frame.white_modern.4x2",
+                        "geometry.frame.white_modern.4x3",
+                        "geometry.frame.white_modern.4x4"
+                    ],
+                    "array.geometry_wooden": [
+                        "geometry.frame.wooden.1x1",
+                        "geometry.frame.wooden.1x2",
+                        "geometry.frame.wooden.2x1",
+                        "geometry.frame.wooden.2x2",
+                        "geometry.frame.wooden.2x4",
+                        "geometry.frame.wooden.3x3",
+                        "geometry.frame.wooden.3x4",
+                        "geometry.frame.wooden.4x2",
+                        "geometry.frame.wooden.4x3",
+                        "geometry.frame.wooden.4x4"
+                    ]
+                },
+                "textures": {
+                    "array.texture_black_modern": [
+                        "texture.frame.black_modern.1x1",
+                        "texture.frame.black_modern.1x2",
+                        "texture.frame.black_modern.2x1",
+                        "texture.frame.black_modern.2x2",
+                        "texture.frame.black_modern.2x4",
+                        "texture.frame.black_modern.3x3",
+                        "texture.frame.black_modern.3x4",
+                        "texture.frame.black_modern.4x2",
+                        "texture.frame.black_modern.4x3",
+                        "texture.frame.black_modern.4x4"
+                    ],
+                    "array.texture_burning": [
+                        "texture.frame.burning.1x1",
+                        "texture.frame.burning.1x2",
+                        "texture.frame.burning.2x1",
+                        "texture.frame.burning.2x2",
+                        "texture.frame.burning.2x4",
+                        "texture.frame.burning.3x3",
+                        "texture.frame.burning.3x4",
+                        "texture.frame.burning.4x2",
+                        "texture.frame.burning.4x3",
+                        "texture.frame.burning.4x4"
+                    ],
+                    "array.texture_decgold": [
+                        "texture.frame.decgold.1x1",
+                        "texture.frame.decgold.1x2",
+                        "texture.frame.decgold.2x1",
+                        "texture.frame.decgold.2x2",
+                        "texture.frame.decgold.2x4",
+                        "texture.frame.decgold.3x3",
+                        "texture.frame.decgold.3x4",
+                        "texture.frame.decgold.4x2",
+                        "texture.frame.decgold.4x3",
+                        "texture.frame.decgold.4x4"
+                    ],
+                    "array.texture_deciron": [
+                        "texture.frame.deciron.1x1",
+                        "texture.frame.deciron.1x2",
+                        "texture.frame.deciron.2x1",
+                        "texture.frame.deciron.2x2",
+                        "texture.frame.deciron.2x4",
+                        "texture.frame.deciron.3x3",
+                        "texture.frame.deciron.3x4",
+                        "texture.frame.deciron.4x2",
+                        "texture.frame.deciron.4x3",
+                        "texture.frame.deciron.4x4"
+                    ],
+                    "array.texture_diamond": [
+                        "texture.frame.diamond.1x1",
+                        "texture.frame.diamond.1x2",
+                        "texture.frame.diamond.2x1",
+                        "texture.frame.diamond.2x2",
+                        "texture.frame.diamond.2x4",
+                        "texture.frame.diamond.3x3",
+                        "texture.frame.diamond.3x4",
+                        "texture.frame.diamond.4x2",
+                        "texture.frame.diamond.4x3",
+                        "texture.frame.diamond.4x4"
+                    ],
+                    "array.texture_enchanted": [
+                        "texture.frame.enchanted.1x1",
+                        "texture.frame.enchanted.1x2",
+                        "texture.frame.enchanted.2x1",
+                        "texture.frame.enchanted.2x2",
+                        "texture.frame.enchanted.2x4",
+                        "texture.frame.enchanted.3x3",
+                        "texture.frame.enchanted.3x4",
+                        "texture.frame.enchanted.4x2",
+                        "texture.frame.enchanted.4x3",
+                        "texture.frame.enchanted.4x4"
+                    ],
+                    "array.texture_foliage": [
+                        "texture.frame.foliage.1x1",
+                        "texture.frame.foliage.1x2",
+                        "texture.frame.foliage.2x1",
+                        "texture.frame.foliage.2x2",
+                        "texture.frame.foliage.2x4",
+                        "texture.frame.foliage.3x3",
+                        "texture.frame.foliage.3x4",
+                        "texture.frame.foliage.4x2",
+                        "texture.frame.foliage.4x3",
+                        "texture.frame.foliage.4x4"
+                    ],
+                    "array.texture_glass": [
+                        "texture.frame.glass.1x1",
+                        "texture.frame.glass.1x2",
+                        "texture.frame.glass.2x1",
+                        "texture.frame.glass.2x2",
+                        "texture.frame.glass.2x4",
+                        "texture.frame.glass.3x3",
+                        "texture.frame.glass.3x4",
+                        "texture.frame.glass.4x2",
+                        "texture.frame.glass.4x3",
+                        "texture.frame.glass.4x4"
+                    ],
+                    "array.texture_glitter": [
+                        "texture.frame.glitter.1x1",
+                        "texture.frame.glitter.1x2",
+                        "texture.frame.glitter.2x1",
+                        "texture.frame.glitter.2x2",
+                        "texture.frame.glitter.2x4",
+                        "texture.frame.glitter.3x3",
+                        "texture.frame.glitter.3x4",
+                        "texture.frame.glitter.4x2",
+                        "texture.frame.glitter.4x3",
+                        "texture.frame.glitter.4x4"
+                    ],
+                    "array.texture_medieval": [
+                        "texture.frame.medieval.1x1",
+                        "texture.frame.medieval.1x2",
+                        "texture.frame.medieval.2x1",
+                        "texture.frame.medieval.2x2",
+                        "texture.frame.medieval.2x4",
+                        "texture.frame.medieval.3x3",
+                        "texture.frame.medieval.3x4",
+                        "texture.frame.medieval.4x2",
+                        "texture.frame.medieval.4x3",
+                        "texture.frame.medieval.4x4"
+                    ],
+                    "array.texture_pink": [
+                        "texture.frame.pink.1x1",
+                        "texture.frame.pink.1x2",
+                        "texture.frame.pink.2x1",
+                        "texture.frame.pink.2x2",
+                        "texture.frame.pink.2x4",
+                        "texture.frame.pink.3x3",
+                        "texture.frame.pink.3x4",
+                        "texture.frame.pink.4x2",
+                        "texture.frame.pink.4x3",
+                        "texture.frame.pink.4x4"
+                    ],
+                    "array.texture_white_modern": [
+                        "texture.frame.white_modern.1x1",
+                        "texture.frame.white_modern.1x2",
+                        "texture.frame.white_modern.2x1",
+                        "texture.frame.white_modern.2x2",
+                        "texture.frame.white_modern.2x4",
+                        "texture.frame.white_modern.3x3",
+                        "texture.frame.white_modern.3x4",
+                        "texture.frame.white_modern.4x2",
+                        "texture.frame.white_modern.4x3",
+                        "texture.frame.white_modern.4x4"
+                    ],
+                    "array.texture_wooden": [
+                        "texture.frame.wooden.1x1",
+                        "texture.frame.wooden.1x2",
+                        "texture.frame.wooden.2x1",
+                        "texture.frame.wooden.2x2",
+                        "texture.frame.wooden.2x4",
+                        "texture.frame.wooden.3x3",
+                        "texture.frame.wooden.3x4",
+                        "texture.frame.wooden.4x2",
+                        "texture.frame.wooden.4x3",
+                        "texture.frame.wooden.4x4"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "(q.property('hp4_paint:frame_type') == 'burning' || q.property('hp4_paint:frame_type') == 'glitter') ? material.animated : (q.property('hp4_paint:frame_type') == 'glass') ? material.glass : material.default"
+                }
+            ],
+            "geometry": "q.property('hp4_paint:frame_type') == 'black_modern' ? array.geometry_black_modern[v.frame_size] : q.property('hp4_paint:frame_type') == 'burning' ? array.geometry_burning[v.frame_size] : q.property('hp4_paint:frame_type') == 'decgold' ? array.geometry_decgold[v.frame_size] : q.property('hp4_paint:frame_type') == 'deciron' ? array.geometry_deciron[v.frame_size] : q.property('hp4_paint:frame_type') == 'diamond' ? array.geometry_diamond[v.frame_size] : q.property('hp4_paint:frame_type') == 'enchanted' ? array.geometry_enchanted[v.frame_size] : q.property('hp4_paint:frame_type') == 'foliage' ? array.geometry_foliage[v.frame_size] : q.property('hp4_paint:frame_type') == 'glass' ? array.geometry_glass[v.frame_size] : q.property('hp4_paint:frame_type') == 'glitter' ? array.geometry_glitter[v.frame_size] : q.property('hp4_paint:frame_type') == 'medieval' ? array.geometry_medieval[v.frame_size] : q.property('hp4_paint:frame_type') == 'pink' ? array.geometry_pink[v.frame_size] : q.property('hp4_paint:frame_type') == 'white_modern' ? array.geometry_white_modern[v.frame_size] : q.property('hp4_paint:frame_type') == 'wooden' ? array.geometry_wooden[v.frame_size] : geometry.default1",
+            "textures": [
+                "q.property('hp4_paint:frame_type') == 'black_modern' ? array.texture_black_modern[v.frame_size] : q.property('hp4_paint:frame_type') == 'burning' ? array.texture_burning[v.frame_size] : q.property('hp4_paint:frame_type') == 'decgold' ? array.texture_decgold[v.frame_size] : q.property('hp4_paint:frame_type') == 'deciron' ? array.texture_deciron[v.frame_size] : q.property('hp4_paint:frame_type') == 'diamond' ? array.texture_diamond[v.frame_size] : q.property('hp4_paint:frame_type') == 'enchanted' ? array.texture_enchanted[v.frame_size] : q.property('hp4_paint:frame_type') == 'foliage' ? array.texture_foliage[v.frame_size] : q.property('hp4_paint:frame_type') == 'glass' ? array.texture_glass[v.frame_size] : q.property('hp4_paint:frame_type') == 'glitter' ? array.texture_glitter[v.frame_size] : q.property('hp4_paint:frame_type') == 'medieval' ? array.texture_medieval[v.frame_size] : q.property('hp4_paint:frame_type') == 'pink' ? array.texture_pink[v.frame_size] : q.property('hp4_paint:frame_type') == 'white_modern' ? array.texture_white_modern[v.frame_size] : q.property('hp4_paint:frame_type') == 'wooden' ? array.texture_wooden[v.frame_size] : geometry.default1"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "uv_anim": {
+                "offset": [0, "(q.property('hp4_paint:frame_type') == 'burning' || q.property('hp4_paint:frame_type') == 'glitter') ? math.mod(math.floor(q.life_time * 4), 4) / 4 : 0"],
+                "scale": [1, "(q.property('hp4_paint:frame_type') == 'burning' || q.property('hp4_paint:frame_type') == 'glitter') ? 1 / 4 : 1"]
+            }
+        },
+        "controller.render.hp4_paint.new_frames": {
+            "arrays": {
+                "geometries": {
+                    "array.frame_models": [
+                        "geometry.frame.black_modern",
+                        "geometry.frame.burning",
+                        "geometry.frame.decgold",
+                        "geometry.frame.deciron",
+                        "geometry.frame.diamond",
+                        "geometry.frame.enchanted",
+                        "geometry.frame.foliage",
+                        "geometry.frame.glass",
+                        "geometry.frame.glitter",
+                        "geometry.frame.medieval",
+                        "geometry.frame.pink",
+                        "geometry.frame.white_modern",
+                        "geometry.frame.wooden"
+                    ]
+                },
+                "textures": {
+                    "array.frame_textures": [
+                        "texture.frame.black_modern",
+                        "texture.frame.burning",
+                        "texture.frame.decgold",
+                        "texture.frame.deciron",
+                        "texture.frame.diamond",
+                        "texture.frame.enchanted",
+                        "texture.frame.foliage",
+                        "texture.frame.glass",
+                        "texture.frame.glitter",
+                        "texture.frame.medieval",
+                        "texture.frame.pink",
+                        "texture.frame.white_modern",
+                        "texture.frame.wooden"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "(q.property('hp4_paint:frame_type') == 'burning' || q.property('hp4_paint:frame_type') == 'glitter') ? material.animated : (q.property('hp4_paint:frame_type') == 'glass') ? material.glass : material.default"
+                }
+            ],
+            "geometry": "array.frame_models[v.frame_type]",
+            "textures": [
+                "array.frame_textures[v.frame_type]"
+            ],
+            "part_visibility": [
+                {"16x16": "v.frame_16x16"},
+                {"16x32": "v.frame_16x32"},
+                {"32x16": "v.frame_32x16"},
+                {"32x32": "v.frame_32x32"},
+                {"32x64": "v.frame_32x64"},
+                {"48x48": "v.frame_48x48"},
+                {"48x64": "v.frame_48x64"},
+                {"64x32": "v.frame_64x32"},
+                {"64x48": "v.frame_64x48"},
+                {"64x64": "v.frame_64x64"}
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "uv_anim": {
+                "offset": [0, "(q.property('hp4_paint:frame_type') == 'burning' || q.property('hp4_paint:frame_type') == 'glitter') ? math.mod(math.floor(q.life_time * 4), 4) / 4 : 0"],
+                "scale": [1, "(q.property('hp4_paint:frame_type') == 'burning' || q.property('hp4_paint:frame_type') == 'glitter') ? 1 / 4 : 1"]
+            }
+        }
+    }
+}

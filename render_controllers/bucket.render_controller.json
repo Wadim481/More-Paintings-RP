@@ -1,0 +1,63 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hp4_paint.bucket": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.iron_bucket",
+                        "texture.gold_bucket",
+                        "texture.brown_bucket",
+                        "texture.pink_bucket"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.color_bucket": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4",
+                        "texture.default5",
+                        "texture.default6",
+                        "texture.default7",
+                        "texture.default8",
+                        "texture.default9",
+                        "texture.default10",
+                        "texture.default11",
+                        "texture.default12",
+                        "texture.default13",
+                        "texture.default14",
+                        "texture.default15",
+                        "texture.default16"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        }
+    }
+}
