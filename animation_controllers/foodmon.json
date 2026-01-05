@@ -1,0 +1,720 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.md_rd.foodmon": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					],
+					"animations": [
+						"idle",
+						{"walk": "q.modified_move_speed"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"teasing1": {
+					"animations": [
+						"tease_emote_1",
+						{"sfx.tease_emote_1": "q.property('md_rd:is_sfx')"}
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"teasing2": {
+					"animations": [
+						"tease_emote_2",
+						{"sfx.tease_emote_2": "q.property('md_rd:is_sfx')"}
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"teasing3": {
+					"animations": [
+						"tease_emote_3",
+						{"sfx.tease_emote_3": "q.property('md_rd:is_sfx')"}
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"death": {
+					"animations": [
+						"death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"cry"
+					],
+					"sound_effects": [
+						{"effect": "crying"}
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.baklava_bats": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing1": {
+					"animations": [
+						"1.tease_emote_1"
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing2": {
+					"animations": [
+						"1.tease_emote_2"
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing3": {
+					"animations": [
+						"1.tease_emote_3"
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"1.death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"1.cry"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.date_darts": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing1": {
+					"animations": [
+						"2.tease_emote_1"
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing2": {
+					"animations": [
+						"2.tease_emote_2"
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing3": {
+					"animations": [
+						"2.tease_emote_3"
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"2.death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"2.cry"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.gullac_spirit": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing1": {
+					"animations": [
+						"3.tease_emote_1"
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing2": {
+					"animations": [
+						"3.tease_emote_2"
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing3": {
+					"animations": [
+						"3.tease_emote_3"
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"3.death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"3.cry"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.kabsa_drummers": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing1": {
+					"animations": [
+						"4.tease_emote_1"
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing2": {
+					"animations": [
+						"4.tease_emote_2"
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing3": {
+					"animations": [
+						"4.tease_emote_3"
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"4.death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"4.cry"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.kunafa_ooze": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing1": {
+					"animations": [
+						"5.tease_emote_1"
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing2": {
+					"animations": [
+						"5.tease_emote_2"
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing3": {
+					"animations": [
+						"5.tease_emote_3"
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"5.death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"5.cry"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.laban_sloshers": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing1": {
+					"animations": [
+						"6.tease_emote_1"
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing2": {
+					"animations": [
+						"6.tease_emote_2"
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing3": {
+					"animations": [
+						"6.tease_emote_3"
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"6.death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"6.cry"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.sambusa_sprinters_2": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing1": {
+					"animations": [
+						"7.tease_emote_1"
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing2": {
+					"animations": [
+						"7.tease_emote_2"
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing3": {
+					"animations": [
+						"7.tease_emote_3"
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"7.death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"7.cry"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.tea_kettle_golem": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "q.property('md_rd:health') <= 0"
+						},
+						{
+							"teasing1": "query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing1": {
+					"animations": [
+						"8.tease_emote_1"
+					],
+					"transitions": [
+						{
+							"teasing2": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing2": {
+					"animations": [
+						"8.tease_emote_2"
+					],
+					"transitions": [
+						{
+							"teasing3": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"teasing3": {
+					"animations": [
+						"8.tease_emote_3"
+					],
+					"transitions": [
+						{
+							"death": "q.all_animations_finished"
+						},
+						{
+							"cry": "!query.property('md_rd:teasing')"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"8.death"
+					]
+				},
+				"cry": {
+					"animations": [
+						"8.cry"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished && q.property('md_rd:health') > 0"
+						},
+						{
+							"death": "q.all_animations_finished && q.property('md_rd:health') <= 0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.md_rd.foodmon.move": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"move1": "q.property('md_rd:variant') == 0"
+						},
+						{
+							"move2": "q.property('md_rd:variant') == 1"
+						},
+						{
+							"move3": "q.property('md_rd:variant') == 2"
+						},
+						{
+							"move4": "q.property('md_rd:variant') == 3"
+						},
+						{
+							"move5": "q.property('md_rd:variant') == 4"
+						},
+						{
+							"move6": "q.property('md_rd:variant') == 5"
+						},
+						{
+							"move7": "q.property('md_rd:variant') == 6"
+						},
+						{
+							"move8": "q.property('md_rd:variant') == 7"
+						}
+					]
+				},
+				"move1": {
+					"animations": [
+						"1.idle",
+						{"1.walk": "q.modified_move_speed"}
+					]
+				},
+				"move2": {
+					"animations": [
+						"2.idle",
+						{"2.walk": "q.modified_move_speed"}
+					]
+				},
+				"move3": {
+					"animations": [
+						"3.idle",
+						{"3.walk": "q.modified_move_speed"}
+					]
+				},
+				"move4": {
+					"animations": [
+						"4.idle",
+						{"4.walk": "q.modified_move_speed"}
+					]
+				},
+				"move5": {
+					"animations": [
+						"5.idle",
+						{"5.walk": "q.modified_move_speed"}
+					]
+				},
+				"move6": {
+					"animations": [
+						"6.idle",
+						{"6.walk": "q.modified_move_speed"}
+					]
+				},
+				"move7": {
+					"animations": [
+						"7.idle",
+						{"7.walk": "q.modified_move_speed"}
+					]
+				},
+				"move8": {
+					"animations": [
+						"8.idle",
+						{"8.walk": "q.modified_move_speed"}
+					]
+				}
+			}
+		}
+	}
+}

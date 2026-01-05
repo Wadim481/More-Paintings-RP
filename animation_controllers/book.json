@@ -1,0 +1,132 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.md_rd.book": {
+			"states": {
+				"default": {
+					"animations": [
+						"open"
+					],
+					"transitions": [
+						{
+							"turn": "v.page != q.property('md_rd:page')"
+						},
+						{
+							"close": "q.property('md_rd:closing')"
+						}
+					],
+					"on_exit": [
+						"v.is_next = q.property('md_rd:page') > v.page;"
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"turn": {
+					"on_entry": [
+						"v.page = q.property('md_rd:page');"
+					],
+					"on_exit": [
+						"v.is_next = q.property('md_rd:page') > v.page;"
+					],
+					"animations": [
+						{"turn1": "v.is_next && q.property('md_rd:page') == 1"},
+						{"back.turn1": "!v.is_next && q.property('md_rd:page') == 0"},
+						{"turn2": "v.is_next && q.property('md_rd:page') == 2"},
+						{"back.turn2": "!v.is_next && q.property('md_rd:page') == 1"},
+						{"turn3": "v.is_next && q.property('md_rd:page') == 3"},
+						{"back.turn3": "!v.is_next && q.property('md_rd:page') == 2"},
+						{"turn4": "v.is_next && q.property('md_rd:page') == 4"},
+						{"back.turn4": "!v.is_next && q.property('md_rd:page') == 3"},
+						{"turn5": "v.is_next && q.property('md_rd:page') == 5"},
+						{"back.turn5": "!v.is_next && q.property('md_rd:page') == 4"},
+						{"turn6": "v.is_next && q.property('md_rd:page') == 6"},
+						{"back.turn6": "!v.is_next && q.property('md_rd:page') == 5"},
+						{"turn7": "v.is_next && q.property('md_rd:page') == 7"},
+						{"back.turn7": "!v.is_next && q.property('md_rd:page') == 6"},
+						{"turn8": "v.is_next && q.property('md_rd:page') == 8"},
+						{"back.turn8": "!v.is_next && q.property('md_rd:page') == 7"},
+						{"turn9": "v.is_next && q.property('md_rd:page') == 9"},
+						{"back.turn9": "!v.is_next && q.property('md_rd:page') == 8"},
+						{"turn10": "v.is_next && q.property('md_rd:page') == 10"},
+						{"back.turn10": "!v.is_next && q.property('md_rd:page') == 9"},
+						{"turn11": "v.is_next && q.property('md_rd:page') == 11"},
+						{"back.turn11": "!v.is_next && q.property('md_rd:page') == 10"},
+						{"turn12": "v.is_next && q.property('md_rd:page') == 12"},
+						{"back.turn12": "!v.is_next && q.property('md_rd:page') == 11"},
+						{"turn13": "v.is_next && q.property('md_rd:page') == 13"},
+						{"back.turn13": "!v.is_next && q.property('md_rd:page') == 12"},
+						{"turn14": "v.is_next && q.property('md_rd:page') == 14"},
+						{"back.turn14": "!v.is_next && q.property('md_rd:page') == 13"},
+						{"turn15": "v.is_next && q.property('md_rd:page') == 15"},
+						{"back.turn15": "!v.is_next && q.property('md_rd:page') == 14"}
+					],
+					"transitions": [
+						{
+							"turn2": "v.page != q.property('md_rd:page')"
+						},
+						{
+							"close": "q.property('md_rd:closing')"
+						}
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"turn2": {
+					"on_entry": [
+						"v.page = q.property('md_rd:page');"
+					],
+					"on_exit": [
+						"v.is_next = q.property('md_rd:page') > v.page;"
+					],
+					"animations": [
+						{"turn1": "v.is_next && q.property('md_rd:page') == 1"},
+						{"back.turn1": "!v.is_next && q.property('md_rd:page') == 0"},
+						{"turn2": "v.is_next && q.property('md_rd:page') == 2"},
+						{"back.turn2": "!v.is_next && q.property('md_rd:page') == 1"},
+						{"turn3": "v.is_next && q.property('md_rd:page') == 3"},
+						{"back.turn3": "!v.is_next && q.property('md_rd:page') == 2"},
+						{"turn4": "v.is_next && q.property('md_rd:page') == 4"},
+						{"back.turn4": "!v.is_next && q.property('md_rd:page') == 3"},
+						{"turn5": "v.is_next && q.property('md_rd:page') == 5"},
+						{"back.turn5": "!v.is_next && q.property('md_rd:page') == 4"},
+						{"turn6": "v.is_next && q.property('md_rd:page') == 6"},
+						{"back.turn6": "!v.is_next && q.property('md_rd:page') == 5"},
+						{"turn7": "v.is_next && q.property('md_rd:page') == 7"},
+						{"back.turn7": "!v.is_next && q.property('md_rd:page') == 6"},
+						{"turn8": "v.is_next && q.property('md_rd:page') == 8"},
+						{"back.turn8": "!v.is_next && q.property('md_rd:page') == 7"},
+						{"turn9": "v.is_next && q.property('md_rd:page') == 9"},
+						{"back.turn9": "!v.is_next && q.property('md_rd:page') == 8"},
+						{"turn10": "v.is_next && q.property('md_rd:page') == 10"},
+						{"back.turn10": "!v.is_next && q.property('md_rd:page') == 9"},
+						{"turn11": "v.is_next && q.property('md_rd:page') == 11"},
+						{"back.turn11": "!v.is_next && q.property('md_rd:page') == 10"},
+						{"turn12": "v.is_next && q.property('md_rd:page') == 12"},
+						{"back.turn12": "!v.is_next && q.property('md_rd:page') == 11"},
+						{"turn13": "v.is_next && q.property('md_rd:page') == 13"},
+						{"back.turn13": "!v.is_next && q.property('md_rd:page') == 12"},
+						{"turn14": "v.is_next && q.property('md_rd:page') == 14"},
+						{"back.turn14": "!v.is_next && q.property('md_rd:page') == 13"},
+						{"turn15": "v.is_next && q.property('md_rd:page') == 15"},
+						{"back.turn15": "!v.is_next && q.property('md_rd:page') == 14"}
+					],
+					"transitions": [
+						{
+							"turn": "v.page != q.property('md_rd:page')"
+						},
+						{
+							"close": "q.property('md_rd:closing')"
+						}
+					],
+					"blend_transition": 0.1,
+					"blend_via_shortest_path": true
+				},
+				"close": {
+					"animations": [
+						"close"
+					]
+				}
+			}
+		}
+	}
+}

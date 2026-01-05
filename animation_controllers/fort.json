@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.md_rd.custom_blocks_fort.root": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"load": "q.property('md_rd:loaded')"
+						}
+					]
+				},
+				"load": {
+					"animations": [
+						"load"
+					],
+					"transitions": [
+						{
+							"shoot": "q.property('md_rd:shooting')"
+						}
+					]
+				},
+				"shoot": {
+					"animations": [
+						"shoot"
+					],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}
