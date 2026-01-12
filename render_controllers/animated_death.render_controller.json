@@ -15,7 +15,8 @@
 						"geometry.animated_4x2",
 						"geometry.animated_2x4",
 						"geometry.animated_3x4",
-						"geometry.animated_4x4"
+						"geometry.animated_4x4",
+						"geometry.animated_1x1"
 					]
 				},
 				"textures": {
@@ -31,7 +32,9 @@
 						"texture.animated0_4x3",
 						"texture.animated1_4x3",
 						"texture.animated0_4x4",
-						"texture.animated1_4x4"
+						"texture.animated1_4x4",
+						"texture.animated0_1x1",
+						"texture.animated1_1x1"
 					]
 				}
 			},
@@ -68,7 +71,8 @@
 						"geometry.animated_4x2",
 						"geometry.animated_2x4",
 						"geometry.animated_3x4",
-						"geometry.animated_4x4"
+						"geometry.animated_4x4",
+						"geometry.animated_1x1"
 					]
 				},
 				"textures": {
@@ -84,7 +88,9 @@
 						"texture.lgt_animated0_4x3",
 						"texture.lgt_animated1_4x3",
 						"texture.lgt_animated0_4x4",
-						"texture.lgt_animated1_4x4"
+						"texture.lgt_animated1_4x4",
+						"texture.lgt_animated0_1x1",
+						"texture.lgt_animated1_1x1"
 					]
 				}
 			},
@@ -122,7 +128,8 @@
 						"geometry.animated_4x2",
 						"geometry.animated_2x4",
 						"geometry.animated_3x4",
-						"geometry.animated_4x4"
+						"geometry.animated_4x4",
+						"geometry.animated_1x1"
 					]
 				},
 				"textures": {
@@ -132,7 +139,8 @@
 						"texture.canvas_2x4",
 						"texture.canvas_4x2",
 						"texture.canvas_4x3",
-						"texture.canvas_4x4"
+						"texture.canvas_4x4",
+						"texture.canvas_1x1"
 					]
 				}
 			},
@@ -149,6 +157,7 @@
 				{"32x64": "query.property('hp4_paint:paint_models') == 3"},
 				{"48x64": "query.property('hp4_paint:paint_models') == 4"},
 				{"64x64": "query.property('hp4_paint:paint_models') == 5"},
+				{"16x16": "query.property('hp4_paint:paint_models') == 6"},
 				{"image": false}
 			]
 		}

@@ -51,6 +51,7 @@
 				"canvas_4x2": "textures/hp/more_paintings/animated/bg/32x64",
 				"canvas_4x3": "textures/hp/more_paintings/animated/bg/48x64",
 				"canvas_4x4": "textures/hp/more_paintings/animated/bg/64x64",
+				"canvas_1x1": "textures/hp/more_paintings/animated/bg/16x16",
 
 				//Images
 
@@ -65,6 +66,8 @@
 				"animated1_4x3": "textures/hp/more_paintings/animated/4x3/Cybercar_animated",
 				"animated0_4x4": "textures/hp/more_paintings/animated/4x4/pumpkinheads_animated",
 				"animated1_4x4": "textures/hp/more_paintings/animated/4x4/Girldolphin_animated",
+				"animated0_1x1": "textures/hp/more_paintings/animated/1x1/earthplanet",
+				"animated1_1x1": "textures/hp/more_paintings/animated/1x1/water",
 
 				"lgt_animated0_2x1": "textures/hp/more_paintings/animated/2x1/mer_swimming_koi_animated",
 				"lgt_animated0_2x2": "textures/hp/more_paintings/animated/2x2/mer_flying_guy_animated",
@@ -76,7 +79,9 @@
 				"lgt_animated0_4x3": "textures/hp/more_paintings/animated/4x3/mer_Autumn_animated",
 				"lgt_animated1_4x3": "textures/hp/more_paintings/animated/4x3/mer_Cybercar_animated",
 				"lgt_animated0_4x4": "textures/hp/more_paintings/animated/4x4/mer_pumpkinheads_animated",
-				"lgt_animated1_4x4": "textures/hp/more_paintings/animated/4x4/mer_Girldolphin_animated"
+				"lgt_animated1_4x4": "textures/hp/more_paintings/animated/4x4/mer_Girldolphin_animated",
+				"lgt_animated0_1x1": "textures/hp/more_paintings/animated/1x1/mer_earthplanet",
+				"lgt_animated1_1x1": "textures/hp/more_paintings/animated/1x1/mer_water"
 			},
 			"geometry": {
 				"frame.black_modern": "geometry.hp4_paint.frame.black_modern",
@@ -106,7 +111,8 @@
 				"animated_4x2": "geometry.hp4_paint.animated_painting_64x32",
 				"animated_2x4": "geometry.hp4_paint.animated_painting_32x64",
 				"animated_3x4": "geometry.hp4_paint.animated_painting_48x64",
-				"animated_4x4": "geometry.hp4_paint.animated_painting_64x64"
+				"animated_4x4": "geometry.hp4_paint.animated_painting_64x64",
+				"animated_1x1": "geometry.hp4_paint.animated_painting_16x16"
 			},
 			"render_controllers": [
 				"controller.render.hp4_paint.animated_canvas",
@@ -153,7 +159,7 @@
 					"v.frame_64x48 = false;",
 					"v.frame_64x64 = q.property('hp4_paint:paint_models') == 5;",
 
-					"v.frame_count = q.property('hp4_paint:paint_colors') == 0 ? 12 : q.property('hp4_paint:paint_colors') == 1 ? 12 : q.property('hp4_paint:paint_colors') == 2 ? 16 : q.property('hp4_paint:paint_colors') == 3 ? 16 : q.property('hp4_paint:paint_colors') == 4 ? 14 : q.property('hp4_paint:paint_colors') == 5 ? 16 : q.property('hp4_paint:paint_colors') == 6 ? 12 : q.property('hp4_paint:paint_colors') == 7 ? 16 : q.property('hp4_paint:paint_colors') == 8 ? 16 : q.property('hp4_paint:paint_colors') == 9 ? 16 : q.property('hp4_paint:paint_colors') == 10 ? 24 : 1;"
+					"v.frame_count = q.property('hp4_paint:paint_colors') == 0 ? 12 : q.property('hp4_paint:paint_colors') == 1 ? 12 : q.property('hp4_paint:paint_colors') == 2 ? 16 : q.property('hp4_paint:paint_colors') == 3 ? 16 : q.property('hp4_paint:paint_colors') == 4 ? 14 : q.property('hp4_paint:paint_colors') == 5 ? 16 : q.property('hp4_paint:paint_colors') == 6 ? 12 : q.property('hp4_paint:paint_colors') == 7 ? 16 : q.property('hp4_paint:paint_colors') == 8 ? 16 : q.property('hp4_paint:paint_colors') == 9 ? 16 : q.property('hp4_paint:paint_colors') == 10 ? 24 : q.property('hp4_paint:paint_colors') == 11 ? 10 : q.property('hp4_paint:paint_colors') == 12 ? 5 : 1;"
 				],
 				"animate": [
 					{"display.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 0"},
