@@ -1,8 +1,5 @@
 {
 	"texture_data": {
-		"brush": {
-			"textures": "textures/items/brush.png"
-		},
 		"hp4_paint:tube_paint": {
 			"textures": "textures/hp/more_paintings/items/tube_paint"
 		},
@@ -206,6 +203,21 @@
 		},
 		"hp4_paint:art_bench": {
 			"textures": "textures/hp/more_paintings/items/art_bench"
+		},
+		"hp4_paint:art_chair": {
+			"textures": "textures/hp/more_paintings/items/art_chair"
+		},
+		"hp4_paint:brush_on_shelf": {
+			"textures": "textures/hp/more_paintings/items/brush_on_shelf"
+		},
+		"hp4_paint:variant_paint_bottle": {
+			"textures": "textures/hp/more_paintings/items/variant_paint_bottle"
+		},
+		"hp4_paint:canvas": {
+			"textures": "textures/hp/more_paintings/items/canvas"
+		},
+		"hp4_paint:unfinished_wooden_block": {
+			"textures": "textures/hp/more_paintings/items/unfinished_wooden_block"
 		},
 		"hp4_paint:color_bucket": {
 			"textures": "textures/hp/more_paintings/items/color_bucket"
