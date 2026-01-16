@@ -16,14 +16,17 @@
 						"geometry.animated_2x4",
 						"geometry.animated_3x4",
 						"geometry.animated_4x4",
-						"geometry.animated_1x1"
+						"geometry.animated_1x1",
+						"geometry.animated_1x2"
 					]
 				},
 				"textures": {
 					//NEw ver
 					"array.animated_textures": [
 						"texture.animated0_2x1",
+						"texture.animated1_2x1",
 						"texture.animated0_2x2",
+						"texture.animated1_2x2",
 						"texture.animated0_2x4",
 						"texture.animated1_2x4",
 						"texture.animated0_4x2",
@@ -34,7 +37,9 @@
 						"texture.animated0_4x4",
 						"texture.animated1_4x4",
 						"texture.animated0_1x1",
-						"texture.animated1_1x1"
+						"texture.animated1_1x1",
+						"texture.animated0_1x2",
+						"texture.animated1_1x2"
 					]
 				}
 			},
@@ -54,7 +59,8 @@
 				{"64x32": false},
 				{"32x64": false},
 				{"48x64": false},
-				{"64x64": false}
+				{"64x64": false},
+				{"32x16": false}
 			]
 		},
 		"controller.render.hp4_paint.animated_death_light": {
@@ -129,7 +135,8 @@
 						"geometry.animated_2x4",
 						"geometry.animated_3x4",
 						"geometry.animated_4x4",
-						"geometry.animated_1x1"
+						"geometry.animated_1x1",
+						"geometry.animated_1x2"
 					]
 				},
 				"textures": {
@@ -140,7 +147,8 @@
 						"texture.canvas_4x2",
 						"texture.canvas_4x3",
 						"texture.canvas_4x4",
-						"texture.canvas_1x1"
+						"texture.canvas_1x1",
+						"texture.canvas_1x2"
 					]
 				}
 			},
@@ -158,6 +166,7 @@
 				{"48x64": "query.property('hp4_paint:paint_models') == 4"},
 				{"64x64": "query.property('hp4_paint:paint_models') == 5"},
 				{"16x16": "query.property('hp4_paint:paint_models') == 6"},
+				{"16x32": "query.property('hp4_paint:paint_models') == 7"},
 				{"image": false}
 			]
 		}

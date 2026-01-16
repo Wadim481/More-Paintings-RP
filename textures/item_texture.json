@@ -39,6 +39,33 @@
 		"hp4_paint:marker_set": {
 			"textures": "textures/hp/more_paintings/items/marker_set"
 		},
+		"hp4_paint:statue_painting": {
+			"textures": "textures/hp/more_paintings/items/artist_statue"
+		},
+		"hp4_paint:cabinet": {
+			"textures": "textures/hp/more_paintings/items/cabinet"
+		},
+		"hp4_paint:chisel": {
+			"textures": "textures/hp/more_paintings/items/chisel"
+		},
+		"hp4_paint:color_splash": {
+			"textures": "textures/hp/more_paintings/items/color_splash"
+		},
+		"hp4_paint:hammer": {
+			"textures": "textures/hp/more_paintings/items/hammer"
+		},
+		"hp4_paint:lying_bottle_color": {
+			"textures": "textures/hp/more_paintings/items/lying_bottle_color"
+		},
+		"hp4_paint:sack_of_beton": {
+			"textures": "textures/hp/more_paintings/items/sack_of_concrete"
+		},
+		"hp4_paint:settings_gear": {
+			"textures": "textures/hp/more_paintings/items/settings_gear"
+		},
+		"hp4_paint:stool": {
+			"textures": "textures/hp/more_paintings/items/stool"
+		},
 		"hp4_paint:jewellery_components": {
 			"textures": "textures/hp/more_paintings/items/jewellery_components"
 		},
