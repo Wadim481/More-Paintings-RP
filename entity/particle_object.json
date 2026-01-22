@@ -8,7 +8,7 @@
             },
             "textures": {
                 "hammer": "textures/hp/more_paintings/particle_objects/hammer",
-                "chisel": "textures/hp/more_paintings/particle_objects/hammer"
+                "chisel": "textures/hp/more_paintings/particle_objects/chisel"
             },
             "geometry": {
                 "hammer": "geometry.hp4_paint.hammer",

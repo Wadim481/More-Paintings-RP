@@ -4,8 +4,8 @@
         "description": {
             "identifier": "hp4_paint:display_case_huge",
             "materials": {
-                "default": "entity_alphatest",
-                "glass": "entity_alphablend",
+                "default": "hp4_paint.outline_base",
+                "glass": "hp4_paint.outline_base_blend",
                 "outline": "hp4_paint.outline"
             },
             "textures": {
