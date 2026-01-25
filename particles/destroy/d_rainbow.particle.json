@@ -10,7 +10,7 @@
 		},
 		"components": {
 			"minecraft:emitter_rate_steady": {
-				"spawn_rate": 150,
+				"spawn_rate": 200,
 				"max_particles": 100
 			},
 			"minecraft:emitter_lifetime_once": {
@@ -29,7 +29,7 @@
 				"linear_drag_coefficient": 0.1
 			},
 			"minecraft:particle_appearance_billboard": {
-				"size": ["0.01 + variable.particle_random_3 * 0.03", "0.01 + variable.particle_random_3 * 0.03"],
+				"size": ["0.01 + variable.particle_random_3 * 0.05", "0.01 + variable.particle_random_3 * 0.05"],
 				"facing_camera_mode": "emitter_transform_xz",
 				"uv": {
 					"texture_width": 16,
@@ -40,22 +40,22 @@
 			},
 			"minecraft:particle_motion_collision": {
 				"collision_drag": 100,
-				"collision_radius": 0.2
+				"collision_radius": 0.1
 			},
 			"minecraft:particle_appearance_tinting": {
 				"color": {
 					"interpolant": "variable.particle_random_2",
 					"gradient": {
-						"0.0": "#FF2F2FFF",
-						"0.11": "#FF3735FF",
-						"0.13": "#FFF4FF53",
-						"0.29": "#FFFFF947",
-						"0.31": "#FFFF4343",
-						"0.48": "#FFFF4F4F",
-						"0.66": "#FF60FF43",
+						"0.11": "#FFA5ED7C",
+						"0.13": "#FFFFEA6D",
+						"0.29": "#FFEAB654",
+						"0.31": "#FFD45E5E",
+						"0.48": "#FF812727",
+						"0.5": "#FFA34AA4",
+						"0.66": "#FFC489CD",
 						"0.7": "#FF2A2A2A",
 						"0.84": "#FF2D2D2D",
-						"0.86": "#ffffffff"
+						"0.86": "#FF479AC2"
 					}
 				}
 			}
