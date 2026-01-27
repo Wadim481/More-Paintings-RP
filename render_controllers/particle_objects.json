@@ -6,13 +6,15 @@
 				"geometries": {
 					"array.geometries": [
 						"geometry.hammer",
-						"geometry.chisel"
+						"geometry.chisel",
+						"geometry.brush"
 					]
 				},
 				"textures": {
 					"array.textures": [
 						"texture.hammer",
-						"texture.chisel"
+						"texture.chisel",
+						"texture.brush"
 					]
 				}
 			},
