@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hp4_paint.hammer.attachable.fpp": {
+			"loop": true,
+			"bones": {
+				"palu": {
+					"rotation": [-48.04962, 74.11203, -114.06228],
+					"position": [2.55861, -5.8555, 3.98525]
+				}
+			}
+		},
+		"animation.hp4_paint.hammer.attachable.tpp": {
+			"loop": true
+		}
+	}
+}

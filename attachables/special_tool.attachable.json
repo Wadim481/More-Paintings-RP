@@ -2,22 +2,22 @@
 	"format_version": "1.10.0",
 	"minecraft:attachable": {
 		"description": {
-			"identifier": "hp4_paint:brush",
+			"identifier": "hp4_paint:special_tool",
 			"render_controllers": ["controller.render.item_default"],
 			"materials": {
 				"default": "entity_alphatest",
 				"enchanted": "entity_alphatest_glint"
 			},
 			"textures": {
-				"default": "textures/hp/more_paintings/attachables/brush",
+				"default": "textures/hp/more_paintings/particle_objects/hammer",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {
-				"default": "geometry.hp4_paint.brush.attachable"
+				"default": "geometry.hp4_paint.hammer.attachable"
 			},
 			"animations": {
-				"first_person_hold": "animation.hp4_paint.brush.first_person_hold",
-				"third_person_hold": "animation.hp4_paint.brush.third_person_hold"
+				"first_person_hold": "animation.hp4_paint.hammer.attachable.fpp",
+				"third_person_hold": "animation.hp4_paint.hammer.attachable.tpp"
 			},
 			"scripts": {
 				"animate": [
