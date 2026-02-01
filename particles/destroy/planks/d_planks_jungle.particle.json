@@ -4,8 +4,8 @@
 		"description": {
 			"identifier": "test:d_plank_jungle",
 			"basic_render_parameters": {
-				"material": "particles_blend",
-				"texture": "textures/blocks/planks_jungle"
+				"material": "particles_alpha",
+				"texture": "textures/hp/more_paintings/furnitures/easel_stand/1"
 			}
 		},
 		"components": {
@@ -32,9 +32,9 @@
 				"size": ["0.03 + variable.particle_random_3 * 0.04", "0.03 + variable.particle_random_3 * 0.04"],
 				"facing_camera_mode": "lookat_direction",
 				"uv": {
-					"texture_width": 18,
-					"texture_height": 18,
-					"uv": ["(math.floor(variable.particle_random_1 * 9) % 3) * 6", "math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
+					"texture_width": 180,
+					"texture_height": 180,
+					"uv": ["24+(math.floor(variable.particle_random_1 * 9) % 3) * 6", "8+math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
 					"uv_size": [6, 6]
 				}
 			}

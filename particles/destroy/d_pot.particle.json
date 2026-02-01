@@ -29,18 +29,15 @@
 				"linear_drag_coefficient": 0.1
 			},
 			"minecraft:particle_appearance_billboard": {
-  "size": [
-    "0.03 + variable.particle_random_3 * 0.04",
-    "0.03 + variable.particle_random_3 * 0.04"
-  ],
-  "facing_camera_mode": "lookat_direction",
-  "uv": {
-    "texture_width": 18,
-    "texture_height": 18,
-    "uv": ["(math.floor(variable.particle_random_1 * 9) % 3) * 6", "math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
-    "uv_size": [6, 6]
-  }
-}
+				"size": ["0.03 + variable.particle_random_3 * 0.04", "0.03 + variable.particle_random_3 * 0.04"],
+				"facing_camera_mode": "lookat_direction",
+				"uv": {
+					"texture_width": 18,
+					"texture_height": 18,
+					"uv": ["(math.floor(variable.particle_random_1 * 9) % 3) * 6", "math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
+					"uv_size": [6, 6]
+				}
+			}
 ,
 			"minecraft:particle_motion_collision": {
 				"collision_drag": 1,
@@ -52,7 +49,7 @@
 					"interpolant": "v.particle_age / v.particle_lifetime",
 					"gradient": {
 						"0.0": "#ffffffff",
-						"0.58": "#ffffffff",
+						"0.58": "#FFFFFFFF",
 						"1.0": "#00FFFFFF"
 					}
 				}

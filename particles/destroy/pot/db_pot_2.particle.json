@@ -2,15 +2,15 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:d_plank_pale",
+			"identifier": "test:db_pot_2",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/easel_stand/3"
+				"texture": "textures/hp/more_paintings/furnitures/planter/large_planter_white"
 			}
 		},
 		"components": {
 			"minecraft:emitter_rate_steady": {
-				"spawn_rate": 200,
+				"spawn_rate": 400,
 				"max_particles": 100
 			},
 			"minecraft:emitter_lifetime_once": {
@@ -23,9 +23,9 @@
 			"minecraft:particle_lifetime_expression": {
 				"max_lifetime": 1
 			},
-			"minecraft:particle_initial_speed": 1,
+			"minecraft:particle_initial_speed": 2,
 			"minecraft:particle_motion_dynamic": {
-				"linear_acceleration": [0, -7, 0],
+				"linear_acceleration": [0, -9, 0],
 				"linear_drag_coefficient": 0.1
 			},
 			"minecraft:particle_appearance_billboard": {
@@ -34,7 +34,7 @@
 				"uv": {
 					"texture_width": 180,
 					"texture_height": 180,
-					"uv": ["24+(math.floor(variable.particle_random_1 * 9) % 3) * 6", "8+math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
+					"uv": ["21+(math.floor(variable.particle_random_1 * 9) % 3) * 6", "19+math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
 					"uv_size": [6, 6]
 				}
 			},
@@ -47,8 +47,8 @@
 				"color": {
 					"interpolant": "v.particle_age / v.particle_lifetime",
 					"gradient": {
-						"0.0": "#FFFFFFFF",
-						"0.58": "#FFFFFFFF",
+						"0.0": "#ffffffff",
+						"0.58": "#ffffffff",
 						"1.0": "#00FFFFFF"
 					}
 				}

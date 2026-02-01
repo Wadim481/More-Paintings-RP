@@ -2,22 +2,22 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:d_plank_pale",
+			"identifier": "test:d_pot_0",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/easel_stand/3"
+				"texture": "textures/hp/more_paintings/furnitures/planter/large_planter"
 			}
 		},
 		"components": {
 			"minecraft:emitter_rate_steady": {
-				"spawn_rate": 200,
+				"spawn_rate": 150,
 				"max_particles": 100
 			},
 			"minecraft:emitter_lifetime_once": {
 				"active_time": 0.2
 			},
 			"minecraft:emitter_shape_box": {
-				"half_dimensions": [0.5, 0.5, 0.5],
+				"half_dimensions": [0.3, 0.3, 0.3],
 				"direction": "outwards"
 			},
 			"minecraft:particle_lifetime_expression": {
@@ -34,7 +34,7 @@
 				"uv": {
 					"texture_width": 180,
 					"texture_height": 180,
-					"uv": ["24+(math.floor(variable.particle_random_1 * 9) % 3) * 6", "8+math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
+					"uv": ["21+(math.floor(variable.particle_random_1 * 9) % 3) * 6", "19+math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
 					"uv_size": [6, 6]
 				}
 			},
@@ -47,7 +47,7 @@
 				"color": {
 					"interpolant": "v.particle_age / v.particle_lifetime",
 					"gradient": {
-						"0.0": "#FFFFFFFF",
+						"0.0": "#ffffffff",
 						"0.58": "#FFFFFFFF",
 						"1.0": "#00FFFFFF"
 					}

@@ -10,14 +10,14 @@
 		},
 		"components": {
 			"minecraft:emitter_rate_steady": {
-				"spawn_rate": 200,
+				"spawn_rate": 150,
 				"max_particles": 100
 			},
 			"minecraft:emitter_lifetime_once": {
 				"active_time": 0.2
 			},
 			"minecraft:emitter_shape_box": {
-				"half_dimensions": [0.5, 0.5, 0.5],
+				"half_dimensions": [0.3, 0.3, 0.3],
 				"direction": "outwards"
 			},
 			"minecraft:particle_lifetime_expression": {

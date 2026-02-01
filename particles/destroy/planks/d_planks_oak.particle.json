@@ -29,7 +29,7 @@
 				"linear_drag_coefficient": 0.1
 			},
 			"minecraft:particle_appearance_billboard": {
-				"size": ["0.03 + variable.particle_random_3 * 0.04", "0.03 + variable.particle_random_3 * 0.04"],
+				"size": ["0.06 + variable.particle_random_3 * 0.04", "0.06 + variable.particle_random_3 * 0.04"],
 				"facing_camera_mode": "lookat_direction",
 				"uv": {
 					"texture_width": 18,
