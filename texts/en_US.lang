@@ -146,7 +146,7 @@ item.spawn_egg.entity.hp4_paint:vase.name=Vase
 entity.hp4_paint:wide_planter.name=Wide Planter
 item.spawn_egg.entity.hp4_paint:wide_planter.name=Wide Planter
 
-item.hp4_paint:special_tool=Furniture Wand
+item.hp4_paint:special_tool=Hammer
 
 item.hp4_paint:black_modern.frame=Black Modern Frame
 item.hp4_paint:burning.frame=Burning Frame
@@ -199,7 +199,7 @@ item.hp4_paint:robot_painting=Robot Painting
 item.hp4_paint:modern_painting=Modern Painting
 
 
-item.hp4_paint:settings_gear=Settings Gear
+item.hp4_paint:settings_gear=More Paintings - Settings Gear
 
 item.hp4_paint:chisel=Chisel
 
@@ -346,4 +346,5 @@ hp4_paint:paintings=More Paintings - Paintings
 hp4_paint:color_bucket=More Paintings - Color Buckets
 hp4_paint:painting_frames=More Paintings - Frames
 hp4_paint:painting_furnitures=More Paintings - Furnitures
+hp4_paint:painting_tools=More Paintings - Tools
 item.hp4_paint:brush=brush
