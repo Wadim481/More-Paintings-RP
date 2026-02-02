@@ -117,6 +117,9 @@
 		"hp4_paint:dino_dragons_painting": {
 			"textures": "textures/hp/more_paintings/items/dino_dragon_painting"
 		},
+		"hp4_paint:dino_painting": {
+			"textures": "textures/hp/more_paintings/items/dino_painting"
+		},
 		"hp4_paint:dragon_painting": {
 			"textures": "textures/hp/more_paintings/items/dragon_painting"
 		},

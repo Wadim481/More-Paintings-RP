@@ -8,23 +8,27 @@
             },
             "textures": {
                 "hammer": "textures/hp/more_paintings/particle_objects/hammer",
-                "chisel": "textures/hp/more_paintings/particle_objects/hammer"
+                "chisel": "textures/hp/more_paintings/particle_objects/chisel",
+                "brush": "textures/hp/more_paintings/furnitures/painting_brush"
             },
             "geometry": {
                 "hammer": "geometry.hp4_paint.hammer",
-                "chisel": "geometry.hp4_paint.chisel"
+                "chisel": "geometry.hp4_paint.chisel",
+                "brush": "geometry.hp4_paint.brush"
             },
             "render_controllers": [
                 "controller.render.hp4_paint.particle_objects"
             ],
             "animations": {
                 "hammer": "animation.hp4_paint.hammer.particle",
-                "chisel": "animation.hp4_paint.chisel.particle"
+                "chisel": "animation.hp4_paint.chisel.particle",
+                "brush": "animation.hp4_paint.brush.particle"
             },
             "scripts": {
                 "animate": [
                     {"hammer": "v.model == 0"},
-                    {"chisel": "v.model == 1"}
+                    {"chisel": "v.model == 1"},
+                    {"brush": "v.model == 2"}
                 ],
                 "pre_animation": [
                     "v.model = q.property('hp4_paint:model');"

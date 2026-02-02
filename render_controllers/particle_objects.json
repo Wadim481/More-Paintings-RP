@@ -6,19 +6,47 @@
 				"geometries": {
 					"array.geometries": [
 						"geometry.hammer",
-						"geometry.chisel"
+						"geometry.chisel",
+						"geometry.brush"
 					]
 				},
 				"textures": {
 					"array.textures": [
 						"texture.hammer",
-						"texture.chisel"
+						"texture.chisel",
+						"texture.brush"
 					]
 				}
 			},
 			"geometry": "array.geometries[query.property('hp4_paint:model')]",
 			"textures": [
 				"array.textures[query.property('hp4_paint:model')]"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		},
+		"controller.render.hp4_paint.chisel.fpp": {
+			"geometry": "geometry.fpp",
+			"textures": [
+				"texture.default"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		},
+		"controller.render.hp4_paint.chisel.tpp": {
+			"geometry": "geometry.tpp",
+			"textures": [
+				"texture.default"
 			],
 			"materials": [
 				{

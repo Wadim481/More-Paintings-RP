@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hp4_paint.chisel.attachable.fpp": {
+			"loop": true,
+			"bones": {
+				"chisel": {
+					"rotation": [20, 42.5, 0],
+					"position": [-9.97002, 5.29358, -24.27485]
+				},
+				"hammer": {
+					"rotation": [47.73419, 77.13824, 4.36464],
+					"position": [-2.36666, -1.39221, -2.3219]
+				}
+			}
+		},
+		"animation.hp4_paint.chisel.attachable.tpp": {
+			"loop": true
+		}
+	}
+}

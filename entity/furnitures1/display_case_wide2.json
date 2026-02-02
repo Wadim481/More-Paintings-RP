@@ -9,9 +9,9 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "display_case_wide21": "textures/hp/more_paintings/furnitures/display_case_wide2",
-                "display_case_wide22": "textures/hp/more_paintings/furnitures/display_case_wide2_pink",
-                "display_case_wide23": "textures/hp/more_paintings/furnitures/display_case_wide2_white",
+                "display_case_wide21": "textures/hp/more_paintings/furnitures/display/display_case_wide2",
+                "display_case_wide22": "textures/hp/more_paintings/furnitures/display/display_case_wide2_pink",
+                "display_case_wide23": "textures/hp/more_paintings/furnitures/display/display_case_wide2_white",
                 "outline": "textures/hp/more_paintings/outline"
             },
             "geometry": {

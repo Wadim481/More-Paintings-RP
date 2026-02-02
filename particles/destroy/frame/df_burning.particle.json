@@ -34,7 +34,7 @@
 				"uv": {
 					"texture_width": 16,
 					"texture_height": 16,
-					"uv": ["(variable.frame % 2) * 8", "math.floor(variable.frame / 2) * 8"],
+					"uv": ["(variable.frame / 2) * 8", "math.floor(variable.frame / 2) * 8"],
 					"uv_size": [8, 8]
 				}
 			},
