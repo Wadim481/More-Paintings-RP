@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.hp4_paint.spawned": {
+            "initial_state": "default",
+            "states": {
+                "default": {  "transitions": [{ "spawn": "q.is_stunned" }]},
+                "spawn": {
+                    "animations": [ "spawn" ],
+                    "transitions": [{ "default": "q.all_animations_finished && !q.is_stunned" }]
+                    
+                }
+            }
+        }
+    }
+
+
+}

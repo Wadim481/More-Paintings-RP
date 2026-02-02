@@ -31,11 +31,15 @@
                 "texture": "hp4_paint:easel_stand"
             },
             "animations": {
+                "spawn_controller": "controller.animation.hp4_paint.spawned",
+                "spawn": "animation.hp4_paint.spawned",
+                "on_hammer": "animation.hp4_paint.on_hammer",
                 "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
             },
             "scripts": {
                 "animate": [
-                    "cardinal_rotation"
+                    "cardinal_rotation",
+                    "spawn"
                 ]
             }
         }

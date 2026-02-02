@@ -9,18 +9,18 @@
 						"0.125": [37.5, -45, 0],
 						"1.3333": [37.5, -45, 0],
 						"1.4167": {"pre": [37.5, -45, 0], "post": [25, 45, 0]},
-						"2.625": {"pre": [25, 45, 0], "post": [25, 45, 0]},
+						"2.625": [25, 45, 0],
 						"2.7083": {"pre": [25, 45, 0], "post": [25, -35, 0]},
-						"3.9167": {"pre": [25, -35, 0], "post": [25, -35, 0]},
+						"3.9167": [25, -35, 0],
 						"4.125": [0, 0, 0]
 					},
 					"position": {
 						"0.125": [-7, 18, 0],
 						"1.3333": [-7, 18, 0],
 						"1.4167": {"pre": [-7, 18, 0], "post": [9, 8, 0]},
-						"2.625": {"pre": [9, 8, 0], "post": [9, 8, 0]},
+						"2.625": [9, 8, 0],
 						"2.7083": {"pre": [9, 8, 0], "post": [-7, 0, 0]},
-						"3.9167": {"pre": [-7, 0, 0], "post": [-7, 0, 0]},
+						"3.9167": [-7, 0, 0],
 						"4.125": [0, 0, 0]
 					},
 					"scale": {
@@ -113,6 +113,127 @@
 						"4.125": [1, 1, 1]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.4167": {
+					"effect": "hammer"
+				},
+				"0.8333": {
+					"effect": "hammer"
+				},
+				"1.25": {
+					"effect": "hammer"
+				},
+				"1.7083": {
+					"effect": "hammer"
+				},
+				"2.125": {
+					"effect": "hammer"
+				},
+				"2.5417": {
+					"effect": "hammer"
+				},
+				"3.0": {
+					"effect": "hammer"
+				},
+				"3.4167": {
+					"effect": "hammer"
+				},
+				"3.8333": {
+					"effect": "hammer"
+				}
+			},
+			"particle_effects": {
+				"0.4167": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"0.8333": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"1.25": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"1.7083": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"2.125": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"2.5417": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"3.0": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"3.4167": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"3.8333": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				]
 			}
 		},
 		"animation.hp4_paint.hammer.particle_unmove": {
