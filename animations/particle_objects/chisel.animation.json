@@ -263,6 +263,127 @@
 						"4.0833": [0, 0, 0]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.2917": {
+					"effect": "hammer"
+				},
+				"0.75": {
+					"effect": "hammer"
+				},
+				"1.0833": {
+					"effect": "hammer"
+				},
+				"1.625": {
+					"effect": "hammer"
+				},
+				"2.0833": {
+					"effect": "hammer"
+				},
+				"2.4167": {
+					"effect": "hammer"
+				},
+				"2.9583": {
+					"effect": "hammer"
+				},
+				"3.4167": {
+					"effect": "hammer"
+				},
+				"3.75": {
+					"effect": "hammer"
+				}
+			},
+			"particle_effects": {
+				"0.2917": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"0.75": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"1.0833": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"1.625": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"2.0833": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"2.4167": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"2.9583": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"3.4167": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				],
+				"3.75": [
+					{
+						"effect": "hammer_fx2",
+						"locator": "hammerpoint"
+					},
+					{
+						"effect": "hammer_hit",
+						"locator": "hammerpoint"
+					}
+				]
 			}
 		},
 		"animation.hp4_paint.chisel.particle_faster": {

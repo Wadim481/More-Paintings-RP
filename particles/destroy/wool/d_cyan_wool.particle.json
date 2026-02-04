@@ -34,7 +34,7 @@
 				"uv": {
 					"texture_width": 18,
 					"texture_height": 18,
-					"uv": ["(math.floor(variable.particle_random_1 * 9) % 3) * 6", "math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
+					"uv": ["(math.floor(variable.particle_random_1 * 9)- 3 * math.floor(math.floor(variable.particle_random_1 * 9) / 3)) * 6", "math.floor(math.floor(variable.particle_random_1 * 9) / 3) * 6"],
 					"uv_size": [6, 6]
 				}
 			},

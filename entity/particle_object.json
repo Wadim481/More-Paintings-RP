@@ -4,7 +4,7 @@
         "description": {
             "identifier": "hp4_paint:particle_objects",
             "materials": {
-                "default": "hp4_paint.outline_base"
+                "default": "entity_alphatest"
             },
             "textures": {
                 "hammer": "textures/hp/more_paintings/particle_objects/hammer",

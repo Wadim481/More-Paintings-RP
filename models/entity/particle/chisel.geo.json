@@ -7,8 +7,8 @@
 				"texture_width": 32,
 				"texture_height": 32,
 				"visible_bounds_width": 2,
-				"visible_bounds_height": 1.5,
-				"visible_bounds_offset": [0, 0.25, 0]
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
 			},
 			"bones": [
 				{
@@ -40,7 +40,10 @@
 								"down": {"uv": [19, 14], "uv_size": [1, -5]}
 							}
 						}
-					]
+					],
+					"locators": {
+						"hammerpoint": [0, 7, -8]
+					}
 				},
 				{
 					"name": "hammer_ext",
