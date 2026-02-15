@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hp4_paint.artist_villager.camouflage": {
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"geometry": "geometry.zombie",
+			"textures": [
+				"texture.zombie"
+			]
+		}
+	}
+}

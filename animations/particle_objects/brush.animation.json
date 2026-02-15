@@ -182,6 +182,17 @@
 						}
 					}
 				}
+			},
+			"sound_effects": {
+				"0.4167": {
+					"effect": "brushing"
+				},
+				"1.2083": {
+					"effect": "brushing"
+				},
+				"2.0": {
+					"effect": "brushing"
+				}
 			}
 		},
 		"animation.hp4_paint.brush": {

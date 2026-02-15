@@ -5,7 +5,7 @@
 			"identifier": "test:light_ring_bottom_blue",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/hp/more_paintings/particle/ring"
+				"texture": "textures/hp/more_paintings/particle/ring_bottom"
 			}
 		},
 		"components": {
@@ -16,24 +16,21 @@
 				"active_time": 1
 			},
 			"minecraft:emitter_shape_point": {
-				"offset": [0, 0.1, 0]
+				"offset": [0, 0.05, 0]
 			},
 			"minecraft:particle_lifetime_expression": {
 				"max_lifetime": 4
 			},
-			"minecraft:particle_initial_spin": {
-				"rotation": "math.random(-180, 180)"
-			},
 			"minecraft:particle_initial_speed": 0,
 			"minecraft:particle_motion_dynamic": {},
 			"minecraft:particle_appearance_billboard": {
-				"size": [1.3, 1.3],
+				"size": [1.5, 1.5],
 				"facing_camera_mode": "emitter_transform_xz",
 				"uv": {
-					"texture_width": 640,
-					"texture_height": 8960,
-					"uv": [0, "640*12"],
-					"uv_size": [640, 640]
+					"texture_width": 256,
+					"texture_height": 256,
+					"uv": [0, 0],
+					"uv_size": [256, 256]
 				}
 			},
 			"minecraft:particle_appearance_tinting": {

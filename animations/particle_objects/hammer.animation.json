@@ -148,91 +148,91 @@
 				"0.4167": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				],
 				"0.8333": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				],
 				"1.25": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				],
 				"1.7083": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				],
 				"2.125": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				],
 				"2.5417": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				],
 				"3.0": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				],
 				"3.4167": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				],
 				"3.8333": [
 					{
 						"effect": "hammer_fx2",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					},
 					{
 						"effect": "hammer_hit",
-						"locator": "hammerpoint"
+						"locator": "hammerpoint1"
 					}
 				]
 			}

@@ -125,7 +125,7 @@
 		},
 		"animation.hp4_paint.chisel.particle": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 4.2083,
+			"animation_length": 7.4583,
 			"bones": {
 				"root": {
 					"rotation": {
@@ -265,38 +265,38 @@
 				}
 			},
 			"sound_effects": {
-				"0.2917": {
-					"effect": "hammer"
+				"0.3333": {
+					"effect": "chiseling"
 				},
 				"0.75": {
-					"effect": "hammer"
+					"effect": "chiseling"
 				},
-				"1.0833": {
-					"effect": "hammer"
+				"1.1667": {
+					"effect": "chiseling"
 				},
 				"1.625": {
-					"effect": "hammer"
+					"effect": "chiseling"
 				},
-				"2.0833": {
-					"effect": "hammer"
+				"2.0417": {
+					"effect": "chiseling"
 				},
-				"2.4167": {
-					"effect": "hammer"
+				"2.4583": {
+					"effect": "chiseling"
 				},
-				"2.9583": {
-					"effect": "hammer"
+				"2.9167": {
+					"effect": "chiseling"
 				},
-				"3.4167": {
-					"effect": "hammer"
+				"3.3333": {
+					"effect": "chiseling"
 				},
 				"3.75": {
-					"effect": "hammer"
+					"effect": "chiseling"
 				}
 			},
 			"particle_effects": {
-				"0.2917": [
+				"0.3333": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{
@@ -306,7 +306,7 @@
 				],
 				"0.75": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{
@@ -314,9 +314,9 @@
 						"locator": "hammerpoint"
 					}
 				],
-				"1.0833": [
+				"1.1667": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{
@@ -326,7 +326,7 @@
 				],
 				"1.625": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{
@@ -334,9 +334,9 @@
 						"locator": "hammerpoint"
 					}
 				],
-				"2.0833": [
+				"2.0417": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{
@@ -344,9 +344,9 @@
 						"locator": "hammerpoint"
 					}
 				],
-				"2.4167": [
+				"2.4583": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{
@@ -354,9 +354,9 @@
 						"locator": "hammerpoint"
 					}
 				],
-				"2.9583": [
+				"2.9167": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{
@@ -364,9 +364,9 @@
 						"locator": "hammerpoint"
 					}
 				],
-				"3.4167": [
+				"3.3333": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{
@@ -376,7 +376,7 @@
 				],
 				"3.75": [
 					{
-						"effect": "hammer_fx2",
+						"effect": "stone",
 						"locator": "hammerpoint"
 					},
 					{

@@ -4,7 +4,7 @@
         "description": {
             "identifier": "hp4_paint:particle_objects",
             "materials": {
-                "default": "entity_alphatest"
+                "default": "hp4_paint.outline_base"
             },
             "textures": {
                 "hammer": "textures/hp/more_paintings/particle_objects/hammer",
@@ -35,11 +35,14 @@
                 ]
             },
             "sound_effects": {
-                "hammer": "hp4_paint:hammer.hit"
+                "hammer": "hp4_paint:hammer.hit",
+                "brushing": "hp4_paint:brushing",
+                "chiseling": "hp4_paint:chiseling"
             },
             "particle_effects": {
                 "hammer_hit": "test:dust_hammer_hit",
-                "hammer_fx2": "test:h_fx2"
+                "hammer_fx2": "test:h_fx2",
+                "stone": "test:chiesel_fx1"
             }
 
         }

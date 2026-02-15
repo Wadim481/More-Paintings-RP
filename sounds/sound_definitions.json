@@ -59,8 +59,36 @@
 			"category": "ui",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/furnitures/hammer",
+					"name": "sounds/hp/more_paintings/furnitures/hammer_hit",
 					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:brushing": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/brushing",
+					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:chiseling": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/chiseling",
+					"volume": 2.0
+				}
+			]
+		},
+		
+		"hp4_paint:ring.sound": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/ring_sound",
+					"volume": 1.5
 				}
 			]
 		}

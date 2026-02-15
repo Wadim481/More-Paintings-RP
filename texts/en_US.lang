@@ -1,6 +1,8 @@
 pack.name=More Paintings
 pack.description=More Paintings resource packs
 
+hp4_paint.entity.artist_villager.trade=Artist Villager
+
 entity.hp4_paint:forest_painting.name=Forest Painting
 entity.hp4_paint:scifi_painting.name=Cyberpunk Painting
 entity.hp4_paint:candy1_painting.name=Candy Painting

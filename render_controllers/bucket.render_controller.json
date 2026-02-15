@@ -5,10 +5,10 @@
             "arrays": {
                 "textures": {
                     "array.texture": [
-                        "texture.iron_bucket",
                         "texture.gold_bucket",
-                        "texture.brown_bucket",
-                        "texture.pink_bucket"
+                        "texture.pink_bucket",
+                        "texture.iron_bucket",
+                        "texture.brown_bucket"
                     ]
                 }
             },
