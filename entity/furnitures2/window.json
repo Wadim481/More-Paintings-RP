@@ -1,0 +1,45 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:window",
+            "materials": {
+                "default": "hp4_paint.outline_base_blend",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default1": "textures/hp/more_paintings/furnitures/windows/window",
+                "default2": "textures/hp/more_paintings/furnitures/windows/window_pink",
+                "default3": "textures/hp/more_paintings/furnitures/windows/window_white",
+                "default4": "textures/hp/more_paintings/furnitures/windows/window_wood",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "left": "geometry.hp4_paint.window_left",
+                "right": "geometry.hp4_paint.window_right",
+                "outline_left": "geometry.hp4_paint.window_left.outline",
+                "outline_right": "geometry.hp4_paint.window_right.outline"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.window.outline": "q.property('hp4_paint:outline')"
+                },
+                "controller.render.hp4_paint.window"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:window"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation",
+                "open": "animation.hp4_paint.window_opened"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation",
+                    {"open": "q.property('hp4_paint:window_open') == true"}
+                ]
+            }
+        }
+    }
+}

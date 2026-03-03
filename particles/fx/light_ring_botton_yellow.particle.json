@@ -38,8 +38,8 @@
 					"interpolant": "v.particle_age / v.particle_lifetime",
 					"gradient": {
 						"0.0": "#00262626",
-						"0.23": "#FFF0FF00",
-						"0.79": "#FFF8FF64",
+						"0.23": "#FFFFDF5D",
+						"0.79": "#FFFFDF5D",
 						"1.0": "#00FFFFFF"
 					}
 				}

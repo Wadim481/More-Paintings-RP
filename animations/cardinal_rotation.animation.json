@@ -9,6 +9,9 @@
 				},
 				"root": {
 					"rotation": [0, "-query.body_y_rotation+(math.round(query.body_y_rotation/90)*90)", 0]
+				},
+				"stand": {
+					"position": [0, 0, 0]
 				}
 			}
 		},
@@ -193,6 +196,54 @@
 						"0.0": [1, 1, 1],
 						"0.1667": [0, 0, 0]
 					}
+				}
+			}
+		},
+		"animation.hp4_paint.paint_d": {
+			"animation_length": 0.125,
+			"bones": {
+				"bb_main": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.125": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.hp4_paint.wide1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"stand": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [-13, 0, 0]
+					}
+				},
+				"stand2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [12, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.hp4_paint.window_opened": {
+			"loop": true,
+			"bones": {
+				"windoor_close": {
+					"rotation": [0, 100, 0]
+				}
+			}
+		},
+		"animation.hp4_paint.big_window_opened": {
+			"loop": true,
+			"bones": {
+				"doorleft": {
+					"rotation": [0, 92.5, 0]
+				},
+				"doorright": {
+					"rotation": [0, -92.5, 0]
 				}
 			}
 		}

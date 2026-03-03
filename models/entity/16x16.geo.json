@@ -13,7 +13,10 @@
 			"bones": [
 				{
 					"name": "bb_main",
-					"pivot": [0, 0, 0]
+					"pivot": [0, 0, 0],
+					"locators": {
+						"locator": [0, 0, 8]
+					}
 				},
 				{
 					"name": "16x16",

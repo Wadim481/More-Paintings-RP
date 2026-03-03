@@ -1,0 +1,78 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hp4_paint.window": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4"
+                    ]
+                },
+                "geometries": {
+                    "array.geo": [
+                        "geometry.left",
+                        "geometry.right"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "array.geo[q.property('hp4_paint:furniture_model')]",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.window.outline": {
+            "arrays": {
+                "geometries": {
+                    "array.geo": [
+                        "geometry.outline_left",
+                        "geometry.outline_right"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "array.geo[q.property('hp4_paint:furniture_model')]",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
+        "controller.render.hp4_paint.window_big": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        }
+    }
+}

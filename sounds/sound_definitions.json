@@ -55,6 +55,15 @@
 				}
 			]
 		},
+		"hp4_paint:destroy.paint": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/paint_destroy",
+					"volume": 0.5
+				}
+			]
+		},
 		"hp4_paint:hammer.hit": {
 			"category": "ui",
 			"sounds": [
@@ -91,6 +100,63 @@
 					"volume": 1.5
 				}
 			]
+		},
+		
+		
+		"hp4_paint:art_v.step": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/artist_villager/art_v_step",
+					"volume": 0.4
+				}
+			]
+		},
+		"hp4_paint:art_v.splat": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/artist_villager/art_v_splat",
+					"volume": 0.3
+				}
+			]
+		},
+		"hp4_paint:art_v.splat2": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/artist_villager/art_v_splat",
+					"volume": 0.1
+				}
+			]
+		},
+		"hp4_paint:art_v.throw": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/artist_villager/art_v_throw",
+					"volume": 0.4
+				}
+			]
+		},
+		"hp4_paint:art_v.brush": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/artist_villager/art_v_brush",
+					"volume": 0.4
+				}
+			]
+		},
+		"hp4_paint:art_v.brush2": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/artist_villager/art_v_brush2",
+					"volume": 0.4
+				}
+			]
 		}
+		
 	}
 }

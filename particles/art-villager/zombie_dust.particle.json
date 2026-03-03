@@ -1,0 +1,56 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "test:zombie_dust",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/hp/more_paintings/particle/paint_splash"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 10
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_sphere": {
+				"radius": 0.5,
+				"direction": "outwards"
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.7
+			},
+			"minecraft:particle_initial_speed": 1,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.2, 0.2],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 80,
+					"flipbook": {
+						"base_UV": [0, 0],
+						"size_UV": [16, 16],
+						"step_UV": [0, 16],
+						"frames_per_second": 30,
+						"max_frame": 5,
+						"stretch_to_lifetime": true
+					}
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "variable.particle_random_1",
+					"gradient": {
+						"0.0": "#FF28723F",
+						"0.5": "#FF28723F",
+						"0.58": "#FF323E97",
+						"1.0": "#FF223098"
+					}
+				}
+			}
+		}
+	}
+}

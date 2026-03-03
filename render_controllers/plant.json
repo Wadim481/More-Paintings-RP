@@ -1,0 +1,141 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hp4_paint.rose_bush": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "part_visibility": [
+                {"variant1": "q.property('hp4_paint:furniture_model') == 0"},
+                {"variant2": "q.property('hp4_paint:furniture_model') == 1"},
+                {"variant3": "q.property('hp4_paint:furniture_model') == 2"}
+            ]
+        },
+        "controller.render.hp4_paint.rose_bush.outline": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "part_visibility": [
+                {"variant1": "q.property('hp4_paint:furniture_model') == 0"},
+                {"variant2": "q.property('hp4_paint:furniture_model') == 1"},
+                {"variant3": "q.property('hp4_paint:furniture_model') == 2"}
+            ]
+        },
+        "controller.render.hp4_paint.foxglove_plant": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "part_visibility": [
+                {"variant1": "q.property('hp4_paint:furniture_model') == 0"},
+                {"variant1_2": "q.property('hp4_paint:furniture_model') == 1"},
+                {"variant2": "q.property('hp4_paint:furniture_model') == 2"},
+                {"variant2_2": "q.property('hp4_paint:furniture_model') == 3"}
+            ]
+        },
+        "controller.render.hp4_paint.foxglove_plant.outline": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "part_visibility": [
+                {"variant1": "q.property('hp4_paint:furniture_model') == 0"},
+                {"variant1_2": "q.property('hp4_paint:furniture_model') == 1"},
+                {"variant2": "q.property('hp4_paint:furniture_model') == 2"},
+                {"variant2_2": "q.property('hp4_paint:furniture_model') == 3"}
+            ]
+        },
+        "controller.render.hp4_paint.grass_plant": {
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "texture.default"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "part_visibility": [
+                {"variant0": "q.property('hp4_paint:furniture_model') == 0"},
+                {"variant1": "q.property('hp4_paint:furniture_model') == 1"},
+                {"variant2": "q.property('hp4_paint:furniture_model') == 2"},
+                {"variant3": "q.property('hp4_paint:furniture_model') == 3"},
+                {"variant4": "q.property('hp4_paint:furniture_model') == 4"},
+                {"variant5": "q.property('hp4_paint:furniture_model') == 5"}
+            ]
+        },
+        "controller.render.hp4_paint.grass_plant.outline": {
+            "materials": [
+                {
+                    "*": "material.outline"
+                }
+            ],
+            "geometry": "geometry.outline",
+            "textures": [
+                "texture.outline"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {},
+            "part_visibility": [
+                {"variant0": "q.property('hp4_paint:furniture_model') == 0"},
+                {"variant1": "q.property('hp4_paint:furniture_model') == 1"},
+                {"variant2": "q.property('hp4_paint:furniture_model') == 2"},
+                {"variant3": "q.property('hp4_paint:furniture_model') == 3"},
+                {"variant4": "q.property('hp4_paint:furniture_model') == 4"},
+                {"variant5": "q.property('hp4_paint:furniture_model') == 5"}
+            ]
+        }
+    }
+}

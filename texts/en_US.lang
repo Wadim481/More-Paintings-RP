@@ -1,4 +1,4 @@
-pack.name=More Paintings
+pack.name=More Paintings AFANDI
 pack.description=More Paintings resource packs
 
 hp4_paint.entity.artist_villager.trade=Artist Villager
@@ -245,6 +245,25 @@ item.hp4_paint:stencil=Stencil
 
 item.hp4_paint:spray_can=Spray Can
 
+item.hp4_paint:spray_can_tool=Spray Can Tool
+
+item.hp4_paint:spray_can_white=White Spray Can
+item.hp4_paint:spray_can_light_gray=Light Gray Spray Can
+item.hp4_paint:spray_can_gray=Gray Spray Can
+item.hp4_paint:spray_can_black=Black Spray Can
+item.hp4_paint:spray_can_brown=Brown Spray Can
+item.hp4_paint:spray_can_red=Red Spray Can
+item.hp4_paint:spray_can_orange=Orange Spray Can
+item.hp4_paint:spray_can_yellow=Yellow Spray Can
+item.hp4_paint:spray_can_lime=Lime Spray Can
+item.hp4_paint:spray_can_green=Green Spray Can
+item.hp4_paint:spray_can_cyan=Cyan Spray Can
+item.hp4_paint:spray_can_light_blue=Light Blue Spray Can
+item.hp4_paint:spray_can_blue=Blue Spray Can
+item.hp4_paint:spray_can_purple=Purple Spray Can
+item.hp4_paint:spray_can_magenta=Magenta Spray Can
+item.hp4_paint:spray_can_pink=Pink Spray Can
+
 item.hp4_paint:soft_pastel_box=Soft Pastel Box
 
 item.hp4_paint:sculpture_stand=Sculpture Stand
@@ -350,3 +369,42 @@ hp4_paint:painting_frames=More Paintings - Frames
 hp4_paint:painting_furnitures=More Paintings - Furnitures
 hp4_paint:painting_tools=More Paintings - Tools
 item.hp4_paint:brush=Brush
+
+hp4_paint:foxglove_plant=Foxglove Plants
+hp4_paint:rose_bush=Rose Brushes
+hp4_paint:grass_plant=Grass Plants
+
+tile.hp4_paint:foxglove_plant1_orange.name=Orange Foxglove Plant 1
+tile.hp4_paint:foxglove_plant1_pink.name=Pink Foxglove Plant 1
+tile.hp4_paint:foxglove_plant1_purple.name=Purple Foxglove Plant 1
+tile.hp4_paint:foxglove_plant1_white.name=White Foxglove Plant 1
+tile.hp4_paint:foxglove_plant2_orange.name=Orange Foxglove Plant 2
+tile.hp4_paint:foxglove_plant2_pink.name=Pink Foxglove Plant 2
+tile.hp4_paint:foxglove_plant2_purple.name=Purple Foxglove Plant 2
+tile.hp4_paint:foxglove_plant2_white.name=White Foxglove Plant 2
+tile.hp4_paint:foxglove_plant3_orange.name=Orange Foxglove Plant 3
+tile.hp4_paint:foxglove_plant3_pink.name=Pink Foxglove Plant 3
+tile.hp4_paint:foxglove_plant3_purple.name=Purple Foxglove Plant 3
+tile.hp4_paint:foxglove_plant3_white.name=White Foxglove Plant 3
+tile.hp4_paint:foxglove_plant4_orange.name=Orange Foxglove Plant 4
+tile.hp4_paint:foxglove_plant4_pink.name=Pink Foxglove Plant 4
+tile.hp4_paint:foxglove_plant4_purple.name=Purple Foxglove Plant 4
+tile.hp4_paint:foxglove_plant4_white.name=White Foxglove Plant 4
+tile.hp4_paint:grass_plant1.name=Grass Plant 1
+tile.hp4_paint:grass_plant2.name=Grass Plant 2
+tile.hp4_paint:grass_plant3.name=Grass Plant 3
+tile.hp4_paint:grass_plant4.name=Grass Plant 4
+tile.hp4_paint:grass_plant5.name=Grass Plant 5
+tile.hp4_paint:grass_plant6.name=Grass Plant 6
+tile.hp4_paint:rose_bush1_pink.name=Pink Rose Bush 1
+tile.hp4_paint:rose_bush1_red.name=Red Rose Bush 1
+tile.hp4_paint:rose_bush1_white.name=White Rose Bush 1
+tile.hp4_paint:rose_bush1_yellow.name=Yellow Rose Bush 1
+tile.hp4_paint:rose_bush2_pink.name=Pink Rose Bush 2
+tile.hp4_paint:rose_bush2_red.name=Red Rose Bush 2
+tile.hp4_paint:rose_bush2_white.name=White Rose Bush 2
+tile.hp4_paint:rose_bush2_yellow.name=Yellow Rose Bush 2
+tile.hp4_paint:rose_bush3_pink.name=Pink Rose Bush 3
+tile.hp4_paint:rose_bush3_red.name=Red Rose Bush 3
+tile.hp4_paint:rose_bush3_white.name=White Rose Bush 3
+tile.hp4_paint:rose_bush3_yellow.name=Yellow Rose Bush 3

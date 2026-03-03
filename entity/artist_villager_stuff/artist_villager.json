@@ -8,12 +8,26 @@
         "masked": "villager_v2_masked"
       },
       "textures": {
-        "default": "textures/entity/villager2/villager",
+        "default1": "textures/hp/more_paintings/artist_villager/artist_villager_texture1",
+        "default2": "textures/hp/more_paintings/artist_villager/artist_villager_texture2",
+        "default3": "textures/hp/more_paintings/artist_villager/artist_villager_texture3",
+        "default4": "textures/hp/more_paintings/artist_villager/artist_villager_texture4",
+        "default5": "textures/hp/more_paintings/artist_villager/artist_villager_texture5",
+        
+        "skin1": "textures/hp/more_paintings/artist_villager/artist_villager_skin_texture1",
+        "skin2": "textures/hp/more_paintings/artist_villager/artist_villager_skin_texture2",
+        "skin3": "textures/hp/more_paintings/artist_villager/artist_villager_skin_texture3",
+        "skin4": "textures/hp/more_paintings/artist_villager/artist_villager_skin_texture4",
+        
+        "colors1": "textures/hp/more_paintings/artist_villager/artist_villager_colors_texture1",
+        "colors2": "textures/hp/more_paintings/artist_villager/artist_villager_colors_texture2",
+        "colors3": "textures/hp/more_paintings/artist_villager/artist_villager_colors_texture3",
+        "colors4": "textures/hp/more_paintings/artist_villager/artist_villager_colors_texture4",
         "zombie": "textures/entity/zombie/zombie"
       },
       "geometry": {
-        "default": "geometry.villager_v2",
-        "zombie": "geometry.zombie.v1.8"
+        "default": "geometry.hp4_paint.artist_villager",
+        "zombie": "geometry.hp4_paint.zombie"
       },
       "scripts": {
         "scale": "0.9375",
@@ -24,32 +38,66 @@
           "variable.level_index = query.trade_tier;"
         ],
         "animate": [
-          {"cont_general": "q.property('hp4_paint:is_painting') == false"},
-          {"cont_move": "q.property('hp4_paint:is_painting') == false"},
-          {"cont_raise_arms": "q.property('hp4_paint:is_painting') == false"},
-          {"cont_baby": "q.property('hp4_paint:is_painting') == false"},
-          {"painting": "q.property('hp4_paint:is_painting') == true"}
+          "root",
+          {"painting": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"}
         ]
       },
       "animations": {
-        "cont_general": "controller.animation.villager_v2.general",
-        "cont_move": "controller.animation.villager_v2.move",
-        "cont_raise_arms": "controller.animation.villager_v2.raise_arms",
-        "cont_baby": "controller.animation.villager_v2.baby",
-        "general": "animation.villager.general",
-        "look_at_target": "animation.common.look_at_target",
-        "move": "animation.villager.move",
-        "raise_arms": "animation.villager.raise_arms",
-        "baby_transform": "animation.villager.baby_transform",
-        "get_in_bed": "animation.villager.get_in_bed",
-        "painting": "animation.hp4_paint.artist_villager.painting"
+        "root": "controller.animation.hp4_paint.artist_villager",
+        "painting": "controller.animation.hp4_paint.artist_villager.painting",
+        "zombie_arm": "animation.hp4_paint.artist_villager.zombie_arm",
+        "blink":"animation.hp4_paint.artist_villager.blink",
+        "idle":"animation.hp4_paint.artist_villager.idle",
+        "walk":"animation.hp4_paint.artist_villager.walk",
+        "hide_scared":"animation.hp4_paint.artist_villager.hide_scared",
+        "run_scared":"animation.hp4_paint.artist_villager.run_scared",
+        "attack":"animation.hp4_paint.artist_villager.attack",
+        "throw_bucket":"animation.hp4_paint.artist_villager.throw_bucket",
+        "defence_start":"animation.hp4_paint.artist_villager.defence_start",
+        "defence_loop":"animation.hp4_paint.artist_villager.defence_loop",
+        "defence_end":"animation.hp4_paint.artist_villager.defence_end",
+        "camouflage":"animation.hp4_paint.artist_villager.camouflage",
+        "spin":"animation.hp4_paint.artist_villager.spin",
+        "death":"animation.hp4_paint.artist_villager.death",
+        "paint_base":"animation.hp4_paint.artist_villager.paint_base",
+        "paint_sneak":"animation.hp4_paint.artist_villager.paint_sneak",
+        "paint":"animation.hp4_paint.artist_villager.paint",
+        "paint1":"animation.hp4_paint.artist_villager.paint1",
+        "paint2":"animation.hp4_paint.artist_villager.paint2",
+        "paint3":"animation.hp4_paint.artist_villager.paint3",
+        "paint4":"animation.hp4_paint.artist_villager.paint4",
+        "paint5":"animation.hp4_paint.artist_villager.paint5",
+        "paint6":"animation.hp4_paint.artist_villager.paint6",
+        "paint7":"animation.hp4_paint.artist_villager.paint7",
+        "sleep":"animation.hp4_paint.artist_villager.sleep"
       },
       "render_controllers": [
-        {"controller.render.default": "!q.property('hp4_paint:camouflage')"},
+        {"controller.render.hp4_paint.artist_villager.cloth": "!q.property('hp4_paint:camouflage')"},
+        {"controller.render.hp4_paint.artist_villager.skin": "!q.property('hp4_paint:camouflage')"},
+        {"controller.render.hp4_paint.artist_villager.color": "!q.property('hp4_paint:camouflage')"},
         {"controller.render.hp4_paint.artist_villager.camouflage": "q.property('hp4_paint:camouflage')"}
       ],
       "spawn_egg": {
         "texture": "spawn_egg_villager"
+      },
+      "particle_effects": {
+        "walk_dust": "test:walk_dust",
+        "brush_trail": "test:brush_trail",
+        "pallet_splash_run": "test:pallet_splash_run",
+        "paint_splash_attack": "test:pallet_splash_attack",
+        "zombie_dust": "test:zombie_dust",
+        "water_splash": "test:water_splash",
+        "brush_trail2": "test:brush_trail2"
+        
+      },
+      "sound_effects": {
+        "step": "hp4_paint:art_v.step",
+        "splat": "hp4_paint:art_v.splat",
+        "splat2": "hp4_paint:art_v.splat2",
+        "throw": "hp4_paint:art_v.throw",
+        "brush": "hp4_paint:art_v.brush",
+        "brush2": "hp4_paint:art_v.brush2",
+        "pop": "random.pop"
       }
     }
   }

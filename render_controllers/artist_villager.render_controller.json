@@ -1,6 +1,108 @@
 {
 	"format_version": "1.8.0",
 	"render_controllers": {
+		"controller.render.hp4_paint.artist_villager.cloth": {
+			"arrays": {
+				"textures": {
+					"array.cloth": [
+						"texture.default1",
+						"texture.default2",
+						"texture.default3",
+						"texture.default4",
+						"texture.default5"
+					],
+					"array.colors": [
+						"texture.colors1",
+						"texture.colors2",
+						"texture.colors3",
+						"texture.colors4"
+					],
+					"array.skin": [
+						"texture.skin1",
+						"texture.skin2",
+						"texture.skin3",
+						"texture.skin4"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"geometry": "geometry.default",
+			"textures": [
+				"array.cloth[q.property('hp4_paint:cloth')]"
+			]
+		},
+		"controller.render.hp4_paint.artist_villager.skin": {
+			"arrays": {
+				"textures": {
+					"array.cloth": [
+						"texture.default1",
+						"texture.default2",
+						"texture.default3",
+						"texture.default4",
+						"texture.default5"
+					],
+					"array.colors": [
+						"texture.colors1",
+						"texture.colors2",
+						"texture.colors3",
+						"texture.colors4"
+					],
+					"array.skin": [
+						"texture.skin1",
+						"texture.skin2",
+						"texture.skin3",
+						"texture.skin4"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"geometry": "geometry.default",
+			"textures": [
+				"array.skin[q.property('hp4_paint:skin')]"
+			]
+		},
+		"controller.render.hp4_paint.artist_villager.color": {
+			"arrays": {
+				"textures": {
+					"array.cloth": [
+						"texture.default1",
+						"texture.default2",
+						"texture.default3",
+						"texture.default4",
+						"texture.default5"
+					],
+					"array.colors": [
+						"texture.colors1",
+						"texture.colors2",
+						"texture.colors3",
+						"texture.colors4"
+					],
+					"array.skin": [
+						"texture.skin1",
+						"texture.skin2",
+						"texture.skin3",
+						"texture.skin4"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"geometry": "geometry.default",
+			"textures": [
+				"array.colors[q.property('hp4_paint:colors')]"
+			]
+		},
 		"controller.render.hp4_paint.artist_villager.camouflage": {
 			"materials": [
 				{

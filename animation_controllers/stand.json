@@ -1,0 +1,18 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.hp4_paint.stand": {
+            "initial_state": "default",
+            "states": {
+                "default": {  "transitions": [{ "16x16": "query.property('hp4_paint:furniture_color')=='1'" }]},
+                "16x16": {
+                    "animations": [ "16x16" ],
+                    "transitions": [{ "default": "q.is_stunned" }]
+                    
+                }
+            }
+        }
+    }
+
+
+}

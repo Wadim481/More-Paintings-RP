@@ -9,6 +9,57 @@
 		"hp4_paint:spray_can": {
 			"textures": "textures/hp/more_paintings/items/spray_can"
 		},
+		"hp4_paint:spray_can_tool": {
+			"textures": "textures/hp/more_paintings/items/spray_can"
+		},
+		"hp4_paint:spray_can_white": {
+			"textures": "textures/hp/more_paintings/items/spray_can_white"
+		},
+		"hp4_paint:spray_can_light_gray": {
+			"textures": "textures/hp/more_paintings/items/spray_can_lightgray"
+		},
+		"hp4_paint:spray_can_gray": {
+			"textures": "textures/hp/more_paintings/items/spray_can_gray"
+		},
+		"hp4_paint:spray_can_black": {
+			"textures": "textures/hp/more_paintings/items/spray_can_black"
+		},
+		"hp4_paint:spray_can_brown": {
+			"textures": "textures/hp/more_paintings/items/spray_can_brown"
+		},
+		"hp4_paint:spray_can_red": {
+			"textures": "textures/hp/more_paintings/items/spray_can_red"
+		},
+		"hp4_paint:spray_can_orange": {
+			"textures": "textures/hp/more_paintings/items/spray_can_orange"
+		},
+		"hp4_paint:spray_can_yellow": {
+			"textures": "textures/hp/more_paintings/items/spray_can_yellow"
+		},
+		"hp4_paint:spray_can_lime": {
+			"textures": "textures/hp/more_paintings/items/spray_can_lime"
+		},
+		"hp4_paint:spray_can_green": {
+			"textures": "textures/hp/more_paintings/items/spray_can_green"
+		},
+		"hp4_paint:spray_can_cyan": {
+			"textures": "textures/hp/more_paintings/items/spray_can_cyan"
+		},
+		"hp4_paint:spray_can_light_blue": {
+			"textures": "textures/hp/more_paintings/items/spray_can_lightblue"
+		},
+		"hp4_paint:spray_can_blue": {
+			"textures": "textures/hp/more_paintings/items/spray_can_blue"
+		},
+		"hp4_paint:spray_can_purple": {
+			"textures": "textures/hp/more_paintings/items/spray_can_purple"
+		},
+		"hp4_paint:spray_can_magenta": {
+			"textures": "textures/hp/more_paintings/items/spray_can_magenta"
+		},
+		"hp4_paint:spray_can_pink": {
+			"textures": "textures/hp/more_paintings/items/spray_can_pink"
+		},
 		"hp4_paint:spatula": {
 			"textures": "textures/hp/more_paintings/items/spatula"
 		},
@@ -305,6 +356,21 @@
 		},
 		"hp4_paint:wooden.frame": {
 			"textures": "textures/hp/more_paintings/items/wooden_frame"
+		},
+		"hp4_paint:rose_bush": {
+			"textures": "textures/hp/more_paintings/items/rose_bush"
+		},
+		"hp4_paint:grass_plant": {
+			"textures": "textures/hp/more_paintings/items/grass_plant"
+		},
+		"hp4_paint:foxglove_plant": {
+			"textures": "textures/hp/more_paintings/items/foxglove_plant"
+		},
+		"hp4_paint:window": {
+			"textures": "textures/hp/more_paintings/items/window"
+		},
+		"hp4_paint:window_big": {
+			"textures": "textures/hp/more_paintings/items/window_big"
 		}
 	},
 	"resource_pack_name": "More Paintings",

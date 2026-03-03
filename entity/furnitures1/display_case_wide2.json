@@ -32,10 +32,12 @@
             },
             "animations": {
                 "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+                
             },
             "scripts": {
                 "animate": [
                     "cardinal_rotation"
+                   
                 ]
             }
         }

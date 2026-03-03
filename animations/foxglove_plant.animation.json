@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.new": {
+			"loop": true,
+			"bones": {
+				"variant1": {
+					"position": [18, 0, 0]
+				},
+				"variant2": {
+					"position": [34, 0, 0]
+				},
+				"variant2_2": {
+					"position": [-16, 0, 0]
+				}
+			}
+		}
+	}
+}

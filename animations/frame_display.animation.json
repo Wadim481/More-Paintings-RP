@@ -260,6 +260,471 @@
 					"position": [-24, 18, -7]
 				}
 			}
+		},
+		"animation.hp4_paint.display.destroy16x16": {
+			"animation_length": 1,
+			"bones": {
+				"16x16": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0833": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "d_painting16x16",
+					"locator": "locator"
+				}
+			}
+		},
+		"animation.hp4_paint.display.destroy32x16": {
+			"animation_length": 1,
+			"bones": {
+				"32x16": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy32x32": {
+			"animation_length": 1,
+			"bones": {
+				"32x32": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [4, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator3"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator4"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy16x32": {
+			"animation_length": 1,
+			"bones": {
+				"16x32": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy32x64": {
+			"animation_length": 1,
+			"bones": {
+				"32x64": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [4, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator3"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator4"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator5"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator6"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy48x48": {
+			"animation_length": 1,
+			"bones": {
+				"48x48": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [4, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator3"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator4"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator5"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator6"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator7"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator8"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator9"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy48x64": {
+			"animation_length": 1,
+			"bones": {
+				"48x64": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [4, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator3"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator4"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator5"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator6"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator7"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator8"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator9"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator10"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator11"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator12"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy64x32": {
+			"animation_length": 1,
+			"bones": {
+				"64x32": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [4, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator3"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator4"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator5"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator6"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy64x48": {
+			"animation_length": 1,
+			"bones": {
+				"64x48": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [4, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator3"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator4"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator5"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator6"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator7"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator8"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator9"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator10"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator11"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator12"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy64x64": {
+			"animation_length": 1,
+			"bones": {
+				"64x64": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [4, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator2"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator3"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator4"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator5"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator6"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator7"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator8"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator9"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator10"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator11"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator12"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator13"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator14"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator15"
+					},
+					{
+						"effect": "d_painting16x16",
+						"locator": "locator16"
+					}
+				]
+			}
+		},
+		"animation.hp4_paint.display.destroy1x1": {
+			"loop": true,
+			"particle_effects": {
+				"0.0": {
+					"effect": "d_painting16x16",
+					"locator": "locator"
+				}
+			}
 		}
 	}
 }

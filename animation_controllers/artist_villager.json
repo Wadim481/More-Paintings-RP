@@ -1,0 +1,86 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.hp4_paint.artist_villager": {
+			"states": {
+				"default": {
+					"animations": [
+						{"idle": "q.ground_speed == 0"},
+						{"walk": "q.ground_speed > 0"},
+						{"zombie_arm": "q.property('hp4_paint:camouflage')"}
+					],
+					"transitions": [
+						{"sleep": "q.property('hp4_paint:sleeping')"},
+						{"scared": "q.property('hp4_paint:is_hiding')"},
+						{"death": "q.health == 1"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"scared": {
+					"animations": [
+						{"hide_scared": "q.ground_speed == 0"},
+						{"run_scared": "q.ground_speed > 0"},
+						{"zombie_arm": "q.property('hp4_paint:camouflage')"}
+					],
+					"transitions": [
+						{"sleep": "q.property('hp4_paint:sleeping')"},
+						{"default": "!q.property('hp4_paint:is_hiding')"},
+						{"death": "q.health == 1"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"sleep": {
+					"animations": [
+						"sleep"
+					],
+					"transitions": [
+						{"default": "!q.property('hp4_paint:sleeping')"},
+						{"death": "q.health == 1"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"death": {
+					"animations": [
+						"death"
+					]
+				}
+			}
+		},
+		"controller.animation.hp4_paint.artist_villager.painting": {
+			"states": {
+				"default": {
+					"animations": [
+						"paint"
+					],
+					"on_exit": [
+						"v.painting = math.floor(math.random(1, 7));"
+					],
+					"transitions": [
+						{"painting": "q.all_animations_finished && q.property('hp4_paint:is_painting')"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"painting": {
+					"animations": [
+						{"paint1": "v.painting == 1"},
+						{"paint2": "v.painting == 2"},
+						{"paint3": "v.painting == 3"},
+						{"paint4": "v.painting == 4"},
+						{"paint5": "v.painting == 5"},
+						{"paint6": "v.painting == 6"},
+						{"paint7": "v.painting == 7"}
+					],
+					"transitions": [
+						{"default": "q.any_animation_finished || !q.property('hp4_paint:is_painting') "}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}
