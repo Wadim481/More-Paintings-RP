@@ -26,7 +26,7 @@
         "zombie": "textures/entity/zombie/zombie"
       },
       "geometry": {
-        "default": "geometry.hp4_paint.artist_villager",
+        "default": "geometry.hp4_paint.artist_villager_fix",
         "zombie": "geometry.hp4_paint.zombie"
       },
       "scripts": {
@@ -39,10 +39,12 @@
         ],
         "animate": [
           "root",
+          "shield_cont",
           {"painting": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"}
         ]
       },
       "animations": {
+        "shield_cont": "controller.animation.hp4_paint.artist_villager.shield",
         "root": "controller.animation.hp4_paint.artist_villager",
         "painting": "controller.animation.hp4_paint.artist_villager.painting",
         "zombie_arm": "animation.hp4_paint.artist_villager.zombie_arm",
@@ -87,8 +89,12 @@
         "paint_splash_attack": "test:pallet_splash_attack",
         "zombie_dust": "test:zombie_dust",
         "water_splash": "test:water_splash",
-        "brush_trail2": "test:brush_trail2"
-        
+        "brush_trail2": "test:brush_trail2",
+        "pallet_splash2": "test:pallet_splash2",
+        "wind": "test:wind",
+        "wind2": "test:wind2",
+        "shield_shine": "test:shield_shine",
+        "shield": "test:shield"
       },
       "sound_effects": {
         "step": "hp4_paint:art_v.step",
@@ -97,7 +103,11 @@
         "throw": "hp4_paint:art_v.throw",
         "brush": "hp4_paint:art_v.brush",
         "brush2": "hp4_paint:art_v.brush2",
-        "pop": "random.pop"
+        "pop": "random.pop",
+        "wind": "hp4_paint:art_v.wind",
+        "wood": "hp4_paint:destroy.wood",
+        "whoosh": "hp4_paint:whoosh",
+        "ring_sound": "hp4_paint:ring.sound"
       }
     }
   }

@@ -152,6 +152,81 @@
 				{"stem": true},
 				{"plants": false}
 			]
+		},
+		"controller.render.hp4_paint.plants_holder.foxglove_plant": {
+			"geometry": "geometry.foxglove_plant",
+			"arrays": {
+				"textures": {
+					"array.flower_textures": [
+						"texture.foxglove_orange",
+						"texture.foxglove_pink",
+						"texture.foxglove_purple",
+						"texture.foxglove_white"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.flower_textures[q.property('hp4_paint:color')]"
+			],
+			"part_visibility": [
+				{"*": false},
+				{"variant1": "q.property('hp4_paint:variant') == 0"},
+				{"variant1_2": "q.property('hp4_paint:variant') == 1"},
+				{"variant2": "q.property('hp4_paint:variant') == 2"},
+				{"variant2_2": "q.property('hp4_paint:variant') == 3"}
+			]
+		},
+		"controller.render.hp4_paint.plants_holder.rose_bush": {
+			"geometry": "geometry.rose_bush",
+			"arrays": {
+				"textures": {
+					"array.flower_textures": [
+						"texture.rose_bush_pink",
+						"texture.rose_bush_red",
+						"texture.rose_bush_white",
+						"texture.rose_bush_yellow"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.flower_textures[q.property('hp4_paint:color')]"
+			],
+			"part_visibility": [
+				{"*": false},
+				{"variant1": "q.property('hp4_paint:variant') == 0"},
+				{"variant2": "q.property('hp4_paint:variant') == 1"},
+				{"variant3": "q.property('hp4_paint:variant') == 2"}
+			]
+		},
+		"controller.render.hp4_paint.plants_holder.grass_plant": {
+			"geometry": "geometry.grass_plant",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.grass_plant"
+			],
+			"part_visibility": [
+				{"*": false},
+				{"variant0": "q.property('hp4_paint:variant') == 0"},
+				{"variant1": "q.property('hp4_paint:variant') == 1"},
+				{"variant2": "q.property('hp4_paint:variant') == 2"},
+				{"variant3": "q.property('hp4_paint:variant') == 3"},
+				{"variant4": "q.property('hp4_paint:variant') == 4"},
+				{"variant5": "q.property('hp4_paint:variant') == 5"}
+			]
 		}
 	}
 }

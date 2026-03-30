@@ -20,6 +20,9 @@
 			"bones": {
 				"plants": {
 					"position": [0, "v.height", 0]
+				},
+				"root": {
+					"position": [0, "v.height", 0]
 				}
 			}
 		},

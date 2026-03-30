@@ -3320,6 +3320,7 @@
 		},
 		"animation.hp4_paint.artist_villager.sleep": {
 			"loop": true,
+			"override_previous_animation": true,
 			"bones": {
 				"rightLeg": {
 					"rotation": [0, 0, -7.5]
@@ -3342,7 +3343,7 @@
 				},
 				"root": {
 					"rotation": [-90, 0, 0],
-					"position": [0, 3, -16]
+					"position": [0, 3, -26]
 				},
 				"eye_right": {
 					"scale": [1, 0, 1]
@@ -3364,6 +3365,9 @@
 				},
 				"canva_effect": {
 					"scale": 0
+				},
+				"akar": {
+					"rotation": [0, 0, 0]
 				}
 			}
 		},

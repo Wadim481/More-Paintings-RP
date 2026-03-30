@@ -1,0 +1,55 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:plants_holder_mp",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "foxglove_orange": "textures/hp/more_paintings/furnitures/foxglove/foxglove_orange",
+                "foxglove_pink": "textures/hp/more_paintings/furnitures/foxglove/foxglove_pink",
+                "foxglove_purple": "textures/hp/more_paintings/furnitures/foxglove/foxglove_purple",
+                "foxglove_white": "textures/hp/more_paintings/furnitures/foxglove/foxglove_white",
+                "grass_plant": "textures/hp/more_paintings/furnitures/grass_plant",
+                "rose_bush_pink": "textures/hp/more_paintings/furnitures/rose/rose_bush_pink",
+                "rose_bush_red": "textures/hp/more_paintings/furnitures/rose/rose_bush_red",
+                "rose_bush_white": "textures/hp/more_paintings/furnitures/rose/rose_bush_white",
+                "rose_bush_yellow": "textures/hp/more_paintings/furnitures/rose/rose_bush_yellow"
+            },
+            "geometry": {
+                "foxglove_plant": "geometry.hp4_paint.foxglove_plant",
+                "rose_bush": "geometry.hp4_paint.rose_bush",
+                "grass_plant": "geometry.hp4_paint.grass_plant"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.plants_holder.foxglove_plant": "q.property('hp4_paint:flower') == 0"
+                },
+                {
+                    "controller.render.hp4_paint.plants_holder.rose_bush": "q.property('hp4_paint:flower') == 1"
+                },
+                {
+                    "controller.render.hp4_paint.plants_holder.grass_plant": "q.property('hp4_paint:flower') == 2"
+                }
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:round_planter"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation",
+                "plants_holder": "animation.hp4_paint.plants_holder"
+            },
+            "scripts": {
+                "animate": [
+                    "plants_holder"
+                ],
+                "pre_animation": [
+                    "v.height = q.property('hp4_paint:height');"
+                ]
+            }
+        }
+    }
+}

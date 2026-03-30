@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.artist_villager.idle": {
+		"animation.hp4_paint.artist_villager.idle": {
 			"loop": true,
 			"bones": {
 				"waist": {
@@ -43,7 +43,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.walk": {
+		"animation.hp4_paint.artist_villager.walk": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -237,7 +237,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.hide_scared": {
+		"animation.hp4_paint.artist_villager.hide_scared": {
 			"loop": true,
 			"animation_length": 2.8333,
 			"bones": {
@@ -373,9 +373,6 @@
 				},
 				"paint_effect": {
 					"scale": 0
-				},
-				"main_effect": {
-					"scale": 0
 				}
 			},
 			"particle_effects": {
@@ -385,7 +382,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.run_scared": {
+		"animation.hp4_paint.artist_villager.run_scared": {
 			"loop": true,
 			"animation_length": 0.5556,
 			"bones": {
@@ -569,7 +566,7 @@
 				]
 			}
 		},
-		"animation.artist_villager.run_scared2": {
+		"animation.hp4_paint.artist_villager.run_scared2": {
 			"loop": true,
 			"animation_length": 3.6111,
 			"bones": {
@@ -1116,7 +1113,7 @@
 				]
 			}
 		},
-		"animation.artist_villager.attack": {
+		"animation.hp4_paint.artist_villager.attack": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -1215,7 +1212,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.throw_bucket": {
+		"animation.hp4_paint.artist_villager.throw_bucket": {
 			"loop": true,
 			"animation_length": 1.5,
 			"bones": {
@@ -1331,7 +1328,7 @@
 			},
 			"sound_effects": {
 				"0.5417": {
-					"effect": "throw"
+					"effect": "whoosh"
 				}
 			},
 			"particle_effects": {
@@ -1345,9 +1342,9 @@
 				}
 			}
 		},
-		"animation.artist_villager.defence_start": {
-			"loop": true,
-			"animation_length": 3.9167,
+		"animation.hp4_paint.artist_villager.defence_start": {
+			"animation_length": 3.5,
+			"override_previous_animation": true,
 			"bones": {
 				"1": {
 					"rotation": {
@@ -1588,10 +1585,7 @@
 				"canva": {
 					"scale": {
 						"1.25": [1, 1, 1],
-						"1.2917": {
-							"pre": [1, 1, 1],
-							"post": [0, 0, 0]
-						}
+						"1.2917": {"pre": [1, 1, 1], "post": [0, 0, 0]}
 					}
 				},
 				"root": {
@@ -1622,10 +1616,7 @@
 					},
 					"scale": {
 						"1.25": [0, 0, 0],
-						"1.2917": {
-							"pre": [0, 0, 0],
-							"post": [1, 1, 1]
-						}
+						"1.2917": {"pre": [0, 0, 0], "post": [1, 1, 1]}
 					}
 				},
 				"paint_effect": {
@@ -1651,10 +1642,7 @@
 					},
 					"scale": {
 						"1.25": [0, 0, 0],
-						"1.2917": {
-							"pre": [0, 0, 0],
-							"post": [1, 1, 1]
-						}
+						"1.2917": {"pre": [0, 0, 0], "post": [1, 1, 1]}
 					}
 				},
 				"canva_effect2": {
@@ -1677,10 +1665,7 @@
 					},
 					"scale": {
 						"1.25": [0, 0, 0],
-						"1.2917": {
-							"pre": [0, 0, 0],
-							"post": [1, 1, 1]
-						}
+						"1.2917": {"pre": [0, 0, 0], "post": [1, 1, 1]}
 					}
 				},
 				"canva_effect3": {
@@ -1703,16 +1688,16 @@
 					},
 					"scale": {
 						"1.25": [0, 0, 0],
-						"1.2917": {
-							"pre": [0, 0, 0],
-							"post": [1, 1, 1]
-						}
+						"1.2917": {"pre": [0, 0, 0], "post": [1, 1, 1]}
 					}
 				}
 			},
 			"sound_effects": {
 				"0.9583": {
 					"effect": "step"
+				},
+				"1.75": {
+					"effect": "wood"
 				}
 			},
 			"particle_effects": {
@@ -1726,8 +1711,9 @@
 				}
 			}
 		},
-		"animation.artist_villager.defence_loop": {
+		"animation.hp4_paint.artist_villager.defence_loop": {
 			"loop": true,
+			"override_previous_animation": true,
 			"bones": {
 				"1": {
 					"rotation": [0, 180, 0],
@@ -1779,11 +1765,69 @@
 					"rotation": [180, "45-math.round(query.anim_time*90)", 0],
 					"position": [0, 12, 0]
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "wind"
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "wind2",
+						"locator": "canva1"
+					},
+					{
+						"effect": "wind2",
+						"locator": "canva2"
+					},
+					{
+						"effect": "wind2",
+						"locator": "canva3"
+					},
+					{
+						"effect": "wind2",
+						"locator": "canva4"
+					},
+					{
+						"effect": "shield_shine",
+						"locator": "canva1"
+					},
+					{
+						"effect": "shield_shine",
+						"locator": "canva2"
+					},
+					{
+						"effect": "shield_shine",
+						"locator": "canva3"
+					},
+					{
+						"effect": "shield_shine",
+						"locator": "canva4"
+					},
+					{
+						"effect": "shield",
+						"locator": "canva1"
+					},
+					{
+						"effect": "shield",
+						"locator": "canva2"
+					},
+					{
+						"effect": "shield",
+						"locator": "canva3"
+					},
+					{
+						"effect": "shield",
+						"locator": "canva4"
+					}
+				]
 			}
 		},
-		"animation.artist_villager.defence_end": {
-			"loop": true,
+		"animation.hp4_paint.artist_villager.defence_end": {
+			"loop": "hold_on_last_frame",
 			"animation_length": 1.25,
+			"override_previous_animation": true,
 			"bones": {
 				"1": {
 					"rotation": [0, 180, 0],
@@ -1892,7 +1936,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.camouflage": {
+		"animation.hp4_paint.artist_villager.camouflage": {
 			"loop": true,
 			"animation_length": 7,
 			"bones": {
@@ -1916,7 +1960,10 @@
 					},
 					"scale": {
 						"1.5": [1, 1, 1],
-						"1.5417": {"pre": [1, 1, 1], "post": [0, 0, 0]}
+						"1.5417": {
+							"pre": [1, 1, 1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"pallet": {
@@ -1982,7 +2029,10 @@
 					"scale": {
 						"0.0": [0, 0, 0],
 						"1.5": [0, 0, 0],
-						"1.5417": {"pre": [0, 0, 0], "post": [1, 1, 1]}
+						"1.5417": {
+							"pre": [0, 0, 0],
+							"post": [1, 1, 1]
+						}
 					}
 				},
 				"paint2": {
@@ -2126,7 +2176,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.death": {
+		"animation.hp4_paint.artist_villager.death": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 10,
 			"bones": {
@@ -2408,7 +2458,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint_base": {
+		"animation.hp4_paint.artist_villager.paint_base": {
 			"loop": true,
 			"animation_length": 10,
 			"bones": {
@@ -2467,7 +2517,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint_sneak": {
+		"animation.hp4_paint.artist_villager.paint_sneak": {
 			"loop": true,
 			"bones": {
 				"waist": {
@@ -2501,7 +2551,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint": {
+		"animation.hp4_paint.artist_villager.paint": {
 			"animation_length": 4,
 			"bones": {
 				"head": {
@@ -2584,7 +2634,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint1": {
+		"animation.hp4_paint.artist_villager.paint1": {
 			"loop": true,
 			"animation_length": 10,
 			"bones": {
@@ -2704,7 +2754,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint2": {
+		"animation.hp4_paint.artist_villager.paint2": {
 			"loop": true,
 			"animation_length": 10,
 			"bones": {
@@ -2803,7 +2853,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint3": {
+		"animation.hp4_paint.artist_villager.paint3": {
 			"loop": true,
 			"animation_length": 10,
 			"bones": {
@@ -2926,7 +2976,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint4": {
+		"animation.hp4_paint.artist_villager.paint4": {
 			"loop": true,
 			"animation_length": 10,
 			"bones": {
@@ -2995,7 +3045,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint5": {
+		"animation.hp4_paint.artist_villager.paint5": {
 			"loop": true,
 			"animation_length": 10,
 			"bones": {
@@ -3064,7 +3114,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint6": {
+		"animation.hp4_paint.artist_villager.paint6": {
 			"loop": true,
 			"animation_length": 10,
 			"bones": {
@@ -3194,7 +3244,7 @@
 				}
 			}
 		},
-		"animation.artist_villager.paint7": {
+		"animation.hp4_paint.artist_villager.paint7": {
 			"loop": true,
 			"animation_length": 10,
 			"bones": {
@@ -3275,8 +3325,9 @@
 				}
 			}
 		},
-		"animation.artist_villager.sleep": {
+		"animation.hp4_paint.artist_villager.sleep": {
 			"loop": true,
+			"override_previous_animation": true,
 			"bones": {
 				"rightLeg": {
 					"rotation": [0, 0, -7.5]
@@ -3299,7 +3350,7 @@
 				},
 				"root": {
 					"rotation": [-90, 0, 0],
-					"position": [0, 3, -16]
+					"position": [0, 3, -26]
 				},
 				"eye_right": {
 					"scale": [1, 0, 1]
@@ -3318,10 +3369,16 @@
 				},
 				"main_effect": {
 					"scale": 0
+				},
+				"akar": {
+					"rotation": [0, 0, 0]
+				},
+				"canva_effect": {
+					"scale": 0
 				}
 			}
 		},
-		"animation.artist_villager.blink": {
+		"animation.hp4_paint.artist_villager.blink": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -3356,6 +3413,251 @@
 						"0.25": [0, -1, 0],
 						"0.3333": [0, 0, 0]
 					}
+				}
+			}
+		},
+		"animation.hp4_paint.artist_villager.spin": {
+			"loop": true,
+			"animation_length": 6,
+			"bones": {
+				"waist": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"3.9167": [0, 0, 0],
+						"4.25": [37.5, 0, 0],
+						"4.375": [-7.5, 0, 0],
+						"5.1667": [-7.5, 0, 0],
+						"5.3333": [25, 0, 0],
+						"5.4583": [-7.5, 0, 0],
+						"5.625": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.25": {
+							"post": [0, 17.5, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0417": {
+							"post": [0, 17.5, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.2917": {
+							"post": [0, -35, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.0": {
+							"post": [0, -35, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.25": {
+							"post": [30, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.375": {
+							"post": [-37.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"4.5417": {
+							"post": [17.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.0": {
+							"post": [-20, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.25": {
+							"post": [17.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.5": {
+							"post": [17.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.75": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"rightLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [9.99067, -0.43399, 2.46207],
+						"1.0": [9.99, -0.43, 2.46],
+						"3.0": [9.99, -0.43, 2.46],
+						"3.25": [37.49, -0.43, 2.46],
+						"3.9167": [37.49, -0.43, 2.46],
+						"4.25": [9.99, -0.43, 2.46],
+						"4.375": [-35.01, -0.43, 2.46],
+						"4.5833": [12.49, -0.43, 2.46],
+						"4.75": [-25.01, -0.43, 2.46],
+						"4.9583": [17.49, -0.43, 2.46],
+						"5.125": [-7.51, -0.43, 2.46],
+						"5.25": [0, 0, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"leftLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-12.2127, -2.68507, -12.2127],
+						"1.0": [-12.21, -2.69, -12.21],
+						"3.0": [-65.24584, 17.5803, 2.62966],
+						"4.0": [-65.25, 17.58, 2.63],
+						"4.25": [0, 0, -15],
+						"4.375": [-30, 0, -15],
+						"4.5833": [-40, 0, -15],
+						"4.75": [-2.5, 0, -15],
+						"4.9583": [-39.32466, -7.9972, -24.63846],
+						"5.125": [10.67534, -7.9972, -24.63846],
+						"5.25": [10.68, -8, -24.64],
+						"5.375": [0, 0, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 5],
+						"1.0": [0, 0, 15],
+						"1.5": [47.39118, -3.68425, 38.38262],
+						"4.25": [47.39, -3.68, 38.38],
+						"4.4167": [17.39, -3.68, 38.38],
+						"4.5833": [13.85717, -11.2244, 65.07468],
+						"4.75": [-31.14283, -11.2244, 65.07468],
+						"5.0": [11.35717, -11.2244, 65.07468],
+						"5.75": [11.36, -11.22, 65.07],
+						"6.0": [0, 0, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -5],
+						"1.0": [0, 0, -15],
+						"1.5": [-80.19076, 20.76006, -41.97935],
+						"3.9167": [-80.19, 20.76, -41.98],
+						"4.25": [0, -45, -60],
+						"4.4167": [-22.5, -45, -60],
+						"4.5833": [-39.78901, -31.76906, -32.66094],
+						"4.75": [34.30595, -49.18596, -92.74679],
+						"5.0": [-10.07807, -56.74502, -38.71236],
+						"5.75": [-10.08, -56.75, -38.71],
+						"6.0": [0, 0, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"root": {
+					"rotation": {
+						"0.0": [0, 1440, 0],
+						"0.5": [0, 1462.5, 0],
+						"1.25": [0, 1462.5, 0],
+						"3.0": [0, 360, 0],
+						"3.9167": [0, 96, 0],
+						"4.25": [0, 0, -10],
+						"5.0": [0, 0, 10],
+						"5.25": [0, 0, 10],
+						"5.4583": [0, 0, 0]
+					},
+					"position": {
+						"3.0": [0, 0, 0],
+						"3.375": [0, 2, 0],
+						"3.9167": [0, 2, 0],
+						"4.25": [0, 0, 0],
+						"4.5417": [0, 6, 0],
+						"5.0": [0, 8, 0],
+						"5.25": [0, 0, 0]
+					}
+				},
+				"paint_effect": {
+					"scale": 0
+				},
+				"ext_arm_left": {
+					"rotation": {
+						"1.0": [0, 0, 0],
+						"3.0": [0, -52.5, -87.5],
+						"4.25": [0, 0, 0]
+					}
+				},
+				"ext_arm_right": {
+					"rotation": {
+						"1.0": [0, 0, 0],
+						"3.0": [0, 0, 87.5],
+						"4.25": [0, 0, 0]
+					}
+				},
+				"main_effect": {
+					"scale": 0
+				}
+			},
+			"sound_effects": {
+				"1.25": {
+					"effect": "whoosh"
+				},
+				"4.125": {
+					"effect": "ring_sound"
+				},
+				"4.25": {
+					"effect": "step"
+				},
+				"5.25": {
+					"effect": "step"
+				}
+			},
+			"particle_effects": {
+				"1.4583": [
+					{
+						"effect": "wind",
+						"locator": "legl"
+					},
+					{
+						"effect": "walk_dust"
+					},
+					{
+						"effect": "pallet_splash2",
+						"locator": "body"
+					},
+					{
+						"effect": "wind",
+						"locator": "pallet"
+					},
+					{
+						"effect": "wind",
+						"locator": "brush"
+					}
+				],
+				"1.7917": {
+					"effect": "walk_dust"
+				},
+				"2.1667": [
+					{
+						"effect": "pallet_splash2",
+						"locator": "body"
+					},
+					{
+						"effect": "walk_dust"
+					}
+				],
+				"2.4583": {
+					"effect": "walk_dust"
+				},
+				"4.25": [
+					{
+						"effect": "pallet_splash2",
+						"locator": "body"
+					},
+					{
+						"effect": "walk_dust"
+					}
+				],
+				"5.25": {
+					"effect": "walk_dust"
 				}
 			}
 		}

@@ -34,11 +34,11 @@
                     "v.model = q.property('hp4_paint:model');"
                 ]
             },
-            "sound_effects": {
-                "hammer": "hp4_paint:hammer.hit",
-                "brushing": "hp4_paint:brushing",
-                "chiseling": "hp4_paint:chiseling"
-            },
+            // "sound_effects": {
+            //     "hammer": "hp4_paint:hammer.hit",
+            //     "brushing": "hp4_paint:brushing",
+            //     "chiseling": "hp4_paint:chiseling"
+            // },
             "particle_effects": {
                 "hammer_hit": "test:dust_hammer_hit",
                 "hammer_fx2": "test:h_fx2",

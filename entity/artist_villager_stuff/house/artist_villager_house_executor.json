@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "hp4_paint:artist_villager_preview",
+      "identifier": "hp4_paint:artist_villager_house1_executor",
       "materials": {
         "default": "hp4_paint.outline_base"
       },
@@ -37,15 +37,12 @@
           {"paint4": "q.property('hp4_paint:animation_id') == 17"},
           {"paint5": "q.property('hp4_paint:animation_id') == 18"},
           {"paint6": "q.property('hp4_paint:animation_id') == 19"},
-          {"paint7": "q.property('hp4_paint:animation_id') == 20"},
-          {"sleep": "q.property('hp4_paint:animation_id') == 22"},
-          {"spin": "q.property('hp4_paint:animation_id') == 23"}
+          {"paint7": "q.property('hp4_paint:animation_id') == 20"}
         ]
         
       },
       "animations": {
         "idle": "animation.artist_villager.idle",
-        "blink": "animation.artist_villager.blink",
         "walk": "animation.artist_villager.walk",
         "hide_scared": "animation.artist_villager.hide_scared",
         "run_scared": "animation.artist_villager.run_scared",
@@ -67,8 +64,7 @@
         "paint5": "animation.artist_villager.paint5",
         "paint6": "animation.artist_villager.paint6",
         "paint7": "animation.artist_villager.paint7",
-        "sleep": "animation.artist_villager.sleep",
-        "spin": "animation.artist_villager.spin"
+        "sleep": "animation.artist_villager.sleep"
       },
       "particle_effects": {
         "walk_dust": "test:walk_dust",
@@ -77,12 +73,8 @@
         "paint_splash_attack": "test:pallet_splash_attack",
         "zombie_dust": "test:zombie_dust",
         "water_splash": "test:water_splash",
-        "brush_trail2": "test:brush_trail2",
-        "pallet_splash2": "test:pallet_splash2",
-        "wind": "test:wind",
-        "wind2": "test:wind2",
-        "shield_shine": "test:shield_shine",
-        "shield": "test:shield"
+        "brush_trail2": "test:brush_trail2"
+        
       },
       "sound_effects": {
         "step": "hp4_paint:art_v.step",
@@ -91,11 +83,7 @@
         "throw": "hp4_paint:art_v.throw",
         "brush": "hp4_paint:art_v.brush",
         "brush2": "hp4_paint:art_v.brush2",
-        "pop": "random.pop",
-        "wind": "hp4_paint:art_v.wind",
-        "wood": "hp4_paint:destroy.wood",
-        "whoosh": "hp4_paint:whoosh",
-        "ring_sound": "hp4_paint:ring.sound"
+        "pop": "random.pop"
         
 
        },

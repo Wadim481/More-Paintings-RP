@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:spray_table",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "brown": "textures/hp/more_paintings/furnitures/spray_table/spray_table",
+                "pink": "textures/hp/more_paintings/furnitures/spray_table/spray_table_pink",
+                "white": "textures/hp/more_paintings/furnitures/spray_table/spray_table_white",
+                "outline": "textures/hp/more_paintings/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.spray_table",
+                "outline": "geometry.hp4_paint.spray_table.outline"
+            },
+            "render_controllers": [
+                "controller.render.hp4_paint.spray_table",
+                {"controller.render.hp4_paint.outline": "q.property('hp4_paint:outline')"}
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:spray_table"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

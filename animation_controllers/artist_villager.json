@@ -81,6 +81,39 @@
 					"blend_via_shortest_path": true
 				}
 			}
+		},
+		"controller.animation.hp4_paint.artist_villager.shield": {
+			"states": {
+				"default": {
+					"transitions": [
+						{"activate": "q.property('hp4_paint:using_shield')"}
+					]
+				},
+				"activate": {
+					"animations": [
+						"defence_start"
+					],
+					"transitions": [
+						{"loop": "q.all_animations_finished"}
+					]
+				},
+				"loop": {
+					"animations": [
+						"defence_loop"
+					],
+					"transitions": [
+						{"end": "!q.property('hp4_paint:using_shield')"}
+					]
+				},
+				"end": {
+					"animations": [
+						"defence_end"
+					],
+					"transitions": [
+						{"default": "q.all_animations_finished"}
+					]
+				}
+			}
 		}
 	}
 }

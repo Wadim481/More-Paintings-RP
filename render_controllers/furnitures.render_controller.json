@@ -40,6 +40,28 @@
             "is_hurt_color": {},
             "on_fire_color": {}
         },
+        "controller.render.hp4_paint.spray_table": {
+            "arrays": {
+                "textures": {
+                    "array.textures": [
+                        "texture.brown",
+                        "texture.pink",
+                        "texture.white"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.textures[q.property('hp4_paint:furniture_color')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
         "controller.render.hp4_paint.spatula": {
             "arrays": {
                 "textures": {

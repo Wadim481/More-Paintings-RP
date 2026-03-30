@@ -2,17 +2,13 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:light_ring_bottom_blue",
+			"identifier": "test:light_ring_bottom_yellow4b",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/hp/more_paintings/particle/ring_bottom"
+				"texture": "textures/hp/more_paintings/particle/ring_bottom4b"
 			}
 		},
 		"components": {
-			"minecraft:emitter_local_space": {
-				"position": true,
-				"rotation": true
-			},
 			"minecraft:emitter_rate_instant": {
 				"num_particles": 1
 			},
@@ -25,26 +21,23 @@
 			"minecraft:particle_lifetime_expression": {
 				"max_lifetime": 4
 			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "variable.rotation"
+			},
 			"minecraft:particle_initial_speed": 0,
 			"minecraft:particle_motion_dynamic": {},
 			"minecraft:particle_appearance_billboard": {
-				"size": [1.5, 1.5],
-				"facing_camera_mode": "emitter_transform_xz",
-				"uv": {
-					"texture_width": 256,
-					"texture_height": 256,
-					"uv": [0, 0],
-					"uv_size": [256, 256]
-				}
+				"size": [3.5, 1.5],
+				"facing_camera_mode": "emitter_transform_xz"
 			},
 			"minecraft:particle_appearance_tinting": {
 				"color": {
 					"interpolant": "v.particle_age / v.particle_lifetime",
 					"gradient": {
 						"0.0": "#00262626",
-						"0.23": "#FF00FFFF",
-						"0.84": "#FF63EAFF",
-						"1.0": "#008D8D8D"
+						"0.23": "#FFFFDF5D",
+						"0.79": "#FFFFDF5D",
+						"1.0": "#00FFFFFF"
 					}
 				}
 			}
