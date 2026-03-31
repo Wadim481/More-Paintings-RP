@@ -2,7 +2,7 @@
 	"format_version": "1.20.20",
 	"sound_definitions": {
 		"hp4_paint:tablet_start": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/tablet/tablet_start",
@@ -11,7 +11,7 @@
 			]
 		},
 		"hp4_paint:tablet_close": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/tablet/tablet_close",
@@ -20,7 +20,7 @@
 			]
 		},
 		"hp4_paint:display.painting_install": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/painting_install",
@@ -29,7 +29,7 @@
 			]
 		},
 		"hp4_paint:display.furniture_remove": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/furniture_remove",
@@ -38,7 +38,7 @@
 			]
 		},
 		"hp4_paint:display.tool_use": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/tool_use",
@@ -47,16 +47,16 @@
 			]
 		},
 		"hp4_paint:destroy.wood": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/wood_destroy",
-					"volume": 0.5
+					"volume": 0.3
 				}
 			]
 		},
 		"hp4_paint:destroy.paint": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/paint_destroy",
@@ -65,7 +65,7 @@
 			]
 		},
 		"hp4_paint:hammer.hit": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/hammer_hit",
@@ -74,7 +74,7 @@
 			]
 		},
 		"hp4_paint:brushing": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/brushing",
@@ -83,7 +83,7 @@
 			]
 		},
 		"hp4_paint:chiseling": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/chiseling",
@@ -93,7 +93,7 @@
 		},
 		
 		"hp4_paint:ring.sound": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/furnitures/ring_sound",
@@ -104,7 +104,7 @@
 		
 		
 		"hp4_paint:art_v.step": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/artist_villager/art_v_step",
@@ -113,7 +113,7 @@
 			]
 		},
 		"hp4_paint:art_v.splat": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/artist_villager/art_v_splat",
@@ -122,7 +122,7 @@
 			]
 		},
 		"hp4_paint:art_v.splat2": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/artist_villager/art_v_splat",
@@ -131,7 +131,7 @@
 			]
 		},
 		"hp4_paint:art_v.throw": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/artist_villager/art_v_throw",
@@ -140,7 +140,7 @@
 			]
 		},
 		"hp4_paint:art_v.brush": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/artist_villager/art_v_brush",
@@ -149,11 +149,38 @@
 			]
 		},
 		"hp4_paint:art_v.brush2": {
-			"category": "ui",
+			"category": "neutral",
 			"sounds": [
 				{
 					"name": "sounds/hp/more_paintings/artist_villager/art_v_brush2",
 					"volume": 0.4
+				}
+			]
+		},
+		"hp4_paint:art_v.wind": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/artist_villager/art_v_wind",
+					"volume": 0.8
+				}
+			]
+		},
+		"hp4_paint:spray_can_use": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/spray",
+					"volume": 0.6
+				}
+			]
+		},
+		"hp4_paint:whoosh": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/furnitures/whoosh",
+					"volume": 0.3
 				}
 			]
 		}

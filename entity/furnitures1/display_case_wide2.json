@@ -31,8 +31,8 @@
                 "texture": "hp4_paint:display_case_wide2"
             },
             "animations": {
-                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
-                
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation",
+                "wide1": "animation.hp4_paint.wide1"
             },
             "scripts": {
                 "animate": [

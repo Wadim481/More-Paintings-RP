@@ -1,0 +1,59 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hp4_paint.spray_can.attachable.fpp": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [90.6921, 57.14318, -38.29124],
+					"position": [-1.97947, -6.25124, 0.06123]
+				},
+				"spray": {
+					"rotation": [70.01323, 58.05452, -64.72943],
+					"position": [-2.35207, 2.68429, -2.32223]
+				},
+				"bone": {
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.hp4_paint.spray_can.attachable.tpp": {
+			"loop": true,
+			"bones": {
+				"spray": {
+					"rotation": [90, 0, 0],
+					"position": [0, 1.2201, -3.17393],
+					"scale": 0.84
+				}
+			}
+		},
+		"animation.hp4_paint.spray_can.attachable.fpp_use": {
+			"loop": true,
+			"animation_length": 0.5,
+			"blend_weight": 0.2,
+			"bones": {
+				"spray": {
+					"rotation": [7.5, 0, 0],
+					"position": [0, -20, -3.17393]
+				},
+				"bone": {
+					"position": [0, -7, 0]
+				}
+			}
+		},
+		"animation.hp4_paint.spray_can.attachable.tpp_use": {
+			"loop": true,
+			"animation_length": 0.5,
+			"blend_weight": 0.2,
+			"bones": {
+				"spray": {
+					"rotation": [7.5, 0, 0],
+					"position": [0, -20, -3.17393]
+				},
+				"bone": {
+					"position": [0, -7, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "hp4_paint:spray_can_white",
+			"render_controllers": ["controller.render.item_default"],
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/hp/more_paintings/furnitures/spray15",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.hp4_paint.spray_can.attachable"
+			},
+			"animations": {
+				"first_person_hold": "animation.hp4_paint.spray_can.attachable.fpp",
+				"third_person_hold": "animation.hp4_paint.spray_can.attachable.tpp",
+                "use": "animation.hp4_paint.spray_can.attachable.fpp_use"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"first_person_hold": "c.is_first_person"
+					},
+					{
+						"third_person_hold": "!c.is_first_person"
+					},
+                    {
+                        "use": "c.owning_entity -> q.is_using_item"
+                    }
+				]
+			}
+		}
+	}
+}

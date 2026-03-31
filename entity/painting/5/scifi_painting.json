@@ -248,6 +248,15 @@
 				"display.display_case": "animation.hp4_paint.display.display_case",
 				"display.display_case_wide": "animation.hp4_paint.display.display_case_wide",
 				"display.big_display_case": "animation.hp4_paint.display.big_display_case",
+				"wide2_16": "animation.hp4_paint.wide2_16",
+				"wide2_32": "animation.hp4_paint.wide2_32",
+				"wide2_64": "animation.hp4_paint.wide2_64",
+				"huge_16": "animation.hp4_paint.huge_16",
+				"huge_32": "animation.hp4_paint.huge_32",
+				"huge_64": "animation.hp4_paint.huge_64",
+				"tall_16": "animation.hp4_paint.tall_16",
+				"tall_32": "animation.hp4_paint.tall_32",
+				"tall_64": "animation.hp4_paint.tall_64",
                 "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
             },
             "scripts": {
@@ -272,6 +281,16 @@
 					{"display.easel_stand3": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 2"},
 					{"display.display_case": "q.property('hp4_paint:displayer')=='display_case'"},
 					{"display.display_case_wide": "q.property('hp4_paint:displayer')=='display_case_wide'"},
+					{"wide2_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_wide2'"},
+					{"wide2_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_wide2'"},
+					{"wide2_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_wide2'"},
+					{"huge_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_huge'"},
+					{"huge_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_huge'"},
+					{"huge_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_huge'"},
+					{"tall_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_tall'"},
+					{"tall_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_tall'"},
+					{"tall_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_tall'"},
+
 					{"display.big_display_case": "q.property('hp4_paint:displayer')=='display_case_huge'||q.property('hp4_paint:displayer')=='display_case_tall'||q.property('hp4_paint:displayer')=='display_case_wide2'||q.property('hp4_paint:displayer')=='display_case_big'"},
                     "cardinal_rotation"
                 ]
