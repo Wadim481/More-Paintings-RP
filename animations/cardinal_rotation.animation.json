@@ -5,10 +5,18 @@
 			"loop": true,
 			"bones": {
 				"bb_main": {
-					"rotation": ["query.has_property('hp4_paint:stencil_vertical_rotation') ? query.property('hp4_paint:stencil_vertical_rotation') : 0", "query.has_property('hp4_paint:stencil_y_rotation') ? (query.property('hp4_paint:stencil_y_rotation')-query.body_y_rotation) : (-query.body_y_rotation+(math.round(query.body_y_rotation/90)*90))", 0]
+					"rotation": [
+						"query.has_property('hp4_paint:stencil_vertical_rotation') ? query.property('hp4_paint:stencil_vertical_rotation') : 0",
+						"query.has_property('hp4_paint:stencil_y_rotation') ? (query.property('hp4_paint:stencil_y_rotation')-query.body_y_rotation) : (-query.body_y_rotation+(math.round(query.body_y_rotation/90)*90))",
+						0
+					]
 				},
 				"root": {
-					"rotation": ["query.has_property('hp4_paint:stencil_vertical_rotation') ? query.property('hp4_paint:stencil_vertical_rotation') : 0", "query.has_property('hp4_paint:stencil_y_rotation') ? (query.property('hp4_paint:stencil_y_rotation')-query.body_y_rotation) : (-query.body_y_rotation+(math.round(query.body_y_rotation/90)*90))", 0]
+					"rotation": [
+						"query.has_property('hp4_paint:stencil_vertical_rotation') ? query.property('hp4_paint:stencil_vertical_rotation') : 0",
+						"query.has_property('hp4_paint:stencil_y_rotation') ? (query.property('hp4_paint:stencil_y_rotation')-query.body_y_rotation) : (-query.body_y_rotation+(math.round(query.body_y_rotation/90)*90))",
+						0
+					]
 				},
 				"stand": {
 					"position": [0, 0, 0]
@@ -36,7 +44,7 @@
 		"animation.hp4_paint.plants_holder": {
 			"loop": true,
 			"bones": {
-				"plants": {
+				"root": {
 					"position": [0, "v.height", 0]
 				}
 			}

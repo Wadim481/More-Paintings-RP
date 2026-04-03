@@ -22,23 +22,25 @@
             "animations": {
                 "hammer": "animation.hp4_paint.hammer.particle",
                 "chisel": "animation.hp4_paint.chisel.particle",
-                "brush": "animation.hp4_paint.brush.particle"
+                "brush": "animation.hp4_paint.brush.particle",
+                "hammer_paroff": "animation.hp4_paint.hammer.particle_paroff",
+                "chisel_paroff": "animation.hp4_paint.chisel.particle_paroff",
+                "brush_paroff": "animation.hp4_paint.brush.particle_paroff"
             },
             "scripts": {
                 "animate": [
-                    {"hammer": "v.model == 0"},
-                    {"chisel": "v.model == 1"},
-                    {"brush": "v.model == 2"}
+                    {"hammer": "v.model == 0 && v.withpar"},
+                    {"chisel": "v.model == 1 && v.withpar"},
+                    {"brush": "v.model == 2 && v.withpar"},
+                    {"hammer_paroff": "v.model == 0 && !v.withpar"},
+                    {"chisel_paroff": "v.model == 1 && !v.withpar"},
+                    {"brush_paroff": "v.model == 2 && !v.withpar"}
                 ],
                 "pre_animation": [
-                    "v.model = q.property('hp4_paint:model');"
+                    "v.model = q.property('hp4_paint:model');",
+                    "v.withpar = q.property('hp4_paint:withpar');"
                 ]
             },
-            // "sound_effects": {
-            //     "hammer": "hp4_paint:hammer.hit",
-            //     "brushing": "hp4_paint:brushing",
-            //     "chiseling": "hp4_paint:chiseling"
-            // },
             "particle_effects": {
                 "hammer_hit": "test:dust_hammer_hit",
                 "hammer_fx2": "test:h_fx2",

@@ -1,6 +1,105 @@
 {
 	"format_version": "1.21.0",
-	"hp4_paint:rose_bush": {
-		"sound": "grass"
-	}
+    "hp4_paint:foxglove_plant1_orange": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant1_pink": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant1_purple": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant1_white": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant2_orange": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant2_pink": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant2_purple": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant2_white": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant3_orange": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant3_pink": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant3_purple": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant3_white": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant4_orange": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant4_pink": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant4_purple": {
+        "sound": "grass"
+    },
+    "hp4_paint:foxglove_plant4_white": {
+        "sound": "grass"
+    },
+    "hp4_paint:grass_plant1": {
+        "sound": "grass"
+    },
+    "hp4_paint:grass_plant2": {
+        "sound": "grass"
+    },
+    "hp4_paint:grass_plant3": {
+        "sound": "grass"
+    },
+    "hp4_paint:grass_plant4": {
+        "sound": "grass"
+    },
+    "hp4_paint:grass_plant5": {
+        "sound": "grass"
+    },
+    "hp4_paint:grass_plant6": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush1_pink": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush1_red": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush1_white": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush1_yellow": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush2_pink": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush2_red": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush2_white": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush2_yellow": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush3_pink": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush3_red": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush3_white": {
+        "sound": "grass"
+    },
+    "hp4_paint:rose_bush3_yellow": {
+        "sound": "grass"
+    }
 }
