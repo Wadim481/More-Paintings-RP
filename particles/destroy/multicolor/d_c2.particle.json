@@ -5,7 +5,7 @@
 			"identifier": "test:d_c2",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/color_splash/2"
+				"texture": "textures/hp/mp/furnitures/color_splash/2"
 			}
 		},
 		"components": {

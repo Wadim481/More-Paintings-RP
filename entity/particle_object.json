@@ -7,9 +7,9 @@
                 "default": "hp4_paint.outline_base"
             },
             "textures": {
-                "hammer": "textures/hp/more_paintings/particle_objects/hammer",
-                "chisel": "textures/hp/more_paintings/particle_objects/chisel",
-                "brush": "textures/hp/more_paintings/furnitures/painting_brush"
+                "hammer": "textures/hp/mp/particle_objects/hammer",
+                "chisel": "textures/hp/mp/particle_objects/chisel",
+                "brush": "textures/hp/mp/furnitures/painting_brush"
             },
             "geometry": {
                 "hammer": "geometry.hp4_paint.hammer",

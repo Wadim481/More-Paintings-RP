@@ -5,7 +5,7 @@
 			"identifier": "test:db_pot_1",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/planter/large_planter_pink"
+				"texture": "textures/hp/mp/furnitures/planter/large_planter_pink"
 			}
 		},
 		"components": {

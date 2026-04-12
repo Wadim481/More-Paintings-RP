@@ -9,12 +9,12 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "default": "textures/hp/more_paintings/furnitures/drawing_tube",
-                "default2": "textures/hp/more_paintings/furnitures/drawing_tube2",
-                "default3": "textures/hp/more_paintings/furnitures/drawing_tube3",
-                "default4": "textures/hp/more_paintings/furnitures/drawing_tube4",
-                "default5": "textures/hp/more_paintings/furnitures/drawing_tube5",
-                "outline": "textures/hp/more_paintings/outline"
+                "default": "textures/hp/mp/furnitures/drawing_tube",
+                "default2": "textures/hp/mp/furnitures/drawing_tube2",
+                "default3": "textures/hp/mp/furnitures/drawing_tube3",
+                "default4": "textures/hp/mp/furnitures/drawing_tube4",
+                "default5": "textures/hp/mp/furnitures/drawing_tube5",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.drawing_tube",

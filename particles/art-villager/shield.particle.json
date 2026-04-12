@@ -5,7 +5,7 @@
 			"identifier": "test:shield",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/hp/more_paintings/particle/shield"
+				"texture": "textures/hp/mp/particle/shield"
 			}
 		},
 		"curves": {

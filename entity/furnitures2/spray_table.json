@@ -9,10 +9,10 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "brown": "textures/hp/more_paintings/furnitures/spray_table/spray_table",
-                "pink": "textures/hp/more_paintings/furnitures/spray_table/spray_table_pink",
-                "white": "textures/hp/more_paintings/furnitures/spray_table/spray_table_white",
-                "outline": "textures/hp/more_paintings/outline"
+                "brown": "textures/hp/mp/furnitures/spray_table/spray_table",
+                "pink": "textures/hp/mp/furnitures/spray_table/spray_table_pink",
+                "white": "textures/hp/mp/furnitures/spray_table/spray_table_white",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.spray_table",

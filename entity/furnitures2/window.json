@@ -9,11 +9,11 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "default1": "textures/hp/more_paintings/furnitures/windows/window",
-                "default2": "textures/hp/more_paintings/furnitures/windows/window_pink",
-                "default3": "textures/hp/more_paintings/furnitures/windows/window_white",
-                "default4": "textures/hp/more_paintings/furnitures/windows/window_wood",
-                "outline": "textures/hp/more_paintings/outline"
+                "default1": "textures/hp/mp/furnitures/windows/window",
+                "default2": "textures/hp/mp/furnitures/windows/window_pink",
+                "default3": "textures/hp/mp/furnitures/windows/window_white",
+                "default4": "textures/hp/mp/furnitures/windows/window_wood",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "left": "geometry.hp4_paint.window_left",

@@ -5,7 +5,7 @@
 			"identifier": "test:d_pot_2",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/planter/large_planter_white"
+				"texture": "textures/hp/mp/furnitures/planter/large_planter_white"
 			}
 		},
 		"components": {

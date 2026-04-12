@@ -5,7 +5,7 @@
 			"identifier": "test:d_stencil",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/stencil"
+				"texture": "textures/hp/mp/furnitures/stencil"
 			}
 		},
 		"components": {

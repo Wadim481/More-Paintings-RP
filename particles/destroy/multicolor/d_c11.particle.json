@@ -5,7 +5,7 @@
 			"identifier": "test:d_c11",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/color_splash/11"
+				"texture": "textures/hp/mp/furnitures/color_splash/11"
 			}
 		},
 		"components": {

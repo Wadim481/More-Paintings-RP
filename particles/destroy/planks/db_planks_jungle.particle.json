@@ -5,7 +5,7 @@
 			"identifier": "test:db_plank_jungle",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/easel_stand/1"
+				"texture": "textures/hp/mp/furnitures/easel_stand/1"
 			}
 		},
 		"components": {

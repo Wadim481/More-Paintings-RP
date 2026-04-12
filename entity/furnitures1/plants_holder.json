@@ -36,11 +36,11 @@
                 "double_plant_peony_top": "textures/blocks/double_plant_paeonia_top",
                 "double_plant_pitcher_plant_bottom": "textures/blocks/pitcher_crop_bottom_stage_4",
                 "double_plant_pitcher_plant_top": "textures/blocks/pitcher_crop_top_stage_4",
-                "custom_plant_sunflower": "textures/hp/more_paintings/furnitures/custom_plants/sunflower",
+                "custom_plant_sunflower": "textures/hp/mp/furnitures/custom_plants/sunflower",
                 "custom_plant_wildflowers": "textures/blocks/wildflowers",
                 "custom_plant_pink_petals": "textures/blocks/pink_petals",
-                "custom_plant_wildflowers_stem": "textures/hp/more_paintings/furnitures/wildflowers_stem",
-                "outline": "textures/hp/more_paintings/outline"
+                "custom_plant_wildflowers_stem": "textures/hp/mp/furnitures/wildflowers_stem",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "plants_holder": "geometry.hp4_paint.plants_holder",

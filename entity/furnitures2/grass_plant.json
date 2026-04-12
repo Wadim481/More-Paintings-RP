@@ -9,8 +9,8 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "default": "textures/hp/more_paintings/furnitures/grass_plant",
-                "outline": "textures/hp/more_paintings/outline"
+                "default": "textures/hp/mp/furnitures/grass_plant",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.grass_plant",

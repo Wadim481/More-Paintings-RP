@@ -9,7 +9,7 @@
 				"enchanted": "entity_alphatest_glint"
 			},
 			"textures": {
-				"default": "textures/hp/more_paintings/attachables/brush",
+				"default": "textures/hp/mp/attachables/brush",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {

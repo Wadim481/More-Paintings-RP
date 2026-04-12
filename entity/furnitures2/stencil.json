@@ -9,9 +9,9 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "default": "textures/hp/more_paintings/furnitures/stencil",
-                "default2": "textures/hp/more_paintings/furnitures/stencil2",
-                "outline": "textures/hp/more_paintings/outline"
+                "default": "textures/hp/mp/furnitures/stencil",
+                "default2": "textures/hp/mp/furnitures/stencil2",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.stencil",

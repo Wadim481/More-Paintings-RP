@@ -8,11 +8,11 @@
         "painting": "spider"
       },
       "textures": {
-        "iron_bucket": "textures/hp/more_paintings/furnitures/iron_bucket",
-        "gold_bucket": "textures/hp/more_paintings/furnitures/gold_bucket",
-        "brown_bucket": "textures/hp/more_paintings/furnitures/brown_bucket",
-        "pink_bucket": "textures/hp/more_paintings/furnitures/pink_bucket",
-        "default": "textures/hp/more_paintings/furnitures/color_bucket_cyan"
+        "iron_bucket": "textures/hp/mp/furnitures/iron_bucket",
+        "gold_bucket": "textures/hp/mp/furnitures/gold_bucket",
+        "brown_bucket": "textures/hp/mp/furnitures/brown_bucket",
+        "pink_bucket": "textures/hp/mp/furnitures/pink_bucket",
+        "default": "textures/hp/mp/furnitures/color_bucket_cyan"
       },
       "geometry": {
         "default": "geometry.hp4_paint.color_bucket"

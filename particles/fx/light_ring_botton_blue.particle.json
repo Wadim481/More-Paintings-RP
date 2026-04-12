@@ -5,7 +5,7 @@
 			"identifier": "test:light_ring_bottom_blue",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/hp/more_paintings/particle/ring_bottom"
+				"texture": "textures/hp/mp/particle/ring_bottom"
 			}
 		},
 		"components": {

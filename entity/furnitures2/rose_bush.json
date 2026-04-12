@@ -9,11 +9,11 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "default1": "textures/hp/more_paintings/furnitures/rose/rose_bush_pink",
-                "default2": "textures/hp/more_paintings/furnitures/rose/rose_bush_red",
-                "default3": "textures/hp/more_paintings/furnitures/rose/rose_bush_white",
-                "default4": "textures/hp/more_paintings/furnitures/rose/rose_bush_yellow",
-                "outline": "textures/hp/more_paintings/outline"
+                "default1": "textures/hp/mp/furnitures/rose/rose_bush_pink",
+                "default2": "textures/hp/mp/furnitures/rose/rose_bush_red",
+                "default3": "textures/hp/mp/furnitures/rose/rose_bush_white",
+                "default4": "textures/hp/mp/furnitures/rose/rose_bush_yellow",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.rose_bush",

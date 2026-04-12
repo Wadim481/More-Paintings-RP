@@ -5,7 +5,7 @@
 			"identifier": "test:chiesel_fx1",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/furnitures/statue/statue"
+				"texture": "textures/hp/mp/furnitures/statue/statue"
 			}
 		},
 		"components": {

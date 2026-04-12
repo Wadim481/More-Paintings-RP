@@ -9,16 +9,16 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "model1.brown": "textures/hp/more_paintings/furnitures/artbench/art_bench",
-                "model1.pink": "textures/hp/more_paintings/furnitures/artbench/art_bench_pink",
-                "model1.white": "textures/hp/more_paintings/furnitures/artbench/art_bench_white",
-                "model2.brown": "textures/hp/more_paintings/furnitures/artbench/art_bench2",
-                "model2.pink": "textures/hp/more_paintings/furnitures/artbench/art_bench2_pink",
-                "model2.white": "textures/hp/more_paintings/furnitures/artbench/art_bench2_white",
-                "model3.brown": "textures/hp/more_paintings/furnitures/artbench/art_bench3",
-                "model3.pink": "textures/hp/more_paintings/furnitures/artbench/art_bench3_pink",
-                "model3.white": "textures/hp/more_paintings/furnitures/artbench/art_bench3_white",
-                "outline": "textures/hp/more_paintings/outline"
+                "model1.brown": "textures/hp/mp/furnitures/artbench/art_bench",
+                "model1.pink": "textures/hp/mp/furnitures/artbench/art_bench_pink",
+                "model1.white": "textures/hp/mp/furnitures/artbench/art_bench_white",
+                "model2.brown": "textures/hp/mp/furnitures/artbench/art_bench2",
+                "model2.pink": "textures/hp/mp/furnitures/artbench/art_bench2_pink",
+                "model2.white": "textures/hp/mp/furnitures/artbench/art_bench2_white",
+                "model3.brown": "textures/hp/mp/furnitures/artbench/art_bench3",
+                "model3.pink": "textures/hp/mp/furnitures/artbench/art_bench3_pink",
+                "model3.white": "textures/hp/mp/furnitures/artbench/art_bench3_white",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.art_bench",

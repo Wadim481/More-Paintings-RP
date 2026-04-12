@@ -9,7 +9,7 @@
 				"enchanted": "entity_alphatest_glint"
 			},
 			"textures": {
-				"default": "textures/hp/more_paintings/furnitures/spray15",
+				"default": "textures/hp/mp/furnitures/spray15",
 				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {

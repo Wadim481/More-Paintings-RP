@@ -5,7 +5,7 @@
 			"identifier": "test:h_fx2",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/hp/more_paintings/particle/ring"
+				"texture": "textures/hp/mp/particle/ring"
 			}
 		},
 		"components": {

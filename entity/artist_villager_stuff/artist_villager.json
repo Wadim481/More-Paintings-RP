@@ -8,21 +8,21 @@
         "masked": "villager_v2_masked"
       },
       "textures": {
-        "default1": "textures/hp/more_paintings/artist_villager/artist_villager_texture1",
-        "default2": "textures/hp/more_paintings/artist_villager/artist_villager_texture2",
-        "default3": "textures/hp/more_paintings/artist_villager/artist_villager_texture3",
-        "default4": "textures/hp/more_paintings/artist_villager/artist_villager_texture4",
-        "default5": "textures/hp/more_paintings/artist_villager/artist_villager_texture5",
+        "default1": "textures/hp/mp/artist_villager/artist_villager_texture1",
+        "default2": "textures/hp/mp/artist_villager/artist_villager_texture2",
+        "default3": "textures/hp/mp/artist_villager/artist_villager_texture3",
+        "default4": "textures/hp/mp/artist_villager/artist_villager_texture4",
+        "default5": "textures/hp/mp/artist_villager/artist_villager_texture5",
         
-        "skin1": "textures/hp/more_paintings/artist_villager/artist_villager_skin_texture1",
-        "skin2": "textures/hp/more_paintings/artist_villager/artist_villager_skin_texture2",
-        "skin3": "textures/hp/more_paintings/artist_villager/artist_villager_skin_texture3",
-        "skin4": "textures/hp/more_paintings/artist_villager/artist_villager_skin_texture4",
+        "skin1": "textures/hp/mp/artist_villager/artist_villager_skin_texture1",
+        "skin2": "textures/hp/mp/artist_villager/artist_villager_skin_texture2",
+        "skin3": "textures/hp/mp/artist_villager/artist_villager_skin_texture3",
+        "skin4": "textures/hp/mp/artist_villager/artist_villager_skin_texture4",
         
-        "colors1": "textures/hp/more_paintings/artist_villager/artist_villager_colors_texture1",
-        "colors2": "textures/hp/more_paintings/artist_villager/artist_villager_colors_texture2",
-        "colors3": "textures/hp/more_paintings/artist_villager/artist_villager_colors_texture3",
-        "colors4": "textures/hp/more_paintings/artist_villager/artist_villager_colors_texture4",
+        "colors1": "textures/hp/mp/artist_villager/artist_villager_colors_texture1",
+        "colors2": "textures/hp/mp/artist_villager/artist_villager_colors_texture2",
+        "colors3": "textures/hp/mp/artist_villager/artist_villager_colors_texture3",
+        "colors4": "textures/hp/mp/artist_villager/artist_villager_colors_texture4",
         "zombie": "textures/entity/zombie/zombie"
       },
       "geometry": {

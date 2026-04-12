@@ -5,7 +5,7 @@
 			"identifier": "test:hammer_emmit2",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/hp/more_paintings/particle/glowsquare2"
+				"texture": "textures/hp/mp/particle/glowsquare2"
 			}
 		},
 		"components": {

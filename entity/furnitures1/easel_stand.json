@@ -9,10 +9,10 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "easel_stand1": "textures/hp/more_paintings/furnitures/easel_stand/1",
-                "easel_stand2": "textures/hp/more_paintings/furnitures/easel_stand/2",
-                "easel_stand3": "textures/hp/more_paintings/furnitures/easel_stand/3",
-                "outline": "textures/hp/more_paintings/outline"
+                "easel_stand1": "textures/hp/mp/furnitures/easel_stand/1",
+                "easel_stand2": "textures/hp/mp/furnitures/easel_stand/2",
+                "easel_stand3": "textures/hp/mp/furnitures/easel_stand/3",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "easel_stand": "geometry.hp4_paint.easel_stand",

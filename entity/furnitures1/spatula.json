@@ -9,9 +9,9 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "default": "textures/hp/more_paintings/furnitures/spatula",
-                "default2": "textures/hp/more_paintings/furnitures/spatula2",
-                "outline": "textures/hp/more_paintings/outline"
+                "default": "textures/hp/mp/furnitures/spatula",
+                "default2": "textures/hp/mp/furnitures/spatula2",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.spatula",

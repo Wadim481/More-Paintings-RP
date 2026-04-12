@@ -5,7 +5,7 @@
 			"identifier": "test:pallet_splash2",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/particle/paint_splash"
+				"texture": "textures/hp/mp/particle/paint_splash"
 			}
 		},
 		"components": {

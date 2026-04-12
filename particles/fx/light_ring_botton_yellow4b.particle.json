@@ -5,7 +5,7 @@
 			"identifier": "test:light_ring_bottom_yellow4b",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/hp/more_paintings/particle/ring_bottom4b"
+				"texture": "textures/hp/mp/particle/ring_bottom4b"
 			}
 		},
 		"components": {

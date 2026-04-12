@@ -9,10 +9,10 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "outline": "textures/hp/more_paintings/outline",
-                "display_case_big1": "textures/hp/more_paintings/furnitures/display/display_case_big",
-                "display_case_big2": "textures/hp/more_paintings/furnitures/display/display_case_big_pink",
-                "display_case_big3": "textures/hp/more_paintings/furnitures/display/display_case_big_white"
+                "outline": "textures/hp/mp/outline",
+                "display_case_big1": "textures/hp/mp/furnitures/display/display_case_big",
+                "display_case_big2": "textures/hp/mp/furnitures/display/display_case_big_pink",
+                "display_case_big3": "textures/hp/mp/furnitures/display/display_case_big_white"
             },
             "geometry": {
                 "display_case_big": "geometry.hp4_paint.display_case_big",

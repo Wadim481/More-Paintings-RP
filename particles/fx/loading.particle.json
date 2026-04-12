@@ -5,7 +5,7 @@
 			"identifier": "test:loading",
 			"basic_render_parameters": {
 				"material": "hp4_paint.particle",
-				"texture": "textures/hp/more_paintings/particle/loading_pix2"
+				"texture": "textures/hp/mp/particle/loading_pix2"
 			}
 		},
 		"components": {

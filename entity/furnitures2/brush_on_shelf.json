@@ -9,13 +9,13 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "bos": "textures/hp/more_paintings/furnitures/brush_on_shelf/bos",
-                "bos_pink": "textures/hp/more_paintings/furnitures/brush_on_shelf/bos_pink",
-                "bos_white": "textures/hp/more_paintings/furnitures/brush_on_shelf/bos_white",
-                "dirty_bos": "textures/hp/more_paintings/furnitures/brush_on_shelf/dirty_bos",
-                "dirty_bos_pink": "textures/hp/more_paintings/furnitures/brush_on_shelf/dirty_bos_pink",
-                "dirty_bos_white": "textures/hp/more_paintings/furnitures/brush_on_shelf/dirty_bos_white",
-                "outline": "textures/hp/more_paintings/outline"
+                "bos": "textures/hp/mp/furnitures/brush_on_shelf/bos",
+                "bos_pink": "textures/hp/mp/furnitures/brush_on_shelf/bos_pink",
+                "bos_white": "textures/hp/mp/furnitures/brush_on_shelf/bos_white",
+                "dirty_bos": "textures/hp/mp/furnitures/brush_on_shelf/dirty_bos",
+                "dirty_bos_pink": "textures/hp/mp/furnitures/brush_on_shelf/dirty_bos_pink",
+                "dirty_bos_white": "textures/hp/mp/furnitures/brush_on_shelf/dirty_bos_white",
+                "outline": "textures/hp/mp/outline"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.brush_on_shelf",

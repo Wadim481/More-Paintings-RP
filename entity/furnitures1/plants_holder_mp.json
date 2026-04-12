@@ -9,15 +9,15 @@
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "foxglove_orange": "textures/hp/more_paintings/furnitures/foxglove/foxglove_orange",
-                "foxglove_pink": "textures/hp/more_paintings/furnitures/foxglove/foxglove_pink",
-                "foxglove_purple": "textures/hp/more_paintings/furnitures/foxglove/foxglove_purple",
-                "foxglove_white": "textures/hp/more_paintings/furnitures/foxglove/foxglove_white",
-                "grass_plant": "textures/hp/more_paintings/furnitures/grass_plant",
-                "rose_bush_pink": "textures/hp/more_paintings/furnitures/rose/rose_bush_pink",
-                "rose_bush_red": "textures/hp/more_paintings/furnitures/rose/rose_bush_red",
-                "rose_bush_white": "textures/hp/more_paintings/furnitures/rose/rose_bush_white",
-                "rose_bush_yellow": "textures/hp/more_paintings/furnitures/rose/rose_bush_yellow"
+                "foxglove_orange": "textures/hp/mp/furnitures/foxglove/foxglove_orange",
+                "foxglove_pink": "textures/hp/mp/furnitures/foxglove/foxglove_pink",
+                "foxglove_purple": "textures/hp/mp/furnitures/foxglove/foxglove_purple",
+                "foxglove_white": "textures/hp/mp/furnitures/foxglove/foxglove_white",
+                "grass_plant": "textures/hp/mp/furnitures/grass_plant",
+                "rose_bush_pink": "textures/hp/mp/furnitures/rose/rose_bush_pink",
+                "rose_bush_red": "textures/hp/mp/furnitures/rose/rose_bush_red",
+                "rose_bush_white": "textures/hp/mp/furnitures/rose/rose_bush_white",
+                "rose_bush_yellow": "textures/hp/mp/furnitures/rose/rose_bush_yellow"
             },
             "geometry": {
                 "foxglove_plant": "geometry.hp4_paint.foxglove_plant",

@@ -5,7 +5,7 @@
 			"identifier": "test:wind2",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/particle/blur"
+				"texture": "textures/hp/mp/particle/blur"
 			}
 		},
 		"curves": {

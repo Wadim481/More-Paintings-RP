@@ -5,7 +5,7 @@
 			"identifier": "test:shield_shine",
 			"basic_render_parameters": {
 				"material": "particles_add",
-				"texture": "textures/hp/more_paintings/particle/shield_shine"
+				"texture": "textures/hp/mp/particle/shield_shine"
 			}
 		},
 		"curves": {

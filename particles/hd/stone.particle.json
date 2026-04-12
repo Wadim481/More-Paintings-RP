@@ -5,7 +5,7 @@
 			"identifier": "test:stone",
 			"basic_render_parameters": {
 				"material": "particles_blend",
-				"texture": "textures/hp/more_paintings/particle/stone"
+				"texture": "textures/hp/mp/particle/stone"
 			}
 		},
 		"components": {
