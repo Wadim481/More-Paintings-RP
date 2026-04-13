@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:d_sack",
+			"identifier": "hp4_paint:d_sack",
 			"basic_render_parameters": {
 				"material": "particles_blend",
 				"texture": "textures/blocks/suspicious_sand_0"

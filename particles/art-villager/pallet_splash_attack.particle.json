@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:pallet_splash_attack",
+			"identifier": "hp4_paint:pallet_splash_attack",
 			"basic_render_parameters": {
 				"material": "particles_blend",
 				"texture": "textures/hp/mp/particle/paint_splash"
@@ -11,7 +11,7 @@
 		"events": {
 			"event": {
 				"particle_effect": {
-					"effect": "test:pallet_splash2",
+					"effect": "hp4_paint:pallet_splash2",
 					"type": "emitter"
 				}
 			}

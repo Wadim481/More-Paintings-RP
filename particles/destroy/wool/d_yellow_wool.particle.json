@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:d_yellow_wool",
+			"identifier": "hp4_paint:d_yellow_wool",
 			"basic_render_parameters": {
 				"material": "particles_blend",
 				"texture": "textures/blocks/wool_colored_yellow"

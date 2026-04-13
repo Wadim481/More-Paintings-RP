@@ -83,18 +83,17 @@
         "texture": "spawn_egg_villager"
       },
       "particle_effects": {
-        "walk_dust": "test:walk_dust",
-        "brush_trail": "test:brush_trail",
-        "pallet_splash_run": "test:pallet_splash_run",
-        "paint_splash_attack": "test:pallet_splash_attack",
-        "zombie_dust": "test:zombie_dust",
-        "water_splash": "test:water_splash",
-        "brush_trail2": "test:brush_trail2",
-        "pallet_splash2": "test:pallet_splash2",
-        "wind": "test:wind",
-        "wind2": "test:wind2",
-        "shield_shine": "test:shield_shine",
-        "shield": "test:shield"
+        "walk_dust": "hp4_paint:walk_dust",
+        "brush_trail": "hp4_paint:brush_trail",
+        "pallet_splash_run": "hp4_paint:pallet_splash_run",
+        "paint_splash_attack": "hp4_paint:pallet_splash_attack",
+        "zombie_dust": "hp4_paint:zombie_dust",
+        "water_splash": "hp4_paint:water_splash",
+        "brush_trail2": "hp4_paint:brush_trail2",
+        "pallet_splash2": "hp4_paint:pallet_splash2",
+        "wind2": "hp4_paint:wind2",
+        "shield_shine": "hp4_paint:shield_shine",
+        "shield": "hp4_paint:shield"
       },
       "sound_effects": {
         "step": "hp4_paint:art_v.step",

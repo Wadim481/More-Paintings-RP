@@ -42,9 +42,9 @@
                 ]
             },
             "particle_effects": {
-                "hammer_hit": "test:dust_hammer_hit",
-                "hammer_fx2": "test:h_fx2",
-                "stone": "test:chiesel_fx1"
+                "hammer_hit": "hp4_paint:dust_hammer_hit",
+                "hammer_fx2": "hp4_paint:h_fx2",
+                "stone": "hp4_paint:chiesel_fx1"
             }
 
         }

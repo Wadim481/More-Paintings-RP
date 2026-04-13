@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:zombie_dust",
+			"identifier": "hp4_paint:zombie_dust",
 			"basic_render_parameters": {
 				"material": "particles_blend",
 				"texture": "textures/hp/mp/particle/paint_splash"

@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:db_plank_cherry",
+			"identifier": "hp4_paint:db_plank_cherry",
 			"basic_render_parameters": {
 				"material": "particles_blend",
 				"texture": "textures/hp/mp/furnitures/easel_stand/2"

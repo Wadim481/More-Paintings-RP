@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:h_fx2",
+			"identifier": "hp4_paint:h_fx2",
 			"basic_render_parameters": {
 				"material": "particles_add",
 				"texture": "textures/hp/mp/particle/ring"

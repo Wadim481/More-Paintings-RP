@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:light_ring_bottom_yellow4b",
+			"identifier": "hp4_paint:light_ring_bottom_yellow4b",
 			"basic_render_parameters": {
 				"material": "particles_add",
 				"texture": "textures/hp/mp/particle/ring_bottom4b"

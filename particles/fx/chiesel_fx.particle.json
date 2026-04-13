@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "test:chiesel_fx1",
+			"identifier": "hp4_paint:chiesel_fx1",
 			"basic_render_parameters": {
 				"material": "particles_blend",
 				"texture": "textures/hp/mp/furnitures/statue/statue"
