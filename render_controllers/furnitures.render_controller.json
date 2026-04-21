@@ -247,6 +247,33 @@
             "is_hurt_color": {},
             "on_fire_color": {}
         },
+        "controller.render.hp4_paint.stencil_tools": {
+            "arrays": {
+                "textures": {
+                    "array.texture": [
+                        "texture.default",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4",
+                        "texture.default5",
+                        "texture.default6",
+                        "texture.default7",
+                        "texture.default8"
+                    ]
+                }
+            },
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "array.texture[q.property('hp4_paint:furniture_model')]"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        },
         "controller.render.hp4_paint.stencil": {
             "arrays": {
                 "textures": {

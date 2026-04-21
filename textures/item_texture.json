@@ -4,7 +4,28 @@
 			"textures": "textures/hp/mp/items/tube_paint"
 		},
 		"hp4_paint:stencil": {
-			"textures": "textures/hp/mp/items/stencil"
+			"textures": "textures/hp/mp/items/stencils_crown"
+		},
+		"hp4_paint:stencils_love": {
+			"textures": "textures/hp/mp/items/stencils_heart"
+		},
+		"hp4_paint:stencil_axe": {
+			"textures": "textures/hp/mp/items/stensils_tool_axe"
+		},
+		"hp4_paint:stencil_hoe": {
+			"textures": "textures/hp/mp/items/stensils_tool_hoe"
+		},
+		"hp4_paint:stencil_pickaxe": {
+			"textures": "textures/hp/mp/items/stensils_tool_pickaxe"
+		},
+		"hp4_paint:stencil_shovel": {
+			"textures": "textures/hp/mp/items/stensils_tool_shovel"
+		},
+		"hp4_paint:stencil_sword": {
+			"textures": "textures/hp/mp/items/stensils_tool_sword"
+		},
+		"hp4_paint:stencil_creeper": {
+			"textures": "textures/hp/mp/items/stencil_creeper"
 		},
 		"hp4_paint:spray_can": {
 			"textures": "textures/hp/mp/items/spray_can"

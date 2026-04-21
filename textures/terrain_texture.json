@@ -7,17 +7,35 @@
 		"hp4_paint.rose_bush_pink": {
 			"textures": "textures/hp/mp/furnitures/rose/rose_bush_pink"
 		},
+		"hp4_paint.p_rose_bush_pink": {
+			"textures": "textures/hp/mp/furnitures/rose/p_rose_bush_pink"
+		},
 		"hp4_paint.rose_bush_red": {
 			"textures": "textures/hp/mp/furnitures/rose/rose_bush_red"
+		},
+		"hp4_paint.p_rose_bush_red": {
+			"textures": "textures/hp/mp/furnitures/rose/p_rose_bush_red"
 		},
 		"hp4_paint.rose_bush_white": {
 			"textures": "textures/hp/mp/furnitures/rose/rose_bush_white"
 		},
+		"hp4_paint.p_rose_bush_white": {
+			"textures": "textures/hp/mp/furnitures/rose/p_rose_bush_white"
+		},
 		"hp4_paint.rose_bush_yellow": {
 			"textures": "textures/hp/mp/furnitures/rose/rose_bush_yellow"
 		},
+		"hp4_paint.p_rose_bush_yellow": {
+			"textures": "textures/hp/mp/furnitures/rose/p_rose_bush_yellow"
+		},
 		"hp4_paint.grass_plant": {
 			"textures": "textures/hp/mp/furnitures/grass_plant"
+		},
+		"hp4_paint.p_grass_plant": {
+			"textures": "textures/hp/mp/furnitures/p_grass_plant"
+		},
+		"hp4_paint.p_grass_plant2": {
+			"textures": "textures/hp/mp/furnitures/p_grass_plant2"
 		},
 		"hp4_paint.foxglove_plant_orange": {
 			"textures": "textures/hp/mp/furnitures/foxglove/foxglove_orange"
@@ -30,6 +48,18 @@
 		},
 		"hp4_paint.foxglove_plant_white": {
 			"textures": "textures/hp/mp/furnitures/foxglove/foxglove_white"
+		},
+		"hp4_paint.p_foxglove_plant_orange": {
+			"textures": "textures/hp/mp/furnitures/foxglove/p_foxglove_orange"
+		},
+		"hp4_paint.p_foxglove_plant_pink": {
+			"textures": "textures/hp/mp/furnitures/foxglove/p_foxglove_pink"
+		},
+		"hp4_paint.p_foxglove_plant_purple": {
+			"textures": "textures/hp/mp/furnitures/foxglove/p_foxglove_purple"
+		},
+		"hp4_paint.p_foxglove_plant_white": {
+			"textures": "textures/hp/mp/furnitures/foxglove/p_foxglove_white"
 		},
 		"hp4_paint.blank": {
 			"textures": "textures/hp/mp/blank"

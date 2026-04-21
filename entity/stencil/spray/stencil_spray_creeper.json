@@ -1,0 +1,49 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:stencil_spray_creeper",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default1": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil1",
+                "default2": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil2",
+                "default3": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil3",
+                "default4": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil4",
+                "default5": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil5",
+                "default6": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil6",
+                "default7": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil7",
+                "default8": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil8",
+                "default9": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil9",
+                "default10": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil10",
+                "default11": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil11",
+                "default12": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil12",
+                "default13": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil13",
+                "default14": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil14",
+                "default15": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil15",
+                "default16": "textures/hp/mp/furnitures/stencil_spray/creeper_stencil/creeper_stencil16",
+                "outline": "textures/hp/mp/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.stencil_spray"
+            },
+            "render_controllers": [
+                "controller.render.hp4_paint.color_splash"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:stencil_spray"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}

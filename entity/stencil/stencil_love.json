@@ -2,15 +2,21 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "hp4_paint:stencil",
+            "identifier": "hp4_paint:stencil_love",
             "materials": {
                 "default": "hp4_paint.outline_base",
                 "painting": "spider",
                 "outline": "hp4_paint.outline"
             },
             "textures": {
-                "default": "textures/hp/mp/furnitures/stencil",
-                "default2": "textures/hp/mp/furnitures/stencil2",
+                "default": "textures/hp/mp/furnitures/stencil_spray/stencil",
+                "default2": "textures/hp/mp/furnitures/stencil_spray/stencil2",
+                "default3": "textures/hp/mp/furnitures/stencil_spray/stensils_tool_axe",
+                "default4": "textures/hp/mp/furnitures/stencil_spray/stensils_tool_hoe",
+                "default5": "textures/hp/mp/furnitures/stencil_spray/stensils_tool_pickaxe",
+                "default6": "textures/hp/mp/furnitures/stencil_spray/stensils_tool_shovel",
+                "default7": "textures/hp/mp/furnitures/stencil_spray/stensils_tool_sword",
+                "default8": "textures/hp/mp/furnitures/stencil_spray/stencil_creeper",
                 "outline": "textures/hp/mp/outline"
             },
             "geometry": {
@@ -21,7 +27,7 @@
                 {
                     "controller.render.hp4_paint.outline_stencil": "q.property('hp4_paint:outline')"
                 },
-                "controller.render.hp4_paint.stencil"
+                "controller.render.hp4_paint.stencil_tools"
             ],
             "spawn_egg": {
                 "texture": "hp4_paint:stencil"

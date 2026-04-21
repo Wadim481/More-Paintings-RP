@@ -1,0 +1,49 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:stencil_spray_sword",
+            "materials": {
+                "default": "hp4_paint.outline_base",
+                "painting": "spider",
+                "outline": "hp4_paint.outline"
+            },
+            "textures": {
+                "default1": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_1",
+                "default2": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_2",
+                "default3": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_3",
+                "default4": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_4",
+                "default5": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_5",
+                "default6": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_6",
+                "default7": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_7",
+                "default8": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_8",
+                "default9": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_9",
+                "default10": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_10",
+                "default11": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_11",
+                "default12": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_12",
+                "default13": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_13",
+                "default14": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_14",
+                "default15": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_15",
+                "default16": "textures/hp/mp/furnitures/stencil_spray/sword_stencil/sword_stencil_16",
+                "outline": "textures/hp/mp/outline"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.stencil_spray"
+            },
+            "render_controllers": [
+                "controller.render.hp4_paint.color_splash"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:stencil_spray"
+            },
+            "animations": {
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "animate": [
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
+}
