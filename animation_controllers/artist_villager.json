@@ -33,7 +33,8 @@
 				},
 				"sleep": {
 					"animations": [
-						"sleep"
+						"sleep",
+						"cardinal_rot"
 					],
 					"transitions": [
 						{"default": "!q.property('hp4_paint:sleeping')"},

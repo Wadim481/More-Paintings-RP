@@ -36,7 +36,7 @@
             },
             "render_controllers": [
                 {
-                    "controller.render.hp4_paint.outline_art_chair_frame": "q.property('hp4_paint:outline')"
+                    "controller.render.hp4_paint.outline_art_chair_frame": "q.property('hp4_paint:outline') && !query.graphics_mode_is_any('deferred')"
                 },
                 "controller.render.hp4_paint.art_chair_frame",
                 "controller.render.hp4_paint.art_chair_pillow"

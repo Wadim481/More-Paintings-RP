@@ -497,6 +497,84 @@
 		},
 		"hp4_paint:spray_table": {
 			"textures": "textures/hp/mp/items/spray_table"
+		},
+		"hp4_paint:artist_villager_spawn_egg": {
+			"textures": "textures/hp/mp/items/artist_villager_spawn_egg"
+		},
+		"hp4_paint:artist_villager_egg_spawn": {
+			"textures": "textures/hp/mp/items/artist_villager_egg_spawn"
+		},
+		"hp4_paint:black_modern_frame": {
+			"textures": "textures/hp/mp/items/black_modern_frame"
+		},
+		"hp4_paint:burning_frame": {
+			"textures": "textures/hp/mp/items/burning_frame"
+		},
+		"hp4_paint:colorful_window": {
+			"textures": "textures/hp/mp/items/colorful_window"
+		},
+		"hp4_paint:diamond_frame": {
+			"textures": "textures/hp/mp/items/diamond_frame"
+		},
+		"hp4_paint:enchanted_frame": {
+			"textures": "textures/hp/mp/items/enchanted_frame"
+		},
+		"hp4_paint:foliage_frame": {
+			"textures": "textures/hp/mp/items/foliage_frame"
+		},
+		"hp4_paint:foxglove": {
+			"textures": "textures/hp/mp/items/foxglove"
+		},
+		"hp4_paint:glass_frame": {
+			"textures": "textures/hp/mp/items/glass_frame"
+		},
+		"hp4_paint:glitter_frame": {
+			"textures": "textures/hp/mp/items/glitter_frame"
+		},
+		"hp4_paint:gold_decorative_frame": {
+			"textures": "textures/hp/mp/items/gold_decorative_frame"
+		},
+		"hp4_paint:grass": {
+			"textures": "textures/hp/mp/items/grass"
+		},
+		"hp4_paint:iron_decorative_frame": {
+			"textures": "textures/hp/mp/items/iron_decorative_frame"
+		},
+		"hp4_paint:medieval_frame": {
+			"textures": "textures/hp/mp/items/medieval_frame"
+		},
+		"hp4_paint:pink_frame": {
+			"textures": "textures/hp/mp/items/pink_frame"
+		},
+		"hp4_paint:red_bush": {
+			"textures": "textures/hp/mp/items/red_bush"
+		},
+		"hp4_paint:small_rocks": {
+			"textures": "textures/hp/mp/items/small_rocks"
+		},
+		"hp4_paint:small_rocks_andesite": {
+			"textures": "textures/hp/mp/items/small_rocks_andesite"
+		},
+		"hp4_paint:small_rocks_granite": {
+			"textures": "textures/hp/mp/items/small_rocks_granite"
+		},
+		"hp4_paint:white_modern_frame": {
+			"textures": "textures/hp/mp/items/white_modern_frame"
+		},
+		"hp4_paint:wooden_frame": {
+			"textures": "textures/hp/mp/items/wooden_frame"
+		},
+		"hp4_paint:spray_can_brightness": {
+			"textures": "textures/hp/mp/items/spray_can_brightness"
+		},
+		"hp4_paint:spray_can_darken": {
+			"textures": "textures/hp/mp/items/spray_can_darken"
+		},
+		"hp4_paint:sleeping_spot_spawn_egg": {
+			"textures": "textures/hp/mp/particle/sleeping_spot"
+		},
+		"hp4_paint:hiding_spot_spawn_egg": {
+			"textures": "textures/hp/mp/particle/hiding_spot"
 		}
 	},
 	"resource_pack_name": "More Paintings",

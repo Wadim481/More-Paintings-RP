@@ -12,6 +12,10 @@ entity.hp4_paint:cyberpunk_painting.name=Cyberpunk Painting\n§cHeropixel - More
 
 item.spawn_egg.entity.hp4_paint:artist_villager.name=Artist Villager\n§cHeropixel - More Paintings
 entity.hp4_paint:artist_villager.name=Artist Villager\n§cHeropixel - More Paintings
+item.spawn_egg.entity.hp4_paint:artist_villager_sleeping_spot.name=Sleeping Spot for Artist Villager\n§cHeropixel - More Paintings
+entity.hp4_paint:artist_villager_sleeping_spot.name=Sleeping Spot for Artist Villager\n§cHeropixel - More Paintings
+item.spawn_egg.entity.hp4_paint:artist_villager_hiding_spot_loc.name=Hiding Spot for Artist Villager\n§cHeropixel - More Paintings
+entity.hp4_paint:artist_villager_hiding_spot_loc.name=Hiding Spot for Artist Villager\n§cHeropixel - More Paintings
 
 item.spawn_egg.entity.hp4_paint:cyberpunk_painting.name=Cyberpunk Painting\n§cHeropixel - More Paintings
 item.spawn_egg.entity.hp4_paint:forest_painting.name=Forest Painting\n§cHeropixel - More Paintings
@@ -497,5 +501,16 @@ item.hp4_paint:grass_plant5=Grass Plant 5\n§cHeropixel - More Paintings
 item.hp4_paint:grass_plant6=Grass Plant 6\n§cHeropixel - More Paintings
 
 
+
+item.hp4_paint:stencil_sword=Stencil Sword\n§cHeropixel - More Paintings
+item.hp4_paint:stencil_axe=Stencil Axe\n§cHeropixel - More Paintings
+item.hp4_paint:stencil_pickaxe=Stencil Pickaxe\n§cHeropixel - More Paintings
+item.hp4_paint:stencil_shovel=Stencil Shovel\n§cHeropixel - More Paintings
+item.hp4_paint:stencil_hoe=Stencil Hoe\n§cHeropixel - More Paintings
+item.hp4_paint:stencil_creeper=Stencil Creeper\n§cHeropixel - More Paintings
+item.hp4_paint:stencil_love=Stencil Love\n§cHeropixel - More Paintings
+
+
 item.hp4_paint:spray_can_darken=Spray Can Darken\n§cHeropixel - More Paintings
 item.hp4_paint:spray_can_brightness=Spray Can Brightness\n§cHeropixel - More Paintings
+

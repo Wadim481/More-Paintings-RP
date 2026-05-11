@@ -19,7 +19,7 @@
             },
             "render_controllers": [
                 {
-                    "controller.render.hp4_paint.outline_tube_paint": "q.property('hp4_paint:outline')"
+                    "controller.render.hp4_paint.outline_tube_paint": "q.property('hp4_paint:outline') && !query.graphics_mode_is_any('deferred')"
                 },
                 "controller.render.hp4_paint.tube_paint"
             ],

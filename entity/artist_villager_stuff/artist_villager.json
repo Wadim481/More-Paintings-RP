@@ -40,10 +40,12 @@
         "animate": [
           "root",
           "shield_cont",
-          {"painting": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"}
+          {"painting": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"},
+          {"cardinal_rot": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"}
         ]
       },
       "animations": {
+        "cardinal_rot": "animation.hp4_paint.cardinal_rotation",
         "shield_cont": "controller.animation.hp4_paint.artist_villager.shield",
         "root": "controller.animation.hp4_paint.artist_villager",
         "painting": "controller.animation.hp4_paint.artist_villager.painting",
@@ -80,7 +82,7 @@
         {"controller.render.hp4_paint.artist_villager.camouflage": "q.property('hp4_paint:camouflage')"}
       ],
       "spawn_egg": {
-        "texture": "spawn_egg_villager"
+        "texture": "hp4_paint:artist_villager_spawn_egg"
       },
       "particle_effects": {
         "walk_dust": "hp4_paint:walk_dust",

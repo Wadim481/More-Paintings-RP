@@ -21,7 +21,7 @@
             },
             "render_controllers": [
                 {
-                    "controller.render.hp4_paint.outline_display_case_huge": "q.property('hp4_paint:outline')"
+                    "controller.render.hp4_paint.outline_display_case_huge": "q.property('hp4_paint:outline') && !query.graphics_mode_is_any('deferred')"
                 },
                 {
                     "controller.render.hp4_paint.display_case_huge": "!q.property('hp4_paint:paint_installed')"

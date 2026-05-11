@@ -4,7 +4,7 @@
         "description": {
             "identifier": "hp4_paint:plants_holder_mp",
             "materials": {
-                "default": "hp4_paint.outline_base",
+                "default": "entity_alphatest_one_sided",
                 "painting": "spider",
                 "outline": "hp4_paint.outline"
             },

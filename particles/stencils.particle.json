@@ -5,7 +5,7 @@
 			"identifier": "hp4_paint:d_stencils",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/hp/mp/furnitures/stencil_spray/stensils_tool_hoe"
+				"texture": "textures/hp/mp/stencil_spray/stensils_tool_hoe"
 			}
 		},
 		"components": {
