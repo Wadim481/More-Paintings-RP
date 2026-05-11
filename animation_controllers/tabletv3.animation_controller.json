@@ -1,0 +1,333 @@
+{
+"format_version": "1.10.0",
+"animation_controllers": {
+"controller.animation.hp4_paint.tabletv3": {
+"initial_state": "hold",
+"states": {
+
+"hold": {
+"blend_transition": 0.2,
+"animations": [
+{ "first_person_hold": "c.is_first_person" },
+{ "third_person_hold": "!c.is_first_person" }
+],
+"transitions": [
+{ "tab_paintings":       "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "c.is_first_person && v.tabletv3_open == 1 && v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"tab_paintings": {
+"blend_transition": 0.2,
+"animations": [ "page_paintings" ],
+"transitions": [
+{ "hold":           "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_furnitures": "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":        "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":   "v.tabletv3_focus_state == 1 && v.tabletv3_category == 0" },
+{ "cat_frame":      "v.tabletv3_focus_state == 1 && v.tabletv3_category == 1" }
+]
+},
+
+"tab_furnitures": {
+"blend_transition": 0.2,
+"animations": [ "page_furnitures" ],
+"transitions": [
+{ "hold":             "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":    "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_tools":        "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":          "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_display_case": "v.tabletv3_focus_state == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":      "v.tabletv3_focus_state == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":       "v.tabletv3_focus_state == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":      "v.tabletv3_focus_state == 1 && v.tabletv3_category == 3" }
+]
+},
+
+"tab_tools": {
+"blend_transition": 0.2,
+"animations": [ "page_tools" ],
+"transitions": [
+{ "hold":           "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":  "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures": "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_mob":        "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_hammer":     "v.tabletv3_focus_state == 1 && v.tabletv3_category == 0" },
+{ "cat_brush":      "v.tabletv3_focus_state == 1 && v.tabletv3_category == 1" },
+{ "cat_spray_can":  "v.tabletv3_focus_state == 1 && v.tabletv3_category == 2" },
+{ "cat_chisel":     "v.tabletv3_focus_state == 1 && v.tabletv3_category == 3" }
+]
+},
+
+"tab_mob": {
+"blend_transition": 0.2,
+"animations": [ "page_mob" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_painting": {
+"blend_transition": 0.15,
+"animations": [ "cat_painting" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_frame": {
+"blend_transition": 0.15,
+"animations": [ "cat_frame" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_display_case": {
+"blend_transition": 0.15,
+"animations": [ "cat_display_case" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_planter": {
+"blend_transition": 0.15,
+"animations": [ "cat_planter" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_statue": {
+"blend_transition": 0.15,
+"animations": [ "cat_statue" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_stencil": {
+"blend_transition": 0.15,
+"animations": [ "cat_stencil" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_hammer": {
+"blend_transition": 0.15,
+"animations": [ "cat_hammer" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_brush": {
+"blend_transition": 0.15,
+"animations": [ "cat_brush" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_spray_can": {
+"blend_transition": 0.15,
+"animations": [ "cat_spray_can" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_chisel":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_chisel": {
+"blend_transition": 0.15,
+"animations": [ "cat_chisel" ],
+"transitions": [
+{ "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":       "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":      "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":           "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":             "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":         "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":          "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":           "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_artist_villager": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 3 && v.tabletv3_category == 0" }
+]
+},
+
+"cat_artist_villager": {
+"blend_transition": 0.15,
+"animations": [ "cat_artist_villager" ],
+"transitions": [
+{ "hold":             "!c.is_first_person || v.tabletv3_open == 0" },
+{ "tab_paintings":    "v.tabletv3_focus_state == 0 && v.tabletv3_page == 0" },
+{ "tab_furnitures":   "v.tabletv3_focus_state == 0 && v.tabletv3_page == 1" },
+{ "tab_tools":        "v.tabletv3_focus_state == 0 && v.tabletv3_page == 2" },
+{ "tab_mob":          "v.tabletv3_focus_state == 0 && v.tabletv3_page == 3" },
+{ "cat_painting":     "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 0" },
+{ "cat_frame":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 0 && v.tabletv3_category == 1" },
+{ "cat_display_case": "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 0" },
+{ "cat_planter":      "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 1" },
+{ "cat_statue":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 2" },
+{ "cat_stencil":      "v.tabletv3_focus_state == 1 && v.tabletv3_page == 1 && v.tabletv3_category == 3" },
+{ "cat_hammer":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 0" },
+{ "cat_brush":        "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 1" },
+{ "cat_spray_can":    "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 2" },
+{ "cat_chisel":       "v.tabletv3_focus_state == 1 && v.tabletv3_page == 2 && v.tabletv3_category == 3" }
+]
+}
+
+}
+}
+}
+}

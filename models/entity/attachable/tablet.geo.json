@@ -1,0 +1,40 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hp4_paint.tablet",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 16,
+				"visible_bounds_height": 8,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-9, 6, -1],
+							"size": [16, 16, 1],
+							"uv": {
+								"north": {"uv": [9.25957, 8.30638], "uv_size": [2, 2]},
+								"east": {"uv": [7.48936, 6.80851], "uv_size": [2, 2]},
+								"south": {"uv": [4.83404, 7.08085], "uv_size": [2, 2]},
+								"west": {"uv": [7.35319, 4.01702], "uv_size": [2, 2]},
+								"up": {"uv": [8.80851, 8.05957], "uv_size": [-2, -2]},
+								"down": {"uv": [5.6766, 5.06383], "uv_size": [-2, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)"
+				}
+			]
+		}
+	]
+}

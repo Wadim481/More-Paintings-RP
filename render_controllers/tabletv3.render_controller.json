@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hp4_paint.tabletv3": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"arrays": {
+				"textures": {
+					"Array.guide_textures": [
+						"Texture.paintings_guide",
+						"Texture.frame_guide",
+						"Texture.default",
+						"Texture.default",
+						"Texture.display_case_guide",
+						"Texture.planter_guide",
+						"Texture.statue_guide",
+						"Texture.stencil_guide",
+						"Texture.hammer_guide",
+						"Texture.brush_guide",
+						"Texture.spray_can_guide",
+						"Texture.chisel_guide",
+						"Texture.artist_villager_guide"
+					]
+				}
+			},
+			"textures": [
+				"v.tabletv3_focus_state == 1 ? Array.guide_textures[v.tabletv3_page * 4 + v.tabletv3_category] : Texture.default"
+			]
+		},
+		"controller.render.hp4_paint.tabletv3.overlay": {
+			"geometry": "Geometry.overlay",
+			"materials": [{ "*": "Material.guide_blend" }],
+			"textures": [
+				"Texture.overlay"
+			]
+		}
+	}
+}
