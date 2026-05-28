@@ -45,48 +45,34 @@
 				"display_case_big2": "textures/hp/mp/furnitures/display/display_case_big_pink",
 				"display_case_big3": "textures/hp/mp/furnitures/display/display_case_big_white",
 
-				"canvas_2x1": "textures/hp/mp/animated/bg/32x16",
-				"canvas_2x2": "textures/hp/mp/animated/bg/32x32",
-				"canvas_2x4": "textures/hp/mp/animated/bg/16x32",
-				"canvas_4x2": "textures/hp/mp/animated/bg/32x64",
-				"canvas_4x3": "textures/hp/mp/animated/bg/48x64",
-				"canvas_4x4": "textures/hp/mp/animated/bg/64x64",
-				"canvas_1x1": "textures/hp/mp/animated/bg/16x16",
-				"canvas_1x2": "textures/hp/mp/animated/bg/16x32",
+				"canvas_2x1": "textures/hp/mp/p/an/bg/32x16",
+				"canvas_2x2": "textures/hp/mp/p/an/bg/32x32",
+				"canvas_2x4": "textures/hp/mp/p/an/bg/16x32",
+				"canvas_4x2": "textures/hp/mp/p/an/bg/32x64",
+				"canvas_4x3": "textures/hp/mp/p/an/bg/48x64",
+				"canvas_4x4": "textures/hp/mp/p/an/bg/64x64",
+				"canvas_1x1": "textures/hp/mp/p/an/bg/16x16",
+				"canvas_1x2": "textures/hp/mp/p/an/bg/16x32",
 
 				//Images
 
-				"animated0_2x1": "textures/hp/mp/animated/2x1/swimming_koi_animated",
-				"animated1_2x1": "textures/hp/mp/animated/2x1/musicdisk",
-				"animated0_2x2": "textures/hp/mp/animated/2x2/flying_guy_animated",
-				"animated1_2x2": "textures/hp/mp/animated/2x2/windtree",
-				"animated0_2x4": "textures/hp/mp/animated/2x4/catwalk_animated",
-				"animated1_2x4": "textures/hp/mp/animated/2x4/roofguy_animated",
-				"animated0_4x2": "textures/hp/mp/animated/4x2/housewood_animated",
-				"animated1_4x2": "textures/hp/mp/animated/4x2/Cyberpunkcityview_animated",
-				"animated2_4x2": "textures/hp/mp/animated/4x2/Moteltv_animated",
-				"animated0_4x3": "textures/hp/mp/animated/4x3/Autumn_animated",
-				"animated1_4x3": "textures/hp/mp/animated/4x3/Cybercar_animated",
-				"animated0_4x4": "textures/hp/mp/animated/4x4/pumpkinheads_animated",
-				"animated1_4x4": "textures/hp/mp/animated/4x4/Girldolphin_animated",
-				"animated0_1x1": "textures/hp/mp/animated/1x1/earthplanet",
-				"animated1_1x1": "textures/hp/mp/animated/1x1/water",
-				"animated0_1x2": "textures/hp/mp/animated/1x2/MontainCar",
-				"animated1_1x2": "textures/hp/mp/animated/1x2/SleepingGirl",
-
-				"lgt_animated0_2x1": "textures/hp/mp/animated/2x1/mer_swimming_koi_animated",
-				"lgt_animated0_2x2": "textures/hp/mp/animated/2x2/mer_flying_guy_animated",
-				"lgt_animated0_2x4": "textures/hp/mp/animated/2x4/mer_catwalk_animated",
-				"lgt_animated1_2x4": "textures/hp/mp/animated/2x4/mer_roofguy_animated",
-				"lgt_animated0_4x2": "textures/hp/mp/animated/4x2/mer_housewood_animated",
-				"lgt_animated1_4x2": "textures/hp/mp/animated/4x2/mer_Cyberpunkcityview_animated",
-				"lgt_animated2_4x2": "textures/hp/mp/animated/4x2/mer_Moteltv_animated",
-				"lgt_animated0_4x3": "textures/hp/mp/animated/4x3/mer_Autumn_animated",
-				"lgt_animated1_4x3": "textures/hp/mp/animated/4x3/mer_Cybercar_animated",
-				"lgt_animated0_4x4": "textures/hp/mp/animated/4x4/mer_pumpkinheads_animated",
-				"lgt_animated1_4x4": "textures/hp/mp/animated/4x4/mer_Girldolphin_animated",
-				"lgt_animated0_1x1": "textures/hp/mp/animated/1x1/mer_earthplanet",
-				"lgt_animated1_1x1": "textures/hp/mp/animated/1x1/mer_water"
+				"animated0_2x1": "textures/hp/mp/p/an/2x1/swimming_koi_animated",
+				"animated1_2x1": "textures/hp/mp/p/an/2x1/musicdisk",
+				"animated0_2x2": "textures/hp/mp/p/an/2x2/flying_guy_animated",
+				"animated1_2x2": "textures/hp/mp/p/an/2x2/windtree",
+				"animated0_2x4": "textures/hp/mp/p/an/2x4/catwalk_animated",
+				"animated1_2x4": "textures/hp/mp/p/an/2x4/roofguy_animated",
+				"animated0_4x2": "textures/hp/mp/p/an/4x2/housewood_animated",
+				"animated1_4x2": "textures/hp/mp/p/an/4x2/Cyberpunkcityview_animated",
+				"animated2_4x2": "textures/hp/mp/p/an/4x2/Moteltv_animated",
+				"animated0_4x3": "textures/hp/mp/p/an/4x3/Autumn_animated",
+				"animated1_4x3": "textures/hp/mp/p/an/4x3/Cybercar_animated",
+				"animated0_4x4": "textures/hp/mp/p/an/4x4/pumpkinheads_animated",
+				"animated1_4x4": "textures/hp/mp/p/an/4x4/Girldolphin_animated",
+				"animated0_1x1": "textures/hp/mp/p/an/1x1/earthplanet",
+				"animated1_1x1": "textures/hp/mp/p/an/1x1/water",
+				"animated0_1x2": "textures/hp/mp/p/an/1x2/MontainCar",
+				"animated1_1x2": "textures/hp/mp/p/an/1x2/SleepingGirl"
 			},
 			"geometry": {
 				"frame.black_modern": "geometry.hp4_paint.frame.black_modern",
@@ -131,10 +117,7 @@
 				{"controller.render.hp4_paint.display_case_wide2": "q.property('hp4_paint:displayer')=='display_case_wide2'"},
 				{"controller.render.hp4_paint.display_case_big": "q.property('hp4_paint:displayer')=='display_case_big'"},
 				{
-					"controller.render.hp4_paint.animated_death": "q.property('hp4_paint:paint_materials')==false"
-				},
-				{
-					"controller.render.hp4_paint.animated_death_light": "q.property('hp4_paint:paint_materials')==true"
+					"controller.render.hp4_paint.animated": "q.property('hp4_paint:paint_materials')==false"
 				}
 			],
 			"spawn_egg": {
@@ -163,9 +146,9 @@
 				"pre_animation": [
 					"v.frame_size = q.property('hp4_paint:paint_models') == 0 ? 0:q.property('hp4_paint:paint_models') == 1 ? 1:q.property('hp4_paint:paint_models') == 2 ? 2:q.property('hp4_paint:paint_models') == 3 ? 3:q.property('hp4_paint:paint_models') == 4 ? 4:q.property('hp4_paint:paint_models') == 5 ? 6:q.property('hp4_paint:paint_models') == 6 ? 9: 0;",
 					"v.frame_type = q.property('hp4_paint:frame_type') == 'none' ? -1 : q.property('hp4_paint:frame_type') == 'black_modern' ? 0 : q.property('hp4_paint:frame_type') == 'burning' ? 1 : q.property('hp4_paint:frame_type') == 'decgold' ? 2 : q.property('hp4_paint:frame_type') == 'deciron' ? 3 : q.property('hp4_paint:frame_type') == 'diamond' ? 4 : q.property('hp4_paint:frame_type') == 'enchanted' ? 5 : q.property('hp4_paint:frame_type') == 'foliage' ? 6 : q.property('hp4_paint:frame_type') == 'glass' ? 7 : q.property('hp4_paint:frame_type') == 'glitter' ? 8 : q.property('hp4_paint:frame_type') == 'medieval' ? 9 : q.property('hp4_paint:frame_type') == 'pink' ? 10 : q.property('hp4_paint:frame_type') == 'white_modern' ? 11 : q.property('hp4_paint:frame_type') == 'wooden' ? 12 : -1;",
-					"v.frame_16x16 = false;",
+					"v.frame_16x16 = q.property('hp4_paint:paint_models') == 6;",
 					"v.frame_16x32 = q.property('hp4_paint:paint_models') == 0;",
-					"v.frame_32x16 = false;",
+					"v.frame_32x16 = q.property('hp4_paint:paint_models') == 7;",
 					"v.frame_32x32 = q.property('hp4_paint:paint_models') == 1;",
 					"v.frame_32x64 = q.property('hp4_paint:paint_models') == 3;",
 					"v.frame_48x48 = false;",
@@ -174,7 +157,10 @@
 					"v.frame_64x48 = false;",
 					"v.frame_64x64 = q.property('hp4_paint:paint_models') == 5;",
 
-					"v.frame_count = q.property('hp4_paint:paint_colors') == 0 ? 12 : q.property('hp4_paint:paint_colors') == 1 ? 8 : q.property('hp4_paint:paint_colors') == 2 ? 12 : q.property('hp4_paint:paint_colors') == 3 ? 14 : q.property('hp4_paint:paint_colors') == 4 ? 16 : q.property('hp4_paint:paint_colors') == 5 ? 16 : q.property('hp4_paint:paint_colors') == 6 ? 14 : q.property('hp4_paint:paint_colors') == 7 ? 16 : q.property('hp4_paint:paint_colors') == 8 ? 12 : q.property('hp4_paint:paint_colors') == 9 ? 16 : q.property('hp4_paint:paint_colors') == 10 ? 16 : q.property('hp4_paint:paint_colors') == 11 ? 16 : q.property('hp4_paint:paint_colors') == 12 ? 24 : q.property('hp4_paint:paint_colors') == 13 ? 10 : q.property('hp4_paint:paint_colors') == 14 ? 5 : q.property('hp4_paint:paint_colors') == 15 ? 12 : q.property('hp4_paint:paint_colors') == 16 ? 16 : 1;"
+					"v.limit = v.frame_16x16 ? 2 : v.frame_16x32 ? 2 : v.frame_32x16 ? 2 : v.frame_32x32 ? 2 : v.frame_32x64 ? 3 : v.frame_48x48 ? 0 : v.frame_48x64 ? 2 : v.frame_64x32 ? 2 : v.frame_64x48 ? 0 : v.frame_64x64 ? 2 : 0;",
+					"v.result = q.property('hp4_paint:paint_colors') - math.floor(q.property('hp4_paint:paint_colors') / v.limit) * v.limit;",
+					
+					"v.frame_count = (q.property('hp4_paint:paint_models') == 0 && v.result == 0) ? 12 : (q.property('hp4_paint:paint_models') == 0 && v.result == 1) ? 8 : (q.property('hp4_paint:paint_models') == 1 && v.result == 0) ? 12 : (q.property('hp4_paint:paint_models') == 1 && v.result == 1) ? 14 : (q.property('hp4_paint:paint_models') == 2 && v.result == 0) ? 16 : (q.property('hp4_paint:paint_models') == 2 && v.result == 1) ? 16 : (q.property('hp4_paint:paint_models') == 3 && v.result == 0) ? 14 : (q.property('hp4_paint:paint_models') == 3 && v.result == 1) ? 16 : (q.property('hp4_paint:paint_models') == 3 && v.result == 2) ? 12 : (q.property('hp4_paint:paint_models') == 4 && v.result == 0) ? 16 : (q.property('hp4_paint:paint_models') == 4 && v.result == 1) ? 16 : (q.property('hp4_paint:paint_models') == 5 && v.result == 0) ? 16 : (q.property('hp4_paint:paint_models') == 5 && v.result == 1) ? 24 : (q.property('hp4_paint:paint_models') == 6 && v.result == 0) ? 10 : (q.property('hp4_paint:paint_models') == 6 && v.result == 1) ? 5 : (q.property('hp4_paint:paint_models') == 7 && v.result == 0) ? 12 : (q.property('hp4_paint:paint_models') == 7 && v.result == 1) ? 16 : 1;"
 				],
 				"animate": [
 					{"display.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 0"},

@@ -1,27 +1,14 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "hp4_paint:fog_painting",
-			"materials": {
-				"animated": "conduit_wind",
-				"default": "hp4_paint.outline_base",
-				"glass": "hp4_paint.outline_base_blend"
-			},
-			"textures": {
-				"frame.black_modern": "textures/hp/mp/frames/black_modern",
-				"frame.burning": "textures/hp/mp/frames/burning",
-				"frame.decgold": "textures/hp/mp/frames/decgold",
-				"frame.deciron": "textures/hp/mp/frames/deciron",
-				"frame.diamond": "textures/hp/mp/frames/diamond",
-				"frame.enchanted": "textures/hp/mp/frames/enchanted",
-				"frame.foliage": "textures/hp/mp/frames/foliage",
-				"frame.glass": "textures/hp/mp/frames/glass",
-				"frame.glitter": "textures/hp/mp/frames/glitter",
-				"frame.medieval": "textures/hp/mp/frames/medieval",
-				"frame.pink": "textures/hp/mp/frames/pink",
-				"frame.white_modern": "textures/hp/mp/frames/white_modern",
-				"frame.wooden": "textures/hp/mp/frames/wooden",
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:fog_painting",
+            "materials": {
+                "animated": "conduit_wind",
+                "default": "hp4_paint.outline_base",
+                "glass": "hp4_paint.outline_base_blend"
+            },
+            "textures": {
 				"easel_stand1": "textures/hp/mp/furnitures/easel_stand/1",
 				"easel_stand2": "textures/hp/mp/furnitures/easel_stand/2",
 				"easel_stand3": "textures/hp/mp/furnitures/easel_stand/3",
@@ -44,150 +31,202 @@
 				"display_case_big2": "textures/hp/mp/furnitures/display/display_case_big_pink",
 				"display_case_big3": "textures/hp/mp/furnitures/display/display_case_big_white",
 
-				"default1": "textures/hp/mp/fog/fog_32x32_1",
-				"default2": "textures/hp/mp/fog/fog_32x32_2",
-				"default3": "textures/hp/mp/fog/fog_32x32_3",
-				"default4": "textures/hp/mp/fog/fog_32x64_1",
-				"default5": "textures/hp/mp/fog/fog_32x64_2",
-				"default6": "textures/hp/mp/fog/fog_32x64_3",
-				"default7": "textures/hp/mp/fog/fog_32x64_4",
-				"default8": "textures/hp/mp/fog/fog_48x48_1",
-				"default9": "textures/hp/mp/fog/fog_48x48_2",
-				"default10": "textures/hp/mp/fog/fog_48x48_3",
-				"default11": "textures/hp/mp/fog/fog_48x48_4",
-				"default12": "textures/hp/mp/fog/fog_48x48_5",
-				"default13": "textures/hp/mp/fog/fog_48x48_6",
-				"default14": "textures/hp/mp/fog/fog_48x48_7",
-				"default15": "textures/hp/mp/fog/fog_48x48_8",
-				"default16": "textures/hp/mp/fog/fog_64x32",
-				"default17": "textures/hp/mp/fog/fog_64x48_1",
-				"default18": "textures/hp/mp/fog/fog_64x48_2",
-				"default19": "textures/hp/mp/fog/fog_64x64_1",
-				"default20": "textures/hp/mp/fog/fog_64x64_2",
+                "frame.black_modern": "textures/hp/mp/frames/black_modern",
+                "frame.burning": "textures/hp/mp/frames/burning",
+                "frame.decgold": "textures/hp/mp/frames/decgold",
+                "frame.deciron": "textures/hp/mp/frames/deciron",
+                "frame.diamond": "textures/hp/mp/frames/diamond",
+                "frame.enchanted": "textures/hp/mp/frames/enchanted",
+                "frame.foliage": "textures/hp/mp/frames/foliage",
+                "frame.glass": "textures/hp/mp/frames/glass",
+                "frame.glitter": "textures/hp/mp/frames/glitter",
+                "frame.medieval": "textures/hp/mp/frames/medieval",
+                "frame.pink": "textures/hp/mp/frames/pink",
+                "frame.white_modern": "textures/hp/mp/frames/white_modern",
+                "frame.wooden": "textures/hp/mp/frames/wooden",
+                "default_32x32": "textures/hp/mp/p/fog/32x32",
+                "default_32x64": "textures/hp/mp/p/fog/32x64",
+                "default_48x48": "textures/hp/mp/p/fog/48x48",
+                "default_64x32": "textures/hp/mp/p/fog/64x32",
+                "default_64x48": "textures/hp/mp/p/fog/64x48",
+                "default_64x64": "textures/hp/mp/p/fog/64x64",
+                "glow_32x32": "textures/hp/mp/p/fog/mer_32x32",
+                "glow_32x64": "textures/hp/mp/p/fog/mer_32x64",
+                "glow_48x48": "textures/hp/mp/p/fog/mer_48x48",
+                "glow_64x32": "textures/hp/mp/p/fog/mer_64x32",
+                "glow_64x48": "textures/hp/mp/p/fog/mer_64x48",
+                "glow_64x64": "textures/hp/mp/p/fog/mer_64x64"
+            },
+            "geometry": {
+                "frame.black_modern": "geometry.hp4_paint.frame.black_modern",
+                "frame.burning": "geometry.hp4_paint.frame.burning",
+                "frame.decgold": "geometry.hp4_paint.frame.decgold",
+                "frame.deciron": "geometry.hp4_paint.frame.deciron",
+                "frame.diamond": "geometry.hp4_paint.frame.diamond",
+                "frame.enchanted": "geometry.hp4_paint.frame.enchanted",
+                "frame.foliage": "geometry.hp4_paint.frame.foliage",
+                "frame.glass": "geometry.hp4_paint.frame.glass",
+                "frame.glitter": "geometry.hp4_paint.frame.glitter",
+                "frame.medieval": "geometry.hp4_paint.frame.medieval",
+                "frame.pink": "geometry.hp4_paint.frame.pink",
+                "frame.white_modern": "geometry.hp4_paint.frame.white_modern",
+                "frame.wooden": "geometry.hp4_paint.frame.wooden",
+                "easel_stand": "geometry.hp4_paint.easel_stand",
+                "display_case": "geometry.hp4_paint.display_case",
+                "display_case_wide": "geometry.hp4_paint.display_case_wide",
+                "display_case_huge": "geometry.hp4_paint.display_case_huge",
+                "display_case_tall": "geometry.hp4_paint.display_case_tall",
+                "display_case_wide2": "geometry.hp4_paint.display_case_wide2",
+                "display_case_big": "geometry.hp4_paint.display_case_big",
+                "default1": "geometry.hp4_paint.painting_32x32",
+                "default2": "geometry.hp4_paint.painting_32x64",
+                "default3": "geometry.hp4_paint.painting_48x48",
+                "default4": "geometry.hp4_paint.painting_64x32",
+                "default5": "geometry.hp4_paint.painting_64x48",
+                "default6": "geometry.hp4_paint.painting_64x64"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.hp4_paint.new_frames": "q.property('hp4_paint:frame_type') != 'none'"
+                },
+                {
+                    "controller.render.hp4_paint.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand'"
+                },
+                {
+                    "controller.render.hp4_paint.display_case": "q.property('hp4_paint:displayer')=='display_case'"
+                },
+                {
+                    "controller.render.hp4_paint.display_case_wide": "q.property('hp4_paint:displayer')=='display_case_wide'"
+                },
+                {
+                    "controller.render.hp4_paint.display_case_huge": "q.property('hp4_paint:displayer')=='display_case_huge'"
+                },
+                {
+                    "controller.render.hp4_paint.display_case_tall": "q.property('hp4_paint:displayer')=='display_case_tall'"
+                },
+                {
+                    "controller.render.hp4_paint.display_case_wide2": "q.property('hp4_paint:displayer')=='display_case_wide2'"
+                },
+                {
+                    "controller.render.hp4_paint.display_case_big": "q.property('hp4_paint:displayer')=='display_case_big'"
+                },
+                {
+                    "controller.render.hp4_paint.fog": "q.property('hp4_paint:paint_materials')==false"
+                }
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:fog_painting"
+            },
+            "animations": {
+                "display.easel_stand": "animation.hp4_paint.display.easel_stand",
+                "display.easel_stand2": "animation.hp4_paint.display.easel_stand2",
+                "display.easel_stand3": "animation.hp4_paint.display.easel_stand3",
+                "display.display_case": "animation.hp4_paint.display.display_case",
+                "display.display_case_wide": "animation.hp4_paint.display.display_case_wide",
+                "display.big_display_case": "animation.hp4_paint.display.big_display_case",
+                "wide2_16": "animation.hp4_paint.wide2_16",
+                "wide2_32": "animation.hp4_paint.wide2_32",
+                "wide2_64": "animation.hp4_paint.wide2_64",
+                "huge_16": "animation.hp4_paint.huge_16",
+                "huge_32": "animation.hp4_paint.huge_32",
+                "huge_64": "animation.hp4_paint.huge_64",
+                "tall_16": "animation.hp4_paint.tall_16",
+                "tall_32": "animation.hp4_paint.tall_32",
+                "tall_64": "animation.hp4_paint.tall_64",
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
+            },
+            "scripts": {
+                "scale": "q.property('hp4_paint:visible') ? 1 : 0",
+                "pre_animation": [
+                    "v.frame_size = q.property('hp4_paint:paint_models') == 0 ? 3:q.property('hp4_paint:paint_models') == 1 ? 4:q.property('hp4_paint:paint_models') == 2 ? 5:q.property('hp4_paint:paint_models') == 3 ? 7:q.property('hp4_paint:paint_models') == 4 ? 8:q.property('hp4_paint:paint_models') == 5 ? 9: 0;",
+                    "v.frame_type = q.property('hp4_paint:frame_type') == 'none' ? -1 : q.property('hp4_paint:frame_type') == 'black_modern' ? 0 : q.property('hp4_paint:frame_type') == 'burning' ? 1 : q.property('hp4_paint:frame_type') == 'decgold' ? 2 : q.property('hp4_paint:frame_type') == 'deciron' ? 3 : q.property('hp4_paint:frame_type') == 'diamond' ? 4 : q.property('hp4_paint:frame_type') == 'enchanted' ? 5 : q.property('hp4_paint:frame_type') == 'foliage' ? 6 : q.property('hp4_paint:frame_type') == 'glass' ? 7 : q.property('hp4_paint:frame_type') == 'glitter' ? 8 : q.property('hp4_paint:frame_type') == 'medieval' ? 9 : q.property('hp4_paint:frame_type') == 'pink' ? 10 : q.property('hp4_paint:frame_type') == 'white_modern' ? 11 : q.property('hp4_paint:frame_type') == 'wooden' ? 12 : -1;",
+                    "v.frame_16x16 = false;",
+                    "v.frame_16x32 = false;",
+                    "v.frame_32x16 = false;",
+                    "v.frame_32x32 = v.frame_size == 3;",
+                    "v.frame_32x64 = v.frame_size == 4;",
+                    "v.frame_48x48 = v.frame_size == 5;",
+                    "v.frame_48x64 = false;",
+                    "v.frame_64x32 = v.frame_size == 7;",
+                    "v.frame_64x48 = v.frame_size == 8;",
+                    "v.frame_64x64 = v.frame_size == 9;",
 
-				"glow1": "textures/hp/mp/fog/mer_fog_32x32_1",
-				"glow2": "textures/hp/mp/fog/mer_fog_32x32_2",
-				"glow3": "textures/hp/mp/fog/mer_fog_32x32_3",
-				"glow4": "textures/hp/mp/fog/mer_fog_32x64_1",
-				"glow5": "textures/hp/mp/fog/mer_fog_32x64_2",
-				"glow6": "textures/hp/mp/fog/mer_fog_32x64_3",
-				"glow7": "textures/hp/mp/fog/mer_fog_32x64_4",
-				"glow8": "textures/hp/mp/fog/mer_fog_48x48_1",
-				"glow9": "textures/hp/mp/fog/mer_fog_48x48_2",
-				"glow10": "textures/hp/mp/fog/mer_fog_48x48_3",
-				"glow11": "textures/hp/mp/fog/mer_fog_48x48_4",
-				"glow12": "textures/hp/mp/fog/mer_fog_48x48_5",
-				"glow13": "textures/hp/mp/fog/mer_fog_48x48_6",
-				"glow14": "textures/hp/mp/fog/mer_fog_48x48_7",
-				"glow15": "textures/hp/mp/fog/mer_fog_48x48_8",
-				"glow16": "textures/hp/mp/fog/mer_fog_64x32",
-				"glow17": "textures/hp/mp/fog/mer_fog_64x48_1",
-				"glow18": "textures/hp/mp/fog/mer_fog_64x48_2",
-				"glow19": "textures/hp/mp/fog/mer_fog_64x64_1",
-				"glow20": "textures/hp/mp/fog/mer_fog_64x64_2"
-			},
-			"geometry": {
-				"frame.black_modern": "geometry.hp4_paint.frame.black_modern",
-				"frame.burning": "geometry.hp4_paint.frame.burning",
-				"frame.decgold": "geometry.hp4_paint.frame.decgold",
-				"frame.deciron": "geometry.hp4_paint.frame.deciron",
-				"frame.diamond": "geometry.hp4_paint.frame.diamond",
-				"frame.enchanted": "geometry.hp4_paint.frame.enchanted",
-				"frame.foliage": "geometry.hp4_paint.frame.foliage",
-				"frame.glass": "geometry.hp4_paint.frame.glass",
-				"frame.glitter": "geometry.hp4_paint.frame.glitter",
-				"frame.medieval": "geometry.hp4_paint.frame.medieval",
-				"frame.pink": "geometry.hp4_paint.frame.pink",
-				"frame.white_modern": "geometry.hp4_paint.frame.white_modern",
-				"frame.wooden": "geometry.hp4_paint.frame.wooden",
-				"easel_stand": "geometry.hp4_paint.easel_stand",
-				"display_case": "geometry.hp4_paint.display_case",
-				"display_case_wide": "geometry.hp4_paint.display_case_wide",
-				"display_case_huge": "geometry.hp4_paint.display_case_huge",
-				"display_case_tall": "geometry.hp4_paint.display_case_tall",
-				"display_case_wide2": "geometry.hp4_paint.display_case_wide2",
-				"display_case_big": "geometry.hp4_paint.display_case_big",
+                    
+                    "v.amount_16x16 = 0;",
+                    "v.amount_16x32 = 0;",
+                    "v.amount_32x16 = 0;",
+                    "v.amount_32x32 = 3;",
+                    "v.amount_32x64 = 4;",
+                    "v.amount_48x48 = 8;",
+                    "v.amount_48x64 = 0;",
+                    "v.amount_64x32 = 1;",
+                    "v.amount_64x48 = 2;",
+                    "v.amount_64x64 = 2;",
 
-				"default1": "geometry.hp4_paint.painting_32x32",
-				"default2": "geometry.hp4_paint.painting_32x64",
-				"default3": "geometry.hp4_paint.painting_48x48",
-				"default4": "geometry.hp4_paint.painting_64x32",
-				"default5": "geometry.hp4_paint.painting_64x48",
-				"default6": "geometry.hp4_paint.painting_64x64"
-			},
-			"render_controllers": [
-				{"controller.render.hp4_paint.new_frames": "q.property('hp4_paint:frame_type') != 'none'"},
-				{"controller.render.hp4_paint.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand'"},
-				{"controller.render.hp4_paint.display_case": "q.property('hp4_paint:displayer')=='display_case'"},
-				{"controller.render.hp4_paint.display_case_wide": "q.property('hp4_paint:displayer')=='display_case_wide'"},
-				{"controller.render.hp4_paint.display_case_huge": "q.property('hp4_paint:displayer')=='display_case_huge'"},
-				{"controller.render.hp4_paint.display_case_tall": "q.property('hp4_paint:displayer')=='display_case_tall'"},
-				{"controller.render.hp4_paint.display_case_wide2": "q.property('hp4_paint:displayer')=='display_case_wide2'"},
-				{"controller.render.hp4_paint.display_case_big": "q.property('hp4_paint:displayer')=='display_case_big'"},
-				{
-					"controller.render.hp4_paint.costum_death_fog_light": "q.property('hp4_paint:paint_materials')==true"
-				},
-				{
-					"controller.render.hp4_paint.costum_death_fog": "q.property('hp4_paint:paint_materials')==false"
-				}
-			],
-			"spawn_egg": {
-				"texture": "hp4_paint:fog_painting"
-			},
-			"animations": {
-				"display.easel_stand": "animation.hp4_paint.display.easel_stand",
-				"display.easel_stand2": "animation.hp4_paint.display.easel_stand2",
-				"display.easel_stand3": "animation.hp4_paint.display.easel_stand3",
-				"display.display_case": "animation.hp4_paint.display.display_case",
-				"display.display_case_wide": "animation.hp4_paint.display.display_case_wide",
-				"display.big_display_case": "animation.hp4_paint.display.big_display_case",
-				"wide2_16": "animation.hp4_paint.wide2_16",
-				"wide2_32": "animation.hp4_paint.wide2_32",
-				"wide2_64": "animation.hp4_paint.wide2_64",
-				"huge_16": "animation.hp4_paint.huge_16",
-				"huge_32": "animation.hp4_paint.huge_32",
-				"huge_64": "animation.hp4_paint.huge_64",
-				"tall_16": "animation.hp4_paint.tall_16",
-				"tall_32": "animation.hp4_paint.tall_32",
-				"tall_64": "animation.hp4_paint.tall_64",
-				"cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
-			},
-			"scripts": {
-				"scale": "q.property('hp4_paint:visible') ? 1 : 0",
-				"pre_animation": [
-					"v.frame_size = q.property('hp4_paint:paint_models') == 0 ? 3:q.property('hp4_paint:paint_models') == 1 ? 4:q.property('hp4_paint:paint_models') == 2 ? 5:q.property('hp4_paint:paint_models') == 3 ? 7:q.property('hp4_paint:paint_models') == 4 ? 8:q.property('hp4_paint:paint_models') == 5 ? 9: 0;",
-					"v.frame_type = q.property('hp4_paint:frame_type') == 'none' ? -1 : q.property('hp4_paint:frame_type') == 'black_modern' ? 0 : q.property('hp4_paint:frame_type') == 'burning' ? 1 : q.property('hp4_paint:frame_type') == 'decgold' ? 2 : q.property('hp4_paint:frame_type') == 'deciron' ? 3 : q.property('hp4_paint:frame_type') == 'diamond' ? 4 : q.property('hp4_paint:frame_type') == 'enchanted' ? 5 : q.property('hp4_paint:frame_type') == 'foliage' ? 6 : q.property('hp4_paint:frame_type') == 'glass' ? 7 : q.property('hp4_paint:frame_type') == 'glitter' ? 8 : q.property('hp4_paint:frame_type') == 'medieval' ? 9 : q.property('hp4_paint:frame_type') == 'pink' ? 10 : q.property('hp4_paint:frame_type') == 'white_modern' ? 11 : q.property('hp4_paint:frame_type') == 'wooden' ? 12 : -1;",
-					"v.frame_16x16 = false;",
-					"v.frame_16x32 = false;",
-					"v.frame_32x16 = false;",
-					"v.frame_32x32 = v.frame_size == 3;",
-					"v.frame_32x64 = v.frame_size == 4;",
-					"v.frame_48x48 = v.frame_size == 5;",
-					"v.frame_48x64 = false;",
-					"v.frame_64x32 = v.frame_size == 7;",
-					"v.frame_64x48 = v.frame_size == 8;",
-					"v.frame_64x64 = v.frame_size == 9;"
-				],
-				"animate": [
-					{"display.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 0"},
-					{"display.easel_stand2": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 1"},
-					{"display.easel_stand3": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 2"},
-					{"display.display_case": "q.property('hp4_paint:displayer')=='display_case'"},
-					{"display.display_case_wide": "q.property('hp4_paint:displayer')=='display_case_wide'"},
-					{"wide2_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_wide2'"},
-					{"wide2_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_wide2'"},
-					{"wide2_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_wide2'"},
-					{"huge_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_huge'"},
-					{"huge_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_huge'"},
-					{"huge_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_huge'"},
-					{"tall_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_tall'"},
-					{"tall_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_tall'"},
-					{"tall_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_tall'"},
+                    "v.colors = q.property('hp4_paint:paint_colors') + 1;",
 
-					{"display.big_display_case": "q.property('hp4_paint:displayer')=='display_case_huge'||q.property('hp4_paint:displayer')=='display_case_tall'||q.property('hp4_paint:displayer')=='display_case_wide2'||q.property('hp4_paint:displayer')=='display_case_big'"},
-					"cardinal_rotation"
-				]
-			}
-		}
-	}
+                    "v.end_16x16 = v.amount_16x16;",
+                    "v.end_16x32 = v.end_16x16 + v.amount_16x32;",
+                    "v.end_32x16 = v.end_16x32 + v.amount_32x16;",
+                    "v.end_32x32 = v.end_32x16 + v.amount_32x32;",
+                    "v.end_32x64 = v.end_32x32 + v.amount_32x64;",
+                    "v.end_48x48 = v.end_32x64 + v.amount_48x48;",
+                    "v.end_48x64 = v.end_48x48 + v.amount_48x64;",
+                    "v.end_64x32 = v.end_48x64 + v.amount_64x32;",
+                    "v.end_64x48 = v.end_64x32 + v.amount_64x48;",
+                    "v.end_64x64 = v.end_64x48 + v.amount_64x64;",
+
+                    "v.frame_count = v.frame_16x16 ? v.amount_16x16 : v.frame_16x32 ? v.amount_16x32 : v.frame_32x16 ? v.amount_32x16 : v.frame_32x32 ? v.amount_32x32 : v.frame_32x64 ? v.amount_32x64 : v.frame_48x48 ? v.amount_48x48 : v.frame_48x64 ? v.amount_48x64 : v.frame_64x32 ? v.amount_64x32 : v.frame_64x48 ? v.amount_64x48 : v.frame_64x64 ? v.amount_64x64 : 0;"
+                ],
+                "animate": [
+                    {
+                        "display.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 0"
+                    },
+                    {
+                        "display.easel_stand2": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 1"
+                    },
+                    {
+                        "display.easel_stand3": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 2"
+                    },
+                    {
+                        "display.display_case": "q.property('hp4_paint:displayer')=='display_case'"
+                    },
+                    {
+                        "display.display_case_wide": "q.property('hp4_paint:displayer')=='display_case_wide'"
+                    },
+                    {
+                        "wide2_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_wide2'"
+                    },
+                    {
+                        "wide2_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_wide2'"
+                    },
+                    {
+                        "wide2_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_wide2'"
+                    },
+                    {
+                        "huge_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_huge'"
+                    },
+                    {
+                        "huge_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_huge'"
+                    },
+                    {
+                        "huge_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_huge'"
+                    },
+                    {
+                        "tall_16": "q.property('hp4_paint:size') == 1 && q.property('hp4_paint:displayer')=='display_case_tall'"
+                    },
+                    {
+                        "tall_32": "q.property('hp4_paint:size') == 2 && q.property('hp4_paint:displayer')=='display_case_tall'"
+                    },
+                    {
+                        "tall_64": "q.property('hp4_paint:size') == 4 && q.property('hp4_paint:displayer')=='display_case_tall'"
+                    },
+                    {
+                        "display.big_display_case": "q.property('hp4_paint:displayer')=='display_case_huge'||q.property('hp4_paint:displayer')=='display_case_tall'||q.property('hp4_paint:displayer')=='display_case_wide2'||q.property('hp4_paint:displayer')=='display_case_big'"
+                    },
+                    "cardinal_rotation"
+                ]
+            }
+        }
+    }
 }

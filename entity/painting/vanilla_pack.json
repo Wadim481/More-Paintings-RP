@@ -83,9 +83,6 @@
 				{"controller.render.hp4_paint.display_case_wide2": "q.property('hp4_paint:displayer')=='display_case_wide2'"},
 				{"controller.render.hp4_paint.display_case_big": "q.property('hp4_paint:displayer')=='display_case_big'"},
 				{
-					"controller.render.hp4_paint.light_vanilla_render": "q.property('hp4_paint:paint_materials')==true"
-				},
-				{
 					"controller.render.hp4_paint.vanilla_render": "q.property('hp4_paint:paint_materials')==false"
 				}
 			],
@@ -125,39 +122,41 @@
 					"v.frame_64x32 = false;",
 					"v.frame_64x48 = false;",
 					"v.frame_64x64 = v.frame_size == 9;",
-					"v.snum = q.property('hp4_paint:paint_colors');",
+					"v.snum = v.frame_size == 0 ? 6 :v.frame_size == 1 ? 4 :v.frame_size == 2 ? 1 :v.frame_size == 3 ? 4 :v.frame_size == 4 ? 0 :v.frame_size == 6 ? 1 :v.frame_size == 9 ? 2 :1;",
 
-					"v.s16x16_1 = v.frame_size == 0 && v.snum == 0;",
-					"v.s16x16_2 = v.frame_size == 0 && v.snum == 1;",
-					"v.s16x16_3 = v.frame_size == 0 && v.snum == 2;",
-					"v.s16x16_4 = v.frame_size == 0 && v.snum == 3;",
-					"v.s16x16_5 = v.frame_size == 0 && v.snum == 4;",
-					"v.s16x16_6 = v.frame_size == 0 && v.snum == 5;",
-					"v.s16x16_7 = v.frame_size == 0 && v.snum == 6;",
+					"v.result = q.property('hp4_paint:paint_colors') - math.floor(q.property('hp4_paint:paint_colors') / v.snum) * v.snum;",
 
-					"v.s16x32_1 = v.frame_size == 1 && v.snum == 0;",
-					"v.s16x32_2 = v.frame_size == 1 && v.snum == 1;",
-					"v.s16x32_3 = v.frame_size == 1 && v.snum == 2;",
-					"v.s16x32_4 = v.frame_size == 1 && v.snum == 3;",
-					"v.s16x32_5 = v.frame_size == 1 && v.snum == 4;",
+					"v.s16x16_1 = v.frame_size == 0 && v.result == 0;",
+					"v.s16x16_2 = v.frame_size == 0 && v.result == 1;",
+					"v.s16x16_3 = v.frame_size == 0 && v.result == 2;",
+					"v.s16x16_4 = v.frame_size == 0 && v.result == 3;",
+					"v.s16x16_5 = v.frame_size == 0 && v.result == 4;",
+					"v.s16x16_6 = v.frame_size == 0 && v.result == 5;",
+					"v.s16x16_7 = v.frame_size == 0 && v.result == 6;",
 
-					"v.s32x16_1 = v.frame_size == 2 && v.snum == 0;",
-					"v.s32x16_2 = v.frame_size == 2 && v.snum == 1;",
+					"v.s16x32_1 = v.frame_size == 1 && v.result == 0;",
+					"v.s16x32_2 = v.frame_size == 1 && v.result == 1;",
+					"v.s16x32_3 = v.frame_size == 1 && v.result == 2;",
+					"v.s16x32_4 = v.frame_size == 1 && v.result == 3;",
+					"v.s16x32_5 = v.frame_size == 1 && v.result == 4;",
 
-					"v.s32x32_1 = v.frame_size == 3 && v.snum == 0;",
-					"v.s32x32_2 = v.frame_size == 3 && v.snum == 1;",
-					"v.s32x32_3 = v.frame_size == 3 && v.snum == 2;",
-					"v.s32x32_4 = v.frame_size == 3 && v.snum == 3;",
-					"v.s32x32_5 = v.frame_size == 3 && v.snum == 4;",
+					"v.s32x16_1 = v.frame_size == 2 && v.result == 0;",
+					"v.s32x16_2 = v.frame_size == 2 && v.result == 1;",
 
-					"v.s32x64_1 = v.frame_size == 4 && v.snum == 0;",
+					"v.s32x32_1 = v.frame_size == 3 && v.result == 0;",
+					"v.s32x32_2 = v.frame_size == 3 && v.result == 1;",
+					"v.s32x32_3 = v.frame_size == 3 && v.result == 2;",
+					"v.s32x32_4 = v.frame_size == 3 && v.result == 3;",
+					"v.s32x32_5 = v.frame_size == 3 && v.result == 4;",
 
-					"v.s48x64_1 = v.frame_size == 6 && v.snum == 0;",
-					"v.s48x64_2 = v.frame_size == 6 && v.snum == 1;",
+					"v.s32x64_1 = v.frame_size == 4 && v.result == 0;",
+
+					"v.s48x64_1 = v.frame_size == 6 && v.result == 0;",
+					"v.s48x64_2 = v.frame_size == 6 && v.result == 1;",
 					
-					"v.s64x64_1 = v.frame_size == 9 && v.snum == 0;",
-					"v.s64x64_2 = v.frame_size == 9 && v.snum == 1;",
-					"v.s64x64_3 = v.frame_size == 9 && v.snum == 2;"
+					"v.s64x64_1 = v.frame_size == 9 && v.result == 0;",
+					"v.s64x64_2 = v.frame_size == 9 && v.result == 1;",
+					"v.s64x64_3 = v.frame_size == 9 && v.result == 2;"
 				],
 				"animate": [
 					{"display.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 0"},

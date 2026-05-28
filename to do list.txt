@@ -1,0 +1,9 @@
+Transparent the optimized images - D
+Recreate render controllers - D
+
+Optimize particle textures
+
+Make hiding villager invisible
+Camouflage bug
+Walking path night time
+Add SFX for guide tablet

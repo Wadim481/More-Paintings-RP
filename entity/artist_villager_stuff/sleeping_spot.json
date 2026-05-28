@@ -13,7 +13,7 @@
                 "default": "geometry.hp4_paint.av_spot"
             },
             "render_controllers": [
-                "controller.render.default"
+                {"controller.render.default": "q.property('hp4_paint:visible')"}
             ],
             "animations": {
                 "loop": "animation.hp4_paint.av_spot.loop"

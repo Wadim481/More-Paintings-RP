@@ -19,7 +19,7 @@
 				},
 				"scared": {
 					"animations": [
-						{"hide_scared": "q.ground_speed == 0"},
+						// {"hide_scared": "q.ground_speed == 0"},
 						{"run_scared": "q.ground_speed > 0"},
 						{"zombie_arm": "q.property('hp4_paint:camouflage')"}
 					],

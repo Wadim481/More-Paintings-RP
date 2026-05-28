@@ -1,6 +1,33 @@
 {
 	"format_version": "1.20.20",
 	"sound_definitions": {
+		"hp4_paint:tablet_choose": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/tablet/choose",
+					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:tablet_guide": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/tablet/guide",
+					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:tablet_back": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/tablet/back",
+					"volume": 0.5
+				}
+			]
+		},
 		"hp4_paint:tablet_start": {
 			"category": "neutral",
 			"sounds": [

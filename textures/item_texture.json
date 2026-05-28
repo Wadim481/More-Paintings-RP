@@ -276,7 +276,7 @@
 		"hp4_paint:zombies_painting": {
 			"textures": "textures/hp/mp/items/zombie_painting"
 		},
-		"hp4_paint:tablet": {
+		"hp4_paint:tabletv3": {
 			"textures": "textures/hp/mp/items/more_painting_tablet_icon"
 		},
 		"hp4_paint:easel_stand_item": {

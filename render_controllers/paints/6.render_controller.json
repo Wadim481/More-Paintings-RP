@@ -1,0 +1,150 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hp4_paint.animated": {
+			"materials": [
+				{
+					"*": "material.animated"
+				}
+			],
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.animated_2x1",
+						"geometry.animated_2x2",
+						"geometry.animated_4x2",
+						"geometry.animated_2x4",
+						"geometry.animated_3x4",
+						"geometry.animated_4x4",
+						"geometry.animated_1x1",
+						"geometry.animated_1x2"
+					]
+				},
+				"textures": {
+					"array.animated_textures": [
+						"texture.animated0_2x1",
+						"texture.animated1_2x1",
+						"texture.animated0_2x2",
+						"texture.animated1_2x2",
+						"texture.animated0_2x4",
+						"texture.animated1_2x4",
+						"texture.animated0_4x2",
+						"texture.animated1_4x2",
+						"texture.animated2_4x2",
+						"texture.animated0_4x3",
+						"texture.animated1_4x3",
+						"texture.animated0_4x4",
+						"texture.animated1_4x4",
+						"texture.animated0_1x1",
+						"texture.animated1_1x1",
+						"texture.animated0_1x2",
+						"texture.animated1_1x2"
+					],
+					
+					"array.size_2x1": [
+						"texture.animated0_2x1",
+						"texture.animated1_2x1"
+					],
+					"array.size_2x2": [
+						"texture.animated0_2x2",
+						"texture.animated1_2x2"
+					],
+					"array.size_2x4": [
+						"texture.animated0_2x4",
+						"texture.animated1_2x4"
+					],
+					"array.size_4x2": [
+						"texture.animated0_4x2",
+						"texture.animated1_4x2",
+						"texture.animated2_4x2"
+					],
+					"array.size_4x3": [
+						"texture.animated0_4x3",
+						"texture.animated1_4x3"
+					],
+					"array.size_4x4": [
+						"texture.animated0_4x4",
+						"texture.animated1_4x4"
+					],
+					"array.size_1x1": [
+						"texture.animated0_1x1",
+						"texture.animated1_1x1"
+					],
+					"array.size_1x2": [
+						"texture.animated0_1x2",
+						"texture.animated1_1x2"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.property('hp4_paint:paint_models')]",
+			"textures": [
+				"query.property('hp4_paint:paint_models') == 0 ? array.size_2x1[v.result] : query.property('hp4_paint:paint_models') == 1 ? array.size_2x2[v.result] : query.property('hp4_paint:paint_models') == 2 ? array.size_2x4[v.result] : query.property('hp4_paint:paint_models') == 3 ? array.size_4x2[v.result] : query.property('hp4_paint:paint_models') == 4 ? array.size_4x3[v.result] : query.property('hp4_paint:paint_models') == 5 ? array.size_4x4[v.result] : query.property('hp4_paint:paint_models') == 6 ? array.size_1x1[v.result] : query.property('hp4_paint:paint_models') == 7 ? array.size_1x2[v.result] : array.animated_textures[0]"
+			],
+			"uv_anim": {
+			    "offset": [0, "math.mod(math.floor(q.life_time * 15), v.frame_count) / v.frame_count"],
+				"scale": [1, "1 / v.frame_count"]
+			},
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"part_visibility": [
+				{"16x32": false},
+				{"32x32": false},
+				{"64x32": false},
+				{"32x64": false},
+				{"48x64": false},
+				{"64x64": false},
+				{"32x16": false}
+			]
+		},
+		"controller.render.hp4_paint.animated_canvas": {
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.animated_2x1",
+						"geometry.animated_2x2",
+						"geometry.animated_4x2",
+						"geometry.animated_2x4",
+						"geometry.animated_3x4",
+						"geometry.animated_4x4",
+						"geometry.animated_1x1",
+						"geometry.animated_1x2"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.canvas_2x1",
+						"texture.canvas_2x2",
+						"texture.canvas_2x4",
+						"texture.canvas_4x2",
+						"texture.canvas_4x3",
+						"texture.canvas_4x4",
+						"texture.canvas_1x1",
+						"texture.canvas_1x2"
+					]
+				}
+			},
+			"geometry": "array.geometries[query.property('hp4_paint:paint_models')]",
+			"textures": [
+				"array.textures[query.property('hp4_paint:paint_models')]"
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"part_visibility": [
+				{"16x32": "query.property('hp4_paint:paint_models') == 0"},
+				{"32x32": "query.property('hp4_paint:paint_models') == 1"},
+				{"64x32": "query.property('hp4_paint:paint_models') == 2"},
+				{"32x64": "query.property('hp4_paint:paint_models') == 3"},
+				{"48x64": "query.property('hp4_paint:paint_models') == 4"},
+				{"64x64": "query.property('hp4_paint:paint_models') == 5"},
+				{"16x16": "query.property('hp4_paint:paint_models') == 6"},
+				{"16x32": "query.property('hp4_paint:paint_models') == 7"},
+				{"image": false}
+			]
+		}
+	}
+}

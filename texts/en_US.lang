@@ -87,12 +87,11 @@ entity.hp4_paint:flip_tab_b.name=Flip Tab B\n§cHeropixel - More Paintings
 entity.hp4_paint:flip_tab_cat_b.name=Flip Tab Cat B\n§cHeropixel - More Paintings
 entity.hp4_paint:flip_tab_cat_f.name=Flip Tab Cat F\n§cHeropixel - More Paintings
 entity.hp4_paint:flip_tab_f.name=Flip Tab F\n§cHeropixel - More Paintings
-entity.hp4_paint:tablet.name=Tablet\n§cHeropixel - More Paintings
+item.hp4_paint:tabletv3=Guide Tablet\n§cHeropixel - More Paintings
 item.spawn_egg.entity.hp4_paint:flip_tab_b.name=Flip Tab B\n§cHeropixel - More Paintings
 item.spawn_egg.entity.hp4_paint:flip_tab_cat_b.name=Flip Tab Cat B\n§cHeropixel - More Paintings
 item.spawn_egg.entity.hp4_paint:flip_tab_cat_f.name=Flip Tab Cat F\n§cHeropixel - More Paintings
 item.spawn_egg.entity.hp4_paint:flip_tab_f.name=Flip Tab F\n§cHeropixel - More Paintings
-item.spawn_egg.entity.hp4_paint:tablet.name=Tablet\n§cHeropixel - More Paintings
 
 
 

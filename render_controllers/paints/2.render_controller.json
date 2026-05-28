@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.hp4_paint.circus": {
+			"materials": [
+				{
+					"*": "material.animated"
+				}
+			],
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.default1",
+						"geometry.default2",
+						"geometry.default3",
+						"geometry.default4",
+						"geometry.default5",
+						"geometry.default6",
+						"geometry.default7",
+						"geometry.default8",
+						"geometry.default9"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.default_16x16",
+						"texture.default_16x32",
+						"texture.default_32x16",
+						"texture.default_32x32",
+						"texture.default_32x64",
+						"texture.default_48x48",
+						"texture.default_48x64",
+						"texture.default_64x48",
+						"texture.default_64x64"
+					]
+				}
+			},
+			"uv_anim": {
+				"offset": [0, "math.mod(math.floor(query.property('hp4_paint:paint_colors')), v.frame_count) / v.frame_count"],
+				"scale": [1, "1 / v.frame_count"]
+			},
+			"geometry": "array.geometries[q.property('hp4_paint:paint_models')]",
+			"textures": [
+				"array.textures[q.property('hp4_paint:paint_models')]"
+			],
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		}
+	}
+}
