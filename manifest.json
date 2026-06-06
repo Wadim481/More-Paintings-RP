@@ -23,18 +23,5 @@
 			"version": [1, 0, 0]
 		}
 	],
-	"capabilities": ["pbr"],
-
-	"subpacks": [
-		{
-			"folder_name": "low",
-			"name": "Low Quality",
-			"memory_tier": 1
-		},
-		{	
-			"folder_name": "high",
-			"name": "High Quality",
-			"memory_tier": 2
-		}
-	]
+	"capabilities": ["pbr"]
 }

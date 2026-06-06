@@ -2,7 +2,7 @@
 	"format_version": "1.8.0",
 	"render_controllers": {
 		"controller.render.hp4_paint.tabletv3": {
-			"geometry": "Geometry.default",
+			"geometry": "v.tabletv3_focus_state == 1 ? Geometry.guide : Geometry.menu",
 			"materials": [{ "*": "Material.default" }],
 			"arrays": {
 				"textures": {
@@ -24,7 +24,69 @@
 				}
 			},
 			"textures": [
-				"v.tabletv3_focus_state == 1 ? Array.guide_textures[v.tabletv3_page * 4 + v.tabletv3_category] : Texture.default"
+				"v.tabletv3_focus_state == 1 ? Array.guide_textures[v.tabletv3_page * 4 + v.tabletv3_category] : Texture.menu_screen"
+			]
+		},
+		"controller.render.hp4_paint.tabletv3_ss": {
+			"geometry": "Geometry.screenshots ",
+			"materials": [{ "*": "Material.default" }],
+			"arrays": {
+				"textures": {
+					"Array.guide_textures": [
+						"Texture.ss.paintings_guide",
+						"Texture.ss.frame_guide",
+						"Texture.default",
+						"Texture.default",
+						"Texture.ss.display_case_guide",
+						"Texture.ss.planter_guide",
+						"Texture.ss.statue_guide",
+						"Texture.ss.stencil_guide",
+						"Texture.ss.hammer_guide",
+						"Texture.ss.brush_guide",
+						"Texture.ss.spray_can_guide",
+						"Texture.ss.chisel_guide",
+						"Texture.ss.artist_villager_guide"
+					]
+				}
+			},
+			"textures": [
+				"Array.guide_textures[v.tabletv3_page * 4 + v.tabletv3_category]"
+			]
+		},
+		"controller.render.hp4_paint.tabletv3_ss2": {
+			"geometry": "Geometry.screenshots2 ",
+			"materials": [{ "*": "Material.default" }],
+			"arrays": {
+				"textures": {
+					"Array.guide_textures": [
+						"Texture.ss2.paintings_guide",
+						"Texture.ss2.frame_guide",
+						"Texture.default",
+						"Texture.default",
+						"Texture.ss2.display_case_guide",
+						"Texture.ss2.planter_guide",
+						"Texture.ss2.statue_guide",
+						"Texture.ss2.stencil_guide",
+						"Texture.ss2.hammer_guide",
+						"Texture.ss2.brush_guide",
+						"Texture.ss2.spray_can_guide",
+						"Texture.ss2.chisel_guide",
+						"Texture.ss2.artist_villager_guide"
+					]
+				}
+			},
+			"textures": [
+				"Array.guide_textures[v.tabletv3_page * 4 + v.tabletv3_category]"
+			]
+		},
+		"controller.render.hp4_paint.tabletv3.screen": {
+			"geometry": "Geometry.guide_screen",
+			"materials": [{ "*": "Material.guide_blend" }],
+			"textures": [
+				"Texture.guide_screen"
+			],
+			"part_visibility": [
+				{"navigation_guide": "v.tabletv3_focus_state == 1"}
 			]
 		},
 		"controller.render.hp4_paint.tabletv3.overlay": {

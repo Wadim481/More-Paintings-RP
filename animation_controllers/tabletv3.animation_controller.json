@@ -7,6 +7,7 @@
 
 "hold": {
 "blend_transition": 0.2,
+"blend_via_shortest_path": true,
 "animations": [
 { "first_person_hold": "c.is_first_person" },
 { "third_person_hold": "!c.is_first_person" }
@@ -31,7 +32,8 @@
 },
 
 "tab_paintings": {
-"blend_transition": 0.2,
+// "blend_transition": 0.2,
+// "blend_via_shortest_path": true,
 "animations": [ "page_paintings" ],
 "transitions": [
 { "hold":           "!c.is_first_person || v.tabletv3_open == 0" },
@@ -44,7 +46,8 @@
 },
 
 "tab_furnitures": {
-"blend_transition": 0.2,
+// "blend_transition": 0.2,
+// "blend_via_shortest_path": true,
 "animations": [ "page_furnitures" ],
 "transitions": [
 { "hold":             "!c.is_first_person || v.tabletv3_open == 0" },
@@ -59,7 +62,8 @@
 },
 
 "tab_tools": {
-"blend_transition": 0.2,
+// "blend_transition": 0.2,
+// "blend_via_shortest_path": true,
 "animations": [ "page_tools" ],
 "transitions": [
 { "hold":           "!c.is_first_person || v.tabletv3_open == 0" },
@@ -74,7 +78,8 @@
 },
 
 "tab_mob": {
-"blend_transition": 0.2,
+// "blend_transition": 0.2,
+// "blend_via_shortest_path": true,
 "animations": [ "page_mob" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -86,7 +91,7 @@
 },
 
 "cat_painting": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_painting" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -108,7 +113,7 @@
 },
 
 "cat_frame": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_frame" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -130,7 +135,7 @@
 },
 
 "cat_display_case": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_display_case" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -152,7 +157,7 @@
 },
 
 "cat_planter": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_planter" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -174,7 +179,7 @@
 },
 
 "cat_statue": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_statue" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -196,7 +201,7 @@
 },
 
 "cat_stencil": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_stencil" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -218,7 +223,7 @@
 },
 
 "cat_hammer": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_hammer" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -240,7 +245,7 @@
 },
 
 "cat_brush": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_brush" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -262,7 +267,7 @@
 },
 
 "cat_spray_can": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_spray_can" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -284,7 +289,7 @@
 },
 
 "cat_chisel": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_chisel" ],
 "transitions": [
 { "hold":                "!c.is_first_person || v.tabletv3_open == 0" },
@@ -306,7 +311,7 @@
 },
 
 "cat_artist_villager": {
-"blend_transition": 0.15,
+"blend_transition": 0.05,
 "animations": [ "cat_artist_villager" ],
 "transitions": [
 { "hold":             "!c.is_first_person || v.tabletv3_open == 0" },

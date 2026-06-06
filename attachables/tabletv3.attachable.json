@@ -1,0 +1,115 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "hp4_paint:tabletv3",
+			"render_controllers": [
+				{"controller.render.hp4_paint.tabletv3": "c.is_first_person"}, 
+				"controller.render.hp4_paint.tabletv3.overlay",
+				"controller.render.hp4_paint.tabletv3.screen",
+				{"controller.render.hp4_paint.tabletv3_ss": "v.tabletv3_focus_state == 1"},
+				{"controller.render.hp4_paint.tabletv3_ss2": "v.tabletv3_focus_state == 1"}
+			],
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint",
+				"guide_blend": "entity_emissive_alpha",
+				"overlay": "entity_alphatest"
+			},
+			"textures": {
+				"enchanted":            "textures/misc/enchanted_item_glint",
+				"default":              "textures/hp/mp/attachable/emi/tablet-sheet",
+				"overlay":              "textures/hp/mp/attachable/tablet_morepainting",
+				
+				"guide_screen":          "textures/hp/mp/attachable/emi/guide_screen",
+				"menu_screen":          "textures/hp/mp/attachable/emi/menu_screen",
+
+				"paintings_guide":      "textures/hp/mp/attachable/emi/painting_guide",
+				"frame_guide":          "textures/hp/mp/attachable/emi/frame_guide",
+				"display_case_guide":   "textures/hp/mp/attachable/emi/display_case_guide",
+				"planter_guide":        "textures/hp/mp/attachable/emi/planter_guide",
+				"statue_guide":         "textures/hp/mp/attachable/emi/statue_guide",
+				"hammer_guide":         "textures/hp/mp/attachable/emi/hammer_guide",
+				"brush_guide":          "textures/hp/mp/attachable/emi/brush_guide",
+				"spray_can_guide":      "textures/hp/mp/attachable/emi/spray_can_guide",
+				"chisel_guide":         "textures/hp/mp/attachable/emi/chisel_guide",
+				"artist_villager_guide":"textures/hp/mp/attachable/emi/artist_villager_guide",
+				"stencil_guide":        "textures/hp/mp/attachable/emi/stencil_guide",
+
+				"ss.paintings_guide":      "textures/hp/mp/attachable/ss/painting_guide",
+				"ss.frame_guide":          "textures/hp/mp/attachable/ss/frame_guide",
+				"ss.display_case_guide":   "textures/hp/mp/attachable/ss/display_case_guide",
+				"ss.planter_guide":        "textures/hp/mp/attachable/ss/planter_guide",
+				"ss.statue_guide":         "textures/hp/mp/attachable/ss/statue_guide",
+				"ss.hammer_guide":         "textures/hp/mp/attachable/ss/hammer_guide",
+				"ss.brush_guide":          "textures/hp/mp/attachable/ss/brush_guide",
+				"ss.spray_can_guide":      "textures/hp/mp/attachable/ss/spray_can_guide",
+				"ss.chisel_guide":         "textures/hp/mp/attachable/ss/chisel_guide",
+				"ss.artist_villager_guide":"textures/hp/mp/attachable/ss/artist_villager_guide",
+				"ss.stencil_guide":        "textures/hp/mp/attachable/ss/stencil_guide",
+				
+				"ss2.paintings_guide":      "textures/hp/mp/attachable/ss/painting_guide2",
+				"ss2.frame_guide":          "textures/hp/mp/attachable/ss/frame_guide2",
+				"ss2.display_case_guide":   "textures/hp/mp/attachable/ss/display_case_guide2",
+				"ss2.planter_guide":        "textures/hp/mp/attachable/ss/planter_guide2",
+				"ss2.statue_guide":         "textures/hp/mp/attachable/ss/statue_guide2",
+				"ss2.hammer_guide":         "textures/hp/mp/attachable/ss/hammer_guide2",
+				"ss2.brush_guide":          "textures/hp/mp/attachable/ss/brush_guide2",
+				"ss2.spray_can_guide":      "textures/hp/mp/attachable/ss/spray_can_guide2",
+				"ss2.chisel_guide":         "textures/hp/mp/attachable/ss/chisel_guide2",
+				"ss2.artist_villager_guide":"textures/hp/mp/attachable/ss/artist_villager_guide2",
+				"ss2.stencil_guide":        "textures/hp/mp/attachable/ss/stencil_guide2"
+			},
+			"geometry": {
+				"overlay": "geometry.hp4_paint.tablet_morepainting",
+
+				"guide_screen": "geometry.hp4_paint.tabletv3_guide_screen",
+				"guide": "geometry.hp4_paint.tabletv3_guide",
+				"menu": "geometry.hp4_paint.tabletv3_menu",
+				"screenshots": "geometry.hp4_paint.tabletv3_guide_screenshots",
+				"screenshots2": "geometry.hp4_paint.tabletv3_guide_screenshots2"
+			},
+			"animations": {
+				"tabletv3_ctrl":           "controller.animation.hp4_paint.tabletv3",
+				"first_person_hold":       "animation.hp4_paint.tabletv3.focus.page.fps",
+				"third_person_hold":       "animation.hp4_paint.tabletv3.third_person_hold",
+				"fpp":					   "animation.hp4_paint.tabletv3.focus.page.fps",
+				"page_paintings":          "animation.hp4_paint.tabletv3.focus.page.paintings",
+				"page_furnitures":         "animation.hp4_paint.tabletv3.focus.page.furnitures",
+				"page_tools":              "animation.hp4_paint.tabletv3.focus.page.tools",
+				"page_mob":                "animation.hp4_paint.tabletv3.focus.page.mob",
+				"cat_painting":            "animation.hp4_paint.tabletv3.focus.cat.painting",
+				"cat_frame":               "animation.hp4_paint.tabletv3.focus.cat.frame",
+				"cat_display_case":        "animation.hp4_paint.tabletv3.focus.cat.display_case",
+				"cat_planter":             "animation.hp4_paint.tabletv3.focus.cat.planter",
+				"cat_statue":              "animation.hp4_paint.tabletv3.focus.cat.statue",
+				"cat_hammer":              "animation.hp4_paint.tabletv3.focus.cat.hammer",
+				"cat_brush":               "animation.hp4_paint.tabletv3.focus.cat.brush",
+				"cat_spray_can":           "animation.hp4_paint.tabletv3.focus.cat.spray_can",
+				"cat_chisel":              "animation.hp4_paint.tabletv3.focus.cat.chisel",
+				"cat_artist_villager":     "animation.hp4_paint.tabletv3.focus.cat.artist_villager",
+				"cat_stencil":             "animation.hp4_paint.tabletv3.focus.cat.stencil",
+				"tpp_scale":               "animation.hp4_paint.tabletv3.tpp_scale"
+			},
+			"scripts": {
+				"initialize": [
+					"v.tabletv3_open = 0;",
+					"v.tabletv3_page = 0;",
+					"v.tabletv3_category = 0;",
+					"v.tabletv3_focus_state = 0;"
+				],
+				"parent_setup": "t.tabletv3_open = (v.tabletv3_open ?? 0); t.tabletv3_page = (v.tabletv3_page ?? 0); t.tabletv3_category = (v.tabletv3_category ?? 0); t.tabletv3_focus_state = (v.tabletv3_focus_state ?? 0);",
+				"pre_animation": [
+					"v.tabletv3_open = t.tabletv3_open;",
+					"v.tabletv3_page = t.tabletv3_page;",
+					"v.tabletv3_category = t.tabletv3_category;",
+					"v.tabletv3_focus_state = t.tabletv3_focus_state;"
+				],
+				"animate": [
+					"tabletv3_ctrl",
+					{"tpp_scale": "!c.is_first_person"}
+				]
+			}
+		}
+	}
+}

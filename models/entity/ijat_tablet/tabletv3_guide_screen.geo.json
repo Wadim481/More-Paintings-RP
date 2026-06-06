@@ -1,0 +1,160 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hp4_paint.tabletv3_guide_screen",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 9,
+				"visible_bounds_height": 9,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "'head'"
+				},
+				{
+					"name": "bone",
+					"parent": "root_item",
+					"pivot": [-0.30333, 10.97652, -18.04152]
+				},
+				{
+					"name": "tablet",
+					"parent": "bone",
+					"pivot": [2.00667, 23.84152, -22.36152],
+					"rotation": [180, 0, -180]
+				},
+				{
+					"name": "page",
+					"parent": "tablet",
+					"pivot": [-1.66, 27.50818, -26.57485],
+					"cubes": [
+						{
+							"origin": [-15.41, 14.00818, -20.5],
+							"size": [38.75, 27.75, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [256, 176]}
+							}
+						}
+					]
+				},
+				{
+					"name": "navigation_guide",
+					"parent": "page",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4.66, 16.88318, -20.75],
+							"size": [17, 1, 0],
+							"uv": {
+								"north": {"uv": [7, 184], "uv_size": [151, 10]}
+							}
+						}
+					]
+				},
+				{
+					"name": "cat",
+					"parent": "tablet",
+					"pivot": [3.84, 28.00818, -20.68485],
+					"cubes": [
+						{
+							"origin": [-12.91, 16.00818, -20.7],
+							"size": [33.75, 23.25, 0],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [223.68, 147.68]}
+							}
+						}
+					]
+				},
+				{
+					"name": "painting",
+					"parent": "cat",
+					"pivot": [3.84, 28.00818, -20.68485]
+				},
+				{
+					"name": "img",
+					"parent": "painting",
+					"pivot": [3.84, 28.00818, -20.68485]
+				},
+				{
+					"name": "img1",
+					"parent": "img",
+					"pivot": [-7.66, 30.95818, -20.72485],
+					"cubes": [
+						{
+							"origin": [-11.41, 28.20818, -20.71485],
+							"size": [10, 6.325, 0],
+							"uv": {
+								"north": {"uv": [0, 194], "uv_size": [79, 49]}
+							}
+						}
+					]
+				},
+				{
+					"name": "img2",
+					"parent": "img",
+					"pivot": [-7.66, 23.20818, -20.72485],
+					"cubes": [
+						{
+							"origin": [-11.41, 21.38318, -20.71485],
+							"size": [10, 6.325, 0],
+							"uv": {
+								"north": {"uv": [0, 194], "uv_size": [79, 49]}
+							}
+						}
+					]
+				},
+				{
+					"name": "menu",
+					"parent": "painting",
+					"pivot": [3.84, 28.00818, -20.68485]
+				},
+				{
+					"name": "mencur",
+					"parent": "menu",
+					"pivot": [3.965, 20.63318, -20.76485],
+					"cubes": [
+						{
+							"origin": [2.09, 18.75818, -20.76485],
+							"size": [3.75, 3.75, 0],
+							"uv": {
+								"north": {"uv": [159.08, 178.16], "uv_size": [22.04, 22.04]}
+							}
+						}
+					]
+				},
+				{
+					"name": "kankir2",
+					"parent": "menu",
+					"pivot": [-10.66, 19.88318, -20.75485],
+					"cubes": [
+						{
+							"origin": [-11.41, 19.13318, -20.75485],
+							"size": [1.5, 1.5, 0],
+							"uv": {
+								"north": {"uv": [193, 177], "uv_size": [12, 11]}
+							}
+						}
+					]
+				},
+				{
+					"name": "kankir",
+					"parent": "menu",
+					"pivot": [-2.66, 19.88318, -20.75485],
+					"cubes": [
+						{
+							"origin": [-3.41, 19.13318, -20.75485],
+							"size": [1.5, 1.5, 0],
+							"uv": {
+								"north": {"uv": [206, 177], "uv_size": [12, 11]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
