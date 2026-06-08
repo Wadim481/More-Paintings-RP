@@ -1,0 +1,18 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.hp4_paint.indicator": {
+            "materials": [
+                {
+                    "*": "material.default"
+                }
+            ],
+            "geometry": "geometry.default",
+            "textures": [
+                "q.property('hp4_paint:indicator_for') == 'sleeping_spot' ? texture.sleeping_spot : (q.property('hp4_paint:indicator_for') == 'hiding_spot' ? texture.hiding_spot : texture.hiding_spot)"
+            ],
+            "is_hurt_color": {},
+            "on_fire_color": {}
+        }
+    }
+}

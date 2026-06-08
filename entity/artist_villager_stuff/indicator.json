@@ -2,24 +2,22 @@
     "format_version": "1.16.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "hp4_paint:artist_villager_sleeping_spot",
+            "identifier": "hp4_paint:artist_villager_spot_indicator",
             "materials": {
                 "default": "hp4_paint.outline_base"
             },
             "textures": {
-                "default": "textures/hp/mp/particle/sleeping_spot"
+                "sleeping_spot": "textures/hp/mp/particle/sleeping_spot",
+                "hiding_spot": "textures/hp/mp/particle/hiding_spot"
             },
             "geometry": {
                 "default": "geometry.hp4_paint.av_spot"
             },
             "render_controllers": [
-                {"controller.render.default": "q.property('hp4_paint:visible')"}
+                {"controller.render.hp4_paint.indicator": "q.property('hp4_paint:visible')"}
             ],
             "animations": {
                 "loop": "animation.hp4_paint.av_spot.loop"
-            },
-            "spawn_egg": {
-                "texture": "hp4_paint:sleeping_spot_spawn_egg"
             },
             "scripts": {
                 "animate": [

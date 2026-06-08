@@ -159,7 +159,7 @@ item.spawn_egg.entity.hp4_paint:window_big.name=Big Window\n§cHeropixel - More 
 entity.hp4_paint:window.name=Window\n§cHeropixel - More Paintings
 item.spawn_egg.entity.hp4_paint:window.name=Window\n§cHeropixel - More Paintings
 
-item.hp4_paint:special_tool=Furniture Wand\n§cHeropixel - More Paintings
+item.hp4_paint:special_tool=Hammer\n§cHeropixel - More Paintings
 
 item.hp4_paint:black_modern.frame=Black Modern Frame\n§cHeropixel - More Paintings
 item.hp4_paint:burning.frame=Burning Frame\n§cHeropixel - More Paintings
