@@ -130,6 +130,15 @@
 		},
 		
 		
+		"hp4_paint:art_v.sing": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/artist_villager/art_v_sing",
+					"volume": 0.4
+				}
+			]
+		},
 		"hp4_paint:art_v.step": {
 			"category": "neutral",
 			"sounds": [
