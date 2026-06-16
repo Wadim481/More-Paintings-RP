@@ -263,8 +263,6 @@ item.hp4_paint:stool=Stool\n§cHeropixel - More Paintings
 
 item.hp4_paint:canvas=Canvas\n§cHeropixel - More Paintings
 
-item.hp4_paint:cabinet=Cabinet\n§cHeropixel - More Paintings
-
 item.hp4_paint:lying_bottle_color=Lying Bottle Color\n§cHeropixel - More Paintings
 
 item.hp4_paint:variant_paint_bottle=Variant Paint Bottle\n§cHeropixel - More Paintings
@@ -276,10 +274,6 @@ item.hp4_paint:brush_on_shelf=Brush on Shelf\n§cHeropixel - More Paintings
 item.hp4_paint:color_bucket=Color Bucket\n§cHeropixel - More Paintings
 
 item.hp4_paint:art_chair=Art Chair\n§cHeropixel - More Paintings
-
-item.hp4_paint:canvas=Canvas\n§cHeropixel - More Paintings
-
-item.hp4_paint:canvas=Canvas\n§cHeropixel - More Paintings
 
 item.hp4_paint:jewellery_components=Jewellery Components\n§cHeropixel - More Paintings
 

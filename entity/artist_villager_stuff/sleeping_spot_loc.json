@@ -1,0 +1,23 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hp4_paint:artist_villager_sleeping_spot",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/hp/mp/blank"
+            },
+            "geometry": {
+                "default": "geometry.hp4_paint.av_spot"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "texture": "hp4_paint:sleeping_spot_spawn_egg"
+            }
+        }
+    }
+}

@@ -31,13 +31,11 @@
                 "texture": "hp4_paint:window"
             },
             "animations": {
-                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation",
-                "open": "animation.hp4_paint.window_opened"
+                "cardinal_rotation": "animation.hp4_paint.cardinal_rotation"
             },
             "scripts": {
                 "animate": [
-                    "cardinal_rotation",
-                    {"open": "q.property('hp4_paint:window_open') == true"}
+                    "cardinal_rotation"
                 ]
             }
         }
