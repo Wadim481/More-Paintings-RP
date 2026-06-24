@@ -39,7 +39,7 @@
         ],
         "animate": [
           "root",
-          "shield_cont",
+          // "shield_cont",
           {"painting": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"},
           {"cardinal_rot": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"}
         ]

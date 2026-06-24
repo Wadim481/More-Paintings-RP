@@ -49,7 +49,15 @@
                 "texture.outline"
             ],
             "is_hurt_color": {},
-            "on_fire_color": {}
+            "on_fire_color": {},
+			"overlay_color": {
+				"a": 1,
+				"r": 1,
+				"g": 1,
+				"b": 1
+			},
+			"ignore_lighting": true,
+			"light_color_multiplier": 1
         },
         "controller.render.hp4_paint.window_big": {
             "arrays": {
