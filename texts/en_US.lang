@@ -507,5 +507,5 @@ item.hp4_paint:stencil_love=Stencil Love\n§cHeropixel - More Paintings
 item.hp4_paint:spray_can_darken=Spray Can Darken\n§cHeropixel - More Paintings
 item.hp4_paint:spray_can_brightness=Spray Can Brightness\n§cHeropixel - More Paintings
 
-action.hint.exit.hp4_paint:art_chair= 
-action.hint.exit.hp4_paint:stool= 
+action.hint.exit.hp4_paint:art_chair=§ePress "Sneak" button to leave
+action.hint.exit.hp4_paint:stool=§ePress "Sneak" button to leave

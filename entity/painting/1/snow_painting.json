@@ -113,9 +113,7 @@
                 {
                     "controller.render.hp4_paint.display_case_big": "q.property('hp4_paint:displayer')=='display_case_big'"
                 },
-                {
-                    "controller.render.hp4_paint.8bit": "q.property('hp4_paint:paint_materials')==false"
-                }
+                "controller.render.hp4_paint.8bit"
             ],
             "spawn_egg": {
                 "texture": "hp4_paint:snow_painting"

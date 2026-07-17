@@ -113,9 +113,7 @@
                 {
                     "controller.render.hp4_paint.display_case_big": "q.property('hp4_paint:displayer')=='display_case_big'"
                 },
-                {
-                    "controller.render.hp4_paint.8bit": "q.property('hp4_paint:paint_materials')==false"
-                }
+                "controller.render.hp4_paint.8bit"
             ],
             "spawn_egg": {
                 "texture": "hp4_paint:nature_painting"
@@ -159,7 +157,7 @@
                     "v.amount_16x32 = 5;",
                     "v.amount_32x16 = 2;",
                     "v.amount_32x32 = 10;",
-                    "v.amount_32x64 = 1;",
+                    "v.amount_32x64 = 2;",
                     "v.amount_48x48 = 0;",
                     "v.amount_48x64 = 2;",
                     "v.amount_64x32 = 0;",

@@ -72,7 +72,25 @@
 				"animated0_1x1": "textures/hp/mp/p_an/1x1/earthplanet",
 				"animated1_1x1": "textures/hp/mp/p_an/1x1/water",
 				"animated0_1x2": "textures/hp/mp/p_an/1x2/MontainCar",
-				"animated1_1x2": "textures/hp/mp/p_an/1x2/SleepingGirl"
+				"animated1_1x2": "textures/hp/mp/p_an/1x2/SleepingGirl",
+				
+				"glow_animated0_2x1": "textures/hp/mp/p_an/2x1/mer_swimming_koi_animated",
+				"glow_animated1_2x1": "textures/hp/mp/p_an/2x1/mer_musicdisk",
+				"glow_animated0_2x2": "textures/hp/mp/p_an/2x2/mer_flying_guy_animated",
+				"glow_animated1_2x2": "textures/hp/mp/p_an/2x2/mer_windtree",
+				"glow_animated0_2x4": "textures/hp/mp/p_an/2x4/mer_catwalk_animated",
+				"glow_animated1_2x4": "textures/hp/mp/p_an/2x4/mer_roofguy_animated",
+				"glow_animated0_4x2": "textures/hp/mp/p_an/4x2/mer_housewood_animated",
+				"glow_animated1_4x2": "textures/hp/mp/p_an/4x2/mer_Cyberpunkcityview_animated",
+				"glow_animated2_4x2": "textures/hp/mp/p_an/4x2/mer_Moteltv_animated",
+				"glow_animated0_4x3": "textures/hp/mp/p_an/4x3/mer_Autumn_animated",
+				"glow_animated1_4x3": "textures/hp/mp/p_an/4x3/mer_Cybercar_animated",
+				"glow_animated0_4x4": "textures/hp/mp/p_an/4x4/mer_pumpkinheads_animated",
+				"glow_animated1_4x4": "textures/hp/mp/p_an/4x4/mer_Girldolphin_animated",
+				"glow_animated0_1x1": "textures/hp/mp/p_an/1x1/mer_earthplanet",
+				"glow_animated1_1x1": "textures/hp/mp/p_an/1x1/mer_water",
+				"glow_animated0_1x2": "textures/hp/mp/p_an/1x2/mer_MontainCar",
+				"glow_animated1_1x2": "textures/hp/mp/p_an/1x2/mer_SleepingGirl"
 			},
 			"geometry": {
 				"frame.black_modern": "geometry.hp4_paint.frame.black_modern",
@@ -116,9 +134,8 @@
 				{"controller.render.hp4_paint.display_case_tall": "q.property('hp4_paint:displayer')=='display_case_tall'"},
 				{"controller.render.hp4_paint.display_case_wide2": "q.property('hp4_paint:displayer')=='display_case_wide2'"},
 				{"controller.render.hp4_paint.display_case_big": "q.property('hp4_paint:displayer')=='display_case_big'"},
-				{
-					"controller.render.hp4_paint.animated": "q.property('hp4_paint:paint_materials')==false"
-				}
+				{"controller.render.hp4_paint.animated": "q.property('hp4_paint:paint_materials')==false"},
+				{"controller.render.hp4_paint.glow_animated": "q.property('hp4_paint:paint_materials')==true"}
 			],
 			"spawn_egg": {
 				"texture": "hp4_paint:8bit_painting"

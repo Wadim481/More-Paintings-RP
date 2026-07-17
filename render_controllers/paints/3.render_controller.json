@@ -26,6 +26,14 @@
 						"texture.default_32x32",
 						"texture.default_48x64",
 						"texture.default_64x64"
+					],
+					"array.glows": [
+						"texture.glow_16x16",
+						"texture.glow_16x32",
+						"texture.glow_32x16",
+						"texture.glow_32x32",
+						"texture.glow_48x64",
+						"texture.glow_64x64"
 					]
 				}
 			},
@@ -35,7 +43,7 @@
 			},
 			"geometry": "array.geometries[q.property('hp4_paint:paint_models')]",
 			"textures": [
-				"array.textures[q.property('hp4_paint:paint_models')]"
+				"q.property('hp4_paint:paint_materials') ? array.glows[q.property('hp4_paint:paint_models')] : array.textures[q.property('hp4_paint:paint_models')]"
 			],
 			"is_hurt_color": {},
 			"on_fire_color": {}

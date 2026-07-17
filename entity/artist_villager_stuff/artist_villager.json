@@ -38,10 +38,10 @@
           "variable.level_index = query.trade_tier;"
         ],
         "animate": [
-          "root",
+          {"root": "!q.is_invisible"},
           // "shield_cont",
-          {"painting": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"},
-          {"cardinal_rot": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping')"}
+          {"painting": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping') && !q.is_invisible"},
+          {"cardinal_rot": "q.property('hp4_paint:is_painting') && q.health > 1 && !q.property('hp4_paint:camouflage') && !q.property('hp4_paint:sleeping') && !q.is_invisible"}
         ]
       },
       "animations": {

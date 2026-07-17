@@ -10,41 +10,38 @@
                         "texture.default3",
                         "texture.default4"
                     ]
-                },
-                "geometries": {
-                    "array.geo": [
-                        "geometry.left",
-                        "geometry.right"
-                    ]
                 }
             },
             "materials": [
                 {
-                    "*": "material.default"
+                    "*": "material.default",
+                    "glass": "material.blend"
                 }
             ],
-            "geometry": "array.geo[q.property('hp4_paint:furniture_model')]",
+            "geometry": "geometry.default",
             "textures": [
                 "array.texture[q.property('hp4_paint:furniture_color')]"
             ],
             "is_hurt_color": {},
-            "on_fire_color": {}
+            "on_fire_color": {},
+            "part_visibility": [
+                {"up": "q.property('hp4_paint:upside')"},
+                {"down": "q.property('hp4_paint:downside')"},
+                {"right": "q.property('hp4_paint:rightside')"},
+                {"left": "q.property('hp4_paint:leftside')"},
+                {"upright": "q.property('hp4_paint:upright')"},
+                {"upleft": "q.property('hp4_paint:upleft')"},
+                {"downright": "q.property('hp4_paint:downright')"},
+                {"downleft": "q.property('hp4_paint:downleft')"}
+            ]
         },
         "controller.render.hp4_paint.window.outline": {
-            "arrays": {
-                "geometries": {
-                    "array.geo": [
-                        "geometry.outline_left",
-                        "geometry.outline_right"
-                    ]
-                }
-            },
             "materials": [
                 {
                     "*": "material.outline"
                 }
             ],
-            "geometry": "array.geo[q.property('hp4_paint:furniture_model')]",
+            "geometry": "geometry.outline",
             "textures": [
                 "texture.outline"
             ],
@@ -57,7 +54,17 @@
 				"b": 1
 			},
 			"ignore_lighting": true,
-			"light_color_multiplier": 1
+			"light_color_multiplier": 1,
+            "part_visibility": [
+                {"up": "q.property('hp4_paint:upside')"},
+                {"down": "q.property('hp4_paint:downside')"},
+                {"right": "q.property('hp4_paint:rightside')"},
+                {"left": "q.property('hp4_paint:leftside')"},
+                {"upright": "q.property('hp4_paint:upright')"},
+                {"upleft": "q.property('hp4_paint:upleft')"},
+                {"downright": "q.property('hp4_paint:downright')"},
+                {"downleft": "q.property('hp4_paint:downleft')"}
+            ]
         },
         "controller.render.hp4_paint.window_big": {
             "arrays": {
