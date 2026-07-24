@@ -81,7 +81,7 @@
 				"query.property('hp4_paint:paint_models') == 0 ? array.size_2x1[v.result] : query.property('hp4_paint:paint_models') == 1 ? array.size_2x2[v.result] : query.property('hp4_paint:paint_models') == 2 ? array.size_2x4[v.result] : query.property('hp4_paint:paint_models') == 3 ? array.size_4x2[v.result] : query.property('hp4_paint:paint_models') == 4 ? array.size_4x3[v.result] : query.property('hp4_paint:paint_models') == 5 ? array.size_4x4[v.result] : query.property('hp4_paint:paint_models') == 6 ? array.size_1x1[v.result] : query.property('hp4_paint:paint_models') == 7 ? array.size_1x2[v.result] : array.animated_textures[0]"
 			],
 			"uv_anim": {
-			    "offset": [0, "math.mod(math.floor(q.life_time * 15), v.frame_count) / v.frame_count"],
+			    "offset": [0, "math.mod(math.floor(q.life_time * v.fps), v.frame_count) / v.frame_count"],
 				"scale": [1, "1 / v.frame_count"]
 			},
 			"is_hurt_color": {},
@@ -176,7 +176,7 @@
 				"query.property('hp4_paint:paint_models') == 0 ? array.size_2x1[v.result] : query.property('hp4_paint:paint_models') == 1 ? array.size_2x2[v.result] : query.property('hp4_paint:paint_models') == 2 ? array.size_2x4[v.result] : query.property('hp4_paint:paint_models') == 3 ? array.size_4x2[v.result] : query.property('hp4_paint:paint_models') == 4 ? array.size_4x3[v.result] : query.property('hp4_paint:paint_models') == 5 ? array.size_4x4[v.result] : query.property('hp4_paint:paint_models') == 6 ? array.size_1x1[v.result] : query.property('hp4_paint:paint_models') == 7 ? array.size_1x2[v.result] : array.animated_textures[0]"
 			],
 			"uv_anim": {
-			    "offset": [0, "math.mod(math.floor(q.life_time * 15), v.frame_count) / v.frame_count"],
+			    "offset": [0, "math.mod(math.floor(q.life_time * v.fps), v.frame_count) / v.frame_count"],
 				"scale": [1, "1 / v.frame_count"]
 			},
 			"is_hurt_color": {},

@@ -126,7 +126,7 @@
 			},
 			"render_controllers": [
 				"controller.render.hp4_paint.animated_canvas",
-				{"controller.render.hp4_paint.new_frames": "q.property('hp4_paint:frame_type') != 'none'"},
+				{"controller.render.hp4_paint.new_frames": "v.frame_type_prop != 'none'"},
 				{"controller.render.hp4_paint.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand'"},
 				{"controller.render.hp4_paint.display_case": "q.property('hp4_paint:displayer')=='display_case'"},
 				{"controller.render.hp4_paint.display_case_wide": "q.property('hp4_paint:displayer')=='display_case_wide'"},
@@ -161,23 +161,28 @@
 			"scripts": {
 				"scale": "q.property('hp4_paint:visible') ? 1 : 0",
 				"pre_animation": [
-					"v.frame_size = q.property('hp4_paint:paint_models') == 0 ? 0:q.property('hp4_paint:paint_models') == 1 ? 1:q.property('hp4_paint:paint_models') == 2 ? 2:q.property('hp4_paint:paint_models') == 3 ? 3:q.property('hp4_paint:paint_models') == 4 ? 4:q.property('hp4_paint:paint_models') == 5 ? 6:q.property('hp4_paint:paint_models') == 6 ? 9: 0;",
-					"v.frame_type = q.property('hp4_paint:frame_type') == 'none' ? -1 : q.property('hp4_paint:frame_type') == 'black_modern' ? 0 : q.property('hp4_paint:frame_type') == 'burning' ? 1 : q.property('hp4_paint:frame_type') == 'decgold' ? 2 : q.property('hp4_paint:frame_type') == 'deciron' ? 3 : q.property('hp4_paint:frame_type') == 'diamond' ? 4 : q.property('hp4_paint:frame_type') == 'enchanted' ? 5 : q.property('hp4_paint:frame_type') == 'foliage' ? 6 : q.property('hp4_paint:frame_type') == 'glass' ? 7 : q.property('hp4_paint:frame_type') == 'glitter' ? 8 : q.property('hp4_paint:frame_type') == 'medieval' ? 9 : q.property('hp4_paint:frame_type') == 'pink' ? 10 : q.property('hp4_paint:frame_type') == 'white_modern' ? 11 : q.property('hp4_paint:frame_type') == 'wooden' ? 12 : -1;",
-					"v.frame_16x16 = q.property('hp4_paint:paint_models') == 6;",
-					"v.frame_16x32 = q.property('hp4_paint:paint_models') == 0;",
-					"v.frame_32x16 = q.property('hp4_paint:paint_models') == 7;",
-					"v.frame_32x32 = q.property('hp4_paint:paint_models') == 1;",
-					"v.frame_32x64 = q.property('hp4_paint:paint_models') == 3;",
+					"v.model_prop = q.property('hp4_paint:paint_models');",
+					"v.frame_type_prop = q.property('hp4_paint:frame_type');",
+					"v.color_prop = q.property('hp4_paint:paint_colors');",
+
+					"v.frame_size = v.model_prop == 0 ? 0:v.model_prop == 1 ? 1:v.model_prop == 2 ? 2:v.model_prop == 3 ? 3:v.model_prop == 4 ? 4:v.model_prop == 5 ? 6:v.model_prop == 6 ? 9: 0;",
+					"v.frame_type = v.frame_type_prop == 'none' ? -1 : v.frame_type_prop == 'black_modern' ? 0 : v.frame_type_prop == 'burning' ? 1 : v.frame_type_prop == 'decgold' ? 2 : v.frame_type_prop == 'deciron' ? 3 : v.frame_type_prop == 'diamond' ? 4 : v.frame_type_prop == 'enchanted' ? 5 : v.frame_type_prop == 'foliage' ? 6 : v.frame_type_prop == 'glass' ? 7 : v.frame_type_prop == 'glitter' ? 8 : v.frame_type_prop == 'medieval' ? 9 : v.frame_type_prop == 'pink' ? 10 : v.frame_type_prop == 'white_modern' ? 11 : v.frame_type_prop == 'wooden' ? 12 : -1;",
+					"v.frame_16x16 = v.model_prop == 6;",
+					"v.frame_16x32 = v.model_prop == 0;",
+					"v.frame_32x16 = v.model_prop == 7;",
+					"v.frame_32x32 = v.model_prop == 1;",
+					"v.frame_32x64 = v.model_prop == 3;",
 					"v.frame_48x48 = false;",
-					"v.frame_48x64 = q.property('hp4_paint:paint_models') == 4;",
-					"v.frame_64x32 = q.property('hp4_paint:paint_models') == 2;",
+					"v.frame_48x64 = v.model_prop == 4;",
+					"v.frame_64x32 = v.model_prop == 2;",
 					"v.frame_64x48 = false;",
-					"v.frame_64x64 = q.property('hp4_paint:paint_models') == 5;",
+					"v.frame_64x64 = v.model_prop == 5;",
 
 					"v.limit = v.frame_16x16 ? 2 : v.frame_16x32 ? 2 : v.frame_32x16 ? 2 : v.frame_32x32 ? 2 : v.frame_32x64 ? 3 : v.frame_48x48 ? 0 : v.frame_48x64 ? 2 : v.frame_64x32 ? 2 : v.frame_64x48 ? 0 : v.frame_64x64 ? 2 : 0;",
-					"v.result = q.property('hp4_paint:paint_colors') - math.floor(q.property('hp4_paint:paint_colors') / v.limit) * v.limit;",
+					"v.result = v.color_prop - math.floor(v.color_prop / v.limit) * v.limit;",
 					
-					"v.frame_count = (q.property('hp4_paint:paint_models') == 0 && v.result == 0) ? 12 : (q.property('hp4_paint:paint_models') == 0 && v.result == 1) ? 8 : (q.property('hp4_paint:paint_models') == 1 && v.result == 0) ? 12 : (q.property('hp4_paint:paint_models') == 1 && v.result == 1) ? 14 : (q.property('hp4_paint:paint_models') == 2 && v.result == 0) ? 16 : (q.property('hp4_paint:paint_models') == 2 && v.result == 1) ? 16 : (q.property('hp4_paint:paint_models') == 3 && v.result == 0) ? 14 : (q.property('hp4_paint:paint_models') == 3 && v.result == 1) ? 16 : (q.property('hp4_paint:paint_models') == 3 && v.result == 2) ? 12 : (q.property('hp4_paint:paint_models') == 4 && v.result == 0) ? 16 : (q.property('hp4_paint:paint_models') == 4 && v.result == 1) ? 16 : (q.property('hp4_paint:paint_models') == 5 && v.result == 0) ? 16 : (q.property('hp4_paint:paint_models') == 5 && v.result == 1) ? 24 : (q.property('hp4_paint:paint_models') == 6 && v.result == 0) ? 10 : (q.property('hp4_paint:paint_models') == 6 && v.result == 1) ? 5 : (q.property('hp4_paint:paint_models') == 7 && v.result == 0) ? 12 : (q.property('hp4_paint:paint_models') == 7 && v.result == 1) ? 16 : 1;"
+					"v.frame_count = (v.model_prop == 0 && v.result == 0) ? 12 : (v.model_prop == 0 && v.result == 1) ? 8 : (v.model_prop == 1 && v.result == 0) ? 12 : (v.model_prop == 1 && v.result == 1) ? 14 : (v.model_prop == 2 && v.result == 0) ? 16 : (v.model_prop == 2 && v.result == 1) ? 16 : (v.model_prop == 3 && v.result == 0) ? 14 : (v.model_prop == 3 && v.result == 1) ? 16 : (v.model_prop == 3 && v.result == 2) ? 12 : (v.model_prop == 4 && v.result == 0) ? 16 : (v.model_prop == 4 && v.result == 1) ? 16 : (v.model_prop == 5 && v.result == 0) ? 16 : (v.model_prop == 5 && v.result == 1) ? 24 : (v.model_prop == 6 && v.result == 0) ? 10 : (v.model_prop == 6 && v.result == 1) ? 5 : (v.model_prop == 7 && v.result == 0) ? 12 : (v.model_prop == 7 && v.result == 1) ? 16 : 1;",
+					"v.fps = v.model_prop == 0 && v.result == 0 ? 8 : v.model_prop == 0 && v.result == 1 ? 10 : v.model_prop == 2 && v.result == 0 ? 10 : v.model_prop == 2 && v.result == 1 ? 8 : v.model_prop == 3 && v.result == 2 ? 8 : v.model_prop == 4 && v.result == 0 ? 8 : v.model_prop == 5 && v.result == 0 ? 8 : v.model_prop == 3 && v.result == 1 ? 12 : v.model_prop == 6 && v.result == 0 ? 8 : v.model_prop == 6 && v.result == 1 ? 10 : v.model_prop == 7 && v.result == 0 ? 8 : v.model_prop == 7 && v.result == 1 ? 8 : 15;"
 				],
 				"animate": [
 					{"display.easel_stand": "q.property('hp4_paint:displayer')=='easel_stand' && q.property('hp4_paint:furniture_model') == 0"},
