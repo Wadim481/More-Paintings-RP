@@ -177,6 +177,9 @@
 		"hp4_paint:special_tool": {
 			"textures": "textures/hp/mp/items/special_tool"
 		},
+		"hp4_paint:live_painting": {
+			"textures": "textures/hp/mp/items/live_painting"
+		},
 		"hp4_paint:animated_painting": {
 			"textures": "textures/hp/mp/items/animated"
 		},

@@ -219,7 +219,255 @@
 					"volume": 0.3
 				}
 			]
+		},
+		"hp4_paint:villager.angry": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/villagers/angry1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/hp/more_paintings/villagers/angry2",
+					"volume": 1
+				},
+				{
+					"name": "sounds/hp/more_paintings/villagers/angry3",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:villager.neutral": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/villagers/neutral1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/hp/more_paintings/villagers/neutral2",
+					"volume": 1
+				},
+				{
+					"name": "sounds/hp/more_paintings/villagers/neutral3",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:villager.confused": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/villagers/confused_painting1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/hp/more_paintings/villagers/confused_painting2",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:villager.ugly": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/villagers/ugly_painting1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/hp/more_paintings/villagers/ugly_painting2",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:villager.loves": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/villagers/loves_painting1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/hp/more_paintings/villagers/loves_painting2",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:villager.inspired": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/villagers/inspired1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/hp/more_paintings/villagers/inspired2",
+					"volume": 1
+				}
+			]
+		},
+
+		"hp4_paint:artist_villager.bgm.day1": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/av_bgm/day_1",
+					"volume": 0.4
+				}
+			]
+		},
+		"hp4_paint:artist_villager.bgm.day2": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/av_bgm/day_2",
+					"volume": 0.4
+				}
+			]
+		},
+		"hp4_paint:artist_villager.bgm.night": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/av_bgm/night",
+					"volume": 0.4
+				}
+			]
+		},
+		"hp4_paint:artist_villager.thank_you": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/mob/villager/yes2",
+					"volume": 0.5
+				}
+			]
+		},
+		"hp4_paint:CAVE": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/CAVE",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:EYE": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/EYE",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:FISH": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/FISH",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:JACKBOX": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/JACKBOX",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:MOUTH": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/MOUTH",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:OCTOPUS": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/OCTOPUS",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:PORTAL": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/PORTAL",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:SKULL": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/SKULL",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:SPIDER": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/SPIDER",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:UFO": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/UFO",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:UNICORN": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/UNICORN",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:WARDROBE": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/WARDROBE",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:WINDOW": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/WINDOW",
+					"volume": 1
+				}
+			]
+		},
+		"hp4_paint:WIZARD": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/hp/more_paintings/l_p/WIZARD",
+					"volume": 1
+				}
+			]
 		}
-		
 	}
 }

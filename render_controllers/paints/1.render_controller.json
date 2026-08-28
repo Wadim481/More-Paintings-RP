@@ -142,6 +142,166 @@
 			},
 			"is_hurt_color": {},
 			"on_fire_color": {}
+		},
+		
+		"controller.render.hp4_paint.live": {
+			"materials": [
+				{
+					"*": "material.animated"
+				}
+			],
+			"arrays": {
+				"geometries": {
+					"array.g_1x1": [
+						"geometry.model1_0",
+						"geometry.model1_1"
+					],
+					"array.g_1x2": [
+						"geometry.model2_0",
+						"geometry.model2_1"
+					],
+					"array.g_2x1": [
+						"geometry.model3_0",
+						"geometry.model3_1"
+					],
+					"array.g_2x2": [
+						"geometry.model4_0",
+						"geometry.model4_1"
+					],
+					"array.g_2x4": [
+						"geometry.model5_0",
+						"geometry.model5_1"
+					],
+					"array.g_3x4": [
+						"geometry.model6_0",
+						"geometry.model6_1"
+					],
+					"array.g_4x4": [
+						"geometry.model7_0",
+						"geometry.model7_1"
+					]
+				},
+				"textures": {
+					"array.t_1x1": [
+						"texture.model_1_0",
+						"texture.model_1_1"
+					],
+					"array.t_1x2": [
+						"texture.model_2_0",
+						"texture.model_2_1"
+					],
+					"array.t_2x1": [
+						"texture.model_3_0",
+						"texture.model_3_1"
+					],
+					"array.t_2x2": [
+						"texture.model_4_0",
+						"texture.model_4_1"
+					],
+					"array.t_2x4": [
+						"texture.model_5_0",
+						"texture.model_5_1"
+					],
+					"array.t_3x4": [
+						"texture.model_6_0",
+						"texture.model_6_1"
+					],
+					"array.t_4x4": [
+						"texture.model_7_0",
+						"texture.model_7_1"
+					]
+				}
+			},
+			"geometry": "q.property('hp4_paint:paint_models') == 0 ? array.g_1x1[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 1 ? array.g_2x1[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 2 ? array.g_1x2[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 3 ? array.g_2x2[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 4 ? array.g_2x4[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 5 ? array.g_3x4[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 6 ? array.g_4x4[q.property('hp4_paint:paint_colors')] : array.g_1x1[q.property('hp4_paint:paint_colors')]",
+			"textures": [
+				"q.property('hp4_paint:paint_models') == 0 ? array.t_1x1[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 1 ? array.t_2x1[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 2 ? array.t_1x2[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 3 ? array.t_2x2[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 4 ? array.t_2x4[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 5 ? array.t_3x4[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 6 ? array.t_4x4[q.property('hp4_paint:paint_colors')] : array.t_1x1[q.property('hp4_paint:paint_colors')]"
+			],
+			"uv_anim": {
+				"offset": [0, "math.mod(math.floor(q.life_time * v.fps), v.frame_amount) / v.frame_amount"],
+				"scale": [1, "1 / v.frame_amount"]
+			},
+			"is_hurt_color": {},
+			"on_fire_color": {}
+		},
+		"controller.render.hp4_paint.live_glow": {
+			"materials": [
+				{
+					"*": "material.animated"
+				}
+			],
+			"arrays": {
+				"geometries": {
+					"array.g_1x1": [
+						"geometry.model1_0",
+						"geometry.model1_1"
+					],
+					"array.g_1x2": [
+						"geometry.model2_0",
+						"geometry.model2_1"
+					],
+					"array.g_2x1": [
+						"geometry.model3_0",
+						"geometry.model3_1"
+					],
+					"array.g_2x2": [
+						"geometry.model4_0",
+						"geometry.model4_1"
+					],
+					"array.g_2x4": [
+						"geometry.model5_0",
+						"geometry.model5_1"
+					],
+					"array.g_3x4": [
+						"geometry.model6_0",
+						"geometry.model6_1"
+					],
+					"array.g_4x4": [
+						"geometry.model7_0",
+						"geometry.model7_1"
+					]
+				},
+				"textures": {
+					"array.t_1x1": [
+						"texture.glow_model_1_0",
+						"texture.glow_model_1_1"
+					],
+					"array.t_1x2": [
+						"texture.glow_model_2_0",
+						"texture.glow_model_2_1"
+					],
+					"array.t_2x1": [
+						"texture.glow_model_3_0",
+						"texture.glow_model_3_1"
+					],
+					"array.t_2x2": [
+						"texture.glow_model_4_0",
+						"texture.glow_model_4_1"
+					],
+					"array.t_2x4": [
+						"texture.glow_model_5_0",
+						"texture.glow_model_5_1"
+					],
+					"array.t_3x4": [
+						"texture.glow_model_6_0",
+						"texture.glow_model_6_1"
+					],
+					"array.t_4x4": [
+						"texture.glow_model_7_0",
+						"texture.glow_model_7_1"
+					]
+				}
+			},
+			"geometry": "q.property('hp4_paint:paint_models') == 0 ? array.g_1x1[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 1 ? array.g_2x1[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 2 ? array.g_1x2[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 3 ? array.g_2x2[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 4 ? array.g_2x4[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 5 ? array.g_3x4[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 6 ? array.g_4x4[q.property('hp4_paint:paint_colors')] : array.g_1x1[q.property('hp4_paint:paint_colors')]",
+			"textures": [
+				"q.property('hp4_paint:paint_models') == 0 ? array.t_1x1[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 1 ? array.t_2x1[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 2 ? array.t_1x2[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 3 ? array.t_2x2[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 4 ? array.t_2x4[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 5 ? array.t_3x4[q.property('hp4_paint:paint_colors')] : q.property('hp4_paint:paint_models') == 6 ? array.t_4x4[q.property('hp4_paint:paint_colors')] : array.t_1x1[q.property('hp4_paint:paint_colors')]"
+			],
+			"uv_anim": {
+				"offset": [0, "math.mod(math.floor(q.life_time * v.fps), v.frame_amount) / v.frame_amount"],
+				"scale": [1, "1 / v.frame_amount"]
+			},
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"ignore_lighting": true
 		}
 	}
 }

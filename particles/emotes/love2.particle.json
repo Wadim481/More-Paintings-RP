@@ -2,10 +2,10 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "hp4_paint:inspired",
+			"identifier": "hp4_paint:love2",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/hp/mp/particle/inspired"
+				"texture": "textures/hp/mp/emotes/love2"
 			}
 		},
 		"components": {
@@ -18,7 +18,7 @@
 				"direction": [0, 0.1, 0]
 			},
 			"minecraft:particle_lifetime_expression": {
-				"max_lifetime": "[object Object]"
+				"max_lifetime": 2
 			},
 			"minecraft:particle_initial_speed": 2.5,
 			"minecraft:particle_motion_dynamic": {
