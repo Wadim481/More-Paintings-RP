@@ -30,7 +30,9 @@
                         "v.is_animating = true;"
                     ],
                     "on_exit": [
-                        "v.is_animating = false;"
+                        "v.is_animating = false;",
+                        "v.default_model = q.property('hp4_paint:paint_models');",
+                        "v.default_warna = v.warna;"
                     ],
                     "animations": [
                         {"l_4x4": "q.property('hp4_paint:paint_models') + 1 == 7 && v.warna == 0"},

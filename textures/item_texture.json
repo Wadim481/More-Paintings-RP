@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"hp4_paint:guide_book": {
+			"textures": "textures/hp/mp/items/guide_book"
+		},
 		"hp4_paint:tube_paint": {
 			"textures": "textures/hp/mp/items/tube_paint"
 		},

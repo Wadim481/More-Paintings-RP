@@ -95,6 +95,13 @@
 			"textures": [
 				"Texture.overlay"
 			]
+		},
+		"controller.render.hp4_paint.tabletv3.tpp": {
+			"geometry": "Geometry.overlay_tpp",
+			"materials": [{ "*": "Material.guide_blend" }],
+			"textures": [
+				"Texture.overlay"
+			]
 		}
 	}
 }

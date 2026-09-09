@@ -197,7 +197,9 @@
             "scripts": {
                 "scale": "q.property('hp4_paint:visible') ? 1 : 0",
                 "initialize": [
-                    "v.is_animating = false;"
+                    "v.is_animating = false;",
+                    "v.default_model = false;",
+                    "v.default_warna = false;"
                 ],
                 "pre_animation": [
                     "v.frame_size = q.property('hp4_paint:paint_models') == 0 ? 0:q.property('hp4_paint:paint_models') == 1 ? 1:q.property('hp4_paint:paint_models') == 2 ? 2:q.property('hp4_paint:paint_models') == 3 ? 3:q.property('hp4_paint:paint_models') == 4 ? 4:q.property('hp4_paint:paint_models') == 5 ? 6:q.property('hp4_paint:paint_models') == 6 ? 9: 0;",
@@ -293,6 +295,22 @@
                     "cardinal_rotation",
                     "l_painting_anim"
                 ]
+            },
+            "sound_effects": {
+                "cave": "hp4_paint:cave",
+                "eye": "hp4_paint:eye",
+                "fish": "hp4_paint:fish",
+                "jackbox": "hp4_paint:jackbox",
+                "mouth": "hp4_paint:mouth",
+                "octopus": "hp4_paint:octopus",
+                "portal": "hp4_paint:portal",
+                "skull": "hp4_paint:skull",
+                "spider": "hp4_paint:spider",
+                "ufo": "hp4_paint:ufo",
+                "unicorn": "hp4_paint:unicorn",
+                "wardrobe": "hp4_paint:wardrobe",
+                "window": "hp4_paint:window",
+                "wizard": "hp4_paint:wizard"
             }
         }
     }

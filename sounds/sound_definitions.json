@@ -343,129 +343,115 @@
 				}
 			]
 		},
-		"hp4_paint:CAVE": {
+		"hp4_paint:cave": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/CAVE",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/CAVE"
 				}
 			]
 		},
-		"hp4_paint:EYE": {
+		"hp4_paint:eye": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/EYE",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/EYE"
 				}
 			]
 		},
-		"hp4_paint:FISH": {
+		"hp4_paint:fish": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/FISH",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/FISH"
 				}
 			]
 		},
-		"hp4_paint:JACKBOX": {
+		"hp4_paint:jackbox": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/JACKBOX",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/JACKBOX"
 				}
 			]
 		},
-		"hp4_paint:MOUTH": {
+		"hp4_paint:mouth": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/MOUTH",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/MOUTH"
 				}
 			]
 		},
-		"hp4_paint:OCTOPUS": {
+		"hp4_paint:octopus": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/OCTOPUS",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/OCTOPUS"
 				}
 			]
 		},
-		"hp4_paint:PORTAL": {
+		"hp4_paint:portal": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/PORTAL",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/PORTAL"
 				}
 			]
 		},
-		"hp4_paint:SKULL": {
+		"hp4_paint:skull": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/SKULL",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/SKULL"
 				}
 			]
 		},
-		"hp4_paint:SPIDER": {
+		"hp4_paint:spider": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/SPIDER",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/SPIDER"
 				}
 			]
 		},
-		"hp4_paint:UFO": {
+		"hp4_paint:ufo": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/UFO",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/UFO"
 				}
 			]
 		},
-		"hp4_paint:UNICORN": {
+		"hp4_paint:unicorn": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/UNICORN",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/UNICORN"
 				}
 			]
 		},
-		"hp4_paint:WARDROBE": {
+		"hp4_paint:wardrobe": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/WARDROBE",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/WARDROBE"
 				}
 			]
 		},
-		"hp4_paint:WINDOW": {
+		"hp4_paint:window": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/WINDOW",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/WINDOW"
 				}
 			]
 		},
-		"hp4_paint:WIZARD": {
+		"hp4_paint:wizard": {
 			"category": "neutral",
 			"sounds": [
 				{
-					"name": "sounds/hp/more_paintings/l_p/WIZARD",
-					"volume": 1
+					"name": "sounds/hp/more_paintings/l_p/WIZARD"
 				}
 			]
 		}

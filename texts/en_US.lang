@@ -249,6 +249,8 @@ setting.hp4_paint:robot_painting=Robot Painting
 setting.hp4_paint:modern_painting=Modern Painting
 
 
+item.hp4_paint:guide_book=Guide Book\n§cHeropixel - More Paintings
+
 item.hp4_paint:spray_table=Spray Table\n§cHeropixel - More Paintings
 
 item.hp4_paint:settings_gear=Settings Gear\n§cHeropixel - More Paintings

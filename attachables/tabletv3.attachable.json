@@ -4,11 +4,12 @@
 		"description": {
 			"identifier": "hp4_paint:tabletv3",
 			"render_controllers": [
+				{"controller.render.hp4_paint.tabletv3.tpp": "!c.is_first_person"}, 
 				{"controller.render.hp4_paint.tabletv3": "c.is_first_person"}, 
-				"controller.render.hp4_paint.tabletv3.overlay",
-				"controller.render.hp4_paint.tabletv3.screen",
-				{"controller.render.hp4_paint.tabletv3_ss": "v.tabletv3_focus_state == 1"},
-				{"controller.render.hp4_paint.tabletv3_ss2": "v.tabletv3_focus_state == 1"}
+				{"controller.render.hp4_paint.tabletv3.overlay": "c.is_first_person"},
+				{"controller.render.hp4_paint.tabletv3.screen": "c.is_first_person"},
+				{"controller.render.hp4_paint.tabletv3_ss": "v.tabletv3_focus_state == 1 && c.is_first_person"},
+				{"controller.render.hp4_paint.tabletv3_ss2": "v.tabletv3_focus_state == 1 && c.is_first_person"}
 			],
 			"materials": {
 				"default": "entity_alphatest",
@@ -62,6 +63,7 @@
 			},
 			"geometry": {
 				"overlay": "geometry.hp4_paint.tablet_morepainting",
+				"overlay_tpp": "geometry.hp4_paint.tablet_morepainting_tpp",
 
 				"guide_screen": "geometry.hp4_paint.tabletv3_guide_screen",
 				"guide": "geometry.hp4_paint.tabletv3_guide",
@@ -106,8 +108,9 @@
 					"v.tabletv3_focus_state = t.tabletv3_focus_state;"
 				],
 				"animate": [
-					"tabletv3_ctrl",
-					{"tpp_scale": "!c.is_first_person"}
+					{"tabletv3_ctrl": "c.is_first_person"},
+					{"tpp_scale": "!c.is_first_person"},
+					{"third_person_hold": "!c.is_first_person"}
 				]
 			}
 		}
