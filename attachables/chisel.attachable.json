@@ -21,12 +21,25 @@
 			},
 			"animations": {
 				"first_person_hold": "animation.hp4_paint.chisel.attachable.fpp",
-				"third_person_hold": "animation.hp4_paint.chisel.attachable.tpp"
+				"third_person_hold": "animation.hp4_paint.chisel.attachable.tpp",
+				"first_person_use": "animation.hp4_paint.chisel.attachable.use_fpp",
+				"third_person_use": "animation.hp4_paint.chisel.attachable.use_tpp2",
+				"use_utils": "animation.hp4_paint.tools.use_utils",
+				"use_controller": "controller.animation.hp4_paint.tools_utils"
 			},
 			"scripts": {
+				"initialize": [
+					"v.is_using = 0;",
+					"v.is_use_fpp_playing = 0;"
+				],
+				"parent_setup": "t.is_using = (v.is_using ?? 0);",
+				"pre_animation": [
+					"v.is_using = t.is_using;"
+				],
 				"animate": [
+					"use_controller",
 					{
-						"first_person_hold": "c.is_first_person"
+						"first_person_hold": "c.is_first_person && v.is_use_fpp_playing == 0"
 					},
 					{
 						"third_person_hold": "!c.is_first_person"
